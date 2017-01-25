@@ -23,7 +23,8 @@ defaults:
     image: 
     description: 
 url: http://bristolcomedygarden.co.uk
-description: Bristol Comedy Garden returns this summer for another series of unmissable shows!
+description: Bristol Comedy Garden returns this summer for another series of unmissable
+  shows!
 permalink: pretty
 exclude: 
 gems:
