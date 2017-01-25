@@ -1,0 +1,49 @@
+---
+title: Bristol Comedy Garden 2017
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: "/blog/:title/"
+    layout: post
+    image: 
+    description: 
+url: http://bristolcomedygarden.co.uk
+description: Bristol Comedy Garden returns this summer for another series of unmissable shows!
+permalink: pretty
+exclude: 
+gems:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+company: 57 Festivals Ltd
+email: info@bristolcomedygarden.co.uk
+google_site_verification: 
+analytics: UA-49569208-1
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%b %d, %Y"
+future: true
+social:
+  facebook: https://www.facebook.com/bristolcomedygarden
+  instagram: https://www.instagram.com/bristolcomedygarden
+  twitter: https://twitter.com/comedygarden
