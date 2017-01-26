@@ -1,20 +1,27 @@
-- title: Services
-  url: /services/
+- title: Line-up
+  url: /line-up/
   sublinks:
-    - title: Events
-      url: /services/events/
-    - title: Radio
-      url: /services/radio/
-    - title: Digital
-      url: /services/digital/
-    - title: Press
-      url: /services/press/
+    - title: All
+      url: /line-up/
+    - title: Wednesday 14 June
+      url: /wednesday/
+    - title: Thursday 15 June
+      url: /thursday/
+    - title: Friday 16 June
+      url: /friday/
+    - title: Saturday 17 June
+      url: /saturday/
+    - title: Sunday 18 June
+      url: /sunday/
       
-- title: Clients
-  url: /clients/
+- title: Tickets
+  url: /tickets/
   
-- title: Team
-  url: /team/
+- title: About
+  url: /about/
 
-- title: Contact
-  url: /contact/
+- title: Location
+  url: /location/
+  
+- title: Info
+  url: /info/

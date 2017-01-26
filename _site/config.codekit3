@@ -153,6 +153,18 @@
 		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
+	"\/_line-up\/thursday.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_line-up\/thursday.markdown",
+		"oF": 0
+		},
+	"\/_line-up\/wednesday.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_line-up\/wednesday.markdown",
+		"oF": 0
+		},
 	"\/_site": {
 		"ft": 65536,
 		"oA": 1,
@@ -167,11 +179,35 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_uploads\/andrew-maxwell.jpg": {
+		"ft": 16384,
+		"iS": 57489,
+		"oA": 0,
+		"oAP": "\/_uploads\/andrew-maxwell.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/arthur-smith.jpg": {
+		"ft": 16384,
+		"iS": 44656,
+		"oA": 0,
+		"oAP": "\/_uploads\/arthur-smith.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_uploads\/cafe-mambo.jpg": {
 		"ft": 16384,
 		"iS": 98798,
 		"oA": 0,
 		"oAP": "\/_uploads\/cafe-mambo.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/_uploads\/doc-brown.jpg": {
+		"ft": 16384,
+		"iS": 89358,
+		"oA": 0,
+		"oAP": "\/_uploads\/doc-brown.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -335,6 +371,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_uploads\/tom-stade.jpg": {
+		"ft": 16384,
+		"iS": 33409,
+		"oA": 0,
+		"oAP": "\/_uploads\/tom-stade.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_uploads\/venue.jpg": {
 		"ft": 16384,
 		"iS": 114942,
@@ -359,10 +403,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/about.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -13608,10 +13652,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/index.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -13654,6 +13698,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/location.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/location.md",
+		"oF": 1,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -13685,6 +13747,24 @@
 		"oA": 2,
 		"oAP": "\/robots.txt",
 		"oF": 0
+		},
+	"\/tickets.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/tickets.md",
+		"oF": 1,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [
