@@ -1,6 +1,15 @@
 ---
 title: Wednesday
 date: 2017-06-14 19:30:00 Z
+acts:
+- name: Reginald D Hunter
+  image: "/uploads/arthur-smith.jpg"
+- name: Tom Stade
+  image: "/uploads/tom-stade.jpg"
+- name: Andrew Maxwell
+  image: "/uploads/andrew-maxwell.jpg"
+- name: John Robins
+  image: "/uploads/doc-brown.jpg"
 quote: A refreshingly ruminative, searingly honest comedy style
 quote-cite: Daily Telegraph
 secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo
@@ -11,15 +20,6 @@ show-starts-at: 2017-06-14 19:30:00 Z
 ticket-price: "£18.50 - £24"
 ticket-link: http://www.seetickets.com/event/magners-bristol-comedy-garden-reginald-d-hunter/big-top-bristol-comedy-garden/973926/
 is-sold-out: 
-acts:
-- name: Reginald D Hunter
-  image: "/uploads/arthur-smith.jpg"
-- name: Tom Stade
-  image: "/uploads/tom-stade.jpg"
-- name: Andrew Maxwell
-  image: "/uploads/andrew-maxwell.jpg"
-- name: John Robins
-  image: "/uploads/doc-brown.jpg"
 ---
 
 One of the most brilliantly unpredictable, hilarious and thought-provoking comedians around - Reginald D Hunter heads to Bristol Comedy Garden. A consistent presence on TV with appearances on Qi, Have I Got News For You and many more - don’t miss this rewardingly provocative award-winner live.
