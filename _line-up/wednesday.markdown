@@ -1,5 +1,5 @@
 ---
-title: Wednesday 14 June
-date: 2017-06-14 11:10:00 Z
+title: Wednesday
+date: 2017-06-14 19:30:00 Z
 ---
 
