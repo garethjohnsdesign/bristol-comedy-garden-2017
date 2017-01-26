@@ -3,6 +3,9 @@ title: Wednesday
 date: 2017-06-14 19:30:00 Z
 quote: A refreshingly ruminative, searingly honest comedy style
 quote-cite: Daily Telegraph
+secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo
+  star and insatiable mischief maker Tom Stade, Ireland’s intrepid social commentator
+  Andrew Maxwell and all-round dude and Radio X presenter John Robins as host.
 festival-starts-at: 2017-06-14 18:30:00 Z
 show-starts-at: 2017-06-14 19:30:00 Z
 ticket-price: "£18.50 - £24"
