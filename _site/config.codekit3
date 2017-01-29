@@ -63,10 +63,40 @@
 		"oAP": "\/_data\/navigation.yml",
 		"oF": 0
 		},
-	"\/_days\/tuesday.markdown": {
+	"\/_days\/all.markdown": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_days\/tuesday.markdown",
+		"oAP": "\/_days\/all.markdown",
+		"oF": 0
+		},
+	"\/_days\/friday.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_days\/friday.markdown",
+		"oF": 0
+		},
+	"\/_days\/saturday.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_days\/saturday.markdown",
+		"oF": 0
+		},
+	"\/_days\/sunday.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_days\/sunday.markdown",
+		"oF": 0
+		},
+	"\/_days\/thursday.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_days\/thursday.markdown",
+		"oF": 0
+		},
+	"\/_days\/wednesday.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_days\/wednesday.markdown",
 		"oF": 0
 		},
 	"\/_includes\/analytics.html": {
@@ -205,6 +235,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_line-up\/saturday-early.markdown",
+		"oF": 0
+		},
+	"\/_line-up\/saturday-late.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_line-up\/saturday-late.markdown",
+		"oF": 0
+		},
+	"\/_line-up\/saturday-mid.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_line-up\/saturday-mid.markdown",
 		"oF": 0
 		},
 	"\/_line-up\/thursday.markdown": {

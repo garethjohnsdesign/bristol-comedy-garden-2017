@@ -4,15 +4,15 @@
     - title: All
       url: /line-up/
     - title: Wednesday 14 June
-      url: /wednesday/
+      url: /days/wednesday/
     - title: Thursday 15 June
-      url: /thursday/
+      url: /days/thursday/
     - title: Friday 16 June
-      url: /friday/
+      url: /days/friday/
     - title: Saturday 17 June
-      url: /saturday/
+      url: /days/saturday/
     - title: Sunday 18 June
-      url: /sunday/
+      url: /days/sunday/
       
 - title: Tickets
   url: /tickets/

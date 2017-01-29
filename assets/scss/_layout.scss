@@ -114,9 +114,19 @@ nav a {
     }
 }
 
+nav { 
+  z-index: 2000;
+}
+
+.top-bar { 
+  z-index: 3000;
+}
+
+/*
 .top-bar-right-mobile {
   z-index: 1004;
 }
+*/
 
 
 // 6. Excerpt
@@ -139,7 +149,7 @@ nav a {
     &:hover .excerpt__image:after {
       background:$color--red;
       transition: $primary-transition;
-      opacity:0.8;
+      opacity:1;
     }
     &:hover .excerpt__title p {
       opacity: 1;
@@ -151,7 +161,6 @@ nav a {
   position:absolute;
   width: 100%;
   height: 100%;
-  z-index: 1;
   margin: 0rem;
     p {
       opacity: 1;
@@ -159,11 +168,17 @@ nav a {
       transition: $primary-transition;
       letter-spacing: 0.05rem;
       margin: 0rem;
+      z-index: 1000;
     }
+}
+
+.top-bar-right {
+  z-index: 1000;
 }
 
 div.row.excerpt__title {
   margin: 0rem;
+  z-index: 5;
 }
 
 .excerpt__image:after {
@@ -176,7 +191,14 @@ div.row.excerpt__title {
   background:$color--black;
   transition: $primary-transition;
   opacity:0.1;
+//   z-index: 0;
 }
+
+/*
+.excerpt__image:after p {
+  z-index: 10000;
+}
+*/
 
 
 // 8. Contact

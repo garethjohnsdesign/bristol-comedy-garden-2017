@@ -1,23 +1,24 @@
 ---
-title: Thursday
-date: 2017-06-15 19:30:00 Z
-days: Thursday
+title: Saturday Mid
+date: 2017-06-16 19:30:00 Z
+days: Saturday
 acts:
-- name: Stewart Lee
-  image: "/uploads/arthur-smith.jpg"
-- name: Jerry Seinfeld
-  image: "/uploads/tom-stade.jpg"
-- name: Andrew Maxwell
+- name: John Shuttleworth
+  image: "/uploads/john-shuttleworth.jpg"
+  is-featured: true
+- name: Robin Ince
+  image: "/uploads/robin-ince.jpg"
+  is-featured: true
+- name: Arthur Smith
   image: "/uploads/andrew-maxwell.jpg"
-- name: John Robins
-  image: "/uploads/doc-brown.jpg"
+  is-featured: true
 quote: A refreshingly ruminative, searingly honest comedy style
 quote-cite: Daily Telegraph
 secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo
   star and insatiable mischief maker Tom Stade, Ireland’s intrepid social commentator
   Andrew Maxwell and all-round dude and Radio X presenter John Robins as host.
-festival-starts-at: 2017-06-15 18:30:00 Z
-show-starts-at: 2017-06-15 19:30:00 Z
+festival-starts-at: 2017-06-16 18:30:00 Z
+show-starts-at: 2017-06-16 19:30:00 Z
 ticket-price: "£18.50 - £24"
 ticket-link: http://www.seetickets.com/event/magners-bristol-comedy-garden-reginald-d-hunter/big-top-bristol-comedy-garden/973926/
 is-sold-out: 
