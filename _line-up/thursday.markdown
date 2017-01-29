@@ -19,7 +19,7 @@ festival-starts-at: 2017-06-15 18:30:00 Z
 show-starts-at: 2017-06-15 19:30:00 Z
 ticket-price: "£18.50 - £24"
 ticket-link: http://www.seetickets.com/event/magners-bristol-comedy-garden-reginald-d-hunter/big-top-bristol-comedy-garden/973926/
-is-sold-out:
+is-sold-out: 
 layout: event
 ---
 
