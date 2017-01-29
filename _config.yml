@@ -5,6 +5,12 @@ collections:
   line-up:
     title: Line-up
     output: true
+  days:
+    title: Days
+    output: true
+  carousel:
+    title: Carousel
+    output: true
   posts:
     title: Posts
     output: true
@@ -29,7 +35,15 @@ url: http://bristolcomedygarden.co.uk
 description: Bristol Comedy Garden returns this summer for another series of unmissable
   shows!
 permalink: pretty
-exclude: 
+exclude:
+- Gruntfile.js
+- Gemfile
+- Gemfile.lock
+- package.json
+- README*
+- node_modules
+- ".gitignore"
+- bower_components
 gems:
 - jekyll-seo-tag
 - jekyll-sitemap
