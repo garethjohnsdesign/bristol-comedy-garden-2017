@@ -1,5 +1,5 @@
 ---
-title: Bristol Comedy Garden 2017
+title: Location
 image: "/assets/img/og-image.png"
 layout: index
 ---
