@@ -1,6 +1,6 @@
 ---
 title: Tickets
-position: 2
+position: 1
 image: "/assets/img/og-image.png"
 layout: index
 ---
