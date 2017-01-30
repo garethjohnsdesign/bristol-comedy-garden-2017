@@ -33,6 +33,11 @@ img {
   height: auto;
 }
 
+:focus {
+outline: 0;
+}
+
+
 ::selection {
   background: $color--black;
   color: $color--white;
@@ -384,4 +389,65 @@ background-size: cover;
 
 .orbit-container {
 	height: auto !important;
+}
+
+
+// Footer
+
+footer {
+  color: $color--white;
+  background-color: $color--dark-blue;
+  // Only affects medium screens and smaller
+  @include breakpoint(small) {
+  padding: 2rem 0rem;
+  }
+  // Only affects medium screens, not small or large
+  @include breakpoint(medium) { 
+  padding: 3rem 0rem;
+  }
+}
+
+footer a {
+    color: $color--white;
+    @include transition(color .35s ease-out);
+    text-decoration: $anchor-text-decoration;
+    line-height: inherit;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      color: $color--white;
+      @if $anchor-text-decoration-hover != $anchor-text-decoration {
+        text-decoration: $anchor-text-decoration-hover;
+      }
+    }
+
+    img {
+      border: 0;
+    }
+  }
+
+.footer__social {
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+
+.footer__form {
+    padding: 3rem 0rem;
+}
+
+footer .button {
+	@include button-style($color--tan, $color--black, $color--white);
+}
+
+.footer__partners .icon {
+    font-size: 3rem;
+}
+
+// Location
+
+
+.contact__location__map {
+  margin-bottom: 2rem;
+  height: 30rem;
 }

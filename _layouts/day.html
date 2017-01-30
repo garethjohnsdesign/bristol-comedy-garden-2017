@@ -17,7 +17,7 @@ layout: default
   {% for day in site.line-up %}
   {% if day.categories contains 'wednesday' %}
     {% for act in day.acts %}
-    {% include excerpt-act.html %}
+    {% include excerpt.html %}
     {% endfor %}
   {% endif %}
   {% endfor %}
@@ -25,7 +25,7 @@ layout: default
   {% for day in site.line-up %}
   {% if day.categories contains 'thursday' %}
     {% for act in day.acts %}
-    {% include excerpt-act.html %}
+    {% include excerpt.html %}
     {% endfor %}
   {% endif %}
   {% endfor %}
@@ -33,7 +33,7 @@ layout: default
   {% for day in site.line-up %}
   {% if day.categories contains 'friday' %}
     {% for act in day.acts %}
-    {% include excerpt-act.html %}
+    {% include excerpt.html %}
     {% endfor %}
   {% endif %}
   {% endfor %}
@@ -41,7 +41,7 @@ layout: default
   {% for day in site.line-up %}
   {% if day.categories contains 'saturday' %}
     {% for act in day.acts %}
-    {% include excerpt-act.html %}
+    {% include excerpt.html %}
     {% endfor %}
   {% endif %}
   {% endfor %}
@@ -49,7 +49,7 @@ layout: default
   {% for day in site.line-up %}
   {% if day.categories contains 'sunday' %}
     {% for act in day.acts %}
-    {% include excerpt-act.html %}
+    {% include excerpt.html %}
     {% endfor %}
   {% endif %}
   {% endfor %}

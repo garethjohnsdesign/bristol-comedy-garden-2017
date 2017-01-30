@@ -5,18 +5,14 @@ categories:
 - wednesday
 position: 0
 acts:
-- name: Reginald D Hunter2
+- name: Reginald D Hunter
   image: "/uploads/reginald-d-hunter.jpg"
-  is-featured: true
 - name: Tom Stade
   image: "/uploads/tom-stade.jpg"
-  is-featured: true
 - name: Andrew Maxwell
   image: "/uploads/andrew-maxwell.jpg"
-  is-featured: true
 - name: John Robins
   image: "/uploads/john-robins.jpg"
-  is-featured: true
 quote: A refreshingly ruminative, searingly honest comedy style
 quote-cite: Daily Telegraph
 secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo

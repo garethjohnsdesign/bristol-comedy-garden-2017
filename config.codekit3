@@ -105,12 +105,6 @@
 		"oAP": "\/_includes\/analytics.html",
 		"oF": 0
 		},
-	"\/_includes\/excerpt-act.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/excerpt-act.html",
-		"oF": 0
-		},
 	"\/_includes\/excerpt.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -219,6 +213,12 @@
 		"oAP": "\/_layouts\/info.html",
 		"oF": 0
 		},
+	"\/_layouts\/location.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/location.html",
+		"oF": 0
+		},
 	"\/_layouts\/missing.html": {
 		"ft": 8192,
 		"oA": 0,
@@ -235,6 +235,12 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/post.html",
+		"oF": 0
+		},
+	"\/_layouts\/tickets.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/tickets.html",
 		"oF": 0
 		},
 	"\/_line-up\/friday.markdown": {
@@ -775,10 +781,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/about.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -958,16 +964,6 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/icons\/safari-pinned-tab.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/icons\/symbol-defs.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/icons\/symbol-defs.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -8238,10 +8234,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/CHANGELOG.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/CHANGELOG.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8292,10 +8288,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/info.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/info.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8320,6 +8316,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/line-up.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/line-up.md",
+		"oF": 1,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/location.md": {
 		"cS": 0,
 		"eF": 1,
@@ -8328,10 +8342,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/location.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/location.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8370,6 +8384,12 @@
 		"oAP": "\/robots.txt",
 		"oF": 0
 		},
+	"\/tickets.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/tickets.html",
+		"oF": 0
+		},
 	"\/tickets.md": {
 		"cS": 0,
 		"eF": 1,
@@ -8387,6 +8407,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/Untitled.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Untitled.html",
+		"oF": 0
 		}
 	},
 "hooks": [

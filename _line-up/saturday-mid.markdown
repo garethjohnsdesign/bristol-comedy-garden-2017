@@ -9,13 +9,10 @@ position: 4
 acts:
 - name: John Shuttleworth
   image: "/uploads/john-shuttleworth.jpg"
-  is-featured: true
 - name: Robin Ince
   image: "/uploads/robin-ince.jpg"
-  is-featured: true
 - name: Arthur Smith
   image: "/uploads/andrew-maxwell.jpg"
-  is-featured: true
 quote: A refreshingly ruminative, searingly honest comedy style
 quote-cite: Daily Telegraph
 secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo

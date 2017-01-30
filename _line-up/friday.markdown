@@ -7,16 +7,12 @@ position: 2
 acts:
 - name: David O'Doherty
   image: "/uploads/arthur-smith.jpg"
-  is-featured: true
 - name: Rob Delaney
   image: "/uploads/tom-stade.jpg"
-  is-featured: true
 - name: Doc Brown
   image: "/uploads/andrew-maxwell.jpg"
-  is-featured: true
 - name: Nish Kumar
   image: "/uploads/doc-brown.jpg"
-  is-featured: true
 quote: A refreshingly ruminative, searingly honest comedy style
 quote-cite: Daily Telegraph
 secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo

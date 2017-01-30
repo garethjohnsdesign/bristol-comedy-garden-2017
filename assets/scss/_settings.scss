@@ -47,8 +47,7 @@
 // ---------
 
 $global-font-size: 100%;
-// $global-width: rem-calc(1200);
-$global-width: rem-calc(1024);
+$global-width: rem-calc(1200);
 $global-lineheight: 1.5;
 /*
 $foundation-palette: (
@@ -69,13 +68,14 @@ $foundation-palette: (
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #0a0a0a;
-$white: #fefefe;
+$black: $color--black;
+// $white: #fefefe;
+$white: $color--white;
 // $body-background: $white;
-$body-background: $color--dark-blue;
+$body-background: $color--white;
 // $body-font-color: $black;
-$body-font-color: $color--white;
-$body-font-family: 'Wigrum-Medium', Helvetica, Roboto, Arial, sans-serif;
+$body-font-color: $color--black;
+$body-font-family: 'Larsseit', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -116,7 +116,8 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
-$header-font-family: $body-font-family;
+// $header-font-family: $body-font-family;
+$header-font-family: 'Wigrum-Medium', Helvetica, Roboto, Arial, sans-serif;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -212,7 +213,8 @@ $input-error-font-weight: $global-weight-bold;
 
 $accordion-background: $white;
 $accordion-plusminus: true;
-$accordion-title-font-size: rem-calc(12);
+// $accordion-title-font-size: rem-calc(12);
+$accordion-title-font-size: rem-calc(20);
 $accordion-item-color: $primary-color;
 $accordion-item-background-hover: $light-gray;
 $accordion-item-padding: 1.25rem 1rem;
@@ -631,9 +633,10 @@ $tooltip-radius: $global-radius;
 
 $topbar-padding: 0.5rem;
 // $topbar-background: $light-gray;
-$topbar-background: $color--red;
+$topbar-background: $color--dark-blue;
 $topbar-submenu-background: $topbar-background;
-$topbar-title-spacing: 0.5rem 0 0 0.5rem;
+$topbar-title-spacing: 0.5rem 0 0 0;
 $topbar-input-width: 200px;
-$topbar-unstack-breakpoint: medium;
+// $topbar-unstack-breakpoint: medium;
+$topbar-unstack-breakpoint: small;
 

@@ -1,0 +1,91 @@
+<!-- Tuesday - Early -->
+<!--
+<div class="row tickets-date">
+	<div class="small-12 columns text-center">
+		<h5>
+		{% for show in site.line-up %}
+		{% if show.day contains 'Tuesday' and show.location contains 'Big Top' and show.start contains '7:30PM'  %}
+		{{show.location}} -
+		{% endif %}
+		{% endfor %}
+		 
+		{% for show in site.line-up %}
+		{% if show.day contains 'Tuesday' and show.location contains 'Big Top' and show.start contains '7:30PM'  %}
+		{{show.start}}
+		{% endif %}
+		{% endfor %}
+		</h5>
+	</div>
+</div>
+-->
+
+<!-- <div class="row medium-unstack tickets-section"> -->
+<!-- Ticket Image -->
+<!--
+{% assign act_documents = site.acts | sort:"position" %}
+	{% for act in act_documents %}
+{% if act.day contains 'Tuesday' and act.location contains 'Big Top' and act.headliner %}
+<div class="small-12 medium-3 columns">
+	{% include ticket-act.html %}
+</div>
+{% endif %}
+{% endfor %}
+-->
+<!-- End Ticket Image -->
+	
+<!-- Ticket Details -->
+
+<!--
+	<div class="columns tickets-acts">
+		{% assign show_documents = site.acts | sort:"position" %}
+		{% for show in show_documents %}
+		{% if show.day contains 'Tuesday' and show.location contains 'Big Top' and show.time contains '7:30PM' %}
+		      <h3 class="small-text-center">{{show.title}}</h3>
+		      <h5 class="small-text-center">{{show.subheader}}</h5>
+		{% endif %}
+		{% endfor %}
+	</div>
+	
+	<div class="columns tickets-details show-for-medium">
+		<h6>Festival Opens</h6>
+		{% for show in site.line-up %}
+		{% if show.day contains 'Tuesday' and show.location contains 'Big Top' and show.start contains '7:30PM'  %}
+		<p>{{show.open}}</p>
+		{% endif %}
+		{% endfor %}
+		
+		<h6>Show Starts</h6>
+		{% for show in site.line-up %}
+		{% if show.day contains 'Tuesday' and show.location contains 'Big Top' and show.start contains '7:30PM'  %}
+		<p>{{show.start}}</p>
+		{% endif %}
+		{% endfor %}
+	
+	</div>
+	
+	<div class="columns tickets-button">
+	<div class="show-for-medium">
+	<h6>Tickets</h6>
+		{% for show in site.line-up %}
+		{% if show.day contains 'Tuesday' and show.location contains 'Big Top' and show.start contains '7:30PM'  %}
+		<p>{{show.tickets}}</p>
+		{% endif %}
+		{% endfor %}
+	</div>
+	{% for show in site.line-up %}
+	{% if show.day contains 'Tuesday' and show.location contains 'Big Top' and show.start contains '7:30PM'  %}
+	{% if show.sold-out %}
+	<div class="alert expanded button tickets-button">Sold Out</div>
+	{% else %}
+	<a class="expanded button tickets-button" href="{{show.ticket-link}}" target="_blank">Buy Tickets</a>
+	{% endif %}
+	{% endif %}
+	{% endfor %}
+	</div>
+	
+</div>
+-->
+<!-- End Ticket Details -->
+<!-- End Tuesday - Early -->
+
+<!-- End Tuesday -->

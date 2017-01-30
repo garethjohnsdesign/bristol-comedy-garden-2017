@@ -4,8 +4,11 @@
   <div class="top-bar" id="top"> 
     <div class="row expanded align-middle align-justify">
     
-      <div class="top-bar-title">
-        <a href="/" class="animsition-link"><h4>Bristol Comedy Garden 2017</h4></a>
+      <div class="top-bar-left">
+        <ul class="menu simple">
+          <li class="menu-text uppercase"><a href="/" class="animsition-link">{{site.title}}</a></li>
+          <li class="show-for-large"><a href="/" class="animsition-link">14 June — 18 June 2017</a></li>
+        </ul>
       </div>
       
       <div class="top-bar-right-mobile show-for-small-only">
@@ -38,9 +41,9 @@
           <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="animsition-link">{{ entry.title }}</a></li>
           {% endif %}
           {% endfor %}
-          <li><a href="{{site.social.facebook}}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
-          <li><a href="{{site.social.instagram}}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
-          <li><a href="{{site.social.twitter}}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+          <li class="show-for-large"><a href="{{site.social.facebook}}" target="_blank"><svg class="icon icon-facebook"><use xlink:href="#icon-facebook"></use></svg></a></li>
+          <li class="show-for-large"><a href="{{site.social.instagram}}" target="_blank"><svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use></svg></a></li>
+          <li class="show-for-large"><a href="{{site.social.twitter}}" target="_blank"><svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg></a></li>
         </ul>
       </div>
     

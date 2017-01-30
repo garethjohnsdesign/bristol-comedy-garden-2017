@@ -1,11 +1,10 @@
 <script>
-      function initMap() {
-    var london = new google.maps.LatLng(51.541869, -0.139613);
-    var la = new google.maps.LatLng(34.098344, -118.337301);
-    var londonoptions =
+    function initMap() {
+    var bristol = new google.maps.LatLng(51.450542, -2.594750);
+    var bristoloptions =
     {
         zoom: 15,
-        center: london,
+        center: bristol,
         styles: [
   {
     "elementType": "geometry",
@@ -168,197 +167,20 @@
 ]
     };
 
-    var laoptions =
-    {
-        zoom: 15,
-        center: la,
-        styles: [
-  {
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#f5f5f5"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.icon",
-    "stylers": [
-      {
-        "visibility": "off"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#616161"
-      }
-    ]
-  },
-  {
-    "elementType": "labels.text.stroke",
-    "stylers": [
-      {
-        "color": "#f5f5f5"
-      }
-    ]
-  },
-  {
-    "featureType": "administrative.land_parcel",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#bdbdbd"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#eeeeee"
-      }
-    ]
-  },
-  {
-    "featureType": "poi",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#e5e5e5"
-      }
-    ]
-  },
-  {
-    "featureType": "poi.park",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#9e9e9e"
-      }
-    ]
-  },
-  {
-    "featureType": "road",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#ffffff"
-      }
-    ]
-  },
-  {
-    "featureType": "road.arterial",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#757575"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#dadada"
-      }
-    ]
-  },
-  {
-    "featureType": "road.highway",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#616161"
-      }
-    ]
-  },
-  {
-    "featureType": "road.local",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#9e9e9e"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.line",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#e5e5e5"
-      }
-    ]
-  },
-  {
-    "featureType": "transit.station",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#eeeeee"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "geometry",
-    "stylers": [
-      {
-        "color": "#c9c9c9"
-      }
-    ]
-  },
-  {
-    "featureType": "water",
-    "elementType": "labels.text.fill",
-    "stylers": [
-      {
-        "color": "#9e9e9e"
-      }
-    ]
-  }
-]
-    };
 
-    var londonmap = new google.maps.Map(document.getElementById("london_canvas"), londonoptions);
-    
-    var lamap = new google.maps.Map(document.getElementById("la_canvas"), laoptions);
+    var bristolmap = new google.maps.Map(document.getElementById("bristol_canvas"), bristoloptions);
 
     var myMarker = new google.maps.Marker(
     {
-        position: london,
-        map: londonmap,
-        title:"London",
+        position: bristol,
+        map: bristolmap,
+        title:"Bristol",
         icon: {
         path: google.maps.SymbolPath.CIRCLE,
         scale: 10
         }
    });
 
-    var myMarker2 = new google.maps.Marker(
-    {
-        position: la,
-        map: lamap,
-        title:"LA",
-        icon: {
-        path: google.maps.SymbolPath.CIRCLE,
-        scale: 10
-        }
-    });
 }
     </script>
     

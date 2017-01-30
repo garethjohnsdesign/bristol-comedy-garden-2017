@@ -13,7 +13,7 @@ collections:
     output: true
   posts:
     title: Posts
-    output: true
+    output: false
   uploads:
     title: Uploads
     output: false
@@ -39,8 +39,12 @@ exclude:
 - Gruntfile.js
 - Gemfile
 - Gemfile.lock
+- bower.json
 - package.json
+- config.codekit3
 - README*
+- LICENSE*
+- CHANGELOG*
 - node_modules
 - ".gitignore"
 - bower_components

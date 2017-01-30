@@ -16,12 +16,12 @@
       
 - title: Tickets
   url: /tickets/
-  
-- title: About
-  url: /about/
 
 - title: Location
   url: /location/
+  
+- title: About
+  url: /about/
   
 - title: Info
   url: /info/
