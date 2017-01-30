@@ -1,6 +1,6 @@
 ---
 title: All
-position: 4
+position: 0
 layout: day
 ---
 
