@@ -1,7 +1,7 @@
 ---
 title: Saturday Mid
 date: 2017-06-16 19:30:00 Z
-position: 5
+position: 4
 days: Saturday
 acts:
 - name: John Shuttleworth
