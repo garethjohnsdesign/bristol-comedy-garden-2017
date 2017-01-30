@@ -6,7 +6,6 @@ categories:
 tags:
 - early
 position: 3
-days: Wednesday
 acts:
 - name: David O'Doherty
   image: "/uploads/arthur-smith.jpg"
