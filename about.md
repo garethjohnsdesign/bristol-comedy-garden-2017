@@ -4,4 +4,10 @@ position: 2
 layout: about
 ---
 
-Aenean lacinia bibendum nulla sed consectetur. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+The mighty Bristol Comedy Garden returns this June with yet another quality crop of comedians. Once again Queen Square, in the heart of the city, will be transformed into a comedy wonderland complete with legendary line-ups in the Big Top and Apple Top venues.
+
+Come satisfy your comic cravings with the fierce, pop-culture obsessed Canadian Katherine Ryan, the revered Stewart Lee, Britain’s favourite publican Al Murray, the provocative Reginald D Hunter, one-liner maestro Milton Jones, Edinburgh Comedy Award winner Bridget Christie, lo-fi genius David O’Doherty and the must see for Bowie fans, Adam Buxton’s BUG: David Bowie special.
+
+The South West’s brightest comedy festival will be bursting with bars, music, gourmet street-food and lots more. Get your tickets now and arrive early to make the most of this year’s blooming brilliant Bristol Comedy Garden!
+
+This year’s Comedy Garden is a proud supporter of Cancer Research UK and Channel 4’s Stand Up To Cancer. Stand Up To Cancer and Stand Up To Cancer Brand Marks are registered trademarks or trademarks of the Entertainment Industry Foundation.
