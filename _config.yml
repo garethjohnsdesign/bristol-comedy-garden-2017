@@ -13,7 +13,7 @@ collections:
     output: true
   posts:
     title: Posts
-    output: false
+    output: true
   uploads:
     title: Uploads
     output: false
