@@ -4,7 +4,6 @@ date: 2017-06-15 19:30:00 Z
 categories:
 - thursday
 position: 1
-days: Thursday
 acts:
 - name: Stewart Lee
   image: "/uploads/arthur-smith.jpg"
