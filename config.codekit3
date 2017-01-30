@@ -27,34 +27,16 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/_carousel\/david-o-doherty.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_carousel\/david-o-doherty.markdown",
-		"oF": 0
-		},
 	"\/_carousel\/katherine-ryan.markdown": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_carousel\/katherine-ryan.markdown",
 		"oF": 0
 		},
-	"\/_carousel\/reginald-d-hunter.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_carousel\/reginald-d-hunter.markdown",
-		"oF": 0
-		},
 	"\/_carousel\/stewart-lee.markdown": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_carousel\/stewart-lee.markdown",
-		"oF": 0
-		},
-	"\/_config.yml": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/_config.yml",
 		"oF": 0
 		},
 	"\/_data\/navigation.yml": {
@@ -8280,24 +8262,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/info.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/info.md",
-		"oF": 1,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/LICENSE.md": {
 		"cS": 0,
 		"eF": 1,
@@ -8326,24 +8290,6 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/line-up.md",
-		"oF": 1,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/location.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/location.md",
 		"oF": 1,
 		"oFM": 9,
 		"oS": 0,
@@ -8407,12 +8353,6 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
-		},
-	"\/Untitled.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/Untitled.html",
-		"oF": 0
 		}
 	},
 "hooks": [
