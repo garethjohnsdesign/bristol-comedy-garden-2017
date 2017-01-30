@@ -6,7 +6,6 @@ categories:
 tags:
 - mid
 position: 4
-days: Saturday
 acts:
 - name: John Shuttleworth
   image: "/uploads/john-shuttleworth.jpg"
