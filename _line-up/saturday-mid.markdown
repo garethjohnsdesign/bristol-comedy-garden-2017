@@ -1,6 +1,10 @@
 ---
 title: Saturday Mid
 date: 2017-06-16 19:30:00 Z
+categories:
+- saturday
+tags:
+- mid
 position: 4
 days: Saturday
 acts:
