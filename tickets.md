@@ -1,5 +1,5 @@
 ---
-title: Bristol Comedy Garden 2017
+title: Tickets
 image: "/assets/img/og-image.png"
 layout: index
 ---
