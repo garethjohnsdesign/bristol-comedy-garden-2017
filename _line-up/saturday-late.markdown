@@ -6,7 +6,6 @@ categories:
 tags:
 - late
 position: 5
-days: Saturday
 acts:
 - name: John Shuttleworth
   image: "/uploads/john-shuttleworth.jpg"
