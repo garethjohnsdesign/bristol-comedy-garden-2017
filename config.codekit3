@@ -27,16 +27,34 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/_carousel\/david-o-doherty.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_carousel\/david-o-doherty.markdown",
+		"oF": 0
+		},
 	"\/_carousel\/katherine-ryan.markdown": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_carousel\/katherine-ryan.markdown",
 		"oF": 0
 		},
+	"\/_carousel\/reginald-d-hunter.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_carousel\/reginald-d-hunter.markdown",
+		"oF": 0
+		},
 	"\/_carousel\/stewart-lee.markdown": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_carousel\/stewart-lee.markdown",
+		"oF": 0
+		},
+	"\/_config.yml": {
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_config.yml",
 		"oF": 0
 		},
 	"\/_data\/navigation.yml": {
@@ -277,7 +295,7 @@
 		},
 	"\/_uploads\/2016-poster.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 470655,
 		"oA": 0,
 		"oAP": "\/_uploads\/2016-poster.jpg",
 		"oF": 0,
@@ -469,7 +487,7 @@
 		},
 	"\/_uploads\/joe-lycett.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 70412,
 		"oA": 0,
 		"oAP": "\/_uploads\/joe-lycett.jpg",
 		"oF": 0,
@@ -477,7 +495,7 @@
 		},
 	"\/_uploads\/john-kearns.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 71287,
 		"oA": 0,
 		"oAP": "\/_uploads\/john-kearns.jpg",
 		"oF": 0,
@@ -485,7 +503,7 @@
 		},
 	"\/_uploads\/john-robins.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 38653,
 		"oA": 0,
 		"oAP": "\/_uploads\/john-robins.jpg",
 		"oF": 0,
@@ -493,7 +511,7 @@
 		},
 	"\/_uploads\/john-shuttleworth.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 45657,
 		"oA": 0,
 		"oAP": "\/_uploads\/john-shuttleworth.jpg",
 		"oF": 0,
@@ -501,7 +519,7 @@
 		},
 	"\/_uploads\/josie-long.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 56916,
 		"oA": 0,
 		"oAP": "\/_uploads\/josie-long.jpg",
 		"oF": 0,
@@ -509,7 +527,7 @@
 		},
 	"\/_uploads\/katherine-ryan-feature.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 118901,
 		"oA": 0,
 		"oAP": "\/_uploads\/katherine-ryan-feature.jpg",
 		"oF": 0,
@@ -517,7 +535,7 @@
 		},
 	"\/_uploads\/katherine-ryan.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 66874,
 		"oA": 0,
 		"oAP": "\/_uploads\/katherine-ryan.jpg",
 		"oF": 0,
@@ -525,7 +543,7 @@
 		},
 	"\/_uploads\/larry-dean.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 59366,
 		"oA": 0,
 		"oAP": "\/_uploads\/larry-dean.jpg",
 		"oF": 0,
@@ -533,7 +551,7 @@
 		},
 	"\/_uploads\/mae-martin.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 30255,
 		"oA": 0,
 		"oAP": "\/_uploads\/mae-martin.jpg",
 		"oF": 0,
@@ -541,7 +559,7 @@
 		},
 	"\/_uploads\/mark-olver.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 51987,
 		"oA": 0,
 		"oAP": "\/_uploads\/mark-olver.jpg",
 		"oF": 0,
@@ -549,7 +567,7 @@
 		},
 	"\/_uploads\/milton-jones.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 78253,
 		"oA": 0,
 		"oAP": "\/_uploads\/milton-jones.jpg",
 		"oF": 0,
@@ -557,7 +575,7 @@
 		},
 	"\/_uploads\/nick-helm.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 61341,
 		"oA": 0,
 		"oAP": "\/_uploads\/nick-helm.jpg",
 		"oF": 0,
@@ -565,7 +583,7 @@
 		},
 	"\/_uploads\/nish-kumar.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 59041,
 		"oA": 0,
 		"oAP": "\/_uploads\/nish-kumar.jpg",
 		"oF": 0,
@@ -573,7 +591,7 @@
 		},
 	"\/_uploads\/pajama-men.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 113846,
 		"oA": 0,
 		"oAP": "\/_uploads\/pajama-men.jpg",
 		"oF": 0,
@@ -581,7 +599,7 @@
 		},
 	"\/_uploads\/paul-foot-feature.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 97263,
 		"oA": 0,
 		"oAP": "\/_uploads\/paul-foot-feature.jpg",
 		"oF": 0,
@@ -589,7 +607,7 @@
 		},
 	"\/_uploads\/paul-foot.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 42943,
 		"oA": 0,
 		"oAP": "\/_uploads\/paul-foot.jpg",
 		"oF": 0,
@@ -597,7 +615,7 @@
 		},
 	"\/_uploads\/pete-firman.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 48976,
 		"oA": 0,
 		"oAP": "\/_uploads\/pete-firman.jpg",
 		"oF": 0,
@@ -605,7 +623,7 @@
 		},
 	"\/_uploads\/reginald-d-hunter-feature.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 156935,
 		"oA": 0,
 		"oAP": "\/_uploads\/reginald-d-hunter-feature.jpg",
 		"oF": 0,
@@ -613,7 +631,7 @@
 		},
 	"\/_uploads\/reginald-d-hunter.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 71295,
 		"oA": 0,
 		"oAP": "\/_uploads\/reginald-d-hunter.jpg",
 		"oF": 0,
@@ -621,7 +639,7 @@
 		},
 	"\/_uploads\/richard-herring.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 56823,
 		"oA": 0,
 		"oAP": "\/_uploads\/richard-herring.jpg",
 		"oF": 0,
@@ -629,7 +647,7 @@
 		},
 	"\/_uploads\/rob-delaney.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 42560,
 		"oA": 0,
 		"oAP": "\/_uploads\/rob-delaney.jpg",
 		"oF": 0,
@@ -637,7 +655,7 @@
 		},
 	"\/_uploads\/robin-ince.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 38071,
 		"oA": 0,
 		"oAP": "\/_uploads\/robin-ince.jpg",
 		"oF": 0,
@@ -645,7 +663,7 @@
 		},
 	"\/_uploads\/sam-simmons.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 49689,
 		"oA": 0,
 		"oAP": "\/_uploads\/sam-simmons.jpg",
 		"oF": 0,
@@ -653,7 +671,7 @@
 		},
 	"\/_uploads\/sara-pascoe-feature.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 66922,
 		"oA": 0,
 		"oAP": "\/_uploads\/sara-pascoe-feature.jpg",
 		"oF": 0,
@@ -661,7 +679,7 @@
 		},
 	"\/_uploads\/sara-pascoe.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 35178,
 		"oA": 0,
 		"oAP": "\/_uploads\/sara-pascoe.jpg",
 		"oF": 0,
@@ -669,7 +687,7 @@
 		},
 	"\/_uploads\/seann-walsh-extra.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 47096,
 		"oA": 0,
 		"oAP": "\/_uploads\/seann-walsh-extra.jpg",
 		"oF": 0,
@@ -677,7 +695,7 @@
 		},
 	"\/_uploads\/seann-walsh.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 72348,
 		"oA": 0,
 		"oAP": "\/_uploads\/seann-walsh.jpg",
 		"oF": 0,
@@ -685,7 +703,7 @@
 		},
 	"\/_uploads\/shappi-khorsandi.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 64784,
 		"oA": 0,
 		"oAP": "\/_uploads\/shappi-khorsandi.jpg",
 		"oF": 0,
@@ -693,7 +711,7 @@
 		},
 	"\/_uploads\/stephen-k-amos.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 52001,
 		"oA": 0,
 		"oAP": "\/_uploads\/stephen-k-amos.jpg",
 		"oF": 0,
@@ -701,7 +719,7 @@
 		},
 	"\/_uploads\/stewart-lee-feature.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 128474,
 		"oA": 0,
 		"oAP": "\/_uploads\/stewart-lee-feature.jpg",
 		"oF": 0,
@@ -709,7 +727,7 @@
 		},
 	"\/_uploads\/stewart-lee.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 68873,
 		"oA": 0,
 		"oAP": "\/_uploads\/stewart-lee.jpg",
 		"oF": 0,
@@ -717,7 +735,7 @@
 		},
 	"\/_uploads\/terry-alderton.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 110209,
 		"oA": 0,
 		"oAP": "\/_uploads\/terry-alderton.jpg",
 		"oF": 0,
@@ -725,7 +743,7 @@
 		},
 	"\/_uploads\/tim-key.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 52037,
 		"oA": 0,
 		"oAP": "\/_uploads\/tim-key.jpg",
 		"oF": 0,
@@ -741,7 +759,7 @@
 		},
 	"\/_uploads\/tony-law-extra.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 44196,
 		"oA": 0,
 		"oAP": "\/_uploads\/tony-law-extra.jpg",
 		"oF": 0,
@@ -749,7 +767,7 @@
 		},
 	"\/_uploads\/tony-law.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 96992,
 		"oA": 0,
 		"oAP": "\/_uploads\/tony-law.jpg",
 		"oF": 0,
@@ -8262,6 +8280,24 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/info.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/info.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/LICENSE.md": {
 		"cS": 0,
 		"eF": 1,
@@ -8292,6 +8328,24 @@
 		"oAP": "\/line-up.md",
 		"oF": 1,
 		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/location.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/location.html",
+		"oF": 0,
+		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8330,12 +8384,6 @@
 		"oAP": "\/robots.txt",
 		"oF": 0
 		},
-	"\/tickets.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/tickets.html",
-		"oF": 0
-		},
 	"\/tickets.md": {
 		"cS": 0,
 		"eF": 1,
@@ -8344,15 +8392,21 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/tickets.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/tickets.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/Untitled.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Untitled.html",
+		"oF": 0
 		}
 	},
 "hooks": [
