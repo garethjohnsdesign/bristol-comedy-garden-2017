@@ -1,10 +1,10 @@
 ---
 title: Wednesday
 date: 2017-06-14 19:30:00 Z
-day: Wednesday
 categories:
 - wednesday
 position: 0
+day: Wednesday
 acts:
 - name: Reginald D Hunter
   image: "/uploads/reginald-d-hunter.jpg"

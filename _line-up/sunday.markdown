@@ -1,12 +1,12 @@
 ---
 title: Sunday
 date: 2017-06-18 19:30:00 Z
-day: Sunday
 categories:
 - sunday
 tags:
 - mid
 position: 4
+day: Sunday
 acts:
 - name: John Shuttleworth
   image: "/uploads/john-shuttleworth.jpg"

@@ -1,12 +1,12 @@
 ---
 title: Saturday Late
 date: 2017-06-17 19:30:00 Z
-day: Saturday
 categories:
 - saturday
 tags:
 - late
 position: 5
+day: Saturday
 acts:
 - name: John Shuttleworth
   image: "/uploads/john-shuttleworth.jpg"

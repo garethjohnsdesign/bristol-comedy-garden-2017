@@ -1,12 +1,12 @@
 ---
 title: Saturday Early
 date: 2017-06-17 14:00:00 Z
-day: Saturday
 categories:
 - saturday
 tags:
 - early
 position: 3
+day: Saturday
 acts:
 - name: David O'Doherty
   image: "/uploads/arthur-smith.jpg"
