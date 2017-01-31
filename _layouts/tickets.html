@@ -2,81 +2,64 @@
 layout: default
 ---
 
-{% for day in site.line-up %}
-{% if day.categories contains 'wednesday' %}
+<section class="cv">
+{% assign collection = site.line-up | group_by: "date | date: "%d"" %}
+{% for group in collection %}
 
+<!-- Title -->
+<div class="row cv__title">
+<div class="small-12 columns text-center">
+  <h4 class="excerpt__highlight">Testing</h4>
+</div>
+</div>
+<!-- End Title -->
+
+
+{% assign collectionsorted = group.items | sort: 'date' | reverse %}
+{% for day in collectionsorted %}
 <!-- Date -->
 <div class="row align-center">
   <div class="shrink columns text-center">
-    <h3>{{ day.date | date: "%A %-d %B" }}</h3>
+<!--     <h3>{{ day.date | date: "%A %-d %B" }}</h3> -->
     <h5>{{ day.date | date: "%k:%M" }}</h5>
   </div>
 </div>
 <!-- End Date -->
 
-<!-- Panel  --> 
-
-<div class="row align-center">
+<!-- Panel -->
+<div class="row">
+  <div class="small-12 columns">
   
-<div class="small-3 columns">
-{% for act in day.acts limit:1 %}
-<img src="{{act.image}}" alt="{{act.title}}">
-{% endfor %}
-</div>
-
-<div class="small-3 columns">
-{% for act in day.acts %}
-<h3>{{ act.name }}</h3>
-{% endfor %}
-</div>
-
-<div class="small-3 columns">
-      <h3>Festival Opens: <br>{{ day.festival-starts-at | date: "%k:%M" }}</h3>
-      <h3>Show Starts: <br>{{ day.show-starts-at | date: "%k:%M" }}</h3>
+    <div class="callout secondary">
+      <div class="row">
+        
+        <div class="small-3 columns">
+          {% for act in day.acts limit:1 %}
+          <img src="{{act.image}}" alt="{{act.title}}">
+          {% endfor %}
+        </div>
+        
+        <div class="small-3 columns">
+          {% for act in day.acts %}
+            <h3>{{ act.name }}</h3>
+          {% endfor %}
+        </div>
+        
+        <div class="small-3 columns">
+          <h4>Festival Opens: <br>{{ day.festival-starts-at | date: "%k:%M" }}</h4>
+          <h4>Show Starts: <br>{{ day.show-starts-at | date: "%k:%M" }}</h4>
+        </div>
+        
+        <div class="small-3 columns">
+          <h4>Tickets: <br>{{ day.ticket-price }}</h4>
+        </div>
+        
+      </div>
     </div>
-
-<div class="small-3 columns">
-      <h3>Tickets: <br>{{ day.ticket-price }}</h3>
-    </div>
-    
-</div>
-
   
-<!--
-  
-  <div class="row align-center">
-    <div class="shrink columns">
-      <h3>Festival Opens: {{ day.festival-starts-at | date: "%k:%M" }}</h3>
-    </div>
   </div>
-  
-  <div class="row align-center">
-    <div class="shrink columns">
-      <h3>Show Starts: {{ day.show-starts-at | date: "%k:%M" }}</h3>
-    </div>
-  </div>
-  
-  <div class="row align-center">
-    <div class="shrink columns">
-      <h3>Tickets: {{ day.ticket-price }}</h3>
-    </div>
-  </div>
--->
-  
-{% endif %}
-{% endfor %}
-
-
-<!--
-<div class="row collapse small-up-1 medium-up-2 large-up-3">
-  
-  {% for day in site.line-up %}
-  {% if day.categories contains 'thursday' %}
-    {% for act in day.acts %}
-    {% include excerpt.html %}
-    {% endfor %}
-  {% endif %}
-  {% endfor %}
-
 </div>
--->
+<!-- End Panel -->
+{%endfor%}
+
+{%endfor%}

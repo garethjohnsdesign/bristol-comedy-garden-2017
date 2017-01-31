@@ -249,6 +249,12 @@
 		"oAP": "\/_line-up\/friday.markdown",
 		"oF": 0
 		},
+	"\/_line-up\/monday.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_line-up\/monday.markdown",
+		"oF": 0
+		},
 	"\/_line-up\/saturday-early.markdown": {
 		"ft": 8192,
 		"oA": 2,
@@ -265,6 +271,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_line-up\/saturday-mid.markdown",
+		"oF": 0
+		},
+	"\/_line-up\/sunday.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_line-up\/sunday.markdown",
 		"oF": 0
 		},
 	"\/_line-up\/thursday.markdown": {

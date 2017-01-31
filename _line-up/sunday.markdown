@@ -1,21 +1,19 @@
 ---
-title: Saturday Early
-date: 2017-06-17 14:00:00 Z
-day: Saturday
+title: Sunday
+date: 2017-06-18 19:30:00 Z
+day: Sunday
 categories:
-- saturday
+- sunday
 tags:
-- early
-position: 3
+- mid
+position: 4
 acts:
-- name: David O'Doherty
-  image: "/uploads/arthur-smith.jpg"
-- name: Rob Delaney
-  image: "/uploads/tom-stade.jpg"
-- name: Doc Brown
+- name: John Shuttleworth
+  image: "/uploads/john-shuttleworth.jpg"
+- name: Robin Ince
+  image: "/uploads/robin-ince.jpg"
+- name: Arthur Smith
   image: "/uploads/andrew-maxwell.jpg"
-- name: Nish Kumar
-  image: "/uploads/doc-brown.jpg"
 quote: A refreshingly ruminative, searingly honest comedy style
 quote-cite: Daily Telegraph
 secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo

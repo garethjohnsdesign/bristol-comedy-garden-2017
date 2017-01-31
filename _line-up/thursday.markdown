@@ -1,6 +1,7 @@
 ---
 title: Thursday
 date: 2017-06-15 19:30:00 Z
+day: Thursday
 categories:
 - thursday
 position: 1

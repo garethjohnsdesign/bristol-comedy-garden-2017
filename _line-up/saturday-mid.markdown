@@ -1,6 +1,7 @@
 ---
 title: Saturday Mid
-date: 2017-06-16 19:30:00 Z
+date: 2017-06-17 19:30:00 Z
+day: Saturday
 categories:
 - saturday
 tags:
