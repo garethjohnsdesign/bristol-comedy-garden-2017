@@ -1,30 +1,22 @@
 ---
 title: Thursday
 date: 2017-06-15 19:30:00 Z
-categories:
-- thursday
-position: 1
-day: Thursday
 acts:
-- name: Stewart Lee
-  image: "/uploads/arthur-smith.jpg"
-- name: Jerry Seinfeld
-  image: "/uploads/tom-stade.jpg"
-- name: Andrew Maxwell
-  image: "/uploads/andrew-maxwell.jpg"
+- name: Jason Manford
+  image: "/uploads/jason-manford.jpg"
+- name: Sara Pascoe
+  image: "/uploads/sara-pascoe.jpg"
 - name: John Robins
-  image: "/uploads/doc-brown.jpg"
-quote: A refreshingly ruminative, searingly honest comedy style
+  image: "/uploads/john-robins.jpg"
+quote: He's blessed with the sort of laid-back charm and sharp turn of phrase you can't manufacture
 quote-cite: Daily Telegraph
-secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo
-  star and insatiable mischief maker Tom Stade, Ireland’s intrepid social commentator
-  Andrew Maxwell and all-round dude and Radio X presenter John Robins as host.
-festival-starts-at: 2017-06-15 18:30:00 Z
+secondary-text: Joining Jason is a special guest to be announced plus multi-award winning Have I Got News For You regular Sara Pascoe, fresh off the back of a huge sell out tour and Radio X presenter (and all-round dude) John Robins as host.
+festival-starts-at: 2017-06-15 18:00:00 Z
 show-starts-at: 2017-06-15 19:30:00 Z
 ticket-price: "£18.50 - £24"
-ticket-link: http://www.seetickets.com/event/magners-bristol-comedy-garden-reginald-d-hunter/big-top-bristol-comedy-garden/973926/
+ticket-link: http://www.seetickets.com/event/greenwich-comedy-festival-jason-manford/big-top-greenwich-comedy-festival/985933/
 is-sold-out: 
 layout: event
 ---
 
-One of the most brilliantly unpredictable, hilarious and thought-provoking comedians around - Reginald D Hunter heads to Bristol Comedy Garden. A consistent presence on TV with appearances on Qi, Have I Got News For You and many more - don’t miss this rewardingly provocative award-winner live.
+Star of Live At The Apollo, 8 Out Of 10 Cats, Qi and many more - Jason Manford headlines an all star show at Greenwich Comedy Festival. Expect a set chock-full of comedy anecdotes, comic misunderstandings and audience banter delivered with Jason’s likeable charm and teasingly intelligent wit.

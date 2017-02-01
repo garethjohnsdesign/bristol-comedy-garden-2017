@@ -1,30 +1,22 @@
 ---
 title: Friday
 date: 2017-06-16 19:30:00 Z
-categories:
-- friday
-position: 2
-day: Friday
 acts:
-- name: David O'Doherty
-  image: "/uploads/arthur-smith.jpg"
-- name: Rob Delaney
-  image: "/uploads/tom-stade.jpg"
-- name: Doc Brown
-  image: "/uploads/andrew-maxwell.jpg"
-- name: Nish Kumar
-  image: "/uploads/doc-brown.jpg"
-quote: A refreshingly ruminative, searingly honest comedy style
-quote-cite: Daily Telegraph
-secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo
-  star and insatiable mischief maker Tom Stade, Ireland’s intrepid social commentator
-  Andrew Maxwell and all-round dude and Radio X presenter John Robins as host.
+- name: Milton Jones
+  image: "/uploads/milton-jones.jpg"
+- name: James Acaster
+  image: "/uploads/james-acaster.jpg"
+- name: Stephen K Amos
+  image: "/uploads/stephen-k-amos.jpg"
+quote: The wild-haired Jones has raised wordplay to the level of fine art
+quote-cite: Radio Times
+secondary-text: Joining Milton is triple Edinburgh Comedy Award nominee James Acaster and very special guest Stephen K Amos as host.
 festival-starts-at: 2017-06-16 18:30:00 Z
 show-starts-at: 2017-06-16 19:30:00 Z
 ticket-price: "£18.50 - £24"
-ticket-link: http://www.seetickets.com/event/magners-bristol-comedy-garden-reginald-d-hunter/big-top-bristol-comedy-garden/973926/
+ticket-link: http://www.seetickets.com/event/greenwich-comedy-festival-milton-jones/big-top-greenwich-comedy-festival/983578/
 is-sold-out: 
 layout: event
 ---
 
-One of the most brilliantly unpredictable, hilarious and thought-provoking comedians around - Reginald D Hunter heads to Bristol Comedy Garden. A consistent presence on TV with appearances on Qi, Have I Got News For You and many more - don’t miss this rewardingly provocative award-winner live.
+Fast, absurd and very funny one liner master Milton Jones returns to Greenwich Comedy Festival with an astonishingly good line-up in tow. Star of Mock The Week, Live At The Apollo and wearer of very loud shirts - don’t miss this furiously funny genius live in the Big Top.

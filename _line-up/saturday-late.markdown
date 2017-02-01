@@ -1,12 +1,6 @@
 ---
 title: Saturday Late
-date: 2017-06-17 19:30:00 Z
-categories:
-- saturday
-tags:
-- late
-position: 5
-day: Saturday
+date: 2017-06-17 21:30:00 Z
 acts:
 - name: John Shuttleworth
   image: "/uploads/john-shuttleworth.jpg"
@@ -22,8 +16,8 @@ quote-cite: Daily Telegraph
 secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo
   star and insatiable mischief maker Tom Stade, Ireland’s intrepid social commentator
   Andrew Maxwell and all-round dude and Radio X presenter John Robins as host.
-festival-starts-at: 2017-06-16 18:30:00 Z
-show-starts-at: 2017-06-16 19:30:00 Z
+festival-starts-at: 2017-06-17 18:30:00 Z
+show-starts-at: 2017-06-17 19:30:00 Z
 ticket-price: "£18.50 - £24"
 ticket-link: http://www.seetickets.com/event/magners-bristol-comedy-garden-reginald-d-hunter/big-top-bristol-comedy-garden/973926/
 is-sold-out: 

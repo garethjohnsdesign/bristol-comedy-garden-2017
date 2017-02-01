@@ -217,63 +217,6 @@ div.row.excerpt__title {
 // 5. Index
 // --------
 
-.index__hero {
-  height: 60vh;
-}
-
-.index__hero__cell {
-  height: 100%;
-  width: 100;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; 
-}
-
-.index__hero__cell__text {
-  height: 100%;
-  h1 {
-  color: $color--white;
-  }
-}
-
-.index__intro {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  @include breakpoint(small only) {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-}
-
-.index__services {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.index__section__title {
-  color: $color--red;
-}
-
-.index__services__section {
-  padding-bottom: 2rem;
-  h4 {
-    margin-bottom: $header-bottom-margin--tighter;
-    color: $color--black;
-  }
-  h5 {
-    color: $color--gray;
-  }
-  p {
-    color: $color--dark-gray;
-  }
-}
-
-.index__more {
-  color: $color--gray;
-  span {
-    color: $color--red;
-  }
-}
 
 
 // 11. Footer
@@ -300,53 +243,6 @@ footer {
 // 11. Holding
 // ----------
 
-.holding {
-  height: 100vh;
-}
-
-.holding__title {
-  h2 {
-    text-transform: uppercase;
-  }
-}
-
-.holding__date {
-  padding-top: 1rem;
-  color: $color--gray;
-}
-
-.holding__form {
-  padding-top: 2rem;
-}
-
-.holding__socials {
-  padding-top: 2rem;
-}
-
-.holding__legal {
-  padding-top: 2rem;
-}
-
-
-.slide-item { 
-position: relative;
-background-repeat: no-repeat;
-background-position: top center;
-background-size: cover;
-}
-
-@media screen and (max-width: 39.9375em) {
-.slide-item{min-height: 280px;background-position: center;    background-size: cover;} }
-@media screen and (min-width: 40em) {
-.slide-item{ height: 360px; min-height: 360px;} }
-@media screen and (min-width: 64em) {
-.slide-item{ height: 600px; min-height: 600px;}}
-
-
-.testing { 
-  height: 100%;
-}
-
 
 .orbit-header {
     position: absolute;
@@ -360,18 +256,18 @@ background-size: cover;
 
 .orbit-container .icon {
 	color: $color--white;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .orbit-header a {
     color: $color--white;
-    @include transition(all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1));
 }
 
 .orbit-header a:hover {
     color: $color--white;
 }
 
+/*
 .orbit-previous, .orbit-next {
     cursor: pointer;
     @include transition(all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1));
@@ -386,6 +282,7 @@ background-size: cover;
         -webkit-transform: translateY(-50%) translateX(10px);
     transform: translateY(-50%) translateX(10px);
 }
+*/
 
 .orbit-container {
 	height: auto !important;
@@ -446,8 +343,33 @@ footer .button {
 
 // Location
 
+.location {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 
 .contact__location__map {
   margin-bottom: 2rem;
   height: 30rem;
+}
+
+// Event
+
+.event {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+// Tickets
+
+.tickets {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+// Info
+
+.info {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }

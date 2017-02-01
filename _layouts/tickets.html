@@ -2,64 +2,68 @@
 layout: default
 ---
 
-<section class="cv">
-{% assign collection = site.line-up | group_by: "date | date: "%d"" %}
-{% for group in collection %}
-
-<!-- Title -->
-<div class="row cv__title">
-<div class="small-12 columns text-center">
-  <h4 class="excerpt__highlight">Testing</h4>
-</div>
-</div>
-<!-- End Title -->
-
-
-{% assign collectionsorted = group.items | sort: 'date' | reverse %}
-{% for day in collectionsorted %}
-<!-- Date -->
-<div class="row align-center">
-  <div class="shrink columns text-center">
-<!--     <h3>{{ day.date | date: "%A %-d %B" }}</h3> -->
-    <h5>{{ day.date | date: "%k:%M" }}</h5>
-  </div>
-</div>
-<!-- End Date -->
-
-<!-- Panel -->
-<div class="row">
-  <div class="small-12 columns">
+<section class="tickets">
+  {% assign collection = site.line-up | group_by_exp: "item", "item.date | date: '%A %-d %B'" %}
+  {% for day in collection %}
   
-    <div class="callout secondary">
-      <div class="row">
-        
-        <div class="small-3 columns">
-          {% for act in day.acts limit:1 %}
-          <img src="{{act.image}}" alt="{{act.title}}">
-          {% endfor %}
-        </div>
-        
-        <div class="small-3 columns">
-          {% for act in day.acts %}
-            <h3>{{ act.name }}</h3>
-          {% endfor %}
-        </div>
-        
-        <div class="small-3 columns">
-          <h4>Festival Opens: <br>{{ day.festival-starts-at | date: "%k:%M" }}</h4>
-          <h4>Show Starts: <br>{{ day.show-starts-at | date: "%k:%M" }}</h4>
-        </div>
-        
-        <div class="small-3 columns">
-          <h4>Tickets: <br>{{ day.ticket-price }}</h4>
-        </div>
-        
-      </div>
+  <!-- Day -->
+  <div class="row align-center">
+  <div class="shrink columns">
+    <h2>{{ day.name }}</h2>
+  </div>
+  </div>
+  <!-- End Day -->
+  
+  
+  {% assign sorted = day.items | sort: 'date' %}
+  {% for day in sorted %}
+  
+  <!-- Time -->
+  <div class="row align-center">
+    <div class="shrink columns">
+      <h5>{{ day.date | date: "%l:%M%p" }}</h5>
     </div>
-  
   </div>
-</div>
-<!-- End Panel -->
-{%endfor%}
-
-{%endfor%}
+  <!-- End Time -->
+  
+  <!-- Panel -->
+  <div class="row">
+    <div class="columns">
+    
+      <div class="callout">
+        <div class="row">
+          
+          <div class="small-12 medium-expand columns">
+            {% for act in day.acts limit:1 %}
+            <img src="{{act.image}}" alt="{{act.title}}">
+            {% endfor %}
+          </div>
+          
+          <div class="small-12 medium-expand columns">
+            {% for act in day.acts %}
+              <h3>{{ act.name }}</h3>
+            {% endfor %}
+          </div>
+          
+          <div class="small-12 medium-expand columns">
+            <h5>Festival Opens</h5>
+            <p>{{ day.festival-starts-at | date: "%k:%M" }}</p>
+            <h5>Show Starts</h5>
+            <p>{{ day.show-starts-at | date: "%k:%M" }}</p>
+          </div>
+          
+          <div class="small-12 medium-expand columns">
+            <h5>Tickets</h5>
+            <p>{{ day.ticket-price }}</p>
+            <a class="expanded button" href="{{day.ticket-link}}" target="_blank">Buy Tickets</a>
+          </div>
+          
+        </div>
+      </div>
+    
+    </div>
+  </div>
+  <!-- End Panel -->
+  {%endfor%}
+  {%endfor%}
+</section>

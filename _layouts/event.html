@@ -2,10 +2,92 @@
 layout: default
 ---
 
-<!-- Content -->
-<div class="row page__content">
-  <div class="small-10 medium-10 columns">
-    {{ page.content | markdownify }}
+<section class="event">
+  <!-- Date -->
+  <div class="row align-center">
+    <div class="shrink columns">
+      <h1>{{ page.date | date: "%A %d %B — %l:%M%p" }}</h1>
+    </div>
   </div>
-</div>
-<!-- End Content -->
+  <!-- End Date -->
+  
+  <!-- View All -->
+  <div class="row align-center">
+    <div class="shrink columns">
+      <a href="/line-up/all"><svg class="icon icon-arrow-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-left"></use></svg> View All</a></li>
+    </div>
+  </div>
+  <!-- End View All -->
+  
+  <!-- Images -->
+  <div class="row collapse">
+    {% for act in page.acts %}
+      <div class="small-6 medium-expand columns">
+        <img src="{{act.image}}" alt="{{act.title}}">
+      </div>
+    {% endfor %}
+  </div>
+  <!-- End Images -->
+  
+  <!-- Titles -->
+  <div class="row">
+    {% for act in page.acts %}
+      <div class="small-12 medium-expand columns text-center">
+        <h3>{{act.name}}</h3>
+      </div>
+    {% endfor %}
+  </div>
+  <!-- End Titles -->
+  
+  <!-- Content -->
+  <div class="row">
+    
+    <!-- Left -->
+    <div class="small-12 medium-8 columns">
+      <div class="row">
+        <div class="shrink columns">
+          {{ page.content | markdownify }}
+        </div>
+      </div>
+    
+      <div class="row">
+        <div class="shrink columns">
+          <blockquote>
+        	{{page.quote}}
+        	<cite>{{page.quote-cite}}</cite>
+        	</blockquote>
+        </div>
+      </div>
+    
+      <div class="row align-center show-secondary">
+      	<div class="small-12 medium-12 columns">
+      		{{page.secondary-text}}
+      	</div>
+      </div>
+    </div>
+    <!-- End Left -->
+    
+    <!-- Right -->
+    <div class="small-12 medium-4 columns">
+        <h5>Festival Opens</h5>
+        <p>{{ page.festival-starts-at | date: "%k:%M" }}</p>
+        <h5>Show Starts</h5>
+        <p>{{ page.show-starts-at | date: "%k:%M" }}</p>
+        <h5>Tickets</h5>
+        <p>{{ page.ticket-price }}</p>
+    </div>
+    <!-- End Right -->
+  
+  </div>
+  <!-- End Content -->
+  
+  <!-- Buy -->
+  <div class="row">
+      <div class="small-12 columns">
+        <a class="button expanded" href="{{page.ticket-link}}" target="_blank">Buy Tickets</a>
+      </div>
+  </div>
+  <!-- End Buy -->
+</section>
+
+
