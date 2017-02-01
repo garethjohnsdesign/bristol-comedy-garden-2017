@@ -1,6 +1,5 @@
 ---
 title: Location
-date: 2016-04-01 18:23:00 Z
 subhead: The festival is set within the grounds of the National Maritime Museum, please
   enter via the Romney Road Gates.
 details:

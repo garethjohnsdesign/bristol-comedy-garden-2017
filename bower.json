@@ -12,10 +12,8 @@
     "foundation-sites": "~6.3.0",
     "motion-ui": "~1.2.2",
     "animsition": "^4.0.2",
-    "owl.carousel": "^2.2.0",
     "svgxuse": "^1.1.23",
-    "animate.css": "^3.5.2",
-    "wallop": "^2.4.1"
+    "animate.css": "^3.5.2"
   },
   "ignore": [
     "**/.*",
