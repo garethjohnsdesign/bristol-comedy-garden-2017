@@ -2,9 +2,6 @@
 title: Bristol Comedy Garden 2017
 timezone: UTC
 collections:
-  carousel:
-    title: Carousel
-    output: true
   line-up:
     title: Line-up
     output: true
