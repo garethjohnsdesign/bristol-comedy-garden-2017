@@ -14,6 +14,17 @@ carousel:
   subheader: BAFTA and British Comedy Award winner returns to Queen Square
   is-sold-out: true
   line-up: Friday
+featured:
+- name: Jason Manford
+  image: "/uploads/jason-manford.jpg"
+  subheader: Star of Live At The Apollo
+  is-sold-out: true
+  line-up: Thursday
+- name: Adam Buxton
+  image: "/uploads/adam-buxton.jpg"
+  subheader: Bug - David Bowie Special
+  is-sold-out: true
+  line-up: Wednesday
 layout: index
 ---
 
