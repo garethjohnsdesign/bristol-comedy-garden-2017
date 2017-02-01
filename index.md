@@ -25,6 +25,31 @@ featured:
   subheader: Bug - David Bowie Special
   is-sold-out: true
   line-up: Wednesday
+- name: Cardinal Burns
+  image: "/uploads/cardinal-burns.jpg"
+  subheader:
+  is-sold-out:
+  line-up: Friday
+- name: Paul Foot
+  image: "/uploads/paul-foot.jpg"
+  subheader:
+  is-sold-out:
+  line-up: Thursday
+- name: Henning Wehn
+  image: "/uploads/henning-wehn.jpg"
+  subheader:
+  is-sold-out:
+  line-up: Wednesday
+- name: Seann Walsh
+  image: "/uploads/seann-walsh.jpg"
+  subheader:
+  is-sold-out:
+  line-up: Saturday Late
+- name: Kerry Godliman
+  image: "/uploads/kerry-godliman.jpg"
+  subheader:
+  is-sold-out:
+  line-up: Wednesday
 layout: index
 ---
 

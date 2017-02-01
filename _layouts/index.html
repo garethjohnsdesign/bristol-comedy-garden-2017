@@ -2,13 +2,11 @@
 layout: default
 ---
 
+<!-- Carousel -->
 <div class="orbit" role="region" aria-label="Featured Acts" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
   <ul class="orbit-container">
     <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span><svg class="icon icon-arrow-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-left"></use></svg></button>
-    <button class="orbit-next"><span class="show-for-sr">Next Slide</span><svg class="icon icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></button>
-    
-    
-    
+    <button class="orbit-next"><span class="show-for-sr">Next Slide</span><svg class="icon icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></button>    
     {% for act in page.carousel %}
     <li class="orbit-slide">
       
@@ -28,16 +26,22 @@ layout: default
         
     </li>
     {% endfor %}
-    
-    
   </ul>
 </div>
+<!-- End Carousel -->
 
-
+<!-- Featured -->
 <div class="row collapse small-up-1 medium-up-2 large-up-3">
-  {% for day in site.line-up %}
-    {% for act in day.acts %}
+    {% for act in page.featured %}
       {% include excerpt.html %}
     {% endfor %}
-  {% endfor %}
 </div>
+<!-- End Featured -->
+
+<!-- Line-up Link -->
+<div class="row align-center">
+<div class="shrink columns">
+  <h3><a href="/line-up/">View Full Line-up</a></h3>
+</div>
+</div>
+<!-- End Line-up Link -->
