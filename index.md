@@ -8,10 +8,12 @@ carousel:
   subheader: The Lidl Enya, the broken Bublé; David O’Doherty (and his tiny keyboard)
     return
   is-sold-out: 
+  line-up: Sunday
 - name: Stewart Lee
   image: "/uploads/stewart-lee-feature.jpg"
   subheader: BAFTA and British Comedy Award winner returns to Queen Square
   is-sold-out: true
+  line-up: Friday
 layout: index
 ---
 
