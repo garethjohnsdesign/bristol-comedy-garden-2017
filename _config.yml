@@ -1,5 +1,5 @@
 ---
-title: Bristol Comedy Garden 2017
+title: Bristol Comedy Garden
 timezone: UTC
 collections:
   line-up:
@@ -43,6 +43,8 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 company: 57 Festivals Ltd
+date: 14 June — 18 June 2017
+address: Queen Square, Bristol BS1 4QS
 email: info@bristolcomedygarden.co.uk
 google_site_verification: 
 analytics: UA-49569208-1

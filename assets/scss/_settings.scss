@@ -117,6 +117,7 @@ $block-grid-max: 8;
 // 4. Base Typography
 // ------------------
 
+$secondary-font-family: 'Raisonne-DemiBold', Helvetica, Roboto, Arial, sans-serif;
 // $header-font-family: $body-font-family;
 $header-font-family: 'Wigrum-Medium', Helvetica, Roboto, Arial, sans-serif;
 $header-font-weight: $global-weight-normal;
@@ -637,7 +638,7 @@ $topbar-padding: 0.5rem;
 // $topbar-background: $light-gray;
 $topbar-background: $color--dark-blue;
 $topbar-submenu-background: $topbar-background;
-$topbar-title-spacing: 0.5rem 0 0 0;
+$topbar-title-spacing: 0 0 0 0;
 $topbar-input-width: 200px;
 // $topbar-unstack-breakpoint: medium;
 $topbar-unstack-breakpoint: small;

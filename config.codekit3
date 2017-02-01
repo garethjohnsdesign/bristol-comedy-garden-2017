@@ -135,6 +135,12 @@
 		"oAP": "\/_layouts\/info.html",
 		"oF": 0
 		},
+	"\/_layouts\/line-up copy.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/line-up copy.html",
+		"oF": 0
+		},
 	"\/_layouts\/line-up.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -579,6 +585,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/_uploads\/paul-foot.jpg": {
+		"ft": 16384,
+		"iS": 40250,
+		"oA": 0,
+		"oAP": "\/_uploads\/paul-foot.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/_uploads\/pete-firman.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -883,6 +897,40 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Larsseit.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Raisonne-DemiBold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Raisonne-DemiBold.eot",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Raisonne-DemiBold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Raisonne-DemiBold.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Raisonne-DemiBold.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Raisonne-DemiBold.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/fonts\/Raisonne-DemiBold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Raisonne-DemiBold.ttf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Raisonne-DemiBold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Raisonne-DemiBold.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Wigrum-Medium.eot": {

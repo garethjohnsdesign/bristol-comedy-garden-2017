@@ -127,11 +127,12 @@ nav {
   z-index: 3000;
 }
 
-/*
-.top-bar-right-mobile {
-  z-index: 1004;
+.top-bar__logo { 
+ font-size: 1.5rem;
+ font-family: $secondary-font-family;
 }
-*/
+
+
 
 
 // 6. Excerpt
@@ -324,13 +325,13 @@ footer a {
     }
   }
 
-.footer__social {
+.footer__socials {
     padding: 0rem 0rem 2rem 0rem;
 }
 
 
 .footer__form {
-    padding: 3rem 0rem;
+    padding: 2rem 0rem 0rem 0rem;
 }
 
 footer .button {
