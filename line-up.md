@@ -1,6 +1,6 @@
 ---
 title: Line-up
-position: 0
+position: 1
 layout: line-up
 ---
 
