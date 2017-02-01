@@ -7,7 +7,7 @@ acts:
   image: "/uploads/adam-buxton.jpg"
 quote: Would make a convincing claim to the title of funniest man in Britain
 quote-cite: Three Weeks
-secondary-text:
+secondary-text: 
 festival-starts-at: 2017-06-18 18:30:00 Z
 show-starts-at: 2017-06-18 19:30:00 Z
 ticket-price: "£18.50"

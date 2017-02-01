@@ -10,7 +10,8 @@ acts:
   image: "/uploads/stephen-k-amos.jpg"
 quote: The wild-haired Jones has raised wordplay to the level of fine art
 quote-cite: Radio Times
-secondary-text: Joining Milton is triple Edinburgh Comedy Award nominee James Acaster and very special guest Stephen K Amos as host.
+secondary-text: Joining Milton is triple Edinburgh Comedy Award nominee James Acaster
+  and very special guest Stephen K Amos as host.
 festival-starts-at: 2017-06-16 18:30:00 Z
 show-starts-at: 2017-06-16 19:30:00 Z
 ticket-price: "£18.50 - £24"

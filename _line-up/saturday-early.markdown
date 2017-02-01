@@ -10,9 +10,12 @@ acts:
   image: "/uploads/richard-herring.jpg"
 - name: Ed Gamble
   image: "/uploads/ed-gamble.jpg"
-quote: O’Doherty expertly steers his way between the quirky, novelty and off-beat as well as excellent traditional-style stand-up
+quote: O’Doherty expertly steers his way between the quirky, novelty and off-beat
+  as well as excellent traditional-style stand-up
 quote-cite: The Scotsman
-secondary-text: Joining David is the bitingly funny, US sensation Rob Delaney - star of the hit sitcom ‘Catastrophe’. Bona fide comedy legend Richard Herring opens the show and the charming Ed Gamble hosts.
+secondary-text: Joining David is the bitingly funny, US sensation Rob Delaney - star
+  of the hit sitcom ‘Catastrophe’. Bona fide comedy legend Richard Herring opens the
+  show and the charming Ed Gamble hosts.
 festival-starts-at: 2017-06-17 13:00:00 Z
 show-starts-at: 2017-06-17 14:00:00 Z
 ticket-price: "£18.50 - £24"
