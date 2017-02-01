@@ -1,5 +1,6 @@
 ---
 title: Location
+position: 2
 subhead: The festival is set within the grounds of the National Maritime Museum, please
   enter via the Romney Road Gates.
 details:

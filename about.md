@@ -1,5 +1,6 @@
 ---
 title: About
+position: 3
 images:
 - "/uploads/gallery-01.jpg"
 - "/uploads/gallery-02.jpg"
