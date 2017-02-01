@@ -17,10 +17,10 @@ layout: default
       <div class="orbit-header">
         <div class="row align-center expanded">
           <div class="small-8 columns text-center">
-          <h1><a href="{{act.link}}">{{act.name}}</a></h1>
-          <h4><a href="{{act.link}}">{{act.subheader}}</a></h4>
+          <h1><a href="/line-up/{{act.line-up | slugify}}">{{act.name}}</a></h1>
+          <h4><a href="/line-up/{{act.line-up | slugify}}">{{act.subheader}}</a></h4>
           {% if act.sold-out %}
-          <h4><a href="{{act.link}}" class="sold">Sold Out</a></h4>
+          <h4><a href="/line-up/{{act.line-up | slugify}}" class="sold">Sold Out</a></h4>
           {% endif %}
           </div>
         </div>
