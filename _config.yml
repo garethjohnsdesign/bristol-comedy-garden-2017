@@ -10,7 +10,7 @@ collections:
     output: true
   posts:
     title: Posts
-    output: false
+    output: true
   uploads:
     title: Uploads
     output: false
@@ -19,9 +19,10 @@ defaults:
     path: ''
     type: pages
   values:
-    layout: page 
+    layout: page
 url: http://bristolcomedygarden.co.uk
-description: Bristol Comedy Garden returns this summer for another series of unmissable shows!
+description: Bristol Comedy Garden returns this summer for another series of unmissable
+  shows!
 permalink: pretty
 exclude:
 - Gemfile
