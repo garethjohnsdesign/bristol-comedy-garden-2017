@@ -17,7 +17,8 @@ html, body {
     margin: 0;
     padding: 0;
 }
-  
+
+
 
 body {
   cursor: default;
@@ -381,6 +382,7 @@ footer .button {
 
 .gallery {
   height: 60vh;
+  z-index: 1;
   @include breakpoint(small) {
   height: calc(100vh - 120px);
   }
