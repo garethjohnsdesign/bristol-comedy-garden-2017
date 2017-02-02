@@ -13,7 +13,8 @@
     "motion-ui": "~1.2.2",
     "animsition": "^4.0.2",
     "svgxuse": "^1.1.23",
-    "animate.css": "^3.5.2"
+    "animate.css": "^3.5.2",
+    "flickity": "^2.0.5"
   },
   "ignore": [
     "**/.*",

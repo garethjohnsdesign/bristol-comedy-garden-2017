@@ -6,7 +6,7 @@ layout: default
   <!-- Date -->
   <div class="row align-center">
     <div class="shrink columns">
-      <h1>{{ page.date | date: "%A %d %B — %l:%M%p" }}</h1>
+      <h2>{{ page.date | date: "%A %d %B — %l:%M%p" }}</h2>
     </div>
   </div>
   <!-- End Date -->
@@ -20,16 +20,26 @@ layout: default
   <!-- End View All -->
   
   <!-- Images -->
-  <div class="row collapse">
+
+<!--
     {% for act in page.acts %}
       <div class="small-6 medium-expand columns">
         <img src="{{act.image}}" alt="{{act.title}}">
       </div>
     {% endfor %}
-  </div>
+-->
+
+<div class="row expanded collapse small-up-2 medium-up-2 large-up-4 xlarge-up-4">
+    {% for act in page.acts %}
+      {% include excerpt.html %}
+    {% endfor %}
+</div>
+
+
   <!-- End Images -->
   
   <!-- Titles -->
+<!--
   <div class="row">
     {% for act in page.acts %}
       <div class="small-12 medium-expand columns text-center">
@@ -37,6 +47,7 @@ layout: default
       </div>
     {% endfor %}
   </div>
+-->
   <!-- End Titles -->
   
   <!-- Content -->

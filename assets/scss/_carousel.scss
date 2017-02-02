@@ -1,270 +1,135 @@
-/**
- * Owl Carousel v2.2.0
- * Copyright 2013-2016 David Deutsch
- * Licensed under MIT (https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE)
- */
-/*
- *  Owl Carousel - Core
- */
-.owl-carousel {
-  display: none;
-  width: 100%;
-  -webkit-tap-highlight-color: transparent;
-  /* position relative and z-index fix webkit rendering fonts issue */
+/*! Flickity v2.0.5
+http://flickity.metafizzy.co
+---------------------------------------------- */
+
+.flickity-enabled {
   position: relative;
-  z-index: 1; }
-  .owl-carousel .owl-stage {
-    position: relative;
-    -ms-touch-action: pan-Y; }
-  .owl-carousel .owl-stage:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    line-height: 0;
-    height: 0; }
-  .owl-carousel .owl-stage-outer {
-    position: relative;
-    overflow: hidden;
-    /* fix for flashing background */
-    -webkit-transform: translate3d(0px, 0px, 0px); }
-  .owl-carousel .owl-item {
-    position: relative;
-    min-height: 1px;
-    float: left;
-    -webkit-backface-visibility: hidden;
-    -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none; }
-  .owl-carousel .owl-item img {
-    display: block;
-    width: 100%;
-    -webkit-transform-style: preserve-3d; }
-  .owl-carousel .owl-nav.disabled,
-  .owl-carousel .owl-dots.disabled {
-    display: none; }
-  .owl-carousel .owl-nav .owl-prev,
-  .owl-carousel .owl-nav .owl-next,
-  .owl-carousel .owl-dot {
-    cursor: pointer;
-    cursor: hand;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; }
-  .owl-carousel.owl-loaded {
-    display: block; }
-  .owl-carousel.owl-loading {
-    opacity: 0;
-    display: block; }
-  .owl-carousel.owl-hidden {
-    opacity: 0; }
-  .owl-carousel.owl-refresh .owl-item {
-    visibility: hidden; }
-  .owl-carousel.owl-drag .owl-item {
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none; }
-  .owl-carousel.owl-grab {
-    cursor: move;
-    cursor: grab; }
-  .owl-carousel.owl-rtl {
-    direction: rtl; }
-  .owl-carousel.owl-rtl .owl-item {
-    float: right; }
+}
 
-/* No Js */
-.no-js .owl-carousel {
-  display: block; }
+.flickity-enabled:focus { outline: none; }
 
-/*
- *  Owl Carousel - Animate Plugin
- */
-.owl-carousel .animated {
-  -webkit-animation-duration: 1000ms;
-          animation-duration: 1000ms;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both; }
-
-.owl-carousel .owl-animated-in {
-  z-index: 0; }
-
-.owl-carousel .owl-animated-out {
-  z-index: 1; }
-
-.owl-carousel .fadeOut {
-  -webkit-animation-name: fadeOut;
-          animation-name: fadeOut; }
-
-@-webkit-keyframes fadeOut {
-  0% {
-    opacity: 1; }
-  100% {
-    opacity: 0; } }
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1; }
-  100% {
-    opacity: 0; } }
-
-/*
- * 	Owl Carousel - Auto Height Plugin
- */
-.owl-height {
-  transition: height 500ms ease-in-out; }
-
-/*
- * 	Owl Carousel - Lazy Load Plugin
- */
-.owl-carousel .owl-item .owl-lazy {
-  opacity: 0;
-  transition: opacity 400ms ease; }
-
-.owl-carousel .owl-item img.owl-lazy {
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d; }
-
-/*
- * 	Owl Carousel - Video Plugin
- */
-.owl-carousel .owl-video-wrapper {
+.flickity-viewport {
+  overflow: hidden;
   position: relative;
   height: 100%;
-  background: #000; }
+}
 
-.owl-carousel .owl-video-play-icon {
+.flickity-slider {
   position: absolute;
-  height: 80px;
-  width: 80px;
-  left: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+/* draggable */
+
+.flickity-enabled.is-draggable {
+  -webkit-tap-highlight-color: transparent;
+          tap-highlight-color: transparent;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport {
+  cursor: move;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.flickity-enabled.is-draggable .flickity-viewport.is-pointer-down {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+/* ---- previous/next buttons ---- */
+
+.flickity-prev-next-button {
+  position: absolute;
   top: 50%;
-  margin-left: -40px;
-  margin-top: -40px;
-  background: url("owl.video.play.png") no-repeat;
-  cursor: pointer;
-  z-index: 1;
-  -webkit-backface-visibility: hidden;
-  transition: -webkit-transform 100ms ease;
-  transition: transform 100ms ease; }
-
-.owl-carousel .owl-video-play-icon:hover {
-  -webkit-transform: scale(1.3, 1.3);
-      -ms-transform: scale(1.3, 1.3);
-          transform: scale(1.3, 1.3); }
-
-.owl-carousel .owl-video-playing .owl-video-tn,
-.owl-carousel .owl-video-playing .owl-video-play-icon {
-  display: none; }
-
-.owl-carousel .owl-video-tn {
-  opacity: 0;
-  height: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  transition: opacity 400ms ease; }
-
-.owl-carousel .owl-video-frame {
-  position: relative;
-  z-index: 1;
-  height: 100%;
-  width: 100%; }
-
-
-
-
+  width: 2rem;
+  height: 2rem;
 /*
- * 	Default theme - Owl Carousel CSS File
- */
+  border: none;
+  border-radius: 50%;
+  background: white;
+  background: hsla(0, 0%, 100%, 0.75);
+*/
+  cursor: pointer;
+  /* vertically center */
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
 
-$color-base:			#869791 !default;
-$color-white:			#FFF !default;
-$color-gray:			#D6D6D6 !default;
+// .flickity-prev-next-button:hover { background: white; }
 
-//nav
+.flickity-prev-next-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px #09F;
+}
 
-$nav-color: 			$color-white !default;
-$nav-color-hover:		$color-white !default;
-$nav-font-size: 		14px !default;
-$nav-rounded: 			3px !default;
-$nav-margin: 			5px !default;
-$nav-padding: 			4px 7px !default;
-$nav-background: 		$color-gray !default;
-$nav-background-hover:	$color-base !default;
-$nav-disabled-opacity: 	0.5 !default;
+.flickity-prev-next-button:active {
+  opacity: 0.6;
+}
 
-//dots
+.flickity-prev-next-button.previous { left: 1rem; }
+.flickity-prev-next-button.next { right: 1rem; }
+/* right to left */
+.flickity-rtl .flickity-prev-next-button.previous {
+  left: auto;
+  right: 10px;
+}
+.flickity-rtl .flickity-prev-next-button.next {
+  right: auto;
+  left: 10px;
+}
 
-$dot-width:				10px !default;
-$dot-height:			10px !default;
-$dot-rounded:			30px !default;
-$dot-margin: 			5px 7px !default;
-$dot-background:		$color-gray !default;
-$dot-background-active:	$color-base !default;
+.flickity-prev-next-button:disabled {
+  opacity: 0.3;
+  cursor: auto;
+}
 
+.flickity-prev-next-button svg {
+/*
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 60%;
+  height: 60%;
+*/
+}
 
-.owl-theme {
-	// Styling Next and Prev buttons
-	.owl-nav {
-		margin-top: 10px;
-		text-align: center;
-		-webkit-tap-highlight-color: transparent;
+.flickity-prev-next-button .arrow {
+  fill: $color--white;
+}
 
-		[class*='owl-'] {
-			color: $nav-color;
-			font-size: $nav-font-size;
-			margin: $nav-margin;
-			padding: $nav-padding;
-			background: $nav-background;
-			display: inline-block;
-			cursor: pointer;
-			border-radius: 3px;
+/* ---- page dots ---- */
 
-			&:hover {
-				background: $nav-background-hover;
-				color:$nav-color-hover;
-				text-decoration: none;
-			}
-		}
-		.disabled {
-			opacity: $nav-disabled-opacity;
-			cursor: default;
-		}
-	}
+.flickity-page-dots {
+  position: absolute;
+  width: 100%;
+  bottom: 4rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+  line-height: 1;
+}
 
-	// Styling dots
-	.owl-nav.disabled + .owl-dots {
-		margin-top: 10px;
-	}
+.flickity-rtl .flickity-page-dots { direction: rtl; }
 
-	.owl-dots {
-		text-align: center;
-		-webkit-tap-highlight-color: transparent;
+.flickity-page-dots .dot {
+  display: inline-block;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin: 0 8px;
+  background: transparent;
+  border: 1px solid $color--white;
+  border-radius: 50%;
+  opacity: 1;
+  cursor: pointer;
+}
 
-		.owl-dot {
-			display: inline-block;
-			zoom: 1;
-			display: inline;
-
-			span {
-				width: $dot-width;
-				height: $dot-height;
-				margin: $dot-margin;
-				background: $dot-background;
-				display: block;
-				-webkit-backface-visibility: visible;
-				transition: opacity 200ms ease;
-				border-radius: 30px;
-			}
-
-			&.active,
-			&:hover {
-				span {
-					background: $dot-background-active;
-				}
-			}
-		}
-	}
+.flickity-page-dots .dot.is-selected {
+  background: $color--white;
 }

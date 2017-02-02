@@ -100,7 +100,7 @@ $breakpoints: (
   xxlarge: 1440px,
 );
 $print-breakpoint: large;
-$breakpoint-classes: (small medium large);
+$breakpoint-classes: (small medium large xlarge xxlarge);
 
 // 3. The Grid
 // -----------
@@ -122,11 +122,14 @@ $secondary-font-family: 'Raisonne-DemiBold', Helvetica, Roboto, Arial, sans-seri
 $header-font-family: 'Wigrum-Medium', Helvetica, Roboto, Arial, sans-serif;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
-$font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
+// $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
+$font-family-monospace: 'SpaceMono-Regular', Courier, monospace;
 $header-color: inherit;
-$header-lineheight: 1.4;
+// $header-lineheight: 1.4;
+$header-lineheight: 1.2;
 // $header-margin-bottom: 0.5rem;
 $header-margin-bottom: 0.5rem;
+/*
 $header-styles: (
   small: (
     'h1': ('font-size': 32),
@@ -143,6 +146,26 @@ $header-styles: (
     'h4': ('font-size': 20),
     'h5': ('font-size': 18),
     'h6': ('font-size': 16),
+  ),
+);
+*/
+
+$header-styles: (
+  'small': (
+    'h1': ('font-size': 32, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom), 
+    'h2': ('font-size': 20, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h3': ('font-size': 19, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h4': ('font-size': 18, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h5': ('font-size': 17, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h6': ('font-size': 16, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom)
+  ),
+  'medium': (
+    'h1': ('font-size': 48, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h2': ('font-size': 36, 'line-height': $header-lineheight, 'margin-top': 1rem, 'margin-bottom': $header-margin-bottom),
+    'h3': ('font-size': 24, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h4': ('font-size': 20, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h5': ('font-size': 18, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': 1rem),
+    'h6': ('font-size': 16, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom)
   ),
 );
 $header-text-rendering: optimizeLegibility;
@@ -432,7 +455,8 @@ $mediaobject-image-width-stacked: 100%;
 
 $menu-margin: 0;
 $menu-margin-nested: 1rem;
-$menu-item-padding: 0.7rem 1rem;
+// $menu-item-padding: 0.7rem 1rem;
+$menu-item-padding: 0.7rem 0.7rem;
 $menu-item-color-active: $white;
 $menu-item-color-active: $black;
 $menu-item-background-active: get-color(primary);
@@ -588,14 +612,16 @@ $tab-background: $white;
 $tab-color: $primary-color;
 $tab-background-active: $light-gray;
 $tab-active-color: $primary-color;
-$tab-item-font-size: rem-calc(12);
+// $tab-item-font-size: rem-calc(12);
+$tab-item-font-size: rem-calc(18);
 $tab-item-background-hover: $white;
 $tab-item-padding: 1.25rem 1.5rem;
 $tab-expand-max: 6;
 $tab-content-background: $white;
 $tab-content-border: $light-gray;
 $tab-content-color: $body-font-color;
-$tab-content-padding: 1rem;
+// $tab-content-padding: 1rem;
+$tab-content-padding: 2rem;
 
 // 34. Thumbnail
 // -------------

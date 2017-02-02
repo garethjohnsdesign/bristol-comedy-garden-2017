@@ -1,5 +1,18 @@
 - title: Line-up
   url: /line-up/
+  sublinks:
+    - title: All
+      url: /line-up/#all
+    - title: Wednesday 14 June
+      url: /line-up/#wednesday14june
+    - title: Thursday 15 June
+      url: /line-up/#thursday15june
+    - title: Friday 16 June
+      url: /line-up/#friday16june
+    - title: Saturday 17 June
+      url: /line-up/#saturday17june
+    - title: Sunday 18 June
+      url: /line-up/#sunday18june
 
 - title: Tickets
   url: /tickets/

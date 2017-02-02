@@ -45,7 +45,7 @@ layout: default
             {% endfor %}
           </div>
           
-          <div class="small-12 medium-expand columns">
+          <div class="show-for-medium small-12 medium-expand columns">
             <h5>Festival Opens</h5>
             <p>{{ day.festival-starts-at | date: "%k:%M" }}</p>
             <h5>Show Starts</h5>
@@ -53,8 +53,8 @@ layout: default
           </div>
           
           <div class="small-12 medium-expand columns">
-            <h5>Tickets</h5>
-            <p>{{ day.ticket-price }}</p>
+            <div class="show-for-medium"><h5>Tickets</h5>
+            <p>{{ day.ticket-price }}</p></div>
             <a class="expanded button" href="{{day.ticket-link}}" target="_blank">Buy Tickets</a>
           </div>
           

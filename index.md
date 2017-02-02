@@ -3,17 +3,17 @@ title: Bristol Comedy Garden 2017
 position: 0
 image: "/assets/img/og-image.png"
 carousel:
+- name: Stewart Lee
+  image: "/uploads/stewart-lee-feature.jpg"
+  subheader: BAFTA and British Comedy Award winner returns to Queen Square
+  is-sold-out: true
+  line-up: Friday
 - name: David o'Doherty
   image: "/uploads/david-o-doherty-feature.jpg"
   subheader: The Lidl Enya, the broken Bublé; David O’Doherty (and his tiny keyboard)
     return
   is-sold-out: 
   line-up: Sunday
-- name: Stewart Lee
-  image: "/uploads/stewart-lee-feature.jpg"
-  subheader: BAFTA and British Comedy Award winner returns to Queen Square
-  is-sold-out: true
-  line-up: Friday
 featured:
 - name: Jason Manford
   image: "/uploads/jason-manford.jpg"
@@ -47,6 +47,11 @@ featured:
   line-up: Saturday Late
 - name: Kerry Godliman
   image: "/uploads/kerry-godliman.jpg"
+  subheader: 
+  is-sold-out: 
+  line-up: Wednesday
+- name: Mae Martin
+  image: "/uploads/mae-martin.jpg"
   subheader: 
   is-sold-out: 
   line-up: Wednesday
