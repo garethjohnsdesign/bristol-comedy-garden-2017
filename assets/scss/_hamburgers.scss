@@ -37,7 +37,8 @@ $hamburger-types: (
 // Hamburger
 // ==================================================
 .hamburger {
-  padding: $hamburger-padding-y $hamburger-padding-x;
+//   padding: $hamburger-padding-y $hamburger-padding-x;
+  padding: 1.25rem 0.5rem 1rem 0.75rem;
   display: inline-block;
   cursor: pointer;
 
