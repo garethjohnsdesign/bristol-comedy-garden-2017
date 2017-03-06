@@ -16,6 +16,8 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -44,38 +46,22 @@ a {
   transition: $primary-transition;
 }
 
-.arrow:after {
-    content: '→';
-    margin-left: .4816em;
-    transition: margin .1s
+.main-content {
+  /* flex: 1; would be enough but it looks bad in IE */
+  flex: 1 0 auto;
+  background: url(/uploads/artwork_rev2.png);
+  background-repeat:no-repeat;
+  background-position:center bottom;
+  background-size:contain;
+  padding-bottom: 20rem;
 }
 
-.arrow:hover:after {
-    margin-left: 0.602em
+.site-wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-.plus:after {
-    content: '+';
-    margin-left: .4816em;
-    transition: margin .1s;
-    color: $color--red;
-}
-
-.plus:hover:after {
-    margin-left: 0.602em
-}
-
-/*
-.mui-fade-in-up {
-  @include mui-animation(slide(in, up, 2rem), fade);
-  animation-duration: 500ms;
-}
-
-.mui-fade-in {
-  @include mui-animation(fade);
-  animation-duration: 500ms;
-}
-*/
 
 // 2. Typography
 // -------------
@@ -109,10 +95,10 @@ i, cite, em, var, address, dfn {
 // 4. Navigation
 // -------------
 
-nav a { 
+.top-bar a { 
   color: $color--white;
   &:hover {
-      color: $color--black;
+      color: $color--trinidad;
     }
 }
 
@@ -135,7 +121,26 @@ nav {
   }
 }
 
+.top-bar__date a { 
+  padding-top: 4px;
+  color: $color--iron;
+}
 
+.top-bar__socials a {
+    color: $color--iron;
+    @include transition(color .35s ease-out);
+    text-decoration: $anchor-text-decoration;
+    line-height: inherit;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      color: $color--white;
+      @if $anchor-text-decoration-hover != $anchor-text-decoration {
+        text-decoration: $anchor-text-decoration-hover;
+      }
+    }
+}
 
 
 // 6. Excerpt
@@ -156,13 +161,16 @@ nav {
       width:100%;
     }
     &:hover .excerpt__image:after {
-      background:$color--black;
+      background:$color--trinidad;
       transition: $primary-transition;
-      opacity:0.5;
+      opacity:0.8;
     }
     &:hover .excerpt__title p {
       opacity: 1;
       color: $color--white;
+    }
+    &:hover .excerpt__image img {
+    filter: grayscale(1);
     } 
 }
 
@@ -172,10 +180,12 @@ nav {
   height: 100%;
   margin: 0rem;
     p {
+      font-family: $header-font-family;
+      font-size: 1.25rem;
       opacity: 1;
       color: $color--white;
       transition: $primary-transition;
-      letter-spacing: 0.05rem;
+//       letter-spacing: 0.05rem;
       margin: 0rem;
       z-index: 1000;
     }
@@ -226,72 +236,9 @@ div.row.excerpt__title {
 // 11. Footer
 // ----------
 
-footer {
-  background-color: $color--black;
-  color: $color--white;
-  padding-bottom: 2rem;
-  a {
-    color: $color--white;
-    display: block;
-    }
-  a:hover {
-    color: $color--red;
-    }
-}
-
-.footer__detail {
-  color: $color--gray;
-  padding-top: 2rem;
-}
 
 // 11. Holding
 // ----------
-
-
-.orbit-header {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 8;
-    padding: 1rem;
-    color: $color--white;
-    width: 100%;
-}
-
-.orbit-container .icon {
-	color: $color--white;
-    font-size: 2rem;
-}
-
-.orbit-header a {
-    color: $color--white;
-}
-
-.orbit-header a:hover {
-    color: $color--white;
-}
-
-/*
-.orbit-previous, .orbit-next {
-    cursor: pointer;
-    @include transition(all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1));
-}
-
-.orbit-previous:hover {
-        -webkit-transform: translateY(-50%) translateX(-10px);
-    transform: translateY(-50%) translateX(-10px);
-}
-
-.orbit-next:hover {
-        -webkit-transform: translateY(-50%) translateX(10px);
-    transform: translateY(-50%) translateX(10px);
-}
-*/
-
-.orbit-container {
-	height: auto !important;
-}
-
 
 // Footer
 
@@ -318,7 +265,7 @@ footer a {
 
     &:hover,
     &:focus {
-      color: $color--white;
+      color: $color--trinidad;
       @if $anchor-text-decoration-hover != $anchor-text-decoration {
         text-decoration: $anchor-text-decoration-hover;
       }
@@ -328,6 +275,22 @@ footer a {
       border: 0;
     }
   }
+
+.footer__link a {
+    color: $color--trinidad;
+    @include transition(color .35s ease-out);
+    text-decoration: $anchor-text-decoration;
+    line-height: inherit;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      color: $color--white;
+      @if $anchor-text-decoration-hover != $anchor-text-decoration {
+        text-decoration: $anchor-text-decoration-hover;
+      }
+    }
+}
 
 .footer__socials {
     padding: 0rem 0rem 2rem 0rem;
@@ -339,7 +302,7 @@ footer a {
 }
 
 footer .button {
-	@include button-style($color--tan, $color--black, $color--white);
+	@include button-style($color--trinidad, $color--black, $color--white);
 }
 
 .footer__partners .icon {
@@ -409,9 +372,15 @@ footer .button {
 .gallery__text__inner a {
 	color: $color--white;
 	&:hover {
-      color: $color--dark-gray;
+      color: $color--trinidad;
     }
 }
+
+.gallery__text__inner h1 a {
+  padding-bottom: 0.1rem;
+	border-bottom: 2px solid $color--white;
+}
+
 
 .ticket__details {
   

@@ -1,12 +1,10 @@
 ---
 title: Location
 position: 3
-subhead: The festival is set within the grounds of the National Maritime Museum, please
-  enter via the Romney Road Gates.
 details:
 - title: Car
   text: From the M32, follow signs for the city centre. Very limited meter parking
-    is available on King Street and Queen Square. There are a number of nearby car
+    is available on [King Street](https://goo.gl/maps/n4SeuompyKo) and Queen Square. There are a number of nearby car
     parks on Queen Charlotte Street, BS1 4ES (NCP), Trenchard Street, BS1 5AN (BCC),
     Broadmead, BS1 3AF (NCP) and Prince Street, BS1 4QF (NCP).
 - title: Bus

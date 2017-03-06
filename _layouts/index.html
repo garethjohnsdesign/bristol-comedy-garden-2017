@@ -3,18 +3,16 @@ layout: default
 ---
 
 <!-- Carousel -->
-<div class="animated fadeIn gallery">
+<div class="gallery">
 {% for act in page.carousel %}
 <div class="gallery-cell" style="background-image: url({{act.image}})">	
 <div class="row gallery__text align-middle align-center">
 	<div class="small-8 columns text-center gallery__text__inner">
 	<h1><a href="/line-up/{{act.line-up | slugify}}">{{act.name}}</a></h1>
   <h4><a href="/line-up/{{act.line-up | slugify}}">{{act.subheader}}</a></h4>
-<!--
   {% if act.sold-out %}
   <h4><a href="/line-up/{{act.line-up | slugify}}" class="sold">Sold Out</a></h4>
   {% endif %}
--->
 	</div>
 </div>
 </div>

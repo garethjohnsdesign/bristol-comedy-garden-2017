@@ -1,6 +1,6 @@
 ---
 title: Line-up
 position: 1
-layout: line-up-accordion
+layout: line-up
 ---
 

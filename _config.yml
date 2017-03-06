@@ -56,3 +56,14 @@ social:
   facebook: https://www.facebook.com/bristolcomedygarden
   instagram: https://www.instagram.com/bristolcomedygarden
   twitter: https://twitter.com/comedygarden
+compress_html:
+  clippings: []
+  comments:
+  - "<!-- "
+  - " -->"
+  endings: []
+  ignore:
+    envs: []
+  blanklines: true
+  profile: false
+  startings: []

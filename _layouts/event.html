@@ -14,14 +14,6 @@ layout: default
   
   <!-- Images -->
 
-<!--
-    {% for act in page.acts %}
-      <div class="small-6 medium-expand columns">
-        <img src="{{act.image}}" alt="{{act.title}}">
-      </div>
-    {% endfor %}
--->
-
 <div class="row expanded collapse small-up-2 medium-up-2 large-up-4 xlarge-up-4">
     {% for act in page.acts %}
       {% include excerpt.html %}
@@ -31,18 +23,7 @@ layout: default
 
   <!-- End Images -->
   
-  <!-- Titles -->
-<!--
-  <div class="row">
-    {% for act in page.acts %}
-      <div class="small-12 medium-expand columns text-center">
-        <h3>{{act.name}}</h3>
-      </div>
-    {% endfor %}
-  </div>
--->
-  <!-- End Titles -->
-  
+
   <!-- Content -->
   <div class="row">
     
@@ -74,9 +55,9 @@ layout: default
     <!-- Right -->
     <div class="small-12 medium-4 columns">
         <h5>Festival Opens</h5>
-        <p>{{ page.festival-starts-at | date: "%k:%M" }}</p>
+        <p>{{ page.festival-starts-at | date: "%l:%M%p" }}</p>
         <h5>Show Starts</h5>
-        <p>{{ page.show-starts-at | date: "%k:%M" }}</p>
+        <p>{{ page.show-starts-at | date: "%l:%M%p" }}</p>
         <h5>Tickets</h5>
         <p>{{ page.ticket-price }}</p>
     </div>
