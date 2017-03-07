@@ -26,7 +26,7 @@ general:
     Our venues carry an age policy of "No under 16's, under 18's accompanied by an adult" - apologies to all you younger comedy fans out there.
 
     All our bars operate the Challenge 25 scheme. If you're lucky enough to look under 25, please bring ID!
-- title: Seating in the Venues & Group Bookings
+- title: Seating in the Venues + Group Bookings
   text: |-
     The Big Top and Apple Top are seated venues. We have two types of tickets in the Big Top - Front Stalls and Rear Stalls. The Front Stalls are allocated and positioned closest to the stage and therefore the action. All Big Top Rear Stall tickets and Apple Top tickets are sold as unreserved which means you can choose where you sit when you arrive.
 
@@ -42,7 +42,7 @@ general:
     Please do not bring any animals into the festival, only guide dogs are permitted.
 
     You can call SEE Tickets to make a disabled ticket booking on 0871 220 0260 or 0115 896 0030, these bookings can also be made online.
-- title: Work With Us - Front of House Team
+- title: Work With Us — Front of House Team
   text: "Join our Front of House Team and get in on all the hilarious action. You’ll
     be the first point of contact with our lovely audiences so good communication
     skills and a friendly attitude are a must. Working with the Front of House Manager
@@ -58,7 +58,7 @@ general:
     over 16 to apply.\n\nIf you’re interested, please fill out the [Volunteer Expression
     of Interest](https://form.jotform.co/COMMOVED/bcg16-volunteer-application) form
     and you will be contacted shortly."
-- title: Work With Us - Bar Crew
+- title: Work With Us — Bar Crew
   text: "We’re looking for friendly, confident and hard-working people to come and
     work on our bars during the Comedy Garden.\n\nPrior bar experience is preferred,
     however training will be provided. We're looking for passionate, dedicated and

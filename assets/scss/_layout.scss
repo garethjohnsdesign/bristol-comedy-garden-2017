@@ -205,7 +205,7 @@ div.row.excerpt__title {
 // --------
 
 .index {
-  background: url(/uploads/artwork_rev2.png);
+  background: url(/uploads/bottom_artwork.png);
   background-repeat:no-repeat;
   background-position:center bottom;
   background-size:contain;
@@ -278,7 +278,7 @@ div.row.excerpt__title {
 
 .location__map {
   margin-bottom: 2rem;
-  height: 30rem;
+  height: 20rem;
 }
 
 // 11. Event
@@ -289,17 +289,35 @@ div.row.excerpt__title {
   padding-bottom: 2rem;
 }
 
+.event__title {
+  padding-bottom: 1rem;
+}
+
+.event__acts {
+  padding-bottom: 2rem;
+}
+
+.event__text {
+  padding-bottom: 2rem;
+}
+
+.event__text h5 {
+  margin-bottom: 0.5rem;
+}
+
+
+
 // 11. Tickets
 // -----------
 
 .tickets {
   min-height: 50rem;
-  background-image: url(/uploads/top_artwork.png),url(/uploads/artwork_rev2.png);
+  background-image: url(/uploads/top_artwork.png),url(/uploads/bottom_artwork.png);
   background-repeat:no-repeat;
   background-position:center top, center bottom;
   background-size:contain, contain;
   padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 10rem;
 }
 
 .tickets h2 {
@@ -312,6 +330,10 @@ div.row.excerpt__title {
 
 .tickets h5 {
   margin-bottom: 0rem;
+}
+
+.tickets .callout h5 {
+  margin-bottom: 1rem;
 }
 
 .tickets__time {
@@ -343,7 +365,7 @@ div.row.excerpt__title {
 
 .line-up {
   min-height: 50rem;
-  background-image: url(/uploads/top_artwork.png),url(/uploads/artwork_rev2.png);
+  background-image: url(/uploads/top_artwork.png),url(/uploads/bottom_artwork.png);
   background-repeat:no-repeat;
   background-position:center top, center bottom;
   background-size:contain, contain;
@@ -355,8 +377,12 @@ div.row.excerpt__title {
 // --------
 
 .info {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  background-image: url(/uploads/top_artwork.png),url(/uploads/bottom_artwork.png);
+  background-repeat:no-repeat;
+  background-position:center top, center bottom;
+  background-size:contain, contain;
+  padding-top: 5rem;
+  padding-bottom: 20rem;
 }
 
 // 11. Footer

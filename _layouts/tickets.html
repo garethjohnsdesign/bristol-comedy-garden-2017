@@ -30,32 +30,29 @@ layout: default
   <div class="row">
     <div class="columns">
     
-      <div class="callout row">
+      <div class="callout row collapse text-center">
 
           
-          <div class="small-12 medium-4 columns align-self-middle">
+          <div class="small-12 medium-3 columns align-self-middle">
             {% for act in day.acts limit:1 %}
             <img src="{{act.image}}" alt="{{act.title}}">
             {% endfor %}
           </div>
           
-          <div class="small-12 medium-expand columns align-self-middle">
+          <div class="small-12 medium-3 columns align-self-middle">
             {% for act in day.acts %}
               <h3>{{ act.name }}</h3>
             {% endfor %}
           </div>
           
-          <div class="show-for-medium small-12 medium-expand columns align-self-middle">
-            <h5>Festival Opens</h5>
-            <p>{{ day.festival-starts-at | date: "%l:%M%p" }}</p>
-            <h5>Show Starts</h5>
-            <p>{{ day.show-starts-at | date: "%l:%M%p" }}</p>
-            <h5>Tickets</h5>
-            <p>{{ day.ticket-price }}</p>
+          <div class="show-for-medium small-12 medium-4 columns align-self-middle">
+            <h5>Festival Opens — {{ day.festival-starts-at | date: "%l:%M%p" }}</h5>
+            <h5>Show Starts — {{ day.show-starts-at | date: "%l:%M%p" }}</h5>
+            <h5>Tickets — {{ day.ticket-price }}</h5>
           </div>
           
-          <div class="small-12 medium-expand columns text-center align-self-middle">
-            <a class="button" href="{{day.ticket-link}}" target="_blank">Buy Tickets</a>
+          <div class="small-12 medium-2 columns align-self-middle">
+            <a class="button large hollow" href="{{day.ticket-link}}" target="_blank">Buy Tickets</a>
           </div>
           
 

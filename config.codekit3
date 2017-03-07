@@ -9,12 +9,6 @@
 	],
 "creatorBuild": "25568",
 "files": {
-	"\/.jekyll-metadata": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.jekyll-metadata",
-		"oF": 0
-		},
 	"\/404.md": {
 		"cS": 0,
 		"eF": 1,
@@ -292,22 +286,6 @@
 		"iS": 79483,
 		"oA": 0,
 		"oAP": "\/_uploads\/artwork.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/artwork_rev.png": {
-		"ft": 32768,
-		"iS": 243992,
-		"oA": 0,
-		"oAP": "\/_uploads\/artwork_rev.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/artwork_rev2.png": {
-		"ft": 32768,
-		"iS": 240924,
-		"oA": 0,
-		"oAP": "\/_uploads\/artwork_rev2.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -788,14 +766,6 @@
 		"iS": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/tony-law.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/_uploads\/top_artwork.png": {
-		"ft": 32768,
-		"iS": 767741,
-		"oA": 0,
-		"oAP": "\/_uploads\/top_artwork.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -1908,19 +1878,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_mixins.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/_settings copy.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_settings copy.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -7891,10 +7848,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/info.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/info.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
