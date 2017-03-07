@@ -2,45 +2,10 @@
 layout: default
 ---
 
-<!--
-<div class="row page-title">
-	<div class="small-12 columns text-center">
-		<h2>{{page.title}}</h2>
-	</div>
-</div>
--->
-
 <section class="about">
-<div class="row expanded collapse small-up-2 medium-up-2 large-up-3 xlarge-up-4">
-	
-{% for image in page.images limit:4 %}
-<div class="columns">
-<a data-toggle="{{ image | remove:'/' | remove:'uploadsgallery-' | remove:'.jpg' }}"><img class="gallery-image" src="{{ image }}"></a>	
-</div>
-{% endfor %}
-	
-</div>
-
-<div class="row align-center">
-<div class="small-12 medium-12 columns">
-		
-<!-- Content -->
-<div class="row align-center about-content">
-	<div class="small-12 medium-8 columns">
-		{{content}}
-	</div>
-</div>
-<!-- End Content -->
-
-</div>
-</div>
+  <div class="row align-center">
+    <div class="small-11 medium-8 columns callout">	
+    		{{content}}
+    </div>
+  </div>
 </section>
-
-{% for image in page.images %}
-<div class="reveal large" id="{{ image | remove:'/' | remove:'uploadsgallery-' | remove:'.jpg' }}" data-reveal data-close-on-click="true" data-animation-in="fade-in" data-animation-out="fade-out">
-<button class="close-button" data-close aria-label="Close modal" type="button">
-    <span aria-hidden="true">&times;</span>
-  </button>
-<img class="gallery-image" src="{{ image }}">
-</div>
-{% endfor %}

@@ -13,14 +13,16 @@
 // ---------
 
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
-
+input {
+  font-family: $body-font-family;
+}
 
 body {
   cursor: default;
@@ -47,13 +49,7 @@ a {
 }
 
 .main-content {
-  /* flex: 1; would be enough but it looks bad in IE */
   flex: 1 0 auto;
-  background: url(/uploads/artwork_rev2.png);
-  background-repeat:no-repeat;
-  background-position:center bottom;
-  background-size:contain;
-  padding-bottom: 20rem;
 }
 
 .site-wrapper {
@@ -102,14 +98,6 @@ i, cite, em, var, address, dfn {
     }
 }
 
-nav { 
-  z-index: 2000;
-}
-
-.top-bar { 
-  z-index: 3000;
-}
-
 .top-bar__logo { 
  font-size: 1.5rem;
  font-family: $secondary-font-family;
@@ -121,26 +109,22 @@ nav {
   }
 }
 
-.top-bar__date a { 
+.top-bar__date { 
   padding-top: 4px;
-  color: $color--iron;
+  a {
+  color: $color--gray;
+  }
 }
 
 .top-bar__socials a {
-    color: $color--iron;
-    @include transition(color .35s ease-out);
-    text-decoration: $anchor-text-decoration;
-    line-height: inherit;
-    cursor: pointer;
-
-    &:hover,
-    &:focus {
-      color: $color--white;
-      @if $anchor-text-decoration-hover != $anchor-text-decoration {
-        text-decoration: $anchor-text-decoration-hover;
-      }
+  color: $color--gray;
+  @include transition(color .35s ease-out);
+  &:hover,
+  &:focus {
+    color: $color--white;
     }
 }
+
 
 
 // 6. Excerpt
@@ -161,7 +145,7 @@ nav {
       width:100%;
     }
     &:hover .excerpt__image:after {
-      background:$color--trinidad;
+      background:$color--dark-blue;
       transition: $primary-transition;
       opacity:0.8;
     }
@@ -185,7 +169,6 @@ nav {
       opacity: 1;
       color: $color--white;
       transition: $primary-transition;
-//       letter-spacing: 0.05rem;
       margin: 0rem;
       z-index: 1000;
     }
@@ -213,44 +196,179 @@ div.row.excerpt__title {
 //   z-index: 0;
 }
 
-/*
 .excerpt__image:after p {
   z-index: 10000;
-}
-*/
-
-
-// 8. Contact
-// -------
-
-.contact__location__map {
-    height: 20rem;
 }
 
 
 // 5. Index
 // --------
 
+.index {
+  background: url(/uploads/artwork_rev2.png);
+  background-repeat:no-repeat;
+  background-position:center bottom;
+  background-size:contain;
+  padding-bottom: 20rem;
+}
 
+.index__gallery {
+  height: 60vh;
+  z-index: 1;
+  @include breakpoint(small) {
+  height: calc(100vh - 120px);
+  }
+  // Only affects medium screens, not small or large
+  @include breakpoint(medium) { 
+  height: 70vh;
+  }
+}
+
+.index__gallery-cell {
+  width: 100%;
+  height: 100%;
+  /* inherit height from gallery */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  z-index: 1; }
+  
+.index__gallery__text {
+	height: 100%;
+}
+
+
+.index__gallery__text__inner a {
+	color: $color--white;
+	&:hover {
+      color: $color--trinidad;
+    }
+}
+
+.index__gallery__text__inner h1 a {
+  padding-bottom: 0.1rem;
+	border-bottom: 2px solid $color--white;
+}
+
+.index__lineuplink {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  span {
+  color: $color--gray;
+  transition: $primary-transition;
+  	&:hover {
+      color: $color--trinidad;
+    }
+  }
+}
+
+
+// 11. Location
+// ------------
+
+
+.location {
+  background-image: url(/uploads/top_artwork.png);
+  background-repeat:no-repeat;
+  background-position:center top;
+  background-size:contain;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.location__map {
+  margin-bottom: 2rem;
+  height: 30rem;
+}
+
+// 11. Event
+// ---------
+
+.event {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+// 11. Tickets
+// -----------
+
+.tickets {
+  min-height: 50rem;
+  background-image: url(/uploads/top_artwork.png),url(/uploads/artwork_rev2.png);
+  background-repeat:no-repeat;
+  background-position:center top, center bottom;
+  background-size:contain, contain;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.tickets h2 {
+  color: $color--gray;
+}
+
+.tickets h3 {
+  margin-bottom: 0.25rem;
+}
+
+.tickets h5 {
+  margin-bottom: 0rem;
+}
+
+.tickets__time {
+  margin-bottom: 1rem;
+}
+
+.tickets__button {
+  background-color: red;
+}
+
+// 11. About
+// --------
+
+.about {
+  background-image: url(/uploads/top_artwork.png);
+  background-repeat:no-repeat;
+  background-position:center top;
+  background-size:contain;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about p {
+  font-size: 1.25rem;  
+}
+
+// 11. Line-up
+// --------
+
+.line-up {
+  min-height: 50rem;
+  background-image: url(/uploads/top_artwork.png),url(/uploads/artwork_rev2.png);
+  background-repeat:no-repeat;
+  background-position:center top, center bottom;
+  background-size:contain, contain;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+// 11. Info
+// --------
+
+.info {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 
 // 11. Footer
 // ----------
 
 
-// 11. Holding
-// ----------
-
-// Footer
-
 footer {
-  font-family: $font-family-monospace;
   color: $color--white;
   background-color: $color--dark-blue;
-  // Only affects medium screens and smaller
   @include breakpoint(small) {
   padding: 2rem 0rem;
   }
-  // Only affects medium screens, not small or large
   @include breakpoint(medium) { 
   padding: 3rem 0rem;
   }
@@ -258,37 +376,17 @@ footer {
 
 footer a {
     color: $color--white;
-    @include transition(color .35s ease-out);
-    text-decoration: $anchor-text-decoration;
-    line-height: inherit;
-    cursor: pointer;
-
     &:hover,
     &:focus {
       color: $color--trinidad;
-      @if $anchor-text-decoration-hover != $anchor-text-decoration {
-        text-decoration: $anchor-text-decoration-hover;
-      }
     }
-
-    img {
-      border: 0;
-    }
-  }
+}
 
 .footer__link a {
     color: $color--trinidad;
-    @include transition(color .35s ease-out);
-    text-decoration: $anchor-text-decoration;
-    line-height: inherit;
-    cursor: pointer;
-
     &:hover,
     &:focus {
       color: $color--white;
-      @if $anchor-text-decoration-hover != $anchor-text-decoration {
-        text-decoration: $anchor-text-decoration-hover;
-      }
     }
 }
 
@@ -301,87 +399,14 @@ footer a {
     padding: 2rem 0rem 0rem 0rem;
 }
 
-footer .button {
-	@include button-style($color--trinidad, $color--black, $color--white);
-}
-
-.footer__partners .icon {
-    font-size: 3rem;
-}
-
-// Location
-
-.location {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.contact__location__map {
-  margin-bottom: 2rem;
-  height: 30rem;
-}
-
-// Event
-
-.event {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-// Tickets
-
-.tickets {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-// Info
-
-.info {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-
-.gallery {
-  height: 60vh;
-  z-index: 1;
-  @include breakpoint(small) {
-  height: calc(100vh - 120px);
-  }
-  // Only affects medium screens, not small or large
-  @include breakpoint(medium) { 
-  height: 70vh;
-  }
-}
-
-.gallery-cell {
-  width: 100%;
-  height: 100%;
-  /* inherit height from gallery */
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  z-index: 1; }
-  
-.gallery__text {
-	height: 100%;
-}
-
-
-.gallery__text__inner a {
-	color: $color--white;
-	&:hover {
-      color: $color--trinidad;
+.footer__form .button {
+	@include button-style($color--white, $color--dark-blue, auto);
+	&:hover,
+    &:focus {
+      color: $color--white;
     }
 }
 
-.gallery__text__inner h1 a {
-  padding-bottom: 0.1rem;
-	border-bottom: 2px solid $color--white;
-}
-
-
-.ticket__details {
-  
+.footer__partners .icon {
+  font-size: 3rem;
 }

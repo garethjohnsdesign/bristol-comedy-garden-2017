@@ -1,6 +1,6 @@
 $(document).foundation();
 
-$('.gallery').flickity({
+$('.index__gallery').flickity({
   // options
   contain: true,
   setGallerySize: false,

@@ -101,6 +101,11 @@ http://flickity.metafizzy.co
 
 .flickity-prev-next-button .arrow {
   fill: $color--white;
+  transition: $primary-transition;
+}
+
+.flickity-prev-next-button:hover .arrow {
+  fill: $color--trinidad;
 }
 
 /* ---- page dots ---- */
