@@ -46,9 +46,9 @@ layout: default
           </div>
           
           <div class="show-for-medium small-12 medium-4 columns align-self-middle">
-            <h5>Festival Opens — {{ day.festival-starts-at | date: "%l:%M%p" }}</h5>
-            <h5>Show Starts — {{ day.show-starts-at | date: "%l:%M%p" }}</h5>
-            <h5>Tickets — {{ day.ticket-price }}</h5>
+            <h5>Festival Opens<span>{{ day.festival-starts-at | date: "%l:%M%p" }}</span></h5>
+            <h5>Show Starts<span>{{ day.show-starts-at | date: "%l:%M%p" }}</span></h5>
+            <h5>Tickets<span>{{ day.ticket-price }}</span></h5>
           </div>
           
           <div class="small-12 medium-2 columns align-self-middle">

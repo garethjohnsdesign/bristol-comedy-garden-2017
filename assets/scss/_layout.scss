@@ -113,6 +113,10 @@ i, cite, em, var, address, dfn {
     }
 }
 
+.top-bar-right {
+  z-index: 2000;
+}
+
 
 
 // 6. Excerpt
@@ -162,10 +166,6 @@ i, cite, em, var, address, dfn {
     }
 }
 
-.top-bar-right {
-  z-index: 1000;
-}
-
 div.row.excerpt__title {
   margin: 0rem;
   z-index: 5;
@@ -193,11 +193,16 @@ div.row.excerpt__title {
 // --------
 
 .index {
-  background: url(/uploads/bottom_artwork.png);
+  background: url(/uploads/bottom-artwork.png);
   background-repeat:no-repeat;
   background-position:center bottom;
   background-size:contain;
-  padding-bottom: 20rem;
+  @include breakpoint(small) {
+  padding-bottom: 10rem;
+  }
+  @include breakpoint(medium) { 
+  padding-bottom: 15rem;
+  }
 }
 
 .index__gallery {
@@ -256,7 +261,7 @@ div.row.excerpt__title {
 
 
 .location {
-  background-image: url(/uploads/top_artwork.png);
+  background-image: url(/uploads/top-artwork.png);
   background-repeat:no-repeat;
   background-position:center top;
   background-size:contain;
@@ -269,7 +274,12 @@ div.row.excerpt__title {
 
 .location__map {
   margin-bottom: 2rem;
+  @include breakpoint(small) {
   height: 20rem;
+  }
+  @include breakpoint(medium) { 
+  height: 30rem;
+  }
 }
 
 // 11. Event
@@ -282,11 +292,11 @@ div.row.excerpt__title {
 
 .event__title {
   padding-bottom: 1rem;
-  color: $color--gray;
+  color: $color--black;
 }
 
 .event__title span {
-  color: $color--black;
+  color: $color--gray;
 }
 
 .event__acts {
@@ -308,7 +318,7 @@ div.row.excerpt__title {
 
 .tickets {
   min-height: 50rem;
-  background-image: url(/uploads/top_artwork.png),url(/uploads/bottom_artwork.png);
+  background-image: url(/uploads/top-artwork.png),url(/uploads/bottom-artwork.png);
   background-repeat:no-repeat;
   background-position:center top, center bottom;
   background-size:contain, contain;
@@ -340,14 +350,19 @@ div.row.excerpt__title {
   background-color: red;
 }
 
+.tickets span {
+  font-family: $body-font-family;
+  padding-left: 0.5rem;
+}
+
 // 11. About
 // --------
 
 .about {
-  background-image: url(/uploads/top_artwork.png);
+  background-image: url(/uploads/top-artwork-v2.png),url(/uploads/bottom-artwork-v3.png);
   background-repeat:no-repeat;
-  background-position:center top;
-  background-size:contain;
+  background-position:center top, center bottom;
+  background-size:contain, contain;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -379,7 +394,7 @@ div.row.excerpt__title {
 
 .line-up {
   min-height: 50rem;
-  background-image: url(/uploads/top_artwork.png),url(/uploads/bottom_artwork.png);
+  background-image: url(/uploads/top-artwork-v3.png),url(/uploads/bottom-artwork.png);
   background-repeat:no-repeat;
   background-position:center top, center bottom;
   background-size:contain, contain;
@@ -391,7 +406,7 @@ div.row.excerpt__title {
 // --------
 
 .info {
-  background-image: url(/uploads/top_artwork.png),url(/uploads/bottom_artwork.png);
+  background-image: url(/uploads/top-artwork.png),url(/uploads/bottom-artwork.png);
   background-repeat:no-repeat;
   background-position:center top, center bottom;
   background-size:contain, contain;
