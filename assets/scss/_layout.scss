@@ -291,6 +291,7 @@ div.row.excerpt__title {
 
 .event__title {
   padding-bottom: 1rem;
+  color: $color--gray;
 }
 
 .event__acts {
@@ -370,7 +371,7 @@ div.row.excerpt__title {
   background-position:center top, center bottom;
   background-size:contain, contain;
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 10rem;
 }
 
 // 11. Info
