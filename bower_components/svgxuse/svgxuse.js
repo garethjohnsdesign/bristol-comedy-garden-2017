@@ -2,13 +2,13 @@
  * @copyright Copyright (c) 2017 IcoMoon.io
  * @license   Licensed under MIT license
  *            See https://github.com/Keyamoon/svgxuse
- * @version   1.2.2
+ * @version   1.2.3
  */
 /*jslint browser: true */
 /*global XDomainRequest, MutationObserver, window */
 (function () {
     "use strict";
-    if (window && window.addEventListener) {
+    if (typeof window !== "undefined" && window.addEventListener) {
         var cache = Object.create(null); // holds xhr objects to prevent multiple requests
         var checkUseElems;
         var tid; // timeout id

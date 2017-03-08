@@ -262,6 +262,9 @@ div.row.excerpt__title {
   background-size:contain;
   padding-top: 4rem;
   padding-bottom: 2rem;
+  @include breakpoint(small only) {
+    padding-top: 2rem;
+  }
 }
 
 .location__map {
@@ -280,6 +283,10 @@ div.row.excerpt__title {
 .event__title {
   padding-bottom: 1rem;
   color: $color--gray;
+}
+
+.event__title span {
+  color: $color--black;
 }
 
 .event__acts {
@@ -345,9 +352,27 @@ div.row.excerpt__title {
   padding-bottom: 4rem;
 }
 
+.about .callout {
+  margin-bottom: 0rem;
+}
+
 .about p {
   font-size: 1.25rem;  
 }
+
+.about__images {
+  padding-top: 2rem;
+}
+
+.about__images img {
+  opacity: 1;
+  transition: $primary-transition;
+}
+
+.about__images:hover img {
+  opacity: 0.8;
+}
+
 
 // 11. Line-up
 // --------
