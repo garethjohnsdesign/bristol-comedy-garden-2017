@@ -16,8 +16,6 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
 }
 
 input {
@@ -46,16 +44,6 @@ img {
 
 a {
   transition: $primary-transition;
-}
-
-.main-content {
-  flex: 1 0 auto;
-}
-
-.site-wrapper {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
 }
 
 
