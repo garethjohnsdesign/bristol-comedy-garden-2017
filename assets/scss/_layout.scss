@@ -270,7 +270,7 @@ div.row.excerpt__title {
   background-repeat:no-repeat;
   background-position:center top;
   background-size:contain;
-  padding-top: 4rem;
+  padding-top: 2rem;
   padding-bottom: 2rem;
   @include breakpoint(small only) {
     padding-top: 2rem;
@@ -291,8 +291,15 @@ div.row.excerpt__title {
 // ---------
 
 .event {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  background-image: url(/uploads/top-artwork-v4.png),url(/uploads/bottom-artwork-v4.png);
+  background-repeat:no-repeat;
+  background-position:center top, center bottom;
+  background-size:contain, contain;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  @include breakpoint(small only) {
+    padding-top: 2rem;
+  }
 }
 
 .event__title {
