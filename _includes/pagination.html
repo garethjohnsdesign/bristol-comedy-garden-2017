@@ -1,26 +1,28 @@
 <div class="row align-center">
 <div class="small-8 columns">
 
-<div class="row align-justify">
+<div class="row">
 
-<div class="shrink columns">
+<div class="small-4 columns">
   {% if page.previous.url %}
     <a href="{{page.previous.url}}">
       <div class="pagination align-middle">
-        <svg class="icon icon-arrow-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-left"></use></svg> Previous
+        <svg class="icon icon-arrow-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-left"></use></svg> <span class="show-for-medium">Previous</span>
       </div>
     </a>
   {% endif %}
 </div>
 
-<div class="shrink columns">
-    <a href="{{page.previous.url}}">
-      All
+<div class="small-4 columns align-middle">
+    <a href="/line-up/#all">
+      <div class="pagination align-middle text-center">
+        <svg class="icon icon-grid"><use xlink:href="/assets/icons/symbol-defs.svg#icon-grid"></use></svg>
+      </div>
     </a>
 </div>
 
 
-<div class="shrink columns">
+<div class="small-4 columns text-right">
   {% if page.next.url %}
   <a href="{{page.next.url}}">
     <div class="pagination align-middle">
