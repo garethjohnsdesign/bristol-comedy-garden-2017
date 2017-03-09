@@ -140,6 +140,9 @@ i, cite, em, var, address, dfn {
       background:$color--dark-blue;
       transition: $primary-transition;
       opacity:0.8;
+      @include breakpoint(small only) {
+      opacity:0.1;
+      }
     }
     &:hover .excerpt__title p {
       opacity: 1;
@@ -147,6 +150,9 @@ i, cite, em, var, address, dfn {
     }
     &:hover .excerpt__image img {
     filter: grayscale(1);
+    @include breakpoint(small only) {
+      filter: grayscale(0);
+      }
     } 
 }
 
@@ -422,6 +428,9 @@ div.row.excerpt__title {
   background-size:contain, contain;
   padding-top: 5rem;
   padding-bottom: 10rem;
+    @include breakpoint(small only) {
+    padding-top: 2rem;
+  }
 }
 
 // 11. Info
