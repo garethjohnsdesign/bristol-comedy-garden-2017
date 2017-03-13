@@ -34,7 +34,7 @@ featured:
   subheader: 
   is-sold-out: 
   line-up: Saturday Late
-- name: David o'Doherty
+- name: David O'Doherty
   image: "/uploads/david-o-doherty.jpg"
   subheader: 
   is-sold-out: 
