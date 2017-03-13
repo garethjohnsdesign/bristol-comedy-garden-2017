@@ -22,8 +22,6 @@ general:
     Sat 17th June: 2.45pm - 10.30pm
 
     Sun 18th June: 2.45pm - 10.30pm
-
-    There is no entry after 10pm and our bars stop serving at 10:30pm.
 - title: Festival Site
   text: |-
     You must have a valid ticket to gain entry to the Comedy Garden. Tickets can be purchased online in advance or at the on site Box Office on the evening of the show, depending on availability.
