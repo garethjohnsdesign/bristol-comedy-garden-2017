@@ -5,17 +5,17 @@ image: "/assets/img/og-image.png"
 carousel:
 - name: Greg Davies
   image: "/uploads/greg-davies-feature.jpg"
-  subheader: "Undoubtedly one of the kingpins of British comedy - Evening Standard"
+  subheader: Undoubtedly one of the kingpins of British comedy - Evening Standard
   is-sold-out: false
   line-up: Sunday Late
 - name: Ross Noble
   image: "/uploads/ross-noble-feature.jpg"
-  subheader: "One of comedy’s greatest marvels - Daily Telegraph"
+  subheader: One of comedy’s greatest marvels - Daily Telegraph
   is-sold-out: 
   line-up: Thursday
 - name: Adam Hills
   image: "/uploads/adam-hills-feature.jpg"
-  subheader: "If you cannot enjoy Adam Hills you cannot have a pulse - The Scotsman"
+  subheader: If you cannot enjoy Adam Hills you cannot have a pulse - The Scotsman
   is-sold-out: 
   line-up: Sunday Mid
 featured:
@@ -26,7 +26,7 @@ featured:
   line-up: Wednesday
 - name: Nina Conti
   image: "/uploads/nina-conti.jpg"
-  subheader:
+  subheader: 
   is-sold-out: true
   line-up: Saturday Mid
 - name: Rich Hall
@@ -61,3 +61,4 @@ featured:
   line-up: Saturday Late
 layout: index
 ---
+

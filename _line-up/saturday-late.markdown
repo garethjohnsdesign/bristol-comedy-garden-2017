@@ -12,7 +12,9 @@ acts:
   image: "/uploads/fin-taylor.jpg"
 quote: Now is the time to grab this chance to see the great man at work
 quote-cite: The Guardian
-secondary-text: Joining Rich is Mock The Week’s unmistakable Canadian pun-maestro Stewart Francis, bringing his razor sharp one-liners to the Big Top with Live At The Apollo star Kerry Godliman and the much acclaimed Fin Taylor as host.
+secondary-text: Joining Rich is Mock The Week’s unmistakable Canadian pun-maestro
+  Stewart Francis, bringing his razor sharp one-liners to the Big Top with Live At
+  The Apollo star Kerry Godliman and the much acclaimed Fin Taylor as host.
 festival-starts-at: 2017-06-17 18:30:00 Z
 show-starts-at: 2017-06-17 19:30:00 Z
 ticket-price: "£18.50 - £24"
