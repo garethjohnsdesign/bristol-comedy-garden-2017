@@ -12,9 +12,14 @@ general:
 
     Please note that our bars and food stalls only accept cash.
 - title: Festival Timings
-  text: "Weds 14th June: 6pm - 10.30pm\nThurs 15th June: 6pm - 10.30pm\nFri 16th June:
-    6pm - 10.30pm\nSat 17th June: 2.45pm - 10.30pm\nSun 18th June: 2.45pm - 10.30pm
-    \n\n\t\n\nThere is no entry after 10pm and our bars stop serving at 10:30pm."
+  text: |-
+    Weds 14th June: 6pm - 10.30pm
+    Thurs 15th June: 6pm - 10.30pm
+    Fri 16th June: 6pm - 10.30pm
+    Sat 17th June: 2.45pm - 10.30pm
+    Sun 18th June: 2.45pm - 10.30pm
+
+    There is no entry after 10pm and our bars stop serving at 10:30pm.
 - title: Festival Site
   text: |-
     You must have a valid ticket to gain entry to the Comedy Garden. Tickets can be purchased online in advance or at the on site Box Office on the evening of the show, depending on availability.
