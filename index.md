@@ -3,58 +3,61 @@ title: Bristol Comedy Garden 2017
 position: 0
 image: "/assets/img/og-image.png"
 carousel:
-- name: Stewart Lee
-  image: "/uploads/stewart-lee-feature.jpg"
-  subheader: BAFTA and British Comedy Award winner returns to Queen Square
-  is-sold-out: true
-  line-up: Friday
-- name: David o'Doherty
-  image: "/uploads/david-o-doherty-feature.jpg"
-  subheader: The Lidl Enya, the broken Bublé; David O’Doherty (and his tiny keyboard)
-    return
+- name: Greg Davies
+  image: "/uploads/greg-davies-feature.jpg"
+  subheader: "Undoubtedly one of the kingpins of British comedy - Evening Standard"
+  is-sold-out: false
+  line-up: Sunday Late
+- name: Ross Noble
+  image: "/uploads/ross-noble-feature.jpg"
+  subheader: "One of comedy’s greatest marvels - Daily Telegraph"
   is-sold-out: 
-  line-up: Sunday
+  line-up: Thursday
+- name: Adam Hills
+  image: "/uploads/adam-hills-feature.jpg"
+  subheader: "If you cannot enjoy Adam Hills you cannot have a pulse - The Scotsman"
+  is-sold-out: 
+  line-up: Sunday Mid
 featured:
-- name: Jason Manford
-  image: "/uploads/jason-manford.jpg"
-  subheader: Star of Live At The Apollo
-  is-sold-out: true
-  line-up: Thursday
-- name: Adam Buxton
-  image: "/uploads/adam-buxton.jpg"
-  subheader: Bug - David Bowie Special
-  is-sold-out: true
+- name: Joe Lycett
+  image: "/uploads/joe-lycett-variant.jpg"
+  subheader: 
+  is-sold-out: false
   line-up: Wednesday
-- name: Cardinal Burns
-  image: "/uploads/cardinal-burns.jpg"
-  subheader: 
-  is-sold-out: 
-  line-up: Friday
-- name: Paul Foot
-  image: "/uploads/paul-foot.jpg"
-  subheader: 
-  is-sold-out: 
-  line-up: Thursday
-- name: Henning Wehn
-  image: "/uploads/henning-wehn.jpg"
-  subheader: 
-  is-sold-out: 
-  line-up: Wednesday
-- name: Seann Walsh
-  image: "/uploads/seann-walsh.jpg"
+- name: Nina Conti
+  image: "/uploads/nina-conti.jpg"
+  subheader:
+  is-sold-out: true
+  line-up: Saturday Mid
+- name: Rich Hall
+  image: "/uploads/rich-hall.jpg"
   subheader: 
   is-sold-out: 
   line-up: Saturday Late
-- name: Kerry Godliman
-  image: "/uploads/kerry-godliman.jpg"
+- name: David o'Doherty
+  image: "/uploads/david-o-doherty.jpg"
+  subheader: 
+  is-sold-out: 
+  line-up: Friday
+- name: Sara Pascoe
+  image: "/uploads/sara-pascoe.jpg"
+  subheader: 
+  is-sold-out: 
+  line-up: Friday
+- name: Mark Watson
+  image: "/uploads/mark-watson.jpg"
   subheader: 
   is-sold-out: 
   line-up: Wednesday
-- name: Mae Martin
-  image: "/uploads/mae-martin.jpg"
+- name: Tim Key
+  image: "/uploads/tim-key.jpg"
   subheader: 
   is-sold-out: 
-  line-up: Wednesday
+  line-up: Friday
+- name: Stewart Francis
+  image: "/uploads/stewart-francis.jpg"
+  subheader: 
+  is-sold-out: 
+  line-up: Saturday Late
 layout: index
 ---
-
