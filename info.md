@@ -58,18 +58,6 @@ general:
     over 16 to apply.\n\nIf you’re interested, please fill out the [Volunteer Expression
     of Interest](https://form.jotform.co/COMMOVED/bcg16-volunteer-application) form
     and you will be contacted shortly."
-- title: Work With Us — Bar Crew
-  text: "We’re looking for friendly, confident and hard-working people to come and
-    work on our bars during the Comedy Garden.\n\nPrior bar experience is preferred,
-    however training will be provided. We're looking for passionate, dedicated and
-    enthusiastic individuals who are committed to learning and working in a team.
-    It is a fast paced environment and you will be expected to work efficiently and
-    diligently. \n\nYou’ll enjoy all the perks that go with being part of the BCG
-    team and in return you’ll be punctual, reliable and ready to jump into action
-    at any given moment.\n\nThis is a paid role. You will be expected to work at least
-    four shifts throughout the festival period (28th June to 3rd July) You must be
-    over 18. If you’re interested, please fill out the [Bar Crew Expression of Interest](https://form.jotform.co/COMMOVED/bcg16-barcrew-eoi)
-    form to apply. "
 layout: info
 ---
 
