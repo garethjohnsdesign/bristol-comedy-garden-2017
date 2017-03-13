@@ -12,7 +12,7 @@ acts:
   image: "/uploads/nish-kumar.jpg"
 quote: One of comedy’s greatest marvels
 quote-cite: Daily Telegraph
-secondary-text: Joining Ross is an astounding supporting cast with Live At The Apollo
+secondary-text: Joining Ross is a astounding supporting cast with Live At The Apollo
   star and observational king-slacker Seann Walsh, razor-sharp, intrepid social commentator
   Andrew Maxwell and the wildly acclaimed Qi & Have I Got News For You regular Nish
   Kumar as host.
@@ -24,4 +24,4 @@ is-sold-out:
 layout: event
 ---
 
-One of the most successful cult-comedians of our time, randomist-extraordinaire Ross Noble drops in to the Comedy Garden. The master surrealist tops off an unmissable evening in the Big Top with a scenic trip through his inimitable, infinite and hilarious imagination. 
+One of the most successful cult-comedians of our time, randomist-extraordinaire Ross Noble drops into the Comedy Garden. The master surrealist will top off an unmissable evening in the Big Top with a scenic trip through his infamous, infinite, inimitable and hilarious imagination. 
