@@ -177,48 +177,6 @@
 		"oAP": "\/_layouts\/tickets.html",
 		"oF": 0
 		},
-	"\/_line-up\/friday.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_line-up\/friday.markdown",
-		"oF": 0
-		},
-	"\/_line-up\/saturday-late.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_line-up\/saturday-late.markdown",
-		"oF": 0
-		},
-	"\/_line-up\/saturday-mid.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_line-up\/saturday-mid.markdown",
-		"oF": 0
-		},
-	"\/_line-up\/sunday-late.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_line-up\/sunday-late.markdown",
-		"oF": 0
-		},
-	"\/_line-up\/sunday-mid.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_line-up\/sunday-mid.markdown",
-		"oF": 0
-		},
-	"\/_line-up\/thursday.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_line-up\/thursday.markdown",
-		"oF": 0
-		},
-	"\/_line-up\/wednesday.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_line-up\/wednesday.markdown",
-		"oF": 0
-		},
 	"\/_site": {
 		"ft": 65536,
 		"oA": 1,
@@ -416,7 +374,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/greg-davies-feature.jpg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/greg-davies.jpg": {
@@ -560,7 +518,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/ross-noble-feature.jpg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/ross-noble-variant.jpg": {
@@ -578,7 +536,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/ross-noble.jpg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/sara-pascoe-variant.jpg": {
@@ -7527,42 +7485,6 @@
 		"oA": 2,
 		"oAP": "\/humans.txt",
 		"oF": 0
-		},
-	"\/index.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/index.md",
-		"oF": 1,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/info.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/info.md",
-		"oF": 1,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/LICENSE.md": {
 		"cS": 0,
