@@ -12,27 +12,21 @@ general:
 
     Please note that our bars and food stalls only accept cash.
 - title: Festival Timings
-  text: "Tues 28th June 6pm to 11pm  \nWeds 29th June 6pm to 11pm  \nThurs 30th June
-    6pm to 11pm  \nFri 1st July 6pm to 11pm  \nSat 2nd July 2pm to 11pm  \nSun 3rd
-    July 1pm to 11pm\n\nThere is no entry after 10pm and our bars stop serving at
-    10:30pm."
+  text: "Weds 14th June: 6pm - 10.30pm\nThurs 15th June: 6pm - 10.30pm\nFri 16th June:
+    6pm - 10.30pm\nSat 17th June: 2.45pm - 10.30pm\nSun 18th June: 2.45pm - 10.30pm
+    \n\n\t\n\nThere is no entry after 10pm and our bars stop serving at 10:30pm."
 - title: Festival Site
   text: |-
-    Entry to the festival is free but a ticket is needed to get into the shows taking place in the venues. Tickets can be purchased in advance online or at the on site Box Office on the evening of the show if there is availability.
+    You must have a valid ticket to gain entry to the Comedy Garden. Tickets can be purchased online in advance or at the on site Box Office on the evening of the show, depending on availability.
 
-    Please respect our traders and do not try and bring food or drink into the festival.
+    Please respect our traders and do not try and bring food or drink into the Comedy Garden.
 
-    **Age Policy & Challenge 25**
-    Our venues carry an age policy of "No under 16's, under 18's accompanied by an adult" - apologies to all you younger comedy fans out there.
-
-    All our bars operate the Challenge 25 scheme. If you're lucky enough to look under 25, please bring ID!
+    All our bars operate the Challenge 25 scheme. If you’re lucky enough to look under 25, please bring ID!
 - title: Seating in the Venues + Group Bookings
   text: |-
-    The Big Top and Apple Top are seated venues. We have two types of tickets in the Big Top - Front Stalls and Rear Stalls. The Front Stalls are allocated and positioned closest to the stage and therefore the action. All Big Top Rear Stall tickets and Apple Top tickets are sold as unreserved which means you can choose where you sit when you arrive.
+    The Big Top is a seated venues. There are two types of tickets, Front Stalls and Rear Stalls. The Front Stalls are allocated and positioned closest to the stage and therefore the action. All Rear Stall tickets are sold as unreserved which means you can choose where you sit when you arrive.
 
-    GROUP BOOKINGS
-
-    If you would like purchase more than 20 tickets please contact us and we will help you with the necessary arrangements.
+    Group Bookings If you would like purchase more than 20 tickets please contact us and we will help you with the necessary arrangements.
 - title: Accessibility
   text: |-
     The festival is totally accessible and wheelchair spaces and free carer tickets are available through our online ticketing partner. Please contact us ahead of the festival if you have any special requirements and we’ll do our best to accommodate you. While the festival is in full swing our Front of House team will be on hand to assist you in anyway they can.
@@ -41,23 +35,16 @@ general:
 
     Please do not bring any animals into the festival, only guide dogs are permitted.
 
-    You can call SEE Tickets to make a disabled ticket booking on 0871 220 0260 or 0115 896 0030, these bookings can also be made online.
+    Disabled & carer tickets are available on the purchase page on SEE Tickets.
 - title: Work With Us — Front of House Team
-  text: "Join our Front of House Team and get in on all the hilarious action. You’ll
-    be the first point of contact with our lovely audiences so good communication
-    skills and a friendly attitude are a must. Working with the Front of House Manager
-    you’ll be responsible for getting the audience to the right place at the right
-    time, making sure the shows run on time and keeping the venues running smoothly.
-    You should be confident, good with people, alert and interested in the programme
-    and festival you’re representing. This role is very active and a lot of fun, you
-    should enjoy dealing with lots of people and manage all this with a level head.\n\nThis
-    is a volunteer role, you will be given one scrumptious hot meal per shift and
-    as many (non-alcoholic) drinks as you need. \n\nYou will be expected to work at
-    least one shift (approx. four hours with breaks) throughout the festival, with
-    full availability from 28th June to 3rd July regarded very highly. You must be
-    over 16 to apply.\n\nIf you’re interested, please fill out the [Volunteer Expression
-    of Interest](https://form.jotform.co/COMMOVED/bcg16-volunteer-application) form
-    and you will be contacted shortly."
+  text: |-
+    Join our Front of House Team and get in on all the hilarious action. You’ll be the first point of contact with our lovely audiences so good communication skills and a friendly attitude are a must. Working with the Front of House Manager you’ll be responsible for getting our audiences to the right place at the right time, making sure the shows run on time and keeping the venues running smoothly. You should be confident, good with people, alert and interested in the programme and event you’re representing. This role is very active and a lot of fun, you should enjoy dealing with lots of people and manage all this with a level head.
+
+    This is a volunteer role, you will be given one scrumptious hot meal per shift and as many (non-alcoholic) drinks as you need.
+
+    You will be expected to work at least three shifts (approx. four hours with breaks) throughout the Comedy Garden, with full availability from 14th June to 18th June regarded very highly. You must be over 16 to apply.
+
+    If you’re interested, please email hannah@57festivals.com and we will be in touch with you shortly.
 layout: info
 ---
 
