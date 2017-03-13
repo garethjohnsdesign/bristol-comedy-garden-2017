@@ -13,11 +13,10 @@ acts:
   image: "/uploads/ed-gamble.jpg"
 quote: Davies is undoubtedly one of the kingpins of British comedy
 quote-cite: Evening Standard
-secondary-text: Joining Greg is an astounding supporting line-up with C4’s Comedy
-  Gala and 8 Out Of 10 Cats Does Countdown Tom Allen, laid-back Live At The Apollo
-  star and Edinburgh Comedy Award nominee Dane Baptiste and the charming Ed Gamble
-  as host.
-festival-starts-at: 2017-06-18 18:30:00 Z
+secondary-text: Joining Greg is an astounding supporting line-up with C4’s ‘Comedy
+  Gala’ and ‘8 Out Of 10 Cats Does Countdown’s Tom Allen, a special guest to be announced
+  and the charming Ed Gamble as host.
+festival-starts-at: 2017-06-18 18:00:00 Z
 show-starts-at: 2017-06-18 19:30:00 Z
 ticket-price: "£18.50"
 ticket-link: http://www.seetickets.com/event/greenwich-comedy-festival-adam-buxton-bug/big-top-greenwich-comedy-festival/983596/
@@ -25,4 +24,4 @@ is-sold-out:
 layout: event
 ---
 
-Toweringly tall and toweringly funny, national treasure Greg Davies headlines the final show of Bristol Comedy Garden 2017. Writer and star of the BAFTA nominated Man Down and host of Taskmaster, Greg is sure to close the 2017 festival in unmistakable and hilarious style.
+Toweringly tall and toweringly funny, award-winning treasure Greg Davies headlines the incredible final show for Bristol Comedy Garden 2017. Writer and star of the BAFTA nominated Man Down and host of Taskmaster, Greg is sure to close the 2017 festival in unmissable and hilarious style.
