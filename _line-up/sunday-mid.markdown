@@ -1,6 +1,6 @@
 ---
 title: Sunday Mid
-date: 2017-06-18 16:00:00 Z
+date: 2017-06-18 15:45:00 Z
 day: Sunday
 acts:
 - name: Adam Hills
@@ -17,8 +17,8 @@ quote-cite: The Guardian
 secondary-text: Joining Adam is a rare UK date from Live At The Apollo star and multi-award
   winning Scotsman Danny Bhoy, the bitingly funny, much acclaimed newcomer Kiri Pritchard
   Mclean and Bristol Comedy hero Mark Olver as host.
-festival-starts-at: 2017-06-18 14:00:00 Z
-show-starts-at: 2017-06-18 16:00:00 Z
+festival-starts-at: 2017-06-18 14:45:00 Z
+show-starts-at: 2017-06-18 15:45:00 Z
 ticket-price: "£18.50"
 ticket-link: http://www.seetickets.com/event/greenwich-comedy-festival-adam-buxton-bug/big-top-greenwich-comedy-festival/983596/
 is-sold-out: 
