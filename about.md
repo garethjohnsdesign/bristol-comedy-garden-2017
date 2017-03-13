@@ -11,12 +11,8 @@ images:
 layout: about
 ---
 
-The mighty Bristol Comedy Garden returns this June with yet another quality crop of comedians. Once again Queen Square, in the heart of the city, will be transformed into a comedy wonderland complete with legendary line-ups in the Big Top and Apple Top venues.
+The mighty Bristol Comedy Garden returns this June with a prize-winning crop of comedians. Once again the leafy lawns of Queen Square, in the heart of the city, will be transformed into a comedy wonderland complete with outrageously good line-ups in our beautiful Big Top.
 
-Come satisfy your comic cravings with the fierce, pop-culture obsessed Canadian Katherine Ryan, the revered Stewart Lee, Britain's favourite publican Al Murray, the provocative Reginald D Hunter, one-liner maestro Milton Jones, Edinburgh Comedy Award winner Bridget Christie, lo-fi genius David O’Doherty and the must see for Bowie fans, Adam Buxton’s BUG: David Bowie special.
+Come and satisfy your comic cravings with comedy’s greatest marvel ROSS NOBLE, the toweringly tall, toweringly funny, award-winning national treasure GREG DAVIES, the hugely popular and rampantly spontaneous TV star ADAM HILLS, British Comedy Award-winning genius NINA CONTI plus lots more blistering comedy from RICH HALL, SARA PASCOE, DAVID O’DOHERTY, MARK WATSON, KERRY GODLIMAN, STEWART FRANCIS and many many more.
 
-The South West’s brightest comedy festival will be bursting with bars, music, gourmet street-food and lots more. Get your tickets now and arrive early to make the most of this year’s blooming brilliant Bristol Comedy Garden!
-
-
-This year's Comedy Garden is a proud supporter of Cancer Research UK and Channel 4's [Stand Up To Cancer](http://www.standuptocancer.org.uk/). 
-Stand Up To Cancer and Stand Up To Cancer Brand Marks are registered trademarks or trademarks of the Entertainment Industry Foundation.
+The South West’s brightest comedy festival will be bursting with bars, gourmet street-food and a whole lot of good-times besides. Get your tickets now and arrive early to make the most of this year’s blooming brilliant Bristol Comedy Garden!
