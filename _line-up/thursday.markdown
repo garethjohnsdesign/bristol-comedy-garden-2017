@@ -2,18 +2,17 @@
 title: Thursday
 date: 2017-06-15 19:30:00 Z
 acts:
-- name: Jason Manford
-  image: "/uploads/jason-manford.jpg"
-- name: Sara Pascoe
-  image: "/uploads/sara-pascoe.jpg"
-- name: John Robins
-  image: "/uploads/john-robins.jpg"
-quote: He's blessed with the sort of laid-back charm and sharp turn of phrase you
-  can't manufacture
+- name: Ross Noble
+  image: "/uploads/ross-noble.jpg"
+- name: Seann Walsh
+  image: "/uploads/seann-walsh.jpg"
+- name: Andrew Maxwell
+  image: "/uploads/andrew-maxwell.jpg"
+- name: Nish Kumar
+  image: "/uploads/nish-kumar.jpg"
+quote: One of comedy’s greatest marvels
 quote-cite: Daily Telegraph
-secondary-text: Joining Jason is a special guest to be announced plus multi-award
-  winning Have I Got News For You regular Sara Pascoe, fresh off the back of a huge
-  sell out tour and Radio X presenter (and all-round dude) John Robins as host.
+secondary-text: Joining Ross is an astounding supporting cast with Live At The Apollo star and observational king-slacker Seann Walsh, razor-sharp, intrepid social commentator Andrew Maxwell and the wildly acclaimed Qi & Have I Got News For You regular Nish Kumar as host.
 festival-starts-at: 2017-06-15 18:00:00 Z
 show-starts-at: 2017-06-15 19:30:00 Z
 ticket-price: "£18.50 - £24"
@@ -22,4 +21,4 @@ is-sold-out:
 layout: event
 ---
 
-Star of Live At The Apollo, 8 Out Of 10 Cats, Qi and many more - Jason Manford headlines an all star show at Greenwich Comedy Festival. Expect a set chock-full of comedy anecdotes, comic misunderstandings and audience banter delivered with Jason’s likeable charm and teasingly intelligent wit.
+One of the most successful cult-comedians of our time, randomist-extraordinaire Ross Noble drops in to the Comedy Garden. The master surrealist tops off an unmissable evening in the Big Top with a scenic trip through his inimitable, infinite and hilarious imagination. 

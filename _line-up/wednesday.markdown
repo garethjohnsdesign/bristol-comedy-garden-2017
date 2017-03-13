@@ -2,19 +2,17 @@
 title: Wednesday
 date: 2017-06-14 19:30:00 Z
 acts:
-- name: Reginald D Hunter
-  image: "/uploads/reginald-d-hunter.jpg"
-- name: Tom Stade
-  image: "/uploads/tom-stade.jpg"
-- name: Andrew Maxwell
-  image: "/uploads/andrew-maxwell.jpg"
+- name: Mark Watson
+  image: "/uploads/mark-watson.jpg"
+- name: Joe Lycett
+  image: "/uploads/joe-lycett-variant.jpg"
+- name: James Acaster
+  image: "/uploads/james-acaster.jpg"
 - name: John Robins
   image: "/uploads/john-robins.jpg"
-quote: A refreshingly ruminative, searingly honest comedy style
-quote-cite: Daily Telegraph
-secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo
-  star and insatiable mischief maker Tom Stade, Ireland’s intrepid social commentator
-  Andrew Maxwell and all-round dude and Radio X presenter John Robins as host.
+quote: Belly laugh brilliant… The audience was weeping with laughter
+quote-cite: Time Out
+secondary-text: Joining Mark is 8 Out Of 10 Cats Does Countdown favourite and self confessed ‘absolute lad’ Joe Lycett, quadruple Edinburgh Comedy Award nominee and Mock The Week regular James Acaster and all round dude (and podcast wonder) John Robins as host.
 festival-starts-at: 2017-06-14 18:30:00 Z
 show-starts-at: 2017-06-14 19:30:00 Z
 ticket-price: "£18.50 - £24"
@@ -23,4 +21,4 @@ is-sold-out:
 layout: event
 ---
 
-One of the most brilliantly unpredictable, hilarious and thought-provoking comedians around - Reginald D Hunter heads to Bristol Comedy Garden. A consistent presence on TV with appearances on Qi, Have I Got News For You and many more - don’t miss this rewardingly provocative award-winner live.
+Multi-award winning, Bristolian comedy hero Mark Watson headlines an astounding, jam-packed opening night line-up for Bristol Comedy Garden 2017. The Live At The Apollo star brings a gag-packed set, customary flailing about, chaotic audience interaction and all sorts of other fun to the Big Top.
