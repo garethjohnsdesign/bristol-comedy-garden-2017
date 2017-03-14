@@ -25,4 +25,4 @@ is-sold-out:
 layout: event
 ---
 
-Bristol’s very own multi-award winning comedy hero Mark Watson headlines an astounding opening night for the Comedy Garden 2017. The Live At The Apollo star brings a gag-packed set complete with his customary flailing about, chaotic audience interaction and all sorts of other fun to the Big Top.
+Bristol’s very own multi-award winning comedy hero Mark Watson headlines an astounding opening night for the Comedy Garden 2017. The *Live At The Apollo* star brings a gag-packed set complete with his customary flailing about, chaotic audience interaction and all sorts of other fun to the Big Top.
