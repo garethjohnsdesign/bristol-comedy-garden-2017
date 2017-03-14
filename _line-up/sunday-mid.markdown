@@ -21,7 +21,7 @@ secondary-text: Joining Adam is a rare UK date from Live At The Apollo star and 
 festival-starts-at: 2017-06-18 14:45:00 Z
 show-starts-at: 2017-06-18 15:45:00 Z
 ticket-price: "£18.50 - £24"
-ticket-link: http://www.seetickets.com/event/greenwich-comedy-festival-adam-buxton-bug/big-top-greenwich-comedy-festival/983596/
+ticket-link: http://www.seetickets.com/event/adam-hills/big-top-bristol-comedy-garden/1079626/
 is-sold-out: 
 layout: event
 ---
