@@ -6,8 +6,6 @@ day: Sunday
 acts:
 - name: Adam Hills
   image: "/uploads/adam-hills.jpg"
-- name: Danny Bhoy
-  image: "/uploads/danny-bhoy.jpg"
 - name: Kiri Pritchard-Mclean
   image: "/uploads/kiri-pritchard-mclean.jpg"
 - name: Mark Olver
@@ -15,9 +13,9 @@ acts:
 quote: Hills delivers stand-up so effortlessly brilliant you wonder why some comedians
   even get out of bed
 quote-cite: The Guardian
-secondary-text: Joining Adam is a rare UK date from Live At The Apollo star and multi-award
-  winning Scotsman Danny Bhoy, the bitingly funny, much acclaimed newcomer Kiri Pritchard
-  Mclean and Bristol Comedy hero Mark Olver as host.
+secondary-text: Joining Adam is a very special guest to be announced plus the bitingly
+  funny, much acclaimed newcomer Kiri Pritchard Mclean and Bristol Comedy hero Mark
+  Olver as host.
 festival-starts-at: 2017-06-18 14:45:00 Z
 show-starts-at: 2017-06-18 15:45:00 Z
 ticket-price: "£18.50 - £24"
