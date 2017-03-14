@@ -20,7 +20,7 @@ secondary-text: Joining Mark is 8 Out of 10 Cats Does Countdown favourite and se
 festival-starts-at: 2017-06-14 18:00:00 Z
 show-starts-at: 2017-06-14 19:30:00 Z
 ticket-price: "£18.50 - £24"
-ticket-link: http://www.seetickets.com/event/magners-bristol-comedy-garden-reginald-d-hunter/big-top-bristol-comedy-garden/973926/
+ticket-link: http://www.seetickets.com/event/mark-watson/big-top-bristol-comedy-garden/1079365/
 is-sold-out: 
 layout: event
 ---
