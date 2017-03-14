@@ -1,6 +1,7 @@
 ---
 title: Sunday Mid
 date: 2017-06-18 15:45:00 Z
+position: 6
 day: Sunday
 acts:
 - name: Adam Hills

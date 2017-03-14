@@ -1,6 +1,7 @@
 ---
 title: Saturday Mid
 date: 2017-06-17 15:45:00 Z
+position: 4
 acts:
 - name: Nina Conti
   image: "/uploads/nina-conti.jpg"

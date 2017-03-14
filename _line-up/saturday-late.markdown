@@ -1,6 +1,7 @@
 ---
 title: Saturday Late
 date: 2017-06-17 19:30:00 Z
+position: 3
 acts:
 - name: Rich Hall
   image: "/uploads/rich-hall.jpg"
