@@ -8,8 +8,6 @@ acts:
   image: "/uploads/greg-davies.jpg"
 - name: Tom Allen
   image: "/uploads/tom-allen.jpg"
-- name: Dane Baptiste
-  image: "/uploads/dane-baptiste.jpg"
 - name: Ed Gamble
   image: "/uploads/ed-gamble.jpg"
 quote: Davies is undoubtedly one of the kingpins of British comedy
