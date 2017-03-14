@@ -17,7 +17,7 @@ secondary-text: Joining Mark is 8 Out of 10 Cats Does Countdown favourite and se
   ‘absolute lad’ Joe Lycett, quadruple Edinburgh Comedy Award nominee and Mock The
   Week regular James Acaster plus all-round-dude (and podcast wonder) John Robins
   as host.
-festival-starts-at: 2017-06-14 18:30:00 Z
+festival-starts-at: 2017-06-14 18:00:00 Z
 show-starts-at: 2017-06-14 19:30:00 Z
 ticket-price: "£18.50 - £24"
 ticket-link: http://www.seetickets.com/event/magners-bristol-comedy-garden-reginald-d-hunter/big-top-bristol-comedy-garden/973926/
