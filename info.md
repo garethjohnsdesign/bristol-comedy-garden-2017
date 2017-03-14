@@ -48,7 +48,7 @@ general:
 
     Please do not bring any animals into the festival, only guide dogs are permitted.
 
-    Disabled & carer tickets are available on the purchase page on SEE Tickets.
+    Disabled and carer tickets are available on the purchase page on SEE Tickets.
 - title: Work With Us — Front of House Team
   text: |-
     Join our Front of House Team and get in on all the hilarious action. You’ll be the first point of contact with our lovely audiences so good communication skills and a friendly attitude are a must. Working with the Front of House Manager you’ll be responsible for getting our audiences to the right place at the right time, making sure the shows run on time and keeping the venues running smoothly. You should be confident, good with people, alert and interested in the programme and event you’re representing. This role is very active and a lot of fun, you should enjoy dealing with lots of people and manage all this with a level head.
@@ -57,7 +57,7 @@ general:
 
     You will be expected to work at least three shifts (approx. four hours with breaks) throughout the Comedy Garden, with full availability from 14th June to 18th June regarded very highly. You must be over 16 to apply.
 
-    If you’re interested, please email  **hannah@57Festivals.com**  and we will be in touch with you shortly.
+    If you’re interested, please [email](mailto:hannah@57Festivals.com)  and we will be in touch with you shortly.
 layout: info
 ---
 
