@@ -57,7 +57,7 @@ general:
 
     You will be expected to work at least three shifts (approx. four hours with breaks) throughout the Comedy Garden, with full availability from 14th June to 18th June regarded very highly. You must be over 16 to apply.
 
-    If you’re interested, please email hannah@57festivals.com and we will be in touch with you shortly.
+    If you’re interested, please email  hannah@57Festivals.com  and we will be in touch with you shortly.
 layout: info
 ---
 
