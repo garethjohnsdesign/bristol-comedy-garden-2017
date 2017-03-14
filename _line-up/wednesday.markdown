@@ -13,7 +13,10 @@ acts:
   image: "/uploads/john-robins.jpg"
 quote: Belly laugh brilliant… The audience was weeping with laughter
 quote-cite: Time Out
-secondary-text: "Joining Mark is 8 Out of 10 Cats Does Countdown favourite and self-confessed ‘absolute lad’ Joe Lycett, quadruple Edinburgh Comedy Award nominee and Mock The Week regular James Acaster plus all-round-dude (and podcast wonder) John Robins as host."
+secondary-text: Joining Mark is 8 Out of 10 Cats Does Countdown favourite and self-confessed
+  ‘absolute lad’ Joe Lycett, quadruple Edinburgh Comedy Award nominee and Mock The
+  Week regular James Acaster plus all-round-dude (and podcast wonder) John Robins
+  as host.
 festival-starts-at: 2017-06-14 18:30:00 Z
 show-starts-at: 2017-06-14 19:30:00 Z
 ticket-price: "£18.50 - £24"
