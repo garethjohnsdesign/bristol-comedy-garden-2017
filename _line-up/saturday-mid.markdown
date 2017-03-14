@@ -20,7 +20,7 @@ secondary-text: Joining Nina is an all-star supporting line-up with multi-award
 festival-starts-at: 2017-06-17 14:45:00 Z
 show-starts-at: 2017-06-17 15:45:00 Z
 ticket-price: "£18.50 - £24"
-ticket-link: http://www.seetickets.com/event/magners-bristol-comedy-garden-reginald-d-hunter/big-top-bristol-comedy-garden/973926/
+ticket-link: http://www.seetickets.com/event/nina-conti/big-top-bristol-comedy-garden/1079399/
 is-sold-out: 
 layout: event
 ---
