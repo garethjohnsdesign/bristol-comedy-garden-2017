@@ -20,7 +20,7 @@ secondary-text: Joining Greg is an astounding supporting line-up with C4’s ‘
 festival-starts-at: 2017-06-18 18:00:00 Z
 show-starts-at: 2017-06-18 19:30:00 Z
 ticket-price: "£18.50 - £24"
-ticket-link: http://www.seetickets.com/event/greenwich-comedy-festival-adam-buxton-bug/big-top-greenwich-comedy-festival/983596/
+ticket-link: http://www.seetickets.com/event/greg-davies/big-top-bristol-comedy-garden/1079404/
 is-sold-out: 
 layout: event
 ---
