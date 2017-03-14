@@ -40,7 +40,7 @@ general:
   text: |-
     The Big Top is a seated venues. There are two types of tickets, Front Stalls and Rear Stalls. The Front Stalls are allocated and positioned closest to the stage and therefore the action. All Rear Stall tickets are sold as unreserved which means you can choose where you sit when you arrive.
 
-    Group Bookings If you would like purchase more than 20 tickets please contact us and we will help you with the necessary arrangements.
+    **Group Bookings** If you would like to purchase more than 20 tickets please contact our group bookings team on **0115 8960030**.
 - title: Accessibility
   text: |-
     The festival is totally accessible and wheelchair spaces and free carer tickets are available through our online ticketing partner. Please contact us ahead of the festival if you have any special requirements and we’ll do our best to accommodate you. While the festival is in full swing our Front of House team will be on hand to assist you in anyway they can.
