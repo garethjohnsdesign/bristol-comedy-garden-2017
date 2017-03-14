@@ -10,13 +10,14 @@ general:
     \n\nAnd make sure you arrive hungry for great food as well as laughter and sample
     the delicious fare served up by our hand-picked selection of local street-food
     vendors. They’ll be busy serving up a veritable feast of meaty, veggie and vegan
-    dishes to suit all comedy-lover palates! \n\n\nPre-order your interval drinks!
+    dishes to suit all comedy-lover palates! \n\n\n**Pre-order your interval drinks!**
     Jump the bar queue during the interval by being all high-tech with Ordoo, a clever
     little app that let’s you pre-order and pay for your drinks. Just download the
-    app, fill in your payment details and order a round of drinks to collect from
-    the pick-up point at the bar. Ordoo will tell you when your drinks are ready so
-    there’s no need to hang around. Spend your interval enjoying a pint and having
-    a chuckle with your mates rather than standing in line! "
+    [app](http://ordoo.co.uk), fill in your payment details and order a round of drinks
+    to collect from the pick-up point at the bar. [Ordoo](http://ordoo.co.uk) will
+    tell you when your drinks are ready so there’s no need to hang around. Spend your
+    interval enjoying a pint and having a chuckle with your mates rather than standing
+    in line! "
 - title: Festival Timings
   text: |-
     Weds 14th June: 6pm - 10.30pm
