@@ -25,4 +25,4 @@ is-sold-out:
 layout: event
 ---
 
-Host of Channel 4’s groundbreaking The Last Leg and British Comedy Award winner Adam Hills makes his Bristol Comedy Garden debut. Adam Hills has fast become one of the most popular comedians in the UK - his combination of positive, uplifting comedy and rampant spontaneity has seen him receive numerous awards, glowing reviews and a legion of fans around the world.  
+Host of Channel 4’s groundbreaking The Last Leg and British Comedy Award winner Adam Hills makes his Bristol Comedy Garden debut. Adam Hills has fast become one of the most popular comedians in the UK — his combination of positive, uplifting comedy and rampant spontaneity has seen him receive numerous awards, glowing reviews and a legion of fans around the world.  

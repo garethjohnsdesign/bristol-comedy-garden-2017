@@ -12,7 +12,7 @@ acts:
   image: "/uploads/nish-kumar.jpg"
 quote: One of comedy’s greatest marvels
 quote-cite: Daily Telegraph
-secondary-text: Joining Ross is a astounding supporting cast with Live At The Apollo
+secondary-text: Joining Ross is an astounding supporting cast with Live At The Apollo
   star and observational king-slacker Seann Walsh, razor-sharp, intrepid social commentator
   Andrew Maxwell and the wildly acclaimed Qi & Have I Got News For You regular Nish
   Kumar as host.

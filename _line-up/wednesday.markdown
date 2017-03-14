@@ -12,7 +12,7 @@ acts:
   image: "/uploads/john-robins.jpg"
 quote: Belly laugh brilliant… The audience was weeping with laughter
 quote-cite: Time Out
-secondary-text: Joining Mark is 8 Out Of 10 Cats Does Countdown favourite and self-confessed
+secondary-text: Joining Mark is 8 Out of 10 Cats Does Countdown favourite and self-confessed
   ‘absolute lad’ Joe Lycett, quadruple Edinburgh Comedy Award nominee and Mock The
   Week regular James Acaster plus all-round-dude (and podcast wonder) John Robins
   as host.

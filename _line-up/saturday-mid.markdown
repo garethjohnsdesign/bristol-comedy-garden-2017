@@ -13,7 +13,7 @@ acts:
 quote: Put simply, Nina Conti is a genius
 quote-cite: The Mirror
 secondary-text: Joining Nina is an all-star supporting line-up with multi-award winning
-  Radio 4 favourite Marcus Brigstocke, much acclaimed Bristolian & 2016 Edinburgh
+  Radio 4 favourite Marcus Brigstocke, much acclaimed Bristolian and 2016 Edinburgh
   Comedy Award nominee Jayde Adams plus globe-trotting laughter-master Stephen K Amos
   as host.
 festival-starts-at: 2017-06-17 14:45:00 Z
