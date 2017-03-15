@@ -625,12 +625,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/about.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/about.html",
-		"oF": 0
-		},
 	"\/about.md": {
 		"cS": 0,
 		"eF": 1,
@@ -639,10 +633,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/about.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -7445,12 +7439,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/info.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/info.html",
-		"oF": 0
-		},
 	"\/info.md": {
 		"cS": 0,
 		"eF": 1,
@@ -7459,10 +7447,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/info.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/info.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
