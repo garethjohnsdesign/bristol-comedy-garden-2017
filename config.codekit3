@@ -7,7 +7,7 @@
 		"uuidString": "550FEDE5-7AFF-4FD3-8DBE-A45DE2D02921"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25568",
 "files": {
 	"\/404.md": {
 		"cS": 0,
@@ -213,6 +213,12 @@
 		"oAP": "\/_line-up\/thursday.markdown",
 		"oF": 0
 		},
+	"\/_line-up\/wednesday.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_line-up\/wednesday.markdown",
+		"oF": 0
+		},
 	"\/_site": {
 		"ft": 65536,
 		"oA": 1,
@@ -225,8 +231,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/adam-hills-feature.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/adam-hills.jpg": {
 		"ft": 16384,
@@ -234,8 +239,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/adam-hills.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/aisling-bea.jpg": {
 		"ft": 16384,
@@ -243,8 +247,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/aisling-bea.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/andrew-maxwell.jpg": {
 		"ft": 16384,
@@ -252,58 +255,47 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/andrew-maxwell.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/artwork.png": {
 		"ft": 32768,
 		"iS": 79483,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/artwork.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/bottom-artwork-v2.png": {
 		"ft": 32768,
 		"iS": 220223,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/bottom-artwork-v2.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/bottom-artwork-v3.png": {
 		"ft": 32768,
 		"iS": 112347,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/bottom-artwork-v3.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/bottom-artwork-v4.png": {
 		"ft": 32768,
 		"iS": 153749,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/bottom-artwork-v4.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/bottom-artwork.png": {
 		"ft": 32768,
 		"iS": 248884,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/bottom-artwork.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/dane-baptiste.jpg": {
 		"ft": 16384,
@@ -311,8 +303,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/dane-baptiste.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/danny-bhoy.jpg": {
 		"ft": 16384,
@@ -320,8 +311,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/danny-bhoy.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/david-o-doherty.jpg": {
 		"ft": 16384,
@@ -329,8 +319,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/david-o-doherty.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/ed-gamble.jpg": {
 		"ft": 16384,
@@ -338,8 +327,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/ed-gamble.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/fin-taylor.jpg": {
 		"ft": 16384,
@@ -347,8 +335,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/fin-taylor.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/gallery-01.jpg": {
 		"ft": 16384,
@@ -356,8 +343,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/gallery-01.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/gallery-02.jpg": {
 		"ft": 16384,
@@ -365,8 +351,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/gallery-02.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/gallery-03.jpg": {
 		"ft": 16384,
@@ -374,8 +359,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/gallery-03.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/gallery-04.jpg": {
 		"ft": 16384,
@@ -383,8 +367,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/gallery-04.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/gallery-05.jpg": {
 		"ft": 16384,
@@ -392,8 +375,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/gallery-05.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/gallery-06.jpg": {
 		"ft": 16384,
@@ -401,17 +383,15 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/gallery-06.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/greg-davies-feature.jpg": {
 		"ft": 16384,
-		"iS": 64077,
+		"iS": 69524,
 		"oA": 0,
 		"oAP": "\/_uploads\/greg-davies-feature.jpg",
 		"oF": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/_uploads\/greg-davies.jpg": {
 		"ft": 16384,
@@ -419,8 +399,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/greg-davies.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/james-acaster.jpg": {
 		"ft": 16384,
@@ -428,8 +407,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/james-acaster.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/jayde-adams-variant.jpg": {
 		"ft": 16384,
@@ -437,8 +415,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/jayde-adams-variant.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/jayde-adams.jpg": {
 		"ft": 16384,
@@ -446,8 +423,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/jayde-adams.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/joe-lycett-variant.jpg": {
 		"ft": 16384,
@@ -455,8 +431,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/joe-lycett-variant.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/joe-lycett.jpg": {
 		"ft": 16384,
@@ -464,8 +439,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/joe-lycett.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/john-robins.jpg": {
 		"ft": 16384,
@@ -473,8 +447,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/john-robins.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/kerry-godliman.jpg": {
 		"ft": 16384,
@@ -482,8 +455,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/kerry-godliman.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/kiri-pritchard-mclean.jpg": {
 		"ft": 16384,
@@ -491,8 +463,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/kiri-pritchard-mclean.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/marcus-brigstocke.jpg": {
 		"ft": 16384,
@@ -500,8 +471,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/marcus-brigstocke.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/mark-olver.jpg": {
 		"ft": 16384,
@@ -509,8 +479,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/mark-olver.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/mark-watson.jpg": {
 		"ft": 16384,
@@ -518,8 +487,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/mark-watson.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/nina-conti.jpg": {
 		"ft": 16384,
@@ -527,8 +495,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/nina-conti.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/nish-kumar.jpg": {
 		"ft": 16384,
@@ -536,8 +503,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/nish-kumar.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/rich-hall.jpg": {
 		"ft": 16384,
@@ -545,17 +511,15 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/rich-hall.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/ross-noble-feature.jpg": {
 		"ft": 16384,
-		"iS": 258196,
+		"iS": 109818,
 		"oA": 0,
 		"oAP": "\/_uploads\/ross-noble-feature.jpg",
 		"oF": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/_uploads\/ross-noble-variant.jpg": {
 		"ft": 16384,
@@ -563,120 +527,109 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/ross-noble-variant.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/ross-noble.jpg": {
 		"ft": 16384,
-		"iS": 92643,
+		"iS": 45211,
 		"oA": 0,
 		"oAP": "\/_uploads\/ross-noble.jpg",
 		"oF": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/_uploads\/sara-pascoe-variant.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 55680,
 		"oA": 0,
 		"oAP": "\/_uploads\/sara-pascoe-variant.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/sara-pascoe.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 88151,
 		"oA": 0,
 		"oAP": "\/_uploads\/sara-pascoe.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/seann-walsh.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 48770,
 		"oA": 0,
 		"oAP": "\/_uploads\/seann-walsh.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/stephen-k-amos.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 34819,
 		"oA": 0,
 		"oAP": "\/_uploads\/stephen-k-amos.jpg",
 		"oF": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/_uploads\/stewart-francis.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 53503,
 		"oA": 0,
 		"oAP": "\/_uploads\/stewart-francis.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/tim-key.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 65470,
 		"oA": 0,
 		"oAP": "\/_uploads\/tim-key.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/tom-allen.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 33136,
 		"oA": 0,
 		"oAP": "\/_uploads\/tom-allen.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/top-artwork-v2.png": {
 		"ft": 32768,
 		"iS": 159466,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/top-artwork-v2.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/top-artwork-v3.png": {
 		"ft": 32768,
 		"iS": 120165,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/top-artwork-v3.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/top-artwork-v4.png": {
 		"ft": 32768,
 		"iS": 140349,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/top-artwork-v4.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/_uploads\/top-artwork.png": {
 		"ft": 32768,
 		"iS": 161984,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/top-artwork.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
+		},
+	"\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.html",
+		"oF": 0
 		},
 	"\/about.md": {
 		"cS": 0,
@@ -715,32 +668,26 @@
 	"\/assets\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 641,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/android-chrome-192x192.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/assets\/favicons\/android-chrome-256x256.png": {
 		"ft": 32768,
 		"iS": 1084,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/android-chrome-256x256.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/assets\/favicons\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 521,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/apple-touch-icon.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/assets\/favicons\/browserconfig.xml": {
 		"ft": 8192,
@@ -751,22 +698,18 @@
 	"\/assets\/favicons\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 362,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/favicon-16x16.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/assets\/favicons\/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 369,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/favicon-32x32.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/assets\/favicons\/favicon.ico": {
 		"ft": 8192,
@@ -785,12 +728,10 @@
 	"\/assets\/favicons\/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 598,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/mstile-150x150.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/assets\/favicons\/safari-pinned-tab.svg": {
 		"ft": 2097152,
@@ -937,12 +878,10 @@
 	"\/assets\/img\/og-image.png": {
 		"ft": 32768,
 		"iS": 14790,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
-		"opt": 1,
-		"q": 100
+		"opt": 1
 		},
 	"\/assets\/js\/app.js": {
 		"ft": 64,
@@ -5670,8 +5609,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-1600.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/1-375.jpg": {
 		"ft": 16384,
@@ -5679,8 +5617,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-375.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/1-480.jpg": {
 		"ft": 16384,
@@ -5688,8 +5625,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-480.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/1.jpg": {
 		"ft": 16384,
@@ -5697,8 +5633,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/13-1600.jpg": {
 		"ft": 16384,
@@ -5706,8 +5641,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-1600.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/13-375.jpg": {
 		"ft": 16384,
@@ -5715,8 +5649,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-375.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/13-480.jpg": {
 		"ft": 16384,
@@ -5724,8 +5657,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-480.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/13.jpg": {
 		"ft": 16384,
@@ -5733,8 +5665,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/2-1600.jpg": {
 		"ft": 16384,
@@ -5742,8 +5673,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-1600.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/2-375.jpg": {
 		"ft": 16384,
@@ -5751,8 +5681,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-375.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/2-480.jpg": {
 		"ft": 16384,
@@ -5760,8 +5689,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-480.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/2.jpg": {
 		"ft": 16384,
@@ -5769,8 +5697,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/4-1600.jpg": {
 		"ft": 16384,
@@ -5778,8 +5705,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-1600.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/4-375.jpg": {
 		"ft": 16384,
@@ -5787,8 +5713,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-375.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/4-480.jpg": {
 		"ft": 16384,
@@ -5796,8 +5721,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-480.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/4.jpg": {
 		"ft": 16384,
@@ -5805,8 +5729,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/thumb-1.jpg": {
 		"ft": 16384,
@@ -5814,8 +5737,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-1.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/thumb-13.jpg": {
 		"ft": 16384,
@@ -5823,8 +5745,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-13.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/thumb-2.jpg": {
 		"ft": 16384,
@@ -5832,8 +5753,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-2.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/img\/thumb-4.jpg": {
 		"ft": 16384,
@@ -5841,8 +5761,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-4.jpg",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/demo\/index.html": {
 		"ft": 8192,
@@ -6111,32 +6030,26 @@
 	"\/bower_components\/lightgallery\/dist\/img\/video-play.png": {
 		"ft": 32768,
 		"iS": 4526,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/dist\/img\/video-play.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/dist\/img\/vimeo-play.png": {
 		"ft": 32768,
 		"iS": 5428,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/dist\/img\/vimeo-play.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/dist\/img\/youtube-play.png": {
 		"ft": 32768,
 		"iS": 5177,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/dist\/img\/youtube-play.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/dist\/js\/lightgallery.js": {
 		"ft": 64,
@@ -6177,12 +6090,10 @@
 	"\/bower_components\/lightgallery\/lib\/lg.png": {
 		"ft": 32768,
 		"iS": 795264,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/lib\/lg.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/lib\/picturefill.min.js": {
 		"ft": 64,
@@ -6322,32 +6233,26 @@
 	"\/bower_components\/lightgallery\/src\/img\/video-play.png": {
 		"ft": 32768,
 		"iS": 4526,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/src\/img\/video-play.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/src\/img\/vimeo-play.png": {
 		"ft": 32768,
 		"iS": 5428,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/src\/img\/vimeo-play.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/src\/img\/youtube-play.png": {
 		"ft": 32768,
 		"iS": 5177,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/src\/img\/youtube-play.png",
 		"oF": 0,
-		"opt": 0,
-		"q": 100
+		"opt": 0
 		},
 	"\/bower_components\/lightgallery\/src\/js\/.jshintrc": {
 		"ft": 8192,
@@ -7540,6 +7445,12 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/info.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/info.html",
+		"oF": 0
+		},
 	"\/info.md": {
 		"cS": 0,
 		"eF": 1,
@@ -8381,10 +8292,6 @@
 			"active": 1,
 			"optionString": ""
 			},
-		"no-compare-neg-zero": {
-			"active": 0,
-			"optionString": ""
-			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -8864,10 +8771,6 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
-			},
-		"nonblock-statement-body-position": {
-			"active": 0,
-			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -9468,8 +9371,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"quality": 100
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -9562,9 +9464,7 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
-		"quality": 100
+		"autoOutputPathStyle": 0
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
