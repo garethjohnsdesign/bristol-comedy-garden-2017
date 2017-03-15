@@ -625,6 +625,12 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
 	"\/about.md": {
 		"cS": 0,
 		"eF": 1,
@@ -7438,6 +7444,12 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/info.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/info.html",
+		"oF": 0
 		},
 	"\/info.md": {
 		"cS": 0,
