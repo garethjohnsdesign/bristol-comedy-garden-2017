@@ -20,3 +20,26 @@ Example showing how to change the color/size of the icons:
 .icon-logo {
 	font-size: 3rem; // works because "width" & "height" were set using em units
 }
+
+.icon-icon {
+	font-size: 2rem; // works because "width" & "height" were set using em units
+}
+
+.icon-icon-rev {
+	font-size: 2rem; // works because "width" & "height" were set using em units
+}
+
+.icon-footer {
+  width: 4.63671875em;
+}
+
+.icon-footer {
+  font-size: 4rem;
+}
+
+.icon-footer-stacked {
+  font-size: 8rem;
+  @include breakpoint(small only) {
+  font-size: 6rem;
+  }
+}

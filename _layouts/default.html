@@ -1,3 +1,7 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
 
@@ -6,8 +10,6 @@
 <!-- End Head -->
 
 <body>
-
-<div class="animsition">
   
 <!-- Navigation -->  
 {% include navigation.html %}
@@ -25,30 +27,16 @@
 {% include footer.html %}
 <!-- End Footer -->
 
-</div>
-
-</body>
-
 <!-- Scripts -->
 {% include scripts.html %}
 <!-- End Scripts -->
 
-{% if page.url == "/" %}
-<script>
-    var wallopEl = document.querySelector('.Wallop');
-    var slider = new Wallop(wallopEl);
-    var autoPlayMs = 5000;
-    var nextTimeout;
-    var loadNext = function() {
-      var nextIndex = (slider.currentItemIndex + 1) % slider.allItemsArray.length;
-      slider.goTo(nextIndex);
-    }
-    nextTimeout = setTimeout(function() { loadNext(); }, autoPlayMs);
-    slider.on('change', function() {
-      clearTimeout(nextTimeout);
-      nextTimeout = setTimeout(function() { loadNext(); }, autoPlayMs);
-    });
-</script>
+<!-- Google Analytics -->
+{% if site.analytics %}
+{% include analytics.html %}
 {% endif %}
+<!-- End Google Analytics -->
+
+</body>
 
 </html>

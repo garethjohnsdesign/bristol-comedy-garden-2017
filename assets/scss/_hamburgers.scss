@@ -37,10 +37,10 @@ $hamburger-types: (
 // Hamburger
 // ==================================================
 .hamburger {
-  padding: $hamburger-padding-y $hamburger-padding-x;
+//   padding: $hamburger-padding-y $hamburger-padding-x;
+  padding: 1rem 0.5rem 0.75rem 0.5rem;
   display: inline-block;
   cursor: pointer;
-
   transition-property: opacity, filter;
   transition-duration: $hamburger-hover-transition-duration;
   transition-timing-function: $hamburger-hover-transition-timing-function;
@@ -72,6 +72,7 @@ $hamburger-types: (
 }
 
 .hamburger-inner {
+  z-index: 10000;
   display: block;
   top: 50%;
   margin-top: $hamburger-layer-height / -2;
@@ -121,6 +122,7 @@ $hamburger-types: (
    */
   .hamburger--collapse {
     .hamburger-inner {
+      z-index: 10000;
       top: auto;
       bottom: 0;
       transition-duration: 0.15s;

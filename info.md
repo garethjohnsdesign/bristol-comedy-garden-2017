@@ -1,37 +1,64 @@
 ---
 title: Info
-position: 4
-intro: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Sed posuere consectetur
-  est at lobortis. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis
-  vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
-enquiries:
-- title: New Business
-  text: We always enjoy meeting new people and building new relationships. At the
-    outset of any project we always find that open conversation and a collaborative
-    approach is just as important as being creative. If you would like to know more
-    about working with Listen Up or wish to find out more about our approach, please
-    contact Tom on the email below.
-  contact: tom@listen-up.com
-- title: Careers
-  text: We’re growing and winning new clients. We want to hear from confident and
-    pro-active individuals with a passion for music and promotion. Duis mollis, est
-    non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
-    Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-  contact: careers@listen-up.com
-- title: Internships
-  text: 'Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac
-    cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
-    risus. Nullam quis risus eget urna mollis ornare vel eu leo. Vivamus sagittis
-    lacus vel augue laoreet rutrum faucibus dolor auctor. Vestibulum id ligula porta
-    felis euismod semper. '
-  contact: hello@listen-up.com
-- title: Partnerships
-  text: Aenean lacinia bibendum nulla sed consectetur. Nullam quis risus eget urna
-    mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Maecenas faucibus
-    mollis interdum. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit
-    libero, a pharetra augue. Aenean eu leo quam. Pellentesque ornare sem lacinia
-    quam venenatis vestibulum.
-  contact: partners@listen-up.com
+position: 5
+general:
+- title: Food and Drink
+  text: "There’s more than just great comedy growing in our garden…\n\nGet down to
+    the Comedy Garden nice and early and get into the comedy spirit in the leafy surrounds
+    of Queen Square. Come and enjoy our bars serving up all your favourite tipples
+    including a great range of ciders, craft beers and a summery splash of cocktails.
+    \n\nAnd make sure you arrive hungry for great food as well as laughter and sample
+    the delicious fare served up by our hand-picked selection of local street-food
+    vendors. They’ll be busy serving up a veritable feast of meaty, veggie and vegan
+    dishes to suit all comedy-lover palates! \n\n\n**Pre-order your interval drinks!**
+    Jump the bar queue during the interval by being all high-tech with Ordoo, a clever
+    little app that let’s you pre-order and pay for your drinks. Just download the
+    [app](http://ordoo.co.uk), fill in your payment details and order a round of drinks
+    to collect from the pick-up point at the bar. [Ordoo](http://ordoo.co.uk) will
+    tell you when your drinks are ready so there’s no need to hang around. Spend your
+    interval enjoying a pint and having a chuckle with your mates rather than standing
+    in line! "
+- title: Festival Timings
+  text: |-
+    Weds 14th June: 6pm - 10.30pm
+
+    Thurs 15th June: 6pm - 10.30pm
+
+    Fri 16th June: 6pm - 10.30pm
+
+    Sat 17th June: 2.45pm - 10.30pm
+
+    Sun 18th June: 2.45pm - 10.30pm
+- title: Festival Site
+  text: |-
+    You must have a valid ticket to gain entry to the Comedy Garden. Tickets can be purchased online in advance or at the on site Box Office on the evening of the show, depending on availability.
+
+    Please respect our traders and do not try and bring food or drink into the Comedy Garden.
+
+    All our bars operate the Challenge 25 scheme. If you’re lucky enough to look under 25, please bring ID!
+- title: Seating in the Venues + Group Bookings
+  text: |-
+    The Big Top is a seated venues. There are two types of tickets, Front Stalls and Rear Stalls. The Front Stalls are allocated and positioned closest to the stage and therefore the action. All Rear Stall tickets are sold as unreserved which means you can choose where you sit when you arrive.
+
+    **Group Bookings** If you would like to purchase more than 20 tickets please contact our group bookings team on **0115 8960030**.
+- title: Accessibility
+  text: |-
+    The festival is totally accessible and wheelchair spaces and free carer tickets are available through our online ticketing partner. Please contact us ahead of the festival if you have any special requirements and we’ll do our best to accommodate you. While the festival is in full swing our Front of House team will be on hand to assist you in anyway they can.
+
+    Find more information on Blue Badge parking [here](https://www.bristol.gov.uk/parking/where-you-can-park)
+
+    Please do not bring any animals into the festival, only guide dogs are permitted.
+
+    Disabled and carer tickets are available on the purchase page on SEE Tickets.
+- title: Work With Us — Front of House Team
+  text: |-
+    Join our Front of House Team and get in on all the hilarious action. You’ll be the first point of contact with our lovely audiences so good communication skills and a friendly attitude are a must. Working with the Front of House Manager you’ll be responsible for getting our audiences to the right place at the right time, making sure the shows run on time and keeping the venues running smoothly. You should be confident, good with people, alert and interested in the programme and event you’re representing. This role is very active and a lot of fun, you should enjoy dealing with lots of people and manage all this with a level head.
+
+    This is a volunteer role, you will be given one scrumptious hot meal per shift and as many (non-alcoholic) drinks as you need.
+
+    You will be expected to work at least three shifts (approx. four hours with breaks) throughout the Comedy Garden, with full availability from 14th June to 18th June regarded very highly. You must be over 16 to apply.
+
+    If you’re interested, please [email](mailto:hannah@57Festivals.com)  and we will be in touch with you shortly.
 layout: info
 ---
 

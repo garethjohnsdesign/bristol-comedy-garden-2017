@@ -1,32 +1,28 @@
 ---
 title: Saturday Mid
-date: 2017-06-16 19:30:00 Z
-categories:
-- saturday
-tags:
-- mid
+date: 2017-06-17 15:45:00 Z
 position: 4
 acts:
-- name: John Shuttleworth
-  image: "/uploads/john-shuttleworth.jpg"
-  is-featured: true
-- name: Robin Ince
-  image: "/uploads/robin-ince.jpg"
-  is-featured: true
-- name: Arthur Smith
-  image: "/uploads/andrew-maxwell.jpg"
-  is-featured: true
-quote: A refreshingly ruminative, searingly honest comedy style
-quote-cite: Daily Telegraph
-secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo
-  star and insatiable mischief maker Tom Stade, Ireland’s intrepid social commentator
-  Andrew Maxwell and all-round dude and Radio X presenter John Robins as host.
-festival-starts-at: 2017-06-16 18:30:00 Z
-show-starts-at: 2017-06-16 19:30:00 Z
+- name: Nina Conti
+  image: "/uploads/nina-conti.jpg"
+- name: Marcus Brigstocke
+  image: "/uploads/marcus-brigstocke.jpg"
+- name: Jayde Adams
+  image: "/uploads/jayde-adams.jpg"
+- name: Stephen K Amos
+  image: "/uploads/stephen-k-amos.jpg"
+quote: Put simply, Nina Conti is a genius
+quote-cite: The Mirror
+secondary-text: Joining Nina is an all-star supporting line-up with multi-award winning
+  Radio 4 favourite Marcus Brigstocke, much acclaimed Bristolian and 2016 Edinburgh
+  Comedy Award nominee Jayde Adams plus globe-trotting laughter-master Stephen K Amos
+  as host.
+festival-starts-at: 2017-06-17 14:45:00 Z
+show-starts-at: 2017-06-17 15:45:00 Z
 ticket-price: "£18.50 - £24"
-ticket-link: http://www.seetickets.com/event/magners-bristol-comedy-garden-reginald-d-hunter/big-top-bristol-comedy-garden/973926/
+ticket-link: http://www.seetickets.com/event/nina-conti/big-top-bristol-comedy-garden/1079399/
 is-sold-out: 
 layout: event
 ---
 
-One of the most brilliantly unpredictable, hilarious and thought-provoking comedians around - Reginald D Hunter heads to Bristol Comedy Garden. A consistent presence on TV with appearances on Qi, Have I Got News For You and many more - don’t miss this rewardingly provocative award-winner live.
+British Comedy Award winner Nina Conti headlines a huge afternoon in the Big Top. The groundbreaking ventriloquist has stormed Live At The Apollo, Sunday Night At The Palladium and now heads to Bristol Comedy Garden to top off an absolutely unmissable show.

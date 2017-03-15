@@ -1,13 +1,7 @@
 ---
-title: Bristol Comedy Garden 2017
+title: Bristol Comedy Garden
 timezone: UTC
 collections:
-  carousel:
-    title: Carousel
-    output: true
-  days:
-    title: Days
-    output: true
   line-up:
     title: Line-up
     output: true
@@ -23,24 +17,19 @@ defaults:
     type: pages
   values:
     layout: page
-- scope:
-    path: ''
-    type: posts
-  values:
-    permalink: "/blog/:title/"
-    layout: post
-    image: 
-    description: 
 url: http://bristolcomedygarden.co.uk
 description: Bristol Comedy Garden returns this summer for another series of unmissable
   shows!
 permalink: pretty
 exclude:
-- Gruntfile.js
 - Gemfile
 - Gemfile.lock
+- bower.json
 - package.json
+- config.codekit3
 - README*
+- LICENSE*
+- CHANGELOG*
 - node_modules
 - ".gitignore"
 - bower_components
@@ -54,6 +43,8 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 company: 57 Festivals Ltd
+date: 2014-01-01 00:00:00.000000000 Z
+address: Queen Square, Bristol BS1 4QS
 email: info@bristolcomedygarden.co.uk
 google_site_verification: 
 analytics: UA-49569208-1
@@ -65,3 +56,9 @@ social:
   facebook: https://www.facebook.com/bristolcomedygarden
   instagram: https://www.instagram.com/bristolcomedygarden
   twitter: https://twitter.com/comedygarden
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false

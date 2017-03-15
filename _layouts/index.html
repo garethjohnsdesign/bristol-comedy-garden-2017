@@ -2,53 +2,59 @@
 layout: default
 ---
 
-<div class="orbit hide-for-small-only" role="region" aria-label="Featured Acts" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
-  
-  <ul class="orbit-container">
-    <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span><svg class="icon icon-arrow-back"><use xlink:href="#icon-arrow-back"></use></svg></button>
-    <button class="orbit-next"><span class="show-for-sr">Next Slide</span><svg class="icon icon-arrow-forward"><use xlink:href="#icon-arrow-forward"></use></svg></button>
-    {% assign act_documents = site.carousel | sort:"position" %}
-	{% for act in act_documents %}
-    <li class="orbit-slide">
-      <img class="orbit-image" src="{{act.feature-image}}" alt="{{act.title}}">
-      <div class="orbit-header">
-	      <div class="row align-center expanded">
-		  <div class="small-8 columns text-center">
-	      <h1><a href="{{act.link}}">{{act.title}}</a></h1>
-	      <h4><a href="{{act.link}}">{{act.subheader}}</a></h4>
-	      {% if act.sold-out %}
-	      <h4><a href="{{act.link}}" class="sold">Sold Out</a></h4>
-		  {% endif %}
-	      </div>
-	      </div>
-	  </div>
-    </li>
-	{% endfor %}
-  </ul>
-  
+<section class="index">
+<!-- Carousel -->
+<div class="index__gallery">
+{% for act in page.carousel %}
+<div class="index__gallery-cell" style="background-image: url({{act.image}})">	
+<div class="row index__gallery__text align-middle align-center">
+	<div class="small-8 columns text-center index__gallery__text__inner">
+	<h1><a href="/line-up/{{act.line-up | slugify}}">{{act.name}}</a></h1>
+  <h4><a href="/line-up/{{act.line-up | slugify}}">{{act.subheader}}</a></h4>
+  {% if act.sold-out %}
+  <h4><a href="/line-up/{{act.line-up | slugify}}" class="sold">Sold Out</a></h4>
+  {% endif %}
+	</div>
 </div>
+</div>
+{% endfor %}
+</div>
+<!-- End Carousel -->
 
-
-<div class="row collapse small-up-1 medium-up-2 large-up-3">
-  {% for day in site.line-up %}
-  {% for act in day.acts %}
-  <div class="columns">
-    <div class="excerpt">
-      <a href="" target="_blank">
-        
-        <div class="row excerpt__title align-middle">
-          <div class="small-12 columns text-center">
-            <p>{{ act.name }}</p>
-          </div>
-        </div>
-        
-        <div class="excerpt__image">
-          <img src="{{act.image}}" alt="{{act.title}}">
-        </div>
+<!-- Featured -->
+{% if page.featured.size > 6 %}
+<div class="row expanded collapse small-up-2 medium-up-2 large-up-4 xlarge-up-4 event__acts">
+{% else %}
+<div class="row expanded collapse small-up-1 medium-up-3 large-up-3 xlarge-up-3 event__acts">
+{% endif %}
+    {% for act in page.featured %}
+<div class="columns">
+  <div class="excerpt">
+    <a href="/line-up/{{act.line-up | slugify}}">
       
-      </a>
-    </div>
+      <div class="row excerpt__title align-middle">
+        <div class="small-12 columns text-center">
+          <p>{{ act.name }}</p>
+        </div>
+      </div>
+      
+      <div class="excerpt__image">
+        <img src="{{act.image}}" alt="{{act.title}}">
+      </div>
+    
+    </a>
   </div>
-  {% endfor %}
-  {% endfor %}
 </div>
+    {% endfor %}
+</div>
+<!-- End Featured -->
+
+<!-- Line-up Link -->
+<div class="row align-center index__lineuplink">
+<div class="small-11 columns text-center">
+  <h3><a href="/line-up/"><span>View Full Line-up</span> <svg class="icon icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></a></h3>
+  <h4>Plus bars, gourmet street-food and good times</h4>
+</div>
+</div>
+<!-- End Line-up Link -->
+</section>

@@ -1,32 +1,27 @@
 ---
 title: Saturday Late
-date: 2017-06-16 19:30:00 Z
-categories:
-- saturday
-tags:
-- late
-position: 5
+date: 2017-06-17 19:30:00 Z
+position: 3
 acts:
-- name: John Shuttleworth
-  image: "/uploads/john-shuttleworth.jpg"
-  is-featured: true
-- name: Robin Ince
-  image: "/uploads/robin-ince.jpg"
-  is-featured: true
-- name: Arthur Smith
-  image: "/uploads/andrew-maxwell.jpg"
-  is-featured: true
-quote: A refreshingly ruminative, searingly honest comedy style
-quote-cite: Daily Telegraph
-secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo
-  star and insatiable mischief maker Tom Stade, Ireland’s intrepid social commentator
-  Andrew Maxwell and all-round dude and Radio X presenter John Robins as host.
-festival-starts-at: 2017-06-16 18:30:00 Z
-show-starts-at: 2017-06-16 19:30:00 Z
+- name: Rich Hall
+  image: "/uploads/rich-hall.jpg"
+- name: Stewart Francis
+  image: "/uploads/stewart-francis.jpg"
+- name: Kerry Godliman
+  image: "/uploads/kerry-godliman.jpg"
+- name: Fin Taylor
+  image: "/uploads/fin-taylor.jpg"
+quote: Rich Hall is a comedy phenomenon
+quote-cite: The Sun
+secondary-text: Joining Rich is ‘Mock The Week’s’ unmistakable pun-maestro Stewart
+  Francis, bringing his razor sharp one-liners to the Big Top with ‘Live At The Apollo’
+  star Kerry Godliman and the much-acclaimed Fin Taylor as host.
+festival-starts-at: 2017-06-17 18:00:00 Z
+show-starts-at: 2017-06-17 19:30:00 Z
 ticket-price: "£18.50 - £24"
-ticket-link: http://www.seetickets.com/event/magners-bristol-comedy-garden-reginald-d-hunter/big-top-bristol-comedy-garden/973926/
+ticket-link: http://www.seetickets.com/event/rich-hall/big-top-bristol-comedy-garden/1079403/
 is-sold-out: 
 layout: event
 ---
 
-One of the most brilliantly unpredictable, hilarious and thought-provoking comedians around - Reginald D Hunter heads to Bristol Comedy Garden. A consistent presence on TV with appearances on Qi, Have I Got News For You and many more - don’t miss this rewardingly provocative award-winner live.
+Rich Hall’s critically acclaimed grouchy, deadpan style has established him as a master of absurdist irony and the king of rapid-fire wit. The award-winning Qi regular, world-renowned for his expertly crafted tirades and quick fire banter with audiences now saddles up and heads to the Comedy Garden.

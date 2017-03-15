@@ -13,11 +13,14 @@
 // ---------
 
 html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-  
+
+input {
+  font-family: $body-font-family;
+}
 
 body {
   cursor: default;
@@ -33,6 +36,7 @@ img {
   height: auto;
 }
 
+
 ::selection {
   background: $color--black;
   color: $color--white;
@@ -42,38 +46,6 @@ a {
   transition: $primary-transition;
 }
 
-.arrow:after {
-    content: '→';
-    margin-left: .4816em;
-    transition: margin .1s
-}
-
-.arrow:hover:after {
-    margin-left: 0.602em
-}
-
-.plus:after {
-    content: '+';
-    margin-left: .4816em;
-    transition: margin .1s;
-    color: $color--red;
-}
-
-.plus:hover:after {
-    margin-left: 0.602em
-}
-
-/*
-.mui-fade-in-up {
-  @include mui-animation(slide(in, up, 2rem), fade);
-  animation-duration: 500ms;
-}
-
-.mui-fade-in {
-  @include mui-animation(fade);
-  animation-duration: 500ms;
-}
-*/
 
 // 2. Typography
 // -------------
@@ -107,26 +79,44 @@ i, cite, em, var, address, dfn {
 // 4. Navigation
 // -------------
 
-nav a { 
+.top-bar a { 
   color: $color--white;
   &:hover {
-      color: $color--black;
+      color: $color--trinidad;
     }
 }
 
-nav { 
+.top-bar__logo { 
+ font-size: 1.5rem;
+ font-family: $secondary-font-family;
+ @include breakpoint(small only) {
+  font-size: 1.1rem;
+  }
+ @include breakpoint(medium only) {
+  font-size: 1.25rem;
+  }
+}
+
+.top-bar__date { 
+  padding-top: 4px;
+  a {
+  color: $color--gray;
+  }
+}
+
+.top-bar__socials a {
+  color: $color--gray;
+  @include transition(color .35s ease-out);
+  &:hover,
+  &:focus {
+    color: $color--white;
+    }
+}
+
+.top-bar-right {
   z-index: 2000;
 }
 
-.top-bar { 
-  z-index: 3000;
-}
-
-/*
-.top-bar-right-mobile {
-  z-index: 1004;
-}
-*/
 
 
 // 6. Excerpt
@@ -141,19 +131,28 @@ nav {
       margin: 0.75rem;
     }
     @include breakpoint(small only) {
-      margin: 0.75rem;
+      margin: 0.25rem;
     }
     img {
       width:100%;
     }
     &:hover .excerpt__image:after {
-      background:$color--black;
+      background:$color--dark-blue;
       transition: $primary-transition;
-      opacity:0.5;
+      opacity:0.8;
+      @include breakpoint(small only) {
+      opacity:0.1;
+      }
     }
     &:hover .excerpt__title p {
       opacity: 1;
       color: $color--white;
+    }
+    &:hover .excerpt__image img {
+    filter: grayscale(1);
+    @include breakpoint(small only) {
+      filter: grayscale(0);
+      }
     } 
 }
 
@@ -163,17 +162,14 @@ nav {
   height: 100%;
   margin: 0rem;
     p {
+      font-family: $header-font-family;
+      font-size: 1.25rem;
       opacity: 1;
       color: $color--white;
       transition: $primary-transition;
-      letter-spacing: 0.05rem;
       margin: 0rem;
       z-index: 1000;
     }
-}
-
-.top-bar-right {
-  z-index: 1000;
 }
 
 div.row.excerpt__title {
@@ -191,197 +187,334 @@ div.row.excerpt__title {
   background:$color--black;
   transition: $primary-transition;
   opacity:0.1;
-//   z-index: 0;
 }
 
-/*
 .excerpt__image:after p {
   z-index: 10000;
-}
-*/
-
-
-// 8. Contact
-// -------
-
-.contact__location__map {
-    height: 20rem;
 }
 
 
 // 5. Index
 // --------
 
-.index__hero {
-  height: 60vh;
-}
-
-.index__hero__cell {
-  height: 100%;
-  width: 100;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center; 
-}
-
-.index__hero__cell__text {
-  height: 100%;
-  h1 {
-  color: $color--white;
+.index {
+  background: url(/uploads/bottom-artwork.png);
+  background-repeat:no-repeat;
+  background-position:center bottom;
+  background-size:contain;
+  @include breakpoint(small) {
+  padding-bottom: 10rem;
+  }
+  @include breakpoint(medium) { 
+  padding-bottom: 15rem;
   }
 }
 
-.index__intro {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.index__gallery {
+  height: 60vh;
+  z-index: 1;
+  @include breakpoint(small) {
+  height: calc(100vh - 120px);
+  }
+  // Only affects medium screens, not small or large
+  @include breakpoint(medium) { 
+  height: 70vh;
+  }
+}
+
+.index__gallery-cell {
+  width: 100%;
+  height: 100%;
+  /* inherit height from gallery */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  z-index: 1; }
+  
+.index__gallery__text {
+	height: 100%;
+}
+
+
+.index__gallery__text__inner a {
+	color: $color--white;
+	&:hover {
+      color: $color--trinidad;
+    }
+}
+
+.index__gallery__text__inner h1 a {
+  padding-bottom: 0.1rem;
+	border-bottom: 2px solid $color--white;
+}
+
+.index__lineuplink {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  span {
+  color: $color--gray;
+  transition: $primary-transition;
+  	&:hover {
+      color: $color--trinidad;
+    }
+  }
+}
+
+
+// 11. Location
+// ------------
+
+
+.location {
+  background-image: url(/uploads/top-artwork-v4.png);
+  background-repeat:no-repeat;
+  background-position:center top;
+  background-size:contain;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   @include breakpoint(small only) {
     padding-top: 2rem;
-    padding-bottom: 2rem;
   }
 }
 
-.index__services {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.index__section__title {
-  color: $color--red;
-}
-
-.index__services__section {
-  padding-bottom: 2rem;
-  h4 {
-    margin-bottom: $header-bottom-margin--tighter;
-    color: $color--black;
+.location__map {
+  margin-bottom: 2rem;
+  @include breakpoint(small) {
+  height: 20rem;
   }
-  h5 {
-    color: $color--gray;
-  }
-  p {
-    color: $color--dark-gray;
+  @include breakpoint(medium) { 
+  height: 30rem;
   }
 }
 
-.index__more {
+// 11. Event
+// ---------
+
+.event {
+  background-image: url(/uploads/top-artwork-v4.png),url(/uploads/bottom-artwork-v4.png);
+  background-repeat:no-repeat;
+  background-position:center top, center bottom;
+  background-size:contain, contain;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  @include breakpoint(small only) {
+    padding-top: 2rem;
+  }
+}
+
+.event__title {
+  padding-bottom: 1rem;
+  color: $color--black;
+}
+
+.event__title span {
   color: $color--gray;
-  span {
-    color: $color--red;
+}
+
+.event__acts {
+  padding-bottom: 2rem;
+}
+
+.event__text {
+  padding-bottom: 2rem;
+}
+
+.event__text h5 {
+  margin-bottom: 0.5rem;
+}
+
+.event__details {
+  @include breakpoint(small only) {
+    padding-top: 2rem;
   }
 }
 
+.event .excerpt {
+    &:hover .excerpt__image:after {
+      background:$color--dark-blue;
+      transition: $primary-transition;
+      opacity:0.1;
+    }
+    &:hover .excerpt__image img {
+    filter: grayscale(0);
+    } 
+}
+
+
+
+// 11. Tickets
+// -----------
+
+.tickets {
+  min-height: 50rem;
+  background-image: url(/uploads/top-artwork.png),url(/uploads/bottom-artwork.png);
+  background-repeat:no-repeat;
+  background-position:center top, center bottom;
+  background-size:contain, contain;
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+}
+
+.tickets h2 {
+  color: $color--gray;
+}
+
+.tickets h3 {
+  margin-bottom: 0.25rem;
+}
+
+.tickets h5 {
+  margin-bottom: 0rem;
+}
+
+.tickets .callout h5 {
+  margin-bottom: 1rem;
+}
+
+.tickets__time {
+  margin-bottom: 1rem;
+}
+
+.tickets__button {
+  background-color: red;
+}
+
+.tickets span {
+  font-family: $body-font-family;
+  padding-left: 0.5rem;
+}
+
+.tickets__acts {
+  @include breakpoint(small only) {
+    padding: 2rem 0rem;
+  }
+}
+
+// 11. About
+// --------
+
+.about {
+  background-image: url(/uploads/top-artwork-v2.png);
+  background-repeat:no-repeat;
+  background-position:center top;
+  background-size:contain;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.about .callout {
+  margin-bottom: 0rem;
+}
+
+.about p {
+  font-size: 1.25rem;
+  @include breakpoint(small only) {
+  font-size: 1rem;
+  }
+}
+
+.about__images {
+  padding-top: 2rem;
+}
+
+.about__images img {
+  opacity: 1;
+  transition: $primary-transition;
+}
+
+.about__images:hover img {
+  opacity: 0.8;
+}
+
+
+// 11. Line-up
+// --------
+
+.line-up {
+  min-height: 50rem;
+  background-image: url(/uploads/top-artwork-v3.png),url(/uploads/bottom-artwork.png);
+  background-repeat:no-repeat;
+  background-position:center top, center bottom;
+  background-size:contain, contain;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+    @include breakpoint(small only) {
+    padding-top: 2rem;
+  }
+}
+
+// 11. Info
+// --------
+
+.info {
+  background-image: url(/uploads/top-artwork.png),url(/uploads/bottom-artwork-v3.png);
+  background-repeat:no-repeat;
+  background-position:center top, center bottom;
+  background-size:contain, contain;
+  padding-top: 5rem;
+  padding-bottom: 10rem;
+  @include breakpoint(small only) {
+    padding-top: 2rem;
+  }
+}
+
+// 11. Pagination
+// --------
+
+.pagination .icon {
+  vertical-align: middle;
+  font-size: 2rem;
+  color: $color--gray;
+}
 
 // 11. Footer
 // ----------
 
+
 footer {
-  background-color: $color--black;
   color: $color--white;
-  padding-bottom: 2rem;
-  a {
-    color: $color--white;
-    display: block;
-    }
-  a:hover {
-    color: $color--red;
-    }
-}
-
-.footer__detail {
-  color: $color--gray;
-  padding-top: 2rem;
-}
-
-// 11. Holding
-// ----------
-
-.holding {
-  height: 100vh;
-}
-
-.holding__title {
-  h2 {
-    text-transform: uppercase;
+  background-color: $color--dark-blue;
+  @include breakpoint(small) {
+  padding: 2rem 0rem;
+  }
+  @include breakpoint(medium) { 
+  padding: 3rem 0rem;
   }
 }
 
-.holding__date {
-  padding-top: 1rem;
-  color: $color--gray;
-}
-
-.holding__form {
-  padding-top: 2rem;
-}
-
-.holding__socials {
-  padding-top: 2rem;
-}
-
-.holding__legal {
-  padding-top: 2rem;
-}
-
-
-.slide-item { 
-position: relative;
-background-repeat: no-repeat;
-background-position: top center;
-background-size: cover;
-}
-
-@media screen and (max-width: 39.9375em) {
-.slide-item{min-height: 280px;background-position: center;    background-size: cover;} }
-@media screen and (min-width: 40em) {
-.slide-item{ height: 360px; min-height: 360px;} }
-@media screen and (min-width: 64em) {
-.slide-item{ height: 600px; min-height: 600px;}}
-
-
-.testing { 
-  height: 100%;
-}
-
-
-.orbit-header {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    z-index: 8;
-    padding: 1rem;
+footer a {
     color: $color--white;
-    width: 100%;
+    &:hover,
+    &:focus {
+      color: $color--trinidad;
+    }
 }
 
-.orbit-container .icon {
-	color: $color--white;
-    font-size: 1rem;
+.footer__link a {
+    color: $color--trinidad;
+    &:hover,
+    &:focus {
+      color: $color--white;
+    }
 }
 
-.orbit-header a {
-    color: $color--white;
-    @include transition(all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1));
+.footer__socials {
+    padding: 0rem 0rem 2rem 0rem;
 }
 
-.orbit-header a:hover {
-    color: $color--white;
+
+.footer__form {
+    padding: 2rem 0rem 0rem 0rem;
 }
 
-.orbit-previous, .orbit-next {
-    cursor: pointer;
-    @include transition(all 0.3s cubic-bezier(0.39, 0.575, 0.565, 1));
+.footer__form .button {
+	@include button-style($color--white, $color--dark-blue, auto);
+	&:hover,
+    &:focus {
+      color: $color--white;
+    }
 }
 
-.orbit-previous:hover {
-        -webkit-transform: translateY(-50%) translateX(-10px);
-    transform: translateY(-50%) translateX(-10px);
-}
-
-.orbit-next:hover {
-        -webkit-transform: translateY(-50%) translateX(10px);
-    transform: translateY(-50%) translateX(10px);
-}
-
-.orbit-container {
-	height: auto !important;
+.footer__partners .icon {
+  font-size: 3rem;
 }

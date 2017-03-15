@@ -1,33 +1,28 @@
 ---
 title: Wednesday
 date: 2017-06-14 19:30:00 Z
-categories:
-- wednesday
 position: 0
 acts:
-- name: Reginald D Hunter2
-  image: "/uploads/reginald-d-hunter.jpg"
-  is-featured: true
-- name: Tom Stade
-  image: "/uploads/tom-stade.jpg"
-  is-featured: true
-- name: Andrew Maxwell
-  image: "/uploads/andrew-maxwell.jpg"
-  is-featured: true
+- name: Mark Watson
+  image: "/uploads/mark-watson.jpg"
+- name: Joe Lycett
+  image: "/uploads/joe-lycett-variant.jpg"
+- name: James Acaster
+  image: "/uploads/james-acaster.jpg"
 - name: John Robins
   image: "/uploads/john-robins.jpg"
-  is-featured: true
-quote: A refreshingly ruminative, searingly honest comedy style
-quote-cite: Daily Telegraph
-secondary-text: Joining Reginald is an all-star supporting cast with Live At The Apollo
-  star and insatiable mischief maker Tom Stade, Ireland’s intrepid social commentator
-  Andrew Maxwell and all-round dude and Radio X presenter John Robins as host.
-festival-starts-at: 2017-06-14 18:30:00 Z
+quote: Belly laugh brilliant… The audience was weeping with laughter
+quote-cite: Time Out
+secondary-text: Joining Mark is 8 Out of 10 Cats Does Countdown favourite and self-confessed
+  ‘absolute lad’ Joe Lycett, quadruple Edinburgh Comedy Award nominee and Mock The
+  Week regular James Acaster plus all-round-dude (and podcast wonder) John Robins
+  as host.
+festival-starts-at: 2017-06-14 18:00:00 Z
 show-starts-at: 2017-06-14 19:30:00 Z
 ticket-price: "£18.50 - £24"
-ticket-link: http://www.seetickets.com/event/magners-bristol-comedy-garden-reginald-d-hunter/big-top-bristol-comedy-garden/973926/
+ticket-link: http://www.seetickets.com/event/mark-watson/big-top-bristol-comedy-garden/1079365/
 is-sold-out: 
 layout: event
 ---
 
-One of the most brilliantly unpredictable, hilarious and thought-provoking comedians around - Reginald D Hunter heads to Bristol Comedy Garden. A consistent presence on TV with appearances on Qi, Have I Got News For You and many more - don’t miss this rewardingly provocative award-winner live.
+Bristol’s very own multi-award winning comedy hero Mark Watson headlines an astounding opening night for the Comedy Garden 2017. The Live At The Apollo star brings a gag-packed set complete with his customary flailing about, chaotic audience interaction and all sorts of other fun to the Big Top.

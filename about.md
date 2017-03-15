@@ -1,13 +1,20 @@
 ---
 title: About
-position: 2
+position: 4
+images:
+- "/uploads/gallery-01.jpg"
+- "/uploads/gallery-02.jpg"
+- "/uploads/gallery-03.jpg"
+- "/uploads/gallery-04.jpg"
+- "/uploads/gallery-05.jpg"
+- "/uploads/gallery-06.jpg"
 layout: about
 ---
 
-The mighty Bristol Comedy Garden returns this June with yet another quality crop of comedians. Once again Queen Square, in the heart of the city, will be transformed into a comedy wonderland complete with legendary line-ups in the Big Top and Apple Top venues.
+The mighty Bristol Comedy Garden returns this June with a prize-winning crop of comedians. Once again the leafy lawns of [Queen Square](/location/), in the heart of the city, will be transformed into a comedy wonderland complete with outrageously good line-ups in our beautiful Big Top.
 
-Come satisfy your comic cravings with the fierce, pop-culture obsessed Canadian Katherine Ryan, the revered Stewart Lee, Britain’s favourite publican Al Murray, the provocative Reginald D Hunter, one-liner maestro Milton Jones, Edinburgh Comedy Award winner Bridget Christie, lo-fi genius David O’Doherty and the must see for Bowie fans, Adam Buxton’s BUG: David Bowie special.
+Come and satisfy your comic cravings with comedy’s greatest marvel [Ross Noble](/line-up/thursday/), the toweringly tall, toweringly funny, award-winning treasure [Greg Davies](/line-up/sunday-late/), the hugely popular and rampantly spontaneous Last Leg host [Adam Hills](/line-up/sunday-mid/), British Comedy Award-winning genius [Nina Conti](/line-up/saturday-mid/) plus lots more blistering comedy from [Rich Hall](/line-up/saturday-late/), [Sara Pascoe](/line-up/friday/), [David O'Doherty](/line-up/friday/), [Mark Watson](/line-up/wednesday/), [Kerry Godliman](/line-up/saturday-late/), [Stewart Francis](/line-up/saturday-late/), [Tim Key](/line-up/saturday-late/) and many many more.
 
-The South West’s brightest comedy festival will be bursting with bars, music, gourmet street-food and lots more. Get your tickets now and arrive early to make the most of this year’s blooming brilliant Bristol Comedy Garden!
+The South West’s brightest comedy festival will be bursting with bars, gourmet street-food and a whole lot of good-times besides. Get your tickets now and arrive early to make the most of this year’s blooming brilliant Bristol Comedy Garden!
 
-This year’s Comedy Garden is a proud supporter of Cancer Research UK and Channel 4’s Stand Up To Cancer. Stand Up To Cancer and Stand Up To Cancer Brand Marks are registered trademarks or trademarks of the Entertainment Industry Foundation.
+Bristol Comedy Garden is produced by [57 Festivals](http://www.57festivals.com).
