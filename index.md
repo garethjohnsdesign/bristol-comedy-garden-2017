@@ -3,6 +3,11 @@ title: Bristol Comedy Garden 2017
 position: 0
 image: "/assets/img/og-image.png"
 carousel:
+- name: Adam Hills
+  image: "/uploads/adam-hills-feature.jpg"
+  subheader: If you cannot enjoy Adam Hills you cannot have a pulse - The Scotsman
+  is-sold-out: 
+  line-up: Sunday Mid
 - name: Greg Davies
   image: "/uploads/greg-davies-feature.jpg"
   subheader: Undoubtedly one of the kingpins of British comedy - Evening Standard
@@ -13,11 +18,6 @@ carousel:
   subheader: One of comedy’s greatest marvels - Daily Telegraph
   is-sold-out: 
   line-up: Thursday
-- name: Adam Hills
-  image: "/uploads/adam-hills-feature.jpg"
-  subheader: If you cannot enjoy Adam Hills you cannot have a pulse - The Scotsman
-  is-sold-out: 
-  line-up: Sunday Mid
 featured:
 - name: Joe Lycett
   image: "/uploads/joe-lycett-variant.jpg"
