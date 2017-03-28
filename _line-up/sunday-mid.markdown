@@ -6,10 +6,10 @@ day: Sunday
 acts:
 - name: Adam Hills
   image: "/uploads/adam-hills.jpg"
-- name: Kiri Pritchard-Mclean
-  image: "/uploads/kiri-pritchard-mclean.jpg"
 - name: Shappi Khorsandi
   image: "/uploads/shappi-khorsandi600x400.jpg"
+- name: Kiri Pritchard-Mclean
+  image: "/uploads/kiri-pritchard-mclean.jpg"
 - name: Mark Olver
   image: "/uploads/mark-olver.jpg"
 quote: Hills delivers stand-up so effortlessly brilliant you wonder why some comedians
