@@ -15,7 +15,7 @@ quote: One of comedy’s greatest marvels
 quote-cite: Daily Telegraph
 secondary-text: Joining Ross is an astounding supporting cast with Live At The Apollo
   star and observational king-slacker Seann Walsh, razor-sharp and brilliantly original
-  Danny Bhoy and the wildly acclaimed Qi & Have I Got News For You regular Nish Kumar
+  Danny Bhoy plus the wildly acclaimed Qi & Have I Got News For You regular Nish Kumar
   as host.
 festival-starts-at: 2017-06-15 18:00:00 Z
 show-starts-at: 2017-06-15 19:30:00 Z
