@@ -8,13 +8,15 @@ acts:
   image: "/uploads/greg-davies.jpg"
 - name: Tom Allen
   image: "/uploads/tom-allen.jpg"
+- name: Andrew Maxwell
+  image: "/uploads/andrew-maxwell.jpg"
 - name: Ed Gamble
   image: "/uploads/ed-gamble.jpg"
 quote: Davies is undoubtedly one of the kingpins of British comedy
 quote-cite: Evening Standard
 secondary-text: Joining Greg is an astounding supporting line-up with C4’s ‘Comedy
-  Gala’ and ‘8 Out Of 10 Cats Does Countdown’s Tom Allen, a special guest to be announced
-  and the charming Ed Gamble as host.
+  Gala’ and ‘8 Out Of 10 Cats Does Countdown’s Tom Allen, razor sharp Live At The
+  Apollo star Andrew Maxwell and the charming Ed Gamble as host.
 festival-starts-at: 2017-06-18 18:00:00 Z
 show-starts-at: 2017-06-18 19:30:00 Z
 ticket-price: "£18.50 - £24"
