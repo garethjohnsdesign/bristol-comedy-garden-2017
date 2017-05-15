@@ -21,7 +21,7 @@ festival-starts-at: 2017-06-18 18:00:00 Z
 show-starts-at: 2017-06-18 19:30:00 Z
 ticket-price: "£18.50 - £24"
 ticket-link: http://www.seetickets.com/event/greg-davies/big-top-bristol-comedy-garden/1079404/
-is-sold-out: 
+is-sold-out: true
 layout: event
 ---
 
