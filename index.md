@@ -37,12 +37,12 @@ featured:
 - name: David O'Doherty
   image: "/uploads/david-o-doherty.jpg"
   subheader: 
-  is-sold-out: 
+  is-sold-out: true
   line-up: Friday
 - name: Sara Pascoe
   image: "/uploads/sara-pascoe.jpg"
   subheader: 
-  is-sold-out: 
+  is-sold-out: true
   line-up: Friday
 - name: Mark Watson
   image: "/uploads/mark-watson.jpg"
@@ -52,7 +52,7 @@ featured:
 - name: Tim Key
   image: "/uploads/tim-key.jpg"
   subheader: 
-  is-sold-out: 
+  is-sold-out: true
   line-up: Friday
 - name: Stewart Francis
   image: "/uploads/stewart-francis.jpg"
