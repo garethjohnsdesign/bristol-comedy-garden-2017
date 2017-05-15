@@ -27,7 +27,7 @@ featured:
 - name: Nina Conti
   image: "/uploads/nina-conti.jpg"
   subheader: 
-  is-sold-out:
+  is-sold-out: 
   line-up: Saturday Mid
 - name: Rich Hall
   image: "/uploads/rich-hall.jpg"
