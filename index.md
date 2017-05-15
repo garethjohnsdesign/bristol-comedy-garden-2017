@@ -6,7 +6,7 @@ carousel:
 - name: Greg Davies
   image: "/uploads/greg-davies-feature.jpg"
   subheader: Undoubtedly one of the kingpins of British comedy - Evening Standard
-  is-sold-out: false
+  is-sold-out: true
   line-up: Sunday Late
 - name: Adam Hills
   image: "/uploads/adam-hills-feature.jpg"
@@ -27,7 +27,7 @@ featured:
 - name: Nina Conti
   image: "/uploads/nina-conti.jpg"
   subheader: 
-  is-sold-out: true
+  is-sold-out:
   line-up: Saturday Mid
 - name: Rich Hall
   image: "/uploads/rich-hall.jpg"

@@ -248,6 +248,10 @@ div.row.excerpt__title {
 	border-bottom: 2px solid $color--white;
 }
 
+.index__gallery__text__inner h4 {
+	color: $color--trinidad;
+}
+
 .index__lineuplink {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -305,6 +309,10 @@ div.row.excerpt__title {
 .event__title {
   padding-bottom: 1rem;
   color: $color--black;
+}
+
+.event__title h3 {
+  color: $color--trinidad;
 }
 
 .event__title span {

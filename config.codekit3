@@ -7,7 +7,7 @@
 		"uuidString": "550FEDE5-7AFF-4FD3-8DBE-A45DE2D02921"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/404.md": {
 		"cS": 0,
@@ -231,6 +231,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/adam-hills-feature.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -240,6 +241,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/adam-hills.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -249,6 +251,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/aisling-bea.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -258,57 +261,63 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/andrew-maxwell.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/_uploads\/artwork.png": {
 		"ft": 32768,
 		"iS": 79483,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/artwork.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_uploads\/bottom-artwork-v2.png": {
 		"ft": 32768,
 		"iS": 220223,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/bottom-artwork-v2.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_uploads\/bottom-artwork-v3.png": {
 		"ft": 32768,
 		"iS": 112347,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/bottom-artwork-v3.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_uploads\/bottom-artwork-v4.png": {
 		"ft": 32768,
 		"iS": 153749,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/bottom-artwork-v4.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_uploads\/bottom-artwork.png": {
 		"ft": 32768,
 		"iS": 248884,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/bottom-artwork.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_uploads\/dane-baptiste.jpg": {
@@ -317,6 +326,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/dane-baptiste.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -326,6 +336,17 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/danny-bhoy.jpg",
 		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/danny-bhoy600x400.jpg": {
+		"ft": 16384,
+		"iS": 45260,
+		"oA": 0,
+		"oAP": "\/_uploads\/danny-bhoy600x400.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -335,6 +356,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/david-o-doherty.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -344,6 +366,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/ed-gamble.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -353,6 +376,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/fin-taylor.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -362,6 +386,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/gallery-01.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -371,6 +396,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/gallery-02.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -380,6 +406,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/gallery-03.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -389,6 +416,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/gallery-04.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -398,6 +426,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/gallery-05.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -407,6 +436,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/gallery-06.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -416,6 +446,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/greg-davies-feature.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -425,6 +456,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/greg-davies.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -434,6 +466,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/james-acaster.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -443,6 +476,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/jayde-adams-variant.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -452,6 +486,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/jayde-adams.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -461,6 +496,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/joe-lycett-variant.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -470,6 +506,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/joe-lycett.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -479,6 +516,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/john-robins.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -488,6 +526,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/kerry-godliman.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -497,6 +536,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/kiri-pritchard-mclean.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -506,6 +546,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/marcus-brigstocke.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -515,6 +556,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/mark-olver.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -524,6 +566,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/mark-watson.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -533,6 +576,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/nina-conti.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -542,6 +586,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/nish-kumar.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -551,6 +596,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/rich-hall.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -560,6 +606,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/ross-noble-feature.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -569,6 +616,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/ross-noble-variant.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -578,6 +626,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/ross-noble.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -587,6 +636,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/sara-pascoe-variant.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -596,6 +646,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/sara-pascoe.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -605,6 +656,17 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/seann-walsh.jpg",
 		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/shappi-khorsandi600x400.jpg": {
+		"ft": 16384,
+		"iS": 49961,
+		"oA": 0,
+		"oAP": "\/_uploads\/shappi-khorsandi600x400.jpg",
+		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -614,6 +676,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/stephen-k-amos.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
@@ -623,6 +686,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/stewart-francis.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -632,6 +696,7 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/tim-key.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -641,47 +706,52 @@
 		"oA": 0,
 		"oAP": "\/_uploads\/tom-allen.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
 	"\/_uploads\/top-artwork-v2.png": {
 		"ft": 32768,
 		"iS": 159466,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/top-artwork-v2.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_uploads\/top-artwork-v3.png": {
 		"ft": 32768,
 		"iS": 120165,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/top-artwork-v3.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_uploads\/top-artwork-v4.png": {
 		"ft": 32768,
 		"iS": 140349,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/top-artwork-v4.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_uploads\/top-artwork.png": {
 		"ft": 32768,
 		"iS": 161984,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_uploads\/top-artwork.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/about.md": {
@@ -721,31 +791,34 @@
 	"\/assets\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 641,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/android-chrome-192x192.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/favicons\/android-chrome-256x256.png": {
 		"ft": 32768,
 		"iS": 1084,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/android-chrome-256x256.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/favicons\/apple-touch-icon.png": {
 		"ft": 32768,
 		"iS": 521,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/apple-touch-icon.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/favicons\/browserconfig.xml": {
@@ -757,21 +830,23 @@
 	"\/assets\/favicons\/favicon-16x16.png": {
 		"ft": 32768,
 		"iS": 362,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/favicon-16x16.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/favicons\/favicon-32x32.png": {
 		"ft": 32768,
 		"iS": 369,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/favicon-32x32.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/favicons\/favicon.ico": {
@@ -791,11 +866,12 @@
 	"\/assets\/favicons\/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 598,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/mstile-150x150.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/favicons\/safari-pinned-tab.svg": {
@@ -943,11 +1019,12 @@
 	"\/assets\/img\/og-image.png": {
 		"ft": 32768,
 		"iS": 14790,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/og-image.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/js\/app.js": {
@@ -5676,6 +5753,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-1600.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5685,6 +5763,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-375.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5694,6 +5773,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1-480.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5703,6 +5783,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/1.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5712,6 +5793,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-1600.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5721,6 +5803,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-375.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5730,6 +5813,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13-480.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5739,6 +5823,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/13.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5748,6 +5833,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-1600.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5757,6 +5843,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-375.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5766,6 +5853,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2-480.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5775,6 +5863,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/2.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5784,6 +5873,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-1600.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5793,6 +5883,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-375.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5802,6 +5893,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4-480.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5811,6 +5903,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/4.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5820,6 +5913,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-1.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5829,6 +5923,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-13.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5838,6 +5933,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-2.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -5847,6 +5943,7 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/demo\/img\/thumb-4.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
@@ -6117,31 +6214,34 @@
 	"\/bower_components\/lightgallery\/dist\/img\/video-play.png": {
 		"ft": 32768,
 		"iS": 4526,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/dist\/img\/video-play.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/lightgallery\/dist\/img\/vimeo-play.png": {
 		"ft": 32768,
 		"iS": 5428,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/dist\/img\/vimeo-play.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/lightgallery\/dist\/img\/youtube-play.png": {
 		"ft": 32768,
 		"iS": 5177,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/dist\/img\/youtube-play.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/lightgallery\/dist\/js\/lightgallery.js": {
@@ -6183,11 +6283,12 @@
 	"\/bower_components\/lightgallery\/lib\/lg.png": {
 		"ft": 32768,
 		"iS": 795264,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/lib\/lg.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/lightgallery\/lib\/picturefill.min.js": {
@@ -6328,31 +6429,34 @@
 	"\/bower_components\/lightgallery\/src\/img\/video-play.png": {
 		"ft": 32768,
 		"iS": 4526,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/src\/img\/video-play.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/lightgallery\/src\/img\/vimeo-play.png": {
 		"ft": 32768,
 		"iS": 5428,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/src\/img\/vimeo-play.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/lightgallery\/src\/img\/youtube-play.png": {
 		"ft": 32768,
 		"iS": 5177,
-		"l": 1,
 		"oA": 2,
 		"oAP": "\/bower_components\/lightgallery\/src\/img\/youtube-play.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/bower_components\/lightgallery\/src\/js\/.jshintrc": {
@@ -7536,10 +7640,10 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/index.html",
-		"oF": 0,
-		"oFM": 0,
+		"oA": 2,
+		"oAP": "\/index.md",
+		"oF": 1,
+		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
 		"pME": 1,
@@ -8675,6 +8779,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -9499,14 +9607,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -9569,7 +9669,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
