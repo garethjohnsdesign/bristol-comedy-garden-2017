@@ -3,16 +3,16 @@ title: Bristol Comedy Garden 2017
 position: 0
 image: "/assets/img/og-image.png"
 carousel:
-- name: Greg Davies
-  image: "/uploads/greg-davies-feature.jpg"
-  subheader: Undoubtedly one of the kingpins of British comedy - Evening Standard
-  is-sold-out: true
-  line-up: Sunday Late
 - name: Adam Hills
   image: "/uploads/adam-hills-feature.jpg"
   subheader: If you cannot enjoy Adam Hills you cannot have a pulse - The Scotsman
   is-sold-out: 
   line-up: Sunday Mid
+- name: Greg Davies
+  image: "/uploads/greg-davies-feature.jpg"
+  subheader: Undoubtedly one of the kingpins of British comedy - Evening Standard
+  is-sold-out: true
+  line-up: Sunday Late
 - name: Ross Noble
   image: "/uploads/ross-noble-feature.jpg"
   subheader: One of comedy’s greatest marvels - Daily Telegraph
