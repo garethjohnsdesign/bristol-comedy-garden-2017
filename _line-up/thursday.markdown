@@ -21,7 +21,7 @@ festival-starts-at: 2017-06-15 18:00:00 Z
 show-starts-at: 2017-06-15 19:30:00 Z
 ticket-price: "£18.50 - £24"
 ticket-link: http://www.seetickets.com/event/ross-noble/big-top-bristol-comedy-garden/1079394/
-is-sold-out: 
+is-sold-out: true
 layout: event
 ---
 

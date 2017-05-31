@@ -16,13 +16,13 @@ carousel:
 - name: Ross Noble
   image: "/uploads/ross-noble-feature.jpg"
   subheader: One of comedy’s greatest marvels - Daily Telegraph
-  is-sold-out: 
+  is-sold-out: true
   line-up: Thursday
 featured:
 - name: Joe Lycett
   image: "/uploads/joe-lycett-variant.jpg"
   subheader: 
-  is-sold-out: false
+  is-sold-out: true
   line-up: Wednesday
 - name: Nina Conti
   image: "/uploads/nina-conti.jpg"
@@ -47,7 +47,7 @@ featured:
 - name: Mark Watson
   image: "/uploads/mark-watson.jpg"
   subheader: 
-  is-sold-out: 
+  is-sold-out: true
   line-up: Wednesday
 - name: Tim Key
   image: "/uploads/tim-key.jpg"
@@ -62,3 +62,4 @@ featured:
 layout: index
 ---
 
+Test
