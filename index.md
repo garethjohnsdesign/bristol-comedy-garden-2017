@@ -62,4 +62,3 @@ featured:
 layout: index
 ---
 
-Test
