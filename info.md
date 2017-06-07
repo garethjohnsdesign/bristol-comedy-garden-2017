@@ -3,21 +3,21 @@ title: Info
 position: 5
 general:
 - title: Food and Drink
-  text: "There’s more than just great comedy growing in our garden…\n\nGet down to
-    the Comedy Garden nice and early and get into the comedy spirit in the leafy surrounds
-    of Queen Square. Come and enjoy our bars serving up all your favourite tipples
-    including a great range of ciders, craft beers and a summery splash of cocktails.
-    \n\nAnd make sure you arrive hungry for great food as well as laughter and sample
-    the delicious fare served up by our hand-picked selection of local street-food
-    vendors. They’ll be busy serving up a veritable feast of meaty, veggie and vegan
-    dishes to suit all comedy-lover palates! \n\n\n**Pre-order your interval drinks!**
-    Jump the bar queue during the interval by being all high-tech with Ordoo, a clever
-    little app that let’s you pre-order and pay for your drinks. Just download the
-    [app](http://ordoo.co.uk), fill in your payment details and order a round of drinks
-    to collect from the pick-up point at the bar. [Ordoo](http://ordoo.co.uk) will
-    tell you when your drinks are ready so there’s no need to hang around. Spend your
-    interval enjoying a pint and having a chuckle with your mates rather than standing
-    in line! "
+  text: "There’s more than just great comedy growing in our garden…\n\nArrive early
+    and get into the comedy spirit at our bountiful bars and delicious street-food
+    stalls. This year we have [Scoff & Relish](https://www.scoffandrelish.co.uk) with
+    gourmet salad boxes and hearty soups, [Los Amigos](http://www.losamigoseventcatering.co.uk/burritos-in-bristol/)
+    with their burritos bursting with Mexican goodness, the legendary [Agnes Spencer](https://twitter.com/agnesspencers?lang=en)
+    will be on hand with authentic Jamaican flavours, the guys from [Hippy Chippy](http://www.thehippychippy.co.uk)
+    will be churning out the chunky chips and no event in the South West is complete
+    without the mighty [Pieminister](http://www.pieminister.co.uk) and their award-winning
+    pies!  \n\n\n**Pre-order your interval drinks!** Jump the bar queue during the
+    interval by being all high-tech with Ordoo, a clever little app that let’s you
+    pre-order and pay for your drinks. Just download the [app](http://ordoo.co.uk),
+    fill in your payment details and order a round of drinks to collect from the pick-up
+    point at the bar. [Ordoo](http://ordoo.co.uk) will tell you when your drinks are
+    ready so there’s no need to hang around. Spend your interval enjoying a pint and
+    having a chuckle with your mates rather than standing in line! "
 - title: Festival Timings
   text: |-
     Weds 14th June: 6pm - 10.30pm
