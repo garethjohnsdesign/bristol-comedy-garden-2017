@@ -34,11 +34,11 @@ featured:
   subheader: 
   is-sold-out: 
   line-up: Saturday Late
-- name: David O'Doherty
-  image: "/uploads/david-o-doherty.jpg"
+- name: Marcus Brigstocke
+  image: "/uploads/marcus-brigstocke.jpg"
   subheader: 
-  is-sold-out: true
-  line-up: Friday
+  is-sold-out: false
+  line-up: Saturday Mid
 - name: Sara Pascoe
   image: "/uploads/sara-pascoe.jpg"
   subheader: 
