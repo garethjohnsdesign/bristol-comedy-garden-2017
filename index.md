@@ -5,7 +5,7 @@ image: "/assets/img/og-image.png"
 carousel:
 - name: Adam Hills
   image: "/uploads/adam-hills-feature.jpg"
-  subheader: If you cannot enjoy Adam Hills you cannot have a pulse - The Scotsman
+  subheader: If you cannot enjoy Adam Hills you cannot have a pulse — The Scotsman
   is-sold-out: 
   line-up: Sunday Mid
 - name: Greg Davies
