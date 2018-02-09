@@ -60,7 +60,7 @@ $foundation-palette: (
 );
 */
 $foundation-palette: (
-  primary: $color--trinidad,
+  primary: $color--white,
   secondary: #767676,
   success: #3adb76,
   warning: #ffae00,
@@ -73,9 +73,9 @@ $black: $color--black;
 // $white: #fefefe;
 $white: $color--white;
 // $body-background: $white;
-$body-background: $color--lightest-gray;
+$body-background: #f1557d;
 // $body-font-color: $black;
-$body-font-color: $color--black;
+$body-font-color: $white;
 $body-font-family: 'Larsseit', Helvetica, Roboto, Arial, sans-serif;
 $body-antialiased: true;
 $global-margin: 1rem;

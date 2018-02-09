@@ -87,13 +87,14 @@ i, cite, em, var, address, dfn {
 }
 
 .top-bar__logo { 
- font-size: 1.5rem;
+ text-transform: uppercase;
+ font-size: 3rem;
  font-family: $secondary-font-family;
  @include breakpoint(small only) {
-  font-size: 1.1rem;
+  font-size: 2rem;
   }
  @include breakpoint(medium only) {
-  font-size: 1.25rem;
+  font-size: 2rem;
   }
 }
 

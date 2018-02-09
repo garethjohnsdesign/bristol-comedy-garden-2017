@@ -1,5 +1,5 @@
 ---
-title: Bristol Comedy Garden 2017
+title: Bristol Comedy Garden 2018
 position: 0
 image: "/assets/img/og-image.png"
 carousel:
@@ -59,6 +59,6 @@ featured:
   subheader: 
   is-sold-out: 
   line-up: Saturday Late
-layout: index
+layout: holding
 ---
 

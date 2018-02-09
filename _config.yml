@@ -2,9 +2,6 @@
 title: Bristol Comedy Garden
 timezone: UTC
 collections:
-  line-up:
-    title: Line-up
-    output: true
   posts:
     title: Posts
     output: true
