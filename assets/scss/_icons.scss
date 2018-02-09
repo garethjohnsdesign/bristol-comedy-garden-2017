@@ -38,8 +38,8 @@ Example showing how to change the color/size of the icons:
 }
 
 .icon-footer-stacked {
-  font-size: 8rem;
+  font-size: 10rem;
   @include breakpoint(small only) {
-  font-size: 6rem;
+  font-size: 10rem;
   }
 }
