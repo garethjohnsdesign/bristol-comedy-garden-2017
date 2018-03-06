@@ -5,14 +5,14 @@ position: 3
 acts:
 - name: Adam Buxton's Bug X
   image: "/uploads/adam-buxton.jpg"
-quote:
-quote-cite:
-secondary-text:
+quote: 
+quote-cite: 
+secondary-text: 
 festival-starts-at: 2018-06-09 13:00:00 Z
 show-starts-at: 2018-06-09 14:00:00 Z
 ticket-price: "£20"
-ticket-link:
-is-sold-out:
+ticket-link: 
+is-sold-out: 
 layout: event
 ---
 

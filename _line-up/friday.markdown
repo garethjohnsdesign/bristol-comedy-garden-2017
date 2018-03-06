@@ -13,13 +13,17 @@ acts:
   image: "/uploads/john-kearns.jpg"
 - name: Ed Gamble
   image: "/uploads/ed-gamble.jpg"
-quote: When a stand up gig goes this well, you do get a sense of how religions are started
+quote: When a stand up gig goes this well, you do get a sense of how religions are
+  started
 quote-cite: The Guardian
-secondary-text: Joining David is a blisteringly good, all-star supporting cast with one of the finest stand-ups of his generation, Mock The Week regular James Acaster, Taskmaster’s Lolly Adefope, double Edinburgh Comedy Award winner John Kearns and plucky scamp Ed Gamble as host.
+secondary-text: Joining David is a blisteringly good, all-star supporting cast with
+  one of the finest stand-ups of his generation, Mock The Week regular James Acaster,
+  Taskmaster’s Lolly Adefope, double Edinburgh Comedy Award winner John Kearns and
+  plucky scamp Ed Gamble as host.
 festival-starts-at: 2018-06-08 18:00:00 Z
 show-starts-at: 2018-06-08 19:30:00 Z
 ticket-price: "£20 - £25"
-ticket-link:
+ticket-link: 
 is-sold-out: false
 layout: event
 ---

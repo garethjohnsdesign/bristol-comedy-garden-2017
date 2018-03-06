@@ -10,19 +10,19 @@ carousel:
   line-up: Wednesday
 - name: Adam Buxton's Bug X
   image: "/uploads/adam-buxton-featured.jpg"
-  subheader:
-  is-sold-out:
+  subheader: 
+  is-sold-out: 
   line-up: Saturday Early
 - name: Alan Davies
   image: "/uploads/alan-davies-featured.jpg"
   subheader: One of the best Stand-up comics out there
-  is-sold-out:
+  is-sold-out: 
   line-up: Thursday
 featured:
 - name: James Acaster
   image: "/uploads/james-acaster.jpg"
   subheader: 
-  is-sold-out:
+  is-sold-out: 
   line-up: Friday
 - name: Lolly Adefope
   image: "/uploads/lolly-adefope.jpg"
@@ -47,7 +47,7 @@ featured:
 - name: Joe Wilkinson
   image: "/uploads/joe-wilkinson.jpg"
   subheader: 
-  is-sold-out:
+  is-sold-out: 
   line-up: Thursday
 - name: Reginald D Hunter
   image: "/uploads/reginald-d-hunter.jpg"
@@ -61,3 +61,4 @@ featured:
   line-up: Wednesday
 layout: home
 ---
+

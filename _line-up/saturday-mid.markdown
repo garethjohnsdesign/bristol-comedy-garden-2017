@@ -13,11 +13,13 @@ acts:
   image: "/uploads/stephen-k-amos.jpg"
 quote: Pun-derful Jones leaves the audience gagging for more
 quote-cite: Metro
-secondary-text: Joining Milton is an all-star supporting line-up with Bristol’s very own multi-award winning comedy superhero Mark Watson, acclaimed Radio 4 favourite Shappi Khorsandi and globe-trotting laughter-master Stephen K Amos as host. 
+secondary-text: Joining Milton is an all-star supporting line-up with Bristol’s very
+  own multi-award winning comedy superhero Mark Watson, acclaimed Radio 4 favourite
+  Shappi Khorsandi and globe-trotting laughter-master Stephen K Amos as host.
 festival-starts-at: 2017-06-17 15:00:00 Z
 show-starts-at: 2017-06-17 16:45:00 Z
 ticket-price: "£20 - £25"
-ticket-link:
+ticket-link: 
 is-sold-out: 
 layout: event
 ---
