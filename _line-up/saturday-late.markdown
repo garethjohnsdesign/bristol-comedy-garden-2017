@@ -1,27 +1,25 @@
 ---
 title: Saturday Late
-date: 2017-06-17 19:30:00 Z
-position: 3
+date: 2018-06-09 19:45:00 Z
+position: 5
 acts:
-- name: Rich Hall
-  image: "/uploads/rich-hall.jpg"
-- name: Stewart Francis
-  image: "/uploads/stewart-francis.jpg"
-- name: Kerry Godliman
-  image: "/uploads/kerry-godliman.jpg"
-- name: Fin Taylor
-  image: "/uploads/fin-taylor.jpg"
-quote: Rich Hall is a comedy phenomenon
-quote-cite: The Sun
-secondary-text: Joining Rich is ‘Mock The Week’s’ unmistakable pun-maestro Stewart
-  Francis, bringing his razor sharp one-liners to the Big Top with ‘Live At The Apollo’
-  star Kerry Godliman and the much-acclaimed Fin Taylor as host.
-festival-starts-at: 2017-06-17 18:00:00 Z
-show-starts-at: 2017-06-17 19:30:00 Z
-ticket-price: "£18.50 - £24"
-ticket-link: http://www.seetickets.com/event/rich-hall/big-top-bristol-comedy-garden/1079403/
-is-sold-out: true
+- name: Reginald D Hunter
+  image: "/uploads/reginald-d-hunter.jpg"
+- name: Seann Walsh
+  image: "/uploads/seann-walsh.jpg"
+- name: Jen Brister
+  image: "/uploads/jen-brister.jpg"
+- name: Mark Olver
+  image: "/uploads/mark-olver.jpg"
+quote: Simply exhilarating…This is comedy of a rare scope
+quote-cite: The Times
+secondary-text: Joining Milton is an all-star supporting line-up with Bristol’s very own multi-award winning comedy superhero Mark Watson, acclaimed Radio 4 favourite Shappi Khorsandi and globe-trotting laughter-master Stephen K Amos as host. 
+festival-starts-at: 2018-06-09 18:00:00 Z
+show-starts-at: 2018-06-09 19:45:00 Z
+ticket-price: "£20 - £25"
+ticket-link:
+is-sold-out: 
 layout: event
 ---
 
-Rich Hall’s critically acclaimed grouchy, deadpan style has established him as a master of absurdist irony and the king of rapid-fire wit. The award-winning Qi regular, world-renowned for his expertly crafted tirades and quick fire banter with audiences now saddles up and heads to the Comedy Garden.
+Spellbinding & brilliantly unpredictable multi-award winning US star Reginald D Hunter headlines Saturday night in the Big Top. Star of Qi, Have I Got News For You & his own hit BBC2 series 'Reginald D Hunter's Songs Of The South’, Reg’s searingly honest and hilarious material has garnered him a popular fanbase that spans the generations.

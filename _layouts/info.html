@@ -4,16 +4,9 @@ layout: default
 
 <section class="info">
   
-<!--
-  <div class="row align-center">
-    <div class="shrink columns">
-      <h1>{{page.title}}</h1>
-    </div>
-  </div>
--->
-  
-  <div class="row">
-    <div class="expand columns">
+  <div class="grid-container">
+  <div class="grid-x">
+    <div class="expand cell">
       <ul class="accordion" data-accordion  data-multi-expand="true" data-allow-all-closed="true">
         {% for details in page.general %}
           <li class="accordion-item" data-accordion-item>
@@ -25,6 +18,7 @@ layout: default
         {% endfor %}
       </ul>
     </div>
+  </div>
   </div>
   
 </section>

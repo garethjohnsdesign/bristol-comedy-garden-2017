@@ -1,11 +1,10 @@
 {% for entry in site.data.navigation %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
 
-  <div class="top-bar" id="top"> 
+  <div class="grid-x top-bar"> 
 
-      <div class="top-bar-left align-middle">
+      <div class="top-bar-left grid-padding-x align-middle">
         <ul class="menu simple align-middle">
-          <li class="show-for-large top-bar__icon"><a href="/"><svg class="icon icon-icon-rev"><use xlink:href="/assets/icons/symbol-defs.svg#icon-icon-rev"></use></svg></a></li>
-          <li class="uppercase top-bar__logo"><a href="/">{{site.title}}</a></li>
+          <li class="text-lowercase top-bar__logo"><a href="/">{{site.title}}</a></li>
           <li class="show-for-large top-bar__date"><a href="/">{{site.date-text}}</a></li>
         </ul>
       </div>

@@ -1,28 +1,27 @@
 ---
 title: Wednesday
-date: 2017-06-14 19:30:00 Z
+date: 2018-06-06 19:30:00 Z
 position: 0
 acts:
-- name: Mark Watson
-  image: "/uploads/mark-watson.jpg"
-- name: Joe Lycett
-  image: "/uploads/joe-lycett-variant.jpg"
-- name: James Acaster
-  image: "/uploads/james-acaster.jpg"
+- name: Josh Widdicombe
+  image: "/uploads/josh-widdicombe.jpg"
+- name: Tom Allen
+  image: "/uploads/tom-allen.jpg"
+- name: Lauren Pattison
+  image: "/uploads/lauren-pattison.jpg"
+- name: Ivo Graham
+  image: "/uploads/ivo-graham.jpg"
 - name: John Robins
   image: "/uploads/john-robins.jpg"
-quote: Belly laugh brilliant… The audience was weeping with laughter
-quote-cite: Time Out
-secondary-text: Joining Mark is 8 Out of 10 Cats Does Countdown favourite and self-confessed
-  ‘absolute lad’ Joe Lycett, quadruple Edinburgh Comedy Award nominee and Mock The
-  Week regular James Acaster plus all-round-dude (and podcast wonder) John Robins
-  as host.
-festival-starts-at: 2017-06-14 18:00:00 Z
-show-starts-at: 2017-06-14 19:30:00 Z
-ticket-price: "£18.50 - £24"
-ticket-link: http://www.seetickets.com/event/mark-watson/big-top-bristol-comedy-garden/1079365/
-is-sold-out: true
+quote: The undisputed king of the exasperated petty gripe
+quote-cite: Evening Standard
+secondary-text: Joining Josh is sharp-suited soom to be huge Tom Allen, fast-rising Edinburgh Comedy Award nominee Lauren Pattison, the brilliantly funny Live At The Apollo star Ivo Graham and 2017 Edinburgh Comedy Award winner, podcast hero and all round vibe-magnet John Robins as host.
+festival-starts-at: 2018-06-06 18:00:00 Z
+show-starts-at: 2018-06-06 19:30:00 Z
+ticket-price: "£20 - £25"
+ticket-link:
+is-sold-out: false
 layout: event
 ---
 
-Bristol’s very own multi-award winning comedy hero Mark Watson headlines an astounding opening night for the Comedy Garden 2017. The Live At The Apollo star brings a gag-packed set complete with his customary flailing about, chaotic audience interaction and all sorts of other fun to the Big Top.
+The Last Leg’s Josh Widdicombe headlines an astounding opening night in the Big Top. Star of 8 Out of 10 Cats does Countdown, Qi and his very own hit BBC sitcom ‘Josh’, don’t miss the inimitable master observationalist live in Queen Square.

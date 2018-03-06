@@ -1,19 +1,19 @@
-<div class="row align-center">
-<div class="small-8 columns">
+<div class="grid-x grid-padding-y align-center">
+<div class="small-8 cell">
 
-<div class="row">
+<div class="grid-x">
 
-<div class="small-4 columns">
+<div class="small-4 cell">
   {% if page.previous.url %}
     <a href="{{page.previous.url}}">
       <div class="pagination align-middle">
-        <svg class="icon icon-arrow-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-left"></use></svg> <span class="show-for-medium">Previous</span>
+        <svg class="icon icon-argrid-x-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-argrid-x-left"></use></svg> <span class="show-for-medium">Previous</span>
       </div>
     </a>
   {% endif %}
 </div>
 
-<div class="small-4 columns align-middle">
+<div class="small-4 cell align-middle">
     <a href="/line-up/#all">
       <div class="pagination align-middle text-center">
         <svg class="icon icon-grid"><use xlink:href="/assets/icons/symbol-defs.svg#icon-grid"></use></svg>
@@ -22,11 +22,11 @@
 </div>
 
 
-<div class="small-4 columns text-right">
+<div class="small-4 cell text-right">
   {% if page.next.url %}
   <a href="{{page.next.url}}">
     <div class="pagination align-middle">
-        <span class="show-for-medium">Next </span><svg class="icon icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg>
+        <span class="show-for-medium">Next </span><svg class="icon icon-argrid-x-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-argrid-x-right"></use></svg>
     </div>
   </a>
   {% endif %}

@@ -12,109 +12,82 @@
 // 1. Global
 // ---------
 
-html, body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
 }
 
-input {
-  font-family: $body-font-family;
-}
-
-body {
-  cursor: default;
-}
-
-svg {
-  max-width: 100%;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-
-::selection {
-  background: $color--black;
-  color: $color--white;
-}
-
-a {
-  transition: $primary-transition;
+.gradient {
+  background-color: #ffd6c8
 }
 
 
 // 2. Typography
 // -------------
 
-.uppercase {
-  text-transform: uppercase;
-}
-
-i, cite, em, var, address, dfn {
-  font-style: normal;
-}
-
-@mixin header-tight {
-  margin-bottom: 0rem;
-}
-
 // 3. 404
 // ------
-
-.missing {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-    a {
-      color: $color--dark-gray;
-    }
-    a:hover {
-      color: $color--black;
-    }
-}
 
 // 4. Navigation
 // -------------
 
-.top-bar a { 
-  color: $color--white;
-  &:hover {
-      color: $color--trinidad;
-    }
+.top-bar { 
+@include links($primary-color, $black);
 }
 
 .top-bar__logo { 
- font-size: 1.5rem;
- font-family: $secondary-font-family;
- @include breakpoint(small only) {
-  font-size: 1.1rem;
-  }
- @include breakpoint(medium only) {
-  font-size: 1.25rem;
-  }
+ font-size: 2rem;
+ font-family: $primary-font-family;
+ letter-spacing: -1px;
 }
 
 .top-bar__date { 
-  padding-top: 4px;
-  a {
-  color: $color--gray;
-  }
+@include links($dark-gray, $black);
 }
 
-.top-bar__socials a {
-  color: $color--gray;
-  @include transition(color .35s ease-out);
-  &:hover,
-  &:focus {
-    color: $color--white;
-    }
+.top-bar__socials {
+@include links($dark-gray, $black);
 }
+
+/*
+
 
 .top-bar-right {
   z-index: 2000;
+}
+*/
+
+// 6. Navigation
+// ------
+
+.navigation__logo {
+  z-index: 2;
+}
+
+.navigation--mobile {
+  z-index: 1;
+  position: fixed;
+  background: $white;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 0;
+//   transition: $primary-transition;
+  visibility: hidden;
+  font-family: $header-font-family;
+  font-size: 1.25rem;
+  &.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  a {
+   padding: 1rem 0rem;
+  }
 }
 
 
@@ -125,28 +98,13 @@ i, cite, em, var, address, dfn {
 .excerpt {
   position:relative;
   opacity:1;
-  margin: 0.5rem;
-  transition: $primary-transition;
-    @include breakpoint(medium only) {
-      margin: 0.75rem;
-    }
-    @include breakpoint(small only) {
-      margin: 0.25rem;
-    }
-    img {
-      width:100%;
-    }
     &:hover .excerpt__image:after {
-      background:$color--dark-blue;
-      transition: $primary-transition;
-      opacity:0.8;
-      @include breakpoint(small only) {
-      opacity:0.1;
-      }
+      background:$black;
+      opacity:0.4;
     }
-    &:hover .excerpt__title p {
+    &:hover .excerpt__title {
       opacity: 1;
-      color: $color--white;
+      color: $white;
     }
     &:hover .excerpt__image img {
     filter: grayscale(1);
@@ -161,20 +119,12 @@ i, cite, em, var, address, dfn {
   width: 100%;
   height: 100%;
   margin: 0rem;
-    p {
-      font-family: $header-font-family;
-      font-size: 1.25rem;
-      opacity: 1;
-      color: $color--white;
-      transition: $primary-transition;
-      margin: 0rem;
-      z-index: 1000;
-    }
-}
-
-div.row.excerpt__title {
+  font-family: $header-font-family;
+  font-size: 1.25rem;
+  opacity: 1;
+  color: $white;
   margin: 0rem;
-  z-index: 5;
+  z-index: 1000;
 }
 
 .excerpt__image:after {
@@ -184,9 +134,9 @@ div.row.excerpt__title {
   height:100%;
   top:0; 
   left:0;
-  background:$color--black;
-  transition: $primary-transition;
-  opacity:0.1;
+  background:$black;
+//   transition: $primary-transition;
+  opacity: 0.0;
 }
 
 .excerpt__image:after p {
@@ -212,56 +162,24 @@ div.row.excerpt__title {
 
 .index__gallery {
   height: 60vh;
-  z-index: 1;
-  @include breakpoint(small) {
-  height: calc(100vh - 120px);
-  }
-  // Only affects medium screens, not small or large
-  @include breakpoint(medium) { 
-  height: 70vh;
-  }
 }
 
 .index__gallery-cell {
   width: 100%;
   height: 100%;
-  /* inherit height from gallery */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  z-index: 1; }
+  z-index: 1; 
+}
   
 .index__gallery__text {
 	height: 100%;
 }
 
 
-.index__gallery__text__inner a {
-	color: $color--white;
-	&:hover {
-      color: $color--trinidad;
-    }
-}
-
-.index__gallery__text__inner h1 a {
-  padding-bottom: 0.1rem;
-	border-bottom: 2px solid $color--white;
-}
-
-.index__gallery__text__inner h4 {
-	color: $color--trinidad;
-}
-
-.index__lineuplink {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  span {
-  color: $color--gray;
-  transition: $primary-transition;
-  	&:hover {
-      color: $color--trinidad;
-    }
-  }
+.index__gallery__text__inner {
+  @include links($white, $primary-color);
 }
 
 
@@ -274,11 +192,6 @@ div.row.excerpt__title {
   background-repeat:no-repeat;
   background-position:center top;
   background-size:contain;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  @include breakpoint(small only) {
-    padding-top: 2rem;
-  }
 }
 
 .location__map {
@@ -299,24 +212,19 @@ div.row.excerpt__title {
   background-repeat:no-repeat;
   background-position:center top, center bottom;
   background-size:contain, contain;
-  padding-top: 2rem;
-  padding-bottom: 10rem;
-  @include breakpoint(small only) {
-    padding-top: 2rem;
-  }
 }
 
 .event__title {
   padding-bottom: 1rem;
-  color: $color--black;
+  color: $black;
 }
 
 .event__title h3 {
-  color: $color--trinidad;
+//   color: $trinidad;
 }
 
 .event__title span {
-  color: $color--gray;
+  color: $medium-gray;
 }
 
 .event__acts {
@@ -339,9 +247,9 @@ div.row.excerpt__title {
 
 .event .excerpt {
     &:hover .excerpt__image:after {
-      background:$color--dark-blue;
-      transition: $primary-transition;
-      opacity:0.1;
+//       background:$dark-blue;
+//       transition: $primary-transition;
+//       opacity:0.1;
     }
     &:hover .excerpt__image img {
     filter: grayscale(0);
@@ -359,12 +267,6 @@ div.row.excerpt__title {
   background-repeat:no-repeat;
   background-position:center top, center bottom;
   background-size:contain, contain;
-  padding-top: 2rem;
-  padding-bottom: 10rem;
-}
-
-.tickets h2 {
-  color: $color--gray;
 }
 
 .tickets h3 {
@@ -427,7 +329,7 @@ div.row.excerpt__title {
 
 .about__images img {
   opacity: 1;
-  transition: $primary-transition;
+//   transition: $primary-transition;
 }
 
 .about__images:hover img {
@@ -439,16 +341,13 @@ div.row.excerpt__title {
 // --------
 
 .line-up {
+/*
   min-height: 50rem;
   background-image: url(/uploads/top-artwork-v3.png),url(/uploads/bottom-artwork.png);
   background-repeat:no-repeat;
   background-position:center top, center bottom;
   background-size:contain, contain;
-  padding-top: 5rem;
-  padding-bottom: 10rem;
-    @include breakpoint(small only) {
-    padding-top: 2rem;
-  }
+*/
 }
 
 // 11. Info
@@ -472,7 +371,7 @@ div.row.excerpt__title {
 .pagination .icon {
   vertical-align: middle;
   font-size: 2rem;
-  color: $color--gray;
+  color: $medium-gray;
 }
 
 // 11. Footer
@@ -480,31 +379,11 @@ div.row.excerpt__title {
 
 
 footer {
-  color: $color--white;
-  background-color: $color--dark-blue;
-  @include breakpoint(small) {
-  padding: 2rem 0rem;
-  }
-  @include breakpoint(medium) { 
-  padding: 3rem 0rem;
-  }
+  color: $secondary-color;
+  @include links($secondary-color, $white);
+  background-color: get-color(primary-background);
 }
 
-footer a {
-    color: $color--white;
-    &:hover,
-    &:focus {
-      color: $color--trinidad;
-    }
-}
-
-.footer__link a {
-    color: $color--trinidad;
-    &:hover,
-    &:focus {
-      color: $color--white;
-    }
-}
 
 .footer__socials {
     padding: 0rem 0rem 2rem 0rem;
@@ -513,14 +392,6 @@ footer a {
 
 .footer__form {
     padding: 2rem 0rem 0rem 0rem;
-}
-
-.footer__form .button {
-	@include button-style($color--white, $color--dark-blue, auto);
-	&:hover,
-    &:focus {
-      color: $color--white;
-    }
 }
 
 .footer__partners .icon {

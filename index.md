@@ -1,64 +1,63 @@
 ---
-title: Bristol Comedy Garden 2017
+title: Bristol Comedy Garden 2018
 position: 0
 image: "/assets/img/og-image.png"
 carousel:
-- name: Adam Hills
-  image: "/uploads/adam-hills-feature.jpg"
-  subheader: If you cannot enjoy Adam Hills you cannot have a pulse — The Scotsman
+- name: Josh Widdicombe
+  image: "/uploads/josh-widdicombe-featured.jpg"
+  subheader: The undisputed king of the exasperated petty gripe — Evening Standard
   is-sold-out: 
-  line-up: Sunday Mid
-- name: Greg Davies
-  image: "/uploads/greg-davies-feature.jpg"
-  subheader: Undoubtedly one of the kingpins of British comedy - Evening Standard
-  is-sold-out: true
-  line-up: Sunday Late
-- name: Ross Noble
-  image: "/uploads/ross-noble-feature.jpg"
-  subheader: One of comedy’s greatest marvels - Daily Telegraph
-  is-sold-out: true
+  line-up: Wednesday
+- name: Adam Buxton's Bug X
+  image: "/uploads/adam-buxton-featured.jpg"
+  subheader:
+  is-sold-out:
+  line-up: Saturday Early
+- name: Alan Davies
+  image: "/uploads/alan-davies-featured.jpg"
+  subheader: One of the best Stand-up comics out there
+  is-sold-out:
   line-up: Thursday
 featured:
-- name: Joe Lycett
-  image: "/uploads/joe-lycett-variant.jpg"
+- name: James Acaster
+  image: "/uploads/james-acaster.jpg"
   subheader: 
-  is-sold-out: true
-  line-up: Wednesday
-- name: Nina Conti
-  image: "/uploads/nina-conti.jpg"
-  subheader: 
-  is-sold-out: 
-  line-up: Saturday Mid
-- name: Rich Hall
-  image: "/uploads/rich-hall.jpg"
+  is-sold-out:
+  line-up: Friday
+- name: Lolly Adefope
+  image: "/uploads/lolly-adefope.jpg"
   subheader: 
   is-sold-out: 
-  line-up: Saturday Late
-- name: Marcus Brigstocke
-  image: "/uploads/marcus-brigstocke.jpg"
+  line-up: Friday
+- name: David O’Doherty
+  image: "/uploads/david-o-doherty.jpg"
+  subheader: 
+  is-sold-out: 
+  line-up: Friday
+- name: Shappi Khorsandi
+  image: "/uploads/shappi-khorsandi.jpg"
   subheader: 
   is-sold-out: false
   line-up: Saturday Mid
-- name: Sara Pascoe
-  image: "/uploads/sara-pascoe.jpg"
+- name: Tom Allen
+  image: "/uploads/tom-allen.jpg"
   subheader: 
   is-sold-out: true
   line-up: Friday
-- name: Mark Watson
-  image: "/uploads/mark-watson.jpg"
+- name: Joe Wilkinson
+  image: "/uploads/joe-wilkinson.jpg"
+  subheader: 
+  is-sold-out:
+  line-up: Thursday
+- name: Reginald D Hunter
+  image: "/uploads/reginald-d-hunter.jpg"
   subheader: 
   is-sold-out: true
-  line-up: Wednesday
-- name: Tim Key
-  image: "/uploads/tim-key.jpg"
-  subheader: 
-  is-sold-out: true
-  line-up: Friday
-- name: Stewart Francis
-  image: "/uploads/stewart-francis.jpg"
+  line-up: Saturday Late
+- name: John Robins
+  image: "/uploads/john-robins.jpg"
   subheader: 
   is-sold-out: 
-  line-up: Saturday Late
-layout: index
+  line-up: Wednesday
+layout: home
 ---
-

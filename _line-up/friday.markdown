@@ -1,29 +1,27 @@
 ---
 title: Friday
-date: 2017-06-16 19:30:00 Z
+date: 2018-06-08 19:30:00 Z
 position: 2
 acts:
 - name: David O'Doherty
   image: "/uploads/david-o-doherty.jpg"
-- name: Tim Key
-  image: "/uploads/tim-key.jpg"
-- name: Sara Pascoe
-  image: "/uploads/sara-pascoe.jpg"
-- name: Aisling Bea
-  image: "/uploads/aisling-bea.jpg"
-quote: When a stand up gig goes this well, you do get a sense of how religions are
-  started
+- name: James Acaster
+  image: "/uploads/james-acaster.jpg"
+- name: Lolly Adefope
+  image: "/uploads/lolly-adefope.jpg"
+- name: John Kearns
+  image: "/uploads/john-kearns.jpg"
+- name: Ed Gamble
+  image: "/uploads/ed-gamble.jpg"
+quote: When a stand up gig goes this well, you do get a sense of how religions are started
 quote-cite: The Guardian
-secondary-text: Joining David is a supporting line-up chock-a-block with greatness
-  featuring cult poet/comic, ‘Taskmaster’ and ‘Alan Partridge’ star Tim Key, comic/author/natural
-  charmer and Mock The Week regular Sara Pascoe and 8 Out Of 10 Cats team captain
-  Aisling Bea as host.
-festival-starts-at: 2017-06-16 18:00:00 Z
-show-starts-at: 2017-06-16 19:30:00 Z
-ticket-price: "£18.50 - £24"
-ticket-link: http://www.seetickets.com/event/david-o-doherty/big-top-bristol-comedy-garden/1079398/
-is-sold-out: true
+secondary-text: Joining David is a blisteringly good, all-star supporting cast with one of the finest stand-ups of his generation, Mock The Week regular James Acaster, Taskmaster’s Lolly Adefope, double Edinburgh Comedy Award winner John Kearns and plucky scamp Ed Gamble as host.
+festival-starts-at: 2018-06-08 18:00:00 Z
+show-starts-at: 2018-06-08 19:30:00 Z
+ticket-price: "£20 - £25"
+ticket-link:
+is-sold-out: false
 layout: event
 ---
 
-David O'Doherty — The Ryanair Enya, The Lidl Bublé — returns to the Comedy Garden to headline the Big Top with talking and songs played on his crappy keyboard from 1986. A bona-fide favourite of the Comedy Garden, expect a hit-packed set from this ‘8 Out Of 10 Cats Does Countdown’ regular.
+The Lidl Enya, Broken Bublé, Live At The Apollo star and bona-fide Bristol Comedy Garden favourite David O’Doherty returns to headline the Big Top with talking and songs played on crappy keyboard from 1986. 
