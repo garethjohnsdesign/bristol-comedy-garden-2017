@@ -31,23 +31,7 @@ layout: default
     </div>
   </div>
   
-<!--
-  {% assign collection = site.line-up | group_by_exp: "item", "item.date | date: '%A %-d %B'" %}
-  {% for day in collection %}
-  
-  <div class="tabs-panel" id="{{ day.name | slugify | remove: "-" }}">
-    <div class="grid-x collapse small-up-1 medium-up-2 large-up-3">
-    {% assign sorted = day.items | sort: 'date' %}
-    {% for day in sorted %}
-      {% for act in day.acts %}
-        {% include excerpt.html %}
-      {% endfor %}
-    {% endfor %}
-    </div>
-  </div>
 
-  {%endfor%}
--->
   </div>
   </div>
   </div>
