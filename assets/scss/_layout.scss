@@ -21,12 +21,12 @@
   }
 }
 
+// 2. Typography
+// -------------
+
 i, cite, em, var, address, dfn {
   font-style: normal;
 }
-
-// 2. Typography
-// -------------
 
 // 3. 404
 // ------
@@ -40,6 +40,7 @@ i, cite, em, var, address, dfn {
 
 .top-bar__logo { 
  letter-spacing: -1px;
+  margin-bottom: 0;
 }
 
 .top-bar__date { 
@@ -52,32 +53,6 @@ i, cite, em, var, address, dfn {
 
 // 6. Navigation
 // ------
-
-.navigation__logo {
-  z-index: 2;
-}
-
-.navigation--mobile {
-  z-index: 1;
-  position: fixed;
-  background: $white;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%; 
-  opacity: 0;
-//   transition: $primary-transition;
-  visibility: hidden;
-  font-family: $header-font-family;
-  font-size: 1.25rem;
-  &.open {
-    opacity: 1;
-    visibility: visible;
-  }
-  a {
-   padding: 1rem 0rem;
-  }
-}
 
 
 
@@ -108,7 +83,7 @@ i, cite, em, var, address, dfn {
   font-family: $header-font-family;
   font-size: 1.25rem;
   color: $white;
-  z-index: 1000;
+  z-index: 2;
 }
 
 .excerpt__image:after {
@@ -123,11 +98,6 @@ i, cite, em, var, address, dfn {
   opacity: 0.0;
 }
 
-.excerpt__image:after p {
-  z-index: 10000;
-}
-
-
 // 5. Index
 // --------
 
@@ -139,8 +109,7 @@ i, cite, em, var, address, dfn {
 }
 
 .index__gallery {
-  height: 60vh;
-  z-index: 0;
+  height: 70vh;
 }
 
 .index__gallery-cell {
@@ -149,7 +118,6 @@ i, cite, em, var, address, dfn {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  z-index: 0; 
 }
   
 .index__gallery__text {
@@ -192,43 +160,9 @@ i, cite, em, var, address, dfn {
   background-size:contain, contain;
 }
 
-.event__title {
-  padding-bottom: 1rem;
-  color: $black;
-}
-
-.event__title h3 {
-//   color: $trinidad;
-}
-
 .event__title span {
-  color: $medium-gray;
+  color: $white;
 }
-
-.event__acts {
-  padding-bottom: 2rem;
-}
-
-.event__text {
-  padding-bottom: 2rem;
-}
-
-.event__text h5 {
-  margin-bottom: 0.5rem;
-}
-
-
-.event .excerpt {
-    &:hover .excerpt__image:after {
-//       background:$dark-blue;
-//       transition: $primary-transition;
-//       opacity:0.1;
-    }
-    &:hover .excerpt__image img {
-    filter: grayscale(0);
-    } 
-}
-
 
 
 // 11. Tickets
@@ -242,35 +176,9 @@ i, cite, em, var, address, dfn {
   background-size:contain, contain;
 }
 
-.tickets h3 {
-  margin-bottom: 0.25rem;
-}
-
-.tickets h5 {
-  margin-bottom: 0rem;
-}
-
-.tickets .callout h5 {
-  margin-bottom: 1rem;
-}
-
-.tickets__time {
-  margin-bottom: 1rem;
-}
-
-.tickets__button {
-  background-color: red;
-}
-
 .tickets span {
   font-family: $body-font-family;
   padding-left: 0.5rem;
-}
-
-.tickets__acts {
-  @include breakpoint(small only) {
-    padding: 2rem 0rem;
-  }
 }
 
 // 11. About
@@ -285,7 +193,6 @@ i, cite, em, var, address, dfn {
 
 .about__images img {
   opacity: 1;
-//   transition: $primary-transition;
 }
 
 .about__images:hover img {
@@ -296,15 +203,6 @@ i, cite, em, var, address, dfn {
 // 11. Line-up
 // --------
 
-.line-up {
-/*
-  min-height: 50rem;
-  background-image: url(/uploads/top-artwork-v3.png),url(/uploads/bottom-artwork.png);
-  background-repeat:no-repeat;
-  background-position:center top, center bottom;
-  background-size:contain, contain;
-*/
-}
 
 // 11. Info
 // --------
@@ -316,14 +214,6 @@ i, cite, em, var, address, dfn {
   background-size:contain, contain;
 }
 
-// 11. Pagination
-// --------
-
-.pagination .icon {
-  vertical-align: middle;
-  font-size: 2rem;
-  color: $medium-gray;
-}
 
 // 11. Footer
 // ----------

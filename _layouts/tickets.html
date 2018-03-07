@@ -20,7 +20,7 @@ layout: default
   {% for day in sorted %}
   
   <!-- Time -->
-  <div class="grid-x align-center tickets__time">
+  <div class="grid-x grid-padding-y align-center">
     <div class="shrink cell">
       <h4>{{ day.date | date: "%l:%M%p" }}</h4>
     </div>
@@ -40,7 +40,7 @@ layout: default
             {% endfor %}
           </div>
           
-          <div class="small-12 large-3 cell align-self-middle tickets__acts text-lowercase">
+          <div class="small-12 large-3 cell align-self-middle text-lowercase">
             {% for act in day.acts %}
               <h4>{{ act.name }}</h4>
             {% endfor %}

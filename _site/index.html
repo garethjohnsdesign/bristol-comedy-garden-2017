@@ -29,21 +29,42 @@
   <link rel="alternate" type="application/rss+xml" title="Bristol Comedy Garden" href="http://www.bristolcomedygarden.co.uk/feed.xml">
 </head>
 <body>
-  <div class="grid-x top-bar"> 
-      <div class="shrink cell align-middle">
-        <ul class="menu simple align-middle">
+<div class="off-canvas-wrapper">
+<div class="multilevel-offcanvas off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
+    <ul class="vertical menu" data-accordion-menu>
+    <li><a href="#">Line-up</a>
+      <ul class="menu vertical nested">
+          <li><a href="/line-up/#all">All</a></li>
+          <li><a href="/line-up/#wednesday6june">Wednesday 6 June</a></li>
+          <li><a href="/line-up/#thursday7june">Thursday 7 June</a></li>
+          <li><a href="/line-up/#friday8june">Friday 8 June</a></li>
+          <li><a href="/line-up/#saturday9june">Saturday 9 June</a></li>
+          <li><a href="/line-up/#sunday10june">Sunday 10 June</a></li>
+       </ul>
+    </li>
+  <ul class="vertical menu">
+      <li><a href="/tickets/">Tickets</a></li>
+      <li><a href="/location/">Location</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/info/">Info</a></li>
+  </ul>
+  <ul class="menu simple social-links">
+    <li><a href="https://www.facebook.com/bristolcomedygarden" target="_blank"><svg class="icon icon-socials icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+    <li><a href="https://twitter.com/comedygarden" target="_blank"><svg class="icon icon-socials icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+  </ul>
+</div>
+<div class="off-canvas-content" data-off-canvas-content>
+  <div class="top-bar"> 
+      <div class="top-bar-left align-middle">
+        <ul class="menu simple show-for-medium">
           <li class="text-lowercase top-bar__logo"><h3><a href="/">Bristol Comedy Garden</a></h3></li>
-          <li class="top-bar__date"><a href="/">6 - 10 June 2018</a></li>
+          <li class="top-bar__date show-for-large"><a href="/">6 - 10 June 2018</a></li>
         </ul>
+        <div class="show-for-small-only text-center">
+          <h3 class="text-lowercase top-bar__logo"><a data-toggle="offCanvas">Bristol Comedy Garden<svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg></a></h3>
+        </div>
       </div>
-      <div class="shrink cell">
-      <div class="show-for-small-only">
-        <button class="hamburger hamburger--collapse" id="toggle" data-toggler=".is-active" type="button" data-toggle="overlay toggle">
-          <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-          </span>
-        </button>
-      </div>
+      <div class="top-bar-right">
       <div class="show-for-medium">
         <ul class="dropdown menu" data-dropdown-menu>
           <li>
@@ -67,21 +88,6 @@
       </div>
       </div>
   </div>
-<div class="navigation--mobile grid-y align-center show-for-small-only" id="navigation--mobile" data-toggler=".open">
-  <div class="shrink cell">
-    <div class="grid-x grid-padding-x align-center">
-    	<div class="shrink cell" data-aos="fade-up">
-    		<ul class="vertical menu text-center">
-          <li><a href="/line-up/" data-toggle="toggle" data-toggler=".is-active">Line-up</a></li>
-          <li><a href="/tickets/" data-toggle="toggle" data-toggler=".is-active">Tickets</a></li>
-          <li><a href="/location/" data-toggle="toggle" data-toggler=".is-active">Location</a></li>
-          <li><a href="/about/" data-toggle="toggle" data-toggler=".is-active">About</a></li>
-          <li><a href="/info/" data-toggle="toggle" data-toggler=".is-active">Info</a></li>
-        </ul>
-    	</div>
-    </div>
-  </div>
-</div>
 <section class="index">
 <div class="index__gallery">
 <div class="index__gallery-cell" style="background-image: url(/uploads/josh-widdicombe-featured.jpg)">	
@@ -116,139 +122,138 @@
 </div>
 </div>
 <div class="grid-x small-up-1 medium-up-2 large-up-4 xlarge-up-4 align-center">
-<div class="cell">
-  <div class="excerpt">
-    <a href="/line-up/friday">
-      <div class="grid-x excerpt__title align-middle">
-        <div class="small-12 cell text-center text-lowercase">
-        <h3>James Acaster</h3>
-        </div>
+    <div class="cell">
+      <div class="excerpt">
+        <a href="/line-up/friday">
+          <div class="grid-x excerpt__title align-middle">
+            <div class="small-12 cell text-center text-lowercase">
+            <h3>James Acaster</h3>
+            </div>
+          </div>
+          <div class="excerpt__image">
+            <img src="/uploads/james-acaster.jpg" alt="">
+          </div>
+        </a>
       </div>
-      <div class="excerpt__image">
-        <img src="/uploads/james-acaster.jpg" alt="">
+    </div>
+    <div class="cell">
+      <div class="excerpt">
+        <a href="/line-up/friday">
+          <div class="grid-x excerpt__title align-middle">
+            <div class="small-12 cell text-center text-lowercase">
+            <h3>Lolly Adefope</h3>
+            </div>
+          </div>
+          <div class="excerpt__image">
+            <img src="/uploads/lolly-adefope.jpg" alt="">
+          </div>
+        </a>
       </div>
-    </a>
-  </div>
-</div>
-<div class="cell">
-  <div class="excerpt">
-    <a href="/line-up/friday">
-      <div class="grid-x excerpt__title align-middle">
-        <div class="small-12 cell text-center text-lowercase">
-        <h3>Lolly Adefope</h3>
-        </div>
+    </div>
+    <div class="cell">
+      <div class="excerpt">
+        <a href="/line-up/friday">
+          <div class="grid-x excerpt__title align-middle">
+            <div class="small-12 cell text-center text-lowercase">
+            <h3>David O’Doherty</h3>
+            </div>
+          </div>
+          <div class="excerpt__image">
+            <img src="/uploads/david-o-doherty.jpg" alt="">
+          </div>
+        </a>
       </div>
-      <div class="excerpt__image">
-        <img src="/uploads/lolly-adefope.jpg" alt="">
+    </div>
+    <div class="cell">
+      <div class="excerpt">
+        <a href="/line-up/saturday-mid">
+          <div class="grid-x excerpt__title align-middle">
+            <div class="small-12 cell text-center text-lowercase">
+            <h3>Shappi Khorsandi</h3>
+            </div>
+          </div>
+          <div class="excerpt__image">
+            <img src="/uploads/shappi-khorsandi.jpg" alt="">
+          </div>
+        </a>
       </div>
-    </a>
-  </div>
-</div>
-<div class="cell">
-  <div class="excerpt">
-    <a href="/line-up/friday">
-      <div class="grid-x excerpt__title align-middle">
-        <div class="small-12 cell text-center text-lowercase">
-        <h3>David O’Doherty</h3>
-        </div>
+    </div>
+    <div class="cell">
+      <div class="excerpt">
+        <a href="/line-up/friday">
+          <div class="grid-x excerpt__title align-middle">
+            <div class="small-12 cell text-center text-lowercase">
+            <h3>Tom Allen</h3>
+          <div>Sold Out</div>
+            </div>
+          </div>
+          <div class="excerpt__image">
+            <img src="/uploads/tom-allen.jpg" alt="">
+          </div>
+        </a>
       </div>
-      <div class="excerpt__image">
-        <img src="/uploads/david-o-doherty.jpg" alt="">
+    </div>
+    <div class="cell">
+      <div class="excerpt">
+        <a href="/line-up/thursday">
+          <div class="grid-x excerpt__title align-middle">
+            <div class="small-12 cell text-center text-lowercase">
+            <h3>Joe Wilkinson</h3>
+            </div>
+          </div>
+          <div class="excerpt__image">
+            <img src="/uploads/joe-wilkinson.jpg" alt="">
+          </div>
+        </a>
       </div>
-    </a>
-  </div>
-</div>
-<div class="cell">
-  <div class="excerpt">
-    <a href="/line-up/saturday-mid">
-      <div class="grid-x excerpt__title align-middle">
-        <div class="small-12 cell text-center text-lowercase">
-        <h3>Shappi Khorsandi</h3>
-        </div>
+    </div>
+    <div class="cell">
+      <div class="excerpt">
+        <a href="/line-up/saturday-late">
+          <div class="grid-x excerpt__title align-middle">
+            <div class="small-12 cell text-center text-lowercase">
+            <h3>Reginald D Hunter</h3>
+          <div>Sold Out</div>
+            </div>
+          </div>
+          <div class="excerpt__image">
+            <img src="/uploads/reginald-d-hunter.jpg" alt="">
+          </div>
+        </a>
       </div>
-      <div class="excerpt__image">
-        <img src="/uploads/shappi-khorsandi.jpg" alt="">
+    </div>
+    <div class="cell">
+      <div class="excerpt">
+        <a href="/line-up/wednesday">
+          <div class="grid-x excerpt__title align-middle">
+            <div class="small-12 cell text-center text-lowercase">
+            <h3>John Robins</h3>
+            </div>
+          </div>
+          <div class="excerpt__image">
+            <img src="/uploads/john-robins.jpg" alt="">
+          </div>
+        </a>
       </div>
-    </a>
-  </div>
-</div>
-<div class="cell">
-  <div class="excerpt">
-    <a href="/line-up/friday">
-      <div class="grid-x excerpt__title align-middle">
-        <div class="small-12 cell text-center text-lowercase">
-        <h3>Tom Allen</h3>
-      <div>Sold Out</div>
-        </div>
-      </div>
-      <div class="excerpt__image">
-        <img src="/uploads/tom-allen.jpg" alt="">
-      </div>
-    </a>
-  </div>
-</div>
-<div class="cell">
-  <div class="excerpt">
-    <a href="/line-up/thursday">
-      <div class="grid-x excerpt__title align-middle">
-        <div class="small-12 cell text-center text-lowercase">
-        <h3>Joe Wilkinson</h3>
-        </div>
-      </div>
-      <div class="excerpt__image">
-        <img src="/uploads/joe-wilkinson.jpg" alt="">
-      </div>
-    </a>
-  </div>
-</div>
-<div class="cell">
-  <div class="excerpt">
-    <a href="/line-up/saturday-late">
-      <div class="grid-x excerpt__title align-middle">
-        <div class="small-12 cell text-center text-lowercase">
-        <h3>Reginald D Hunter</h3>
-      <div>Sold Out</div>
-        </div>
-      </div>
-      <div class="excerpt__image">
-        <img src="/uploads/reginald-d-hunter.jpg" alt="">
-      </div>
-    </a>
-  </div>
-</div>
-<div class="cell">
-  <div class="excerpt">
-    <a href="/line-up/wednesday">
-      <div class="grid-x excerpt__title align-middle">
-        <div class="small-12 cell text-center text-lowercase">
-        <h3>John Robins</h3>
-        </div>
-      </div>
-      <div class="excerpt__image">
-        <img src="/uploads/john-robins.jpg" alt="">
-      </div>
-    </a>
-  </div>
-</div>
+    </div>
 </div>
 <div class="grid-x grid-padding-y align-center">
 <div class="small-12 cell text-center">
-  <h3><a href="/line-up/">View Full Line-up <svg class="icon icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></a></h3>
-  <h5>Plus bars, gourmet street-food and good times</h5>
+  <h3><a href="/line-up/">View Full Line-up <svg class="icon icon-arrow_forward"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward"></use></svg></a></h3>
 </div>
 </div>
 </section>
-<footer class="margin-top-3 padding-bottom-1">
+<footer class="margin-top-3 padding-top-1 padding-bottom-1">
   <div class="grid-x grid-padding-y">
     <div class="small-12 cell text-center">
-      <h5><a href="/tickets">6 - 10 June 2018 — Queen Square, Bristol BS1 4QS</a></h5>
+      <h5><a href="/tickets">Queen Square, Bristol BS1 4QS</a></h5>
       <h5><a href="mailto:info@bristolcomedygarden.co.uk">info@bristolcomedygarden.co.uk</a></h5>
     </div>
   </div>
   <div class="grid-x">
     <div class="small-12 shrink cell">
       <ul class="menu align-center">
-                <li><a href="http://www.57festivals.com" target="_blank"><svg class="icon icon-partners icon-festivals"><use xlink:href="/assets/icons/symbol-defs.svg#icon-festivals"></use></svg></a></li>
+                <li class="show-for-medium"><a href="http://www.57festivals.com" target="_blank"><svg class="icon icon-partners icon-festivals"><use xlink:href="/assets/icons/symbol-defs.svg#icon-festivals"></use></svg></a></li>
         <li><a href="https://www.bristol.gov.uk" target="_blank"><svg class="icon icon-partners icon-bristol-city-council"><use xlink:href="/assets/icons/symbol-defs.svg#icon-bristol-city-council"></use></svg></a></li>
               <li><a href="http://www.bristol247.com" target="_blank"><svg class="icon icon-partners icon-b24"><use xlink:href="/assets/icons/symbol-defs.svg#icon-b24"></use></svg></a></li>
         <li><a href="https://www.ents24.com" target="_blank"><svg class="icon icon-partners icon-ents-24"><use xlink:href="/assets/icons/symbol-defs.svg#icon-ents-24"></use></svg></a></li>
@@ -257,7 +262,7 @@
     </div>
   </div>
   <div class="grid-x grid-padding-x align-center">
-    <div class="small-12 medium-6 cell">
+    <div class="small-12 medium-6 large-4 cell">
       <form action="//bristolcomedygarden.us8.list-manage.com/subscribe/post?u=4f6c24b1fd6a641ead690d017&amp;id=da73c043ee" method="post" target="_blank" novalidate="">
       <div class="input-group">
         <input class="input-group-field" type="email" name="EMAIL" id="mce-EMAIL" placeholder="Subscribe to our newsletter">
@@ -283,6 +288,7 @@
     </div>
   </div>
 </footer>
+</div>
 <script src="/assets/js/min/app-min.js"></script>
 <script defer src="/assets/js/min/svgxuse-min.js"></script>
 <script>
@@ -293,5 +299,6 @@
   ga('create', 'UA-49569208-1', 'auto');
   ga('send', 'pageview');
 </script>
+</div>
 </body>
 </html>

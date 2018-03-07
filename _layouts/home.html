@@ -26,27 +26,27 @@ layout: default
 <!-- Featured -->
 <div class="grid-x small-up-1 medium-up-2 large-up-4 xlarge-up-4 align-center">
     {% for act in page.featured %}
-<div class="cell">
-  <div class="excerpt">
-    <a href="/line-up/{{act.line-up | slugify}}">
-      
-      <div class="grid-x excerpt__title align-middle">
-        <div class="small-12 cell text-center text-lowercase">
-        <h3>{{ act.name }}</h3>
-       {% if act.is-sold-out == true %}
-      <div>Sold Out</div>
-      {% endif %}
-
-        </div>
+    <div class="cell">
+      <div class="excerpt">
+        <a href="/line-up/{{act.line-up | slugify}}">
+          
+          <div class="grid-x excerpt__title align-middle">
+            <div class="small-12 cell text-center text-lowercase">
+            <h3>{{ act.name }}</h3>
+           {% if act.is-sold-out == true %}
+          <div>Sold Out</div>
+          {% endif %}
+    
+            </div>
+          </div>
+          
+          <div class="excerpt__image">
+            <img src="{{act.image}}" alt="{{act.title}}">
+          </div>
+            
+        </a>
       </div>
-      
-      <div class="excerpt__image">
-        <img src="{{act.image}}" alt="{{act.title}}">
-      </div>
-        
-    </a>
-  </div>
-</div>
+    </div>
     {% endfor %}
 </div>
 <!-- End Featured -->
@@ -54,8 +54,7 @@ layout: default
 <!-- Line-up Link -->
 <div class="grid-x grid-padding-y align-center">
 <div class="small-12 cell text-center">
-  <h3><a href="/line-up/">View Full Line-up <svg class="icon icon-arrow-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow-right"></use></svg></a></h3>
-  <h5>Plus bars, gourmet street-food and good times</h5>
+  <h3><a href="/line-up/">View Full Line-up <svg class="icon icon-arrow_forward"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward"></use></svg></a></h3>
 </div>
 </div>
 <!-- End Line-up Link -->

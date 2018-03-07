@@ -28,21 +28,42 @@
   <link rel="alternate" type="application/rss+xml" title="Bristol Comedy Garden" href="http://www.bristolcomedygarden.co.uk/feed.xml">
 </head>
 <body>
-  <div class="grid-x top-bar"> 
-      <div class="shrink cell align-middle">
-        <ul class="menu simple align-middle">
+<div class="off-canvas-wrapper">
+<div class="multilevel-offcanvas off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
+    <ul class="vertical menu" data-accordion-menu>
+    <li><a href="#">Line-up</a>
+      <ul class="menu vertical nested">
+          <li><a href="/line-up/#all">All</a></li>
+          <li><a href="/line-up/#wednesday6june">Wednesday 6 June</a></li>
+          <li><a href="/line-up/#thursday7june">Thursday 7 June</a></li>
+          <li><a href="/line-up/#friday8june">Friday 8 June</a></li>
+          <li><a href="/line-up/#saturday9june">Saturday 9 June</a></li>
+          <li><a href="/line-up/#sunday10june">Sunday 10 June</a></li>
+       </ul>
+    </li>
+  <ul class="vertical menu">
+      <li class="active"><a href="/tickets/">Tickets</a></li>
+      <li><a href="/location/">Location</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/info/">Info</a></li>
+  </ul>
+  <ul class="menu simple social-links">
+    <li><a href="https://www.facebook.com/bristolcomedygarden" target="_blank"><svg class="icon icon-socials icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+    <li><a href="https://twitter.com/comedygarden" target="_blank"><svg class="icon icon-socials icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+  </ul>
+</div>
+<div class="off-canvas-content" data-off-canvas-content>
+  <div class="top-bar"> 
+      <div class="top-bar-left align-middle">
+        <ul class="menu simple show-for-medium">
           <li class="text-lowercase top-bar__logo"><h3><a href="/">Bristol Comedy Garden</a></h3></li>
-          <li class="top-bar__date"><a href="/">6 - 10 June 2018</a></li>
+          <li class="top-bar__date show-for-large"><a href="/">6 - 10 June 2018</a></li>
         </ul>
+        <div class="show-for-small-only text-center">
+          <h3 class="text-lowercase top-bar__logo"><a data-toggle="offCanvas">Bristol Comedy Garden<svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg></a></h3>
+        </div>
       </div>
-      <div class="shrink cell">
-      <div class="show-for-small-only">
-        <button class="hamburger hamburger--collapse" id="toggle" data-toggler=".is-active" type="button" data-toggle="overlay toggle">
-          <span class="hamburger-box">
-          <span class="hamburger-inner"></span>
-          </span>
-        </button>
-      </div>
+      <div class="top-bar-right">
       <div class="show-for-medium">
         <ul class="dropdown menu" data-dropdown-menu>
           <li>
@@ -66,21 +87,6 @@
       </div>
       </div>
   </div>
-<div class="navigation--mobile grid-y align-center show-for-small-only" id="navigation--mobile" data-toggler=".open">
-  <div class="shrink cell">
-    <div class="grid-x grid-padding-x align-center">
-    	<div class="shrink cell" data-aos="fade-up">
-    		<ul class="vertical menu text-center">
-          <li><a href="/line-up/" data-toggle="toggle" data-toggler=".is-active">Line-up</a></li>
-          <li class="active"><a href="/tickets/" data-toggle="toggle" data-toggler=".is-active">Tickets</a></li>
-          <li><a href="/location/" data-toggle="toggle" data-toggler=".is-active">Location</a></li>
-          <li><a href="/about/" data-toggle="toggle" data-toggler=".is-active">About</a></li>
-          <li><a href="/info/" data-toggle="toggle" data-toggler=".is-active">Info</a></li>
-        </ul>
-    	</div>
-    </div>
-  </div>
-</div>
 <section class="tickets">
 <div class="grid-container">
   <div class="grid-x grid-padding-y align-center text-lowercase">
@@ -88,7 +94,7 @@
     <h2 class="separator-center">Wednesday 6 June</h2>
   </div>
   </div>
-  <div class="grid-x align-center tickets__time">
+  <div class="grid-x grid-padding-y align-center">
     <div class="shrink cell">
       <h4> 7:30PM</h4>
     </div>
@@ -99,7 +105,7 @@
           <div class="small-12 large-3 cell align-self-middle">
             <img src="/uploads/josh-widdicombe.jpg" alt="">
           </div>
-          <div class="small-12 large-3 cell align-self-middle tickets__acts text-lowercase">
+          <div class="small-12 large-3 cell align-self-middle text-lowercase">
               <h4>Josh Widdicombe</h4>
               <h4>Tom Allen</h4>
               <h4>Lauren Pattison</h4>
@@ -122,7 +128,7 @@
     <h2 class="separator-center">Thursday 7 June</h2>
   </div>
   </div>
-  <div class="grid-x align-center tickets__time">
+  <div class="grid-x grid-padding-y align-center">
     <div class="shrink cell">
       <h4> 7:30PM</h4>
     </div>
@@ -133,7 +139,7 @@
           <div class="small-12 large-3 cell align-self-middle">
             <img src="/uploads/alan-davies.jpg" alt="">
           </div>
-          <div class="small-12 large-3 cell align-self-middle tickets__acts text-lowercase">
+          <div class="small-12 large-3 cell align-self-middle text-lowercase">
               <h4>Alan Davies</h4>
               <h4>Joe Wilkinson</h4>
               <h4>Zoe Lyons</h4>
@@ -155,7 +161,7 @@
     <h2 class="separator-center">Friday 8 June</h2>
   </div>
   </div>
-  <div class="grid-x align-center tickets__time">
+  <div class="grid-x grid-padding-y align-center">
     <div class="shrink cell">
       <h4> 7:30PM</h4>
     </div>
@@ -166,7 +172,7 @@
           <div class="small-12 large-3 cell align-self-middle">
             <img src="/uploads/david-o-doherty.jpg" alt="">
           </div>
-          <div class="small-12 large-3 cell align-self-middle tickets__acts text-lowercase">
+          <div class="small-12 large-3 cell align-self-middle text-lowercase">
               <h4>David O'Doherty</h4>
               <h4>James Acaster</h4>
               <h4>Lolly Adefope</h4>
@@ -189,7 +195,7 @@
     <h2 class="separator-center">Saturday 9 June</h2>
   </div>
   </div>
-  <div class="grid-x align-center tickets__time">
+  <div class="grid-x grid-padding-y align-center">
     <div class="shrink cell">
       <h4> 2:00PM</h4>
     </div>
@@ -200,7 +206,7 @@
           <div class="small-12 large-3 cell align-self-middle">
             <img src="/uploads/adam-buxton.jpg" alt="">
           </div>
-          <div class="small-12 large-3 cell align-self-middle tickets__acts text-lowercase">
+          <div class="small-12 large-3 cell align-self-middle text-lowercase">
               <h4>Adam Buxton's Bug X</h4>
           </div>
           <div class="show-for-large small-12 large-4 cell align-self-middle">
@@ -214,7 +220,7 @@
       </div>
     </div>
   </div>
-  <div class="grid-x align-center tickets__time">
+  <div class="grid-x grid-padding-y align-center">
     <div class="shrink cell">
       <h4> 4:45PM</h4>
     </div>
@@ -225,7 +231,7 @@
           <div class="small-12 large-3 cell align-self-middle">
             <img src="/uploads/milton-jones.jpg" alt="">
           </div>
-          <div class="small-12 large-3 cell align-self-middle tickets__acts text-lowercase">
+          <div class="small-12 large-3 cell align-self-middle text-lowercase">
               <h4>Milton Jones</h4>
               <h4>Mark Watson</h4>
               <h4>Shappi Khorsandi</h4>
@@ -242,7 +248,7 @@
       </div>
     </div>
   </div>
-  <div class="grid-x align-center tickets__time">
+  <div class="grid-x grid-padding-y align-center">
     <div class="shrink cell">
       <h4> 7:45PM</h4>
     </div>
@@ -253,7 +259,7 @@
           <div class="small-12 large-3 cell align-self-middle">
             <img src="/uploads/reginald-d-hunter.jpg" alt="">
           </div>
-          <div class="small-12 large-3 cell align-self-middle tickets__acts text-lowercase">
+          <div class="small-12 large-3 cell align-self-middle text-lowercase">
               <h4>Reginald D Hunter</h4>
               <h4>Seann Walsh</h4>
               <h4>Jen Brister</h4>
@@ -275,7 +281,7 @@
     <h2 class="separator-center">Sunday 10 June</h2>
   </div>
   </div>
-  <div class="grid-x align-center tickets__time">
+  <div class="grid-x grid-padding-y align-center">
     <div class="shrink cell">
       <h4> 7:30PM</h4>
     </div>
@@ -286,7 +292,7 @@
           <div class="small-12 large-3 cell align-self-middle">
             <img src="/uploads/henning-wehn.jpg" alt="">
           </div>
-          <div class="small-12 large-3 cell align-self-middle tickets__acts text-lowercase">
+          <div class="small-12 large-3 cell align-self-middle text-lowercase">
               <h4>Henning Wehn</h4>
               <h4>Phil Wang</h4>
               <h4>Fin Taylor</h4>
@@ -304,17 +310,17 @@
   </div>
 </div>
 </section>
-<footer class="margin-top-3 padding-bottom-1">
+<footer class="margin-top-3 padding-top-1 padding-bottom-1">
   <div class="grid-x grid-padding-y">
     <div class="small-12 cell text-center">
-      <h5><a href="/tickets">6 - 10 June 2018 — Queen Square, Bristol BS1 4QS</a></h5>
+      <h5><a href="/tickets">Queen Square, Bristol BS1 4QS</a></h5>
       <h5><a href="mailto:info@bristolcomedygarden.co.uk">info@bristolcomedygarden.co.uk</a></h5>
     </div>
   </div>
   <div class="grid-x">
     <div class="small-12 shrink cell">
       <ul class="menu align-center">
-                <li><a href="http://www.57festivals.com" target="_blank"><svg class="icon icon-partners icon-festivals"><use xlink:href="/assets/icons/symbol-defs.svg#icon-festivals"></use></svg></a></li>
+                <li class="show-for-medium"><a href="http://www.57festivals.com" target="_blank"><svg class="icon icon-partners icon-festivals"><use xlink:href="/assets/icons/symbol-defs.svg#icon-festivals"></use></svg></a></li>
         <li><a href="https://www.bristol.gov.uk" target="_blank"><svg class="icon icon-partners icon-bristol-city-council"><use xlink:href="/assets/icons/symbol-defs.svg#icon-bristol-city-council"></use></svg></a></li>
               <li><a href="http://www.bristol247.com" target="_blank"><svg class="icon icon-partners icon-b24"><use xlink:href="/assets/icons/symbol-defs.svg#icon-b24"></use></svg></a></li>
         <li><a href="https://www.ents24.com" target="_blank"><svg class="icon icon-partners icon-ents-24"><use xlink:href="/assets/icons/symbol-defs.svg#icon-ents-24"></use></svg></a></li>
@@ -323,7 +329,7 @@
     </div>
   </div>
   <div class="grid-x grid-padding-x align-center">
-    <div class="small-12 medium-6 cell">
+    <div class="small-12 medium-6 large-4 cell">
       <form action="//bristolcomedygarden.us8.list-manage.com/subscribe/post?u=4f6c24b1fd6a641ead690d017&amp;id=da73c043ee" method="post" target="_blank" novalidate="">
       <div class="input-group">
         <input class="input-group-field" type="email" name="EMAIL" id="mce-EMAIL" placeholder="Subscribe to our newsletter">
@@ -349,6 +355,7 @@
     </div>
   </div>
 </footer>
+</div>
 <script src="/assets/js/min/app-min.js"></script>
 <script defer src="/assets/js/min/svgxuse-min.js"></script>
 <script>
@@ -359,5 +366,6 @@
   ga('create', 'UA-49569208-1', 'auto');
   ga('send', 'pageview');
 </script>
+</div>
 </body>
 </html>

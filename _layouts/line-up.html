@@ -6,7 +6,7 @@ layout: default
   
   <div class="grid-x align-center">
   <div class="expand cell">
-  <ul class="tabs" data-update-history="true" data-deep-link="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="600" data-responsive-accordion-tabs="accordion large-tabs" data-allow-all-closed="true" id="example-tabs">
+  <ul class="tabs" data-deep-link="true" data-update-history="true" data-deep-link-smudge="true" data-deep-link-smudge-delay="600" data-responsive-accordion-tabs="accordion large-tabs" data-allow-all-closed="true" id="example-tabs">
   <li class="tabs-title is-active"><a href="#all" aria-selected="true">All</a></li>
   {% assign collection = site.line-up | group_by_exp: "item", "item.date | date: '%A %-d %B'" %}
   {% for day in collection %}

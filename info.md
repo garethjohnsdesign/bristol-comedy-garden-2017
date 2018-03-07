@@ -7,11 +7,11 @@ general:
     selection of food vendors.
 - title: Festival Timings
   text: |-
-    Weds 6th June: 6pm - 10.30pm
-    Thurs 7th June: 6pm - 10.30pm
-    Fri 8th June: 6pm - 10.30pm
-    Sat 9th June: 1pm - 10.30pm
-    Sun 10th June: 6pm - 10.30pm
+    Weds 6th June: 6pm - 10.30pm  
+    Thurs 7th June: 6pm - 10.30pm  
+    Fri 8th June: 6pm - 10.30pm  
+    Sat 9th June: 1pm - 10.30pm  
+    Sun 10th June: 6pm - 10.30pm  
 - title: Festival Site
   text: |-
     You must have a valid ticket to gain entry to the Comedy Garden. Tickets can be purchased online in advance or at the on site Box Office on the evening of the show, depending on availability.

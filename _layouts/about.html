@@ -5,20 +5,29 @@ layout: default
 <section class="about">
   
   <div class="grid-container">
-    <div class="grid-x grid-padding-y align-center margin-top-3 margin-bottom-3">
-      <div class="small-11 medium-10 large-8 cell">	
-      		{{content | markdownify}}
+    
+    <div class="grid-x align-center margin-top-3 margin-bottom-3">
+      <div class="small-12 medium-6 cell">
+        <div class="grid-x grid-padding-y grid-padding-x">
+        <div class="small-12 cell">
+        {{content | markdownify}}
+        </div>
+        </div>
+      </div>
       
-        <div class="grid-x small-up-1 medium-up-2 large-up-3 xlarge-up-3" id="gallery">
+      <div class="small-12 medium-6 cell">	
+        <div class="grid-x grid-padding-y grid-padding-x small-up-1 medium-up-2" id="gallery">
           {% for image in page.images %}
           <div class="cell about__images" data-src="{{image}}">
             <a href="{{image}}"><img src="{{image }}" class="excerpt__image"></a>
           </div>
           {% endfor %}
         </div>
-  
       </div>
+      
     </div>
+    
+
   </div>
   
 </section>

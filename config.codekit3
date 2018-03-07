@@ -76,11 +76,11 @@
 		"oAP": "\/_includes\/map-script.html",
 		"oF": 0
 		},
-	"\/_includes\/navigation--mobile.html": {
+	"\/_includes\/mobile.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_includes\/navigation--mobile.html",
+		"oAP": "\/_includes\/mobile.html",
 		"oF": 0
 		},
 	"\/_includes\/navigation.html": {
@@ -244,13 +244,6 @@
 		"oAP": "\/_site\/404.html",
 		"oF": 0
 		},
-	"\/_site\/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/about.html",
-		"oF": 0
-		},
 	"\/_site\/about\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -370,34 +363,6 @@
 		"oAP": "\/_site\/assets\/fonts\/apercu-regular.woff2",
 		"oF": 0
 		},
-	"\/_site\/assets\/fonts\/circular-std-book.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/fonts\/circular-std-book.woff",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/circular-std-book.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/fonts\/circular-std-book.woff2",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/circular-std-medium.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/fonts\/circular-std-medium.woff",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/circular-std-medium.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/fonts\/circular-std-medium.woff2",
-		"oF": 0
-		},
 	"\/_site\/assets\/fonts\/Gallery.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -429,34 +394,6 @@
 		"oAP": "\/_site\/assets\/fonts\/Gallery.woff",
 		"oF": 0
 		},
-	"\/_site\/assets\/fonts\/gt-america-light.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/fonts\/gt-america-light.woff",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/gt-america-light.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/fonts\/gt-america-light.woff2",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/gt-america-medium.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/fonts\/gt-america-medium.woff",
-		"oF": 0
-		},
-	"\/_site\/assets\/fonts\/gt-america-medium.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/fonts\/gt-america-medium.woff2",
-		"oF": 0
-		},
 	"\/_site\/assets\/fonts\/raisonne-demibold.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -470,6 +407,16 @@
 		"oA": 0,
 		"oAP": "\/_site\/assets\/fonts\/raisonne-demibold.woff2",
 		"oF": 0
+		},
+	"\/_site\/assets\/icons\/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/icons\/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/_site\/assets\/img\/logo.svg": {
 		"ft": 2097152,
@@ -5210,13 +5157,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/about.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0
-		},
 	"\/about.md": {
 		"cB": 0,
 		"cS": 0,
@@ -5225,9 +5165,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "\/about.html",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "\/about.md",
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -5357,34 +5297,6 @@
 		"oAP": "\/assets\/fonts\/apercu-regular.woff2",
 		"oF": 0
 		},
-	"\/assets\/fonts\/circular-std-book.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/fonts\/circular-std-book.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/circular-std-book.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/fonts\/circular-std-book.woff2",
-		"oF": 0
-		},
-	"\/assets\/fonts\/circular-std-medium.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/fonts\/circular-std-medium.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/circular-std-medium.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/fonts\/circular-std-medium.woff2",
-		"oF": 0
-		},
 	"\/assets\/fonts\/Gallery.eot": {
 		"cB": 0,
 		"ft": 8192,
@@ -5416,34 +5328,6 @@
 		"oAP": "\/assets\/fonts\/Gallery.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/gt-america-light.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/fonts\/gt-america-light.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/gt-america-light.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/fonts\/gt-america-light.woff2",
-		"oF": 0
-		},
-	"\/assets\/fonts\/gt-america-medium.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/fonts\/gt-america-medium.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/gt-america-medium.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/assets\/fonts\/gt-america-medium.woff2",
-		"oF": 0
-		},
 	"\/assets\/fonts\/raisonne-demibold.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -5457,6 +5341,16 @@
 		"oA": 0,
 		"oAP": "\/assets\/fonts\/raisonne-demibold.woff2",
 		"oF": 0
+		},
+	"\/assets\/icons\/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/icons\/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/assets\/img\/logo.svg": {
 		"ft": 2097152,
@@ -5613,6 +5507,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/scss\/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/_navigation.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/assets\/scss\/_navigation.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -6011,42 +5918,6 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.eslintrc",
 		"oF": 0
-		},
-	"\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/bower_components\/foundation-sites\/.sass-lint.yml": {
 		"cB": 0,

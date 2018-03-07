@@ -3,18 +3,18 @@ layout: default
 ---
 
 <section class="event">
-  <!-- Date -->
-  <div class="grid-x grid-padding-y align-center event__title">
-    <div class="shrink cell text-center text-lowercase">
-      <h2 class="separator-center">{{ page.date | date: "%A %d %B" }} <span>—</span> {{ page.date | date: "%l:%M%p" }}</h2>
-      {% if page.is-sold-out == true %}<h3>Sold Out</h3>{% endif %}
-    </div>
+  
+<!-- Date -->
+<div class="grid-x grid-padding-y align-center event__title">
+  <div class="shrink cell text-center text-lowercase">
+    <h2>{{ page.date | date: "%A %-d %B" }} <span>—</span> {{ page.date | date: "%l:%M%p" }}</h2>
+    {% if page.is-sold-out == true %}<h3>Sold Out</h3>{% endif %}
   </div>
-  <!-- End Date -->
+</div>
+<!-- End Date -->
 
   
-  <!-- Images -->
-
+<!-- Images -->
 {% if page.acts.size == 1 %}
 <div class="grid-x expanded align-center collapse small-up-2 event__acts">
 {% elsif page.acts.size == 2 %}
@@ -29,23 +29,25 @@ layout: default
 <div class="grid-x expanded collapse small-up-2 medium-up-2 large-up-4 xlarge-up-4 event__acts">
 {% endif %}
 
+{% for act in page.acts %}
+<div class="cell">
+  <div class="excerpt">
 
-
-    {% for act in page.acts %}
-        <div class="cell">
-          <div class="excerpt">              
-              <div class="grid-x excerpt__title align-middle">
-                <div class="small-12 cell text-center text-lowercase">
-                  <h3>{{ act.name }}</h3>
-                </div>
-              </div>
-              
-              <div class="excerpt__image">
-                <img src="{{act.image}}" alt="{{act.title}}">
-              </div>
-          </div>
+      
+      <div class="grid-x excerpt__title align-middle">
+        <div class="small-12 cell text-center text-lowercase">
+        <h3>{{ act.name }}</h3>    
         </div>
-    {% endfor %}
+      </div>
+      
+      <div class="excerpt__image">
+        <img src="{{act.image}}" alt="{{act.title}}">
+      </div>
+        
+
+  </div>
+</div>
+{% endfor %}
 </div>
 
 
@@ -53,7 +55,8 @@ layout: default
   
 
   <!-- Content -->
-  <div class="grid-x grid-padding-y grid-padding-x event__text align-center">
+  <div class="grid-container">
+  <div class="grid-x grid-padding-y grid-padding-x event__text align-center margin-top-1">
     
     <!-- Left -->
     <div class="small-11 medium-6 cell">
@@ -82,11 +85,11 @@ layout: default
     
     <!-- Right -->
     <div class="small-11 medium-3 cell text-center medium-text-left">
-        <h5 class="text-lowercase">Festival Opens</h5>
+        <h4 class="text-lowercase">Festival Opens</h4>
         <p>{{ page.festival-starts-at | date: "%l:%M%p" }}</p>
-        <h5 class="text-lowercase">Show Starts</h5>
+        <h4 class="text-lowercase">Show Starts</h4>
         <p>{{ page.show-starts-at | date: "%l:%M%p" }}</p>
-        <h5 class="text-lowercase">Tickets</h5>
+        <h4 class="text-lowercase">Tickets</h4>
         <p>{{ page.ticket-price }}</p>
         
         {% if page.is-sold-out == true %}
@@ -98,6 +101,7 @@ layout: default
     </div>
     <!-- End Right -->
   
+  </div>
   </div>
   <!-- End Content -->
   
