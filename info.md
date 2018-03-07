@@ -3,7 +3,8 @@ title: Info
 position: 5
 general:
 - title: Food and Drink
-  text: "This year’s festival will be bursting with a great range of bars and a hand-picked selection of food vendors."
+  text: This year’s festival will be bursting with a great range of bars and a hand-picked
+    selection of food vendors.
 - title: Festival Timings
   text: |-
     Weds 6th June: 6pm - 10.30pm
