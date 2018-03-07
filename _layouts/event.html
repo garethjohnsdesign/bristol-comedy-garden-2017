@@ -6,7 +6,7 @@ layout: default
   <!-- Date -->
   <div class="grid-x grid-padding-y align-center event__title">
     <div class="shrink cell text-center text-lowercase">
-      <h2>{{ page.date | date: "%A %d %B" }} <span>—</span> {{ page.date | date: "%l:%M%p" }}</h2>
+      <h2 class="separator-center">{{ page.date | date: "%A %d %B" }} <span>—</span> {{ page.date | date: "%l:%M%p" }}</h2>
       {% if page.is-sold-out == true %}<h3>Sold Out</h3>{% endif %}
     </div>
   </div>
@@ -53,7 +53,7 @@ layout: default
   
 
   <!-- Content -->
-  <div class="grid-x grid-padding-x event__text align-center">
+  <div class="grid-x grid-padding-y grid-padding-x event__text align-center">
     
     <!-- Left -->
     <div class="small-11 medium-6 cell">
@@ -81,7 +81,7 @@ layout: default
     <!-- End Left -->
     
     <!-- Right -->
-    <div class="small-11 medium-3 cell event__details">
+    <div class="small-11 medium-3 cell text-center medium-text-left">
         <h5 class="text-lowercase">Festival Opens</h5>
         <p>{{ page.festival-starts-at | date: "%l:%M%p" }}</p>
         <h5 class="text-lowercase">Show Starts</h5>

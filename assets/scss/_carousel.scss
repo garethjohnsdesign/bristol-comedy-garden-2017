@@ -98,7 +98,7 @@ http://flickity.metafizzy.co
 .flickity-page-dots {
   position: absolute;
   width: 100%;
-  bottom: 2rem;
+  bottom: 4rem;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -110,15 +110,16 @@ http://flickity.metafizzy.co
 
 .flickity-page-dots .dot {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 0.75rem;
+  height: 0.75rem;
   margin: 0 8px;
-  background: $white;
+  background: transparent;
+  border: 1px solid $white;
   border-radius: 50%;
-  opacity: 0.25;
+  opacity: 1;
   cursor: pointer;
 }
 
 .flickity-page-dots .dot.is-selected {
-  opacity: 1;
+  background: $white;
 }

@@ -81,7 +81,7 @@ $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 // $black: #0a0a0a;
-$black: #1f1f1f;
+$black: #222222;
 $white: #fefefe;
 // $body-background: $white;
 $body-background: #ffd6c8;
@@ -243,6 +243,7 @@ $accordion-item-background-hover: $light-gray;
 $accordion-item-padding: 1.25rem 1rem;
 $accordion-content-background: $white;
 $accordion-content-border: 1px solid $light-gray;
+$accordion-content-border: 0px;
 $accordion-content-color: $body-font-color;
 $accordion-content-padding: 1rem;
 
@@ -683,8 +684,10 @@ $prototype-border-radius: rem-calc(3);
 
 $prototype-separator-breakpoints: $global-prototype-breakpoints;
 $prototype-separator-align: center;
-$prototype-separator-height: rem-calc(2);
-$prototype-separator-width: 3rem;
+// $prototype-separator-height: rem-calc(2);
+$prototype-separator-height: rem-calc(4);
+// $prototype-separator-width: 3rem;
+$prototype-separator-width: 5rem;
 $prototype-separator-background: $primary-color;
 $prototype-separator-margin-top: $global-margin;
 

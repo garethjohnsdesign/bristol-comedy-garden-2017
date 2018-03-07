@@ -15,7 +15,7 @@ carousel:
   line-up: Saturday Early
 - name: Alan Davies
   image: "/uploads/alan-davies-featured.jpg"
-  subheader: One of the best Stand-up comics out there
+  subheader: One of the best Stand-up comics out there — The Guardian
   is-sold-out: 
   line-up: Thursday
 featured:

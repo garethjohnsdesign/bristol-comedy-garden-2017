@@ -21,6 +21,10 @@
   }
 }
 
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
 // 2. Typography
 // -------------
 
@@ -223,11 +227,6 @@
   margin-bottom: 0.5rem;
 }
 
-.event__details {
-  @include breakpoint(small only) {
-    padding-top: 2rem;
-  }
-}
 
 .event .excerpt {
     &:hover .excerpt__image:after {
