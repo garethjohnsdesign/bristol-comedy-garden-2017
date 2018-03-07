@@ -2,12 +2,12 @@
 //
 //   1. Global
 //   2. Typography
-//   3. 404
-//   4. Navigation
-//   5. Sections
-//   6. Excerpt
-//   7. Page
-//   8. Contact
+//   3. Navigation
+//   4. Excerpt
+//   5. Index
+//   6. Location
+//   7. Event
+//   8. Footer
 
 // 1. Global
 // ---------
@@ -20,6 +20,17 @@
     }
   }
 }
+
+svg {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 
 .accordion {
   margin-bottom: 0;
@@ -36,15 +47,15 @@ i, cite, em, var, address, dfn {
   color: $white;
 }
 
-// 4. Navigation
+// 3. Navigation
 // -------------
 
 .top-bar { 
-@include links($primary-color, $black);
+  border-bottom: 2px solid $primary-color;
 }
 
 .top-bar__logo { 
- letter-spacing: -1px;
+  letter-spacing: -1px;
   margin-bottom: 0;
 }
 
@@ -56,18 +67,13 @@ i, cite, em, var, address, dfn {
 @include links($dark-gray, $black);
 }
 
-// 6. Navigation
-// ------
 
-
-
-// 6. Excerpt
+// 4. Excerpt
 // ----------
 
 .excerpt {
   background-color: $primary-color;
   position:relative;
-  opacity:1;
     &:hover .excerpt__image img {
     filter: grayscale(1) contrast(1.75);
     opacity: 0.5;
@@ -120,7 +126,7 @@ i, cite, em, var, address, dfn {
 }
 
 
-// 11. Location
+// 6. Location
 // ------------
 
 
@@ -146,67 +152,16 @@ i, cite, em, var, address, dfn {
   }
 }
 
-// 11. Event
+// 7. Event
 // ---------
-
-.event {
-  background-image: url(/uploads/top-artwork-v4.png),url(/uploads/bottom-artwork-v4.png);
-  background-repeat:no-repeat;
-  background-position:center top, center bottom;
-  background-size:contain, contain;
-}
 
 .event__title span {
   color: $white;
 }
 
 
-// 11. Tickets
-// -----------
-
-.tickets {
-  min-height: 50rem;
-  background-image: url(/uploads/top-artwork.png),url(/uploads/bottom-artwork.png);
-  background-repeat:no-repeat;
-  background-position:center top, center bottom;
-  background-size:contain, contain;
-}
-
-// 11. About
-// --------
-
-.about {
-  background-image: url(/uploads/top-artwork-v2.png);
-  background-repeat:no-repeat;
-  background-position:center top;
-  background-size:contain;
-}
-
-
-// 11. Line-up
-// --------
-
-
-// 11. Info
-// --------
-
-.info {
-  background-image: url(/uploads/top-artwork.png),url(/uploads/bottom-artwork-v3.png);
-  background-repeat:no-repeat;
-  background-position:center top, center bottom;
-  background-size:contain, contain;
-}
-
-/*
-.info .accordion-content {
-  padding: 2rem;
-}
-*/
-
-
-// 11. Footer
+// 8. Footer
 // ----------
-
 
 footer {
   color: $secondary-color;
