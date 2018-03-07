@@ -83,7 +83,8 @@ $dark-gray: #8a8a8a;
 // $black: #0a0a0a;
 $black: #1f1f1f;
 $white: #fefefe;
-$body-background: $white;
+// $body-background: $white;
+$body-background: #ffd6c8;
 $body-font-color: $black;
 // $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
 $body-font-family: $secondary-font-family;
@@ -290,7 +291,8 @@ $breadcrumbs-item-separator-color: $medium-gray;
 // 11. Button
 // ----------
 
-$button-font-family: inherit;
+// $button-font-family: inherit;
+$button-font-family: $primary-font-family;
 $button-padding: 0.85em 1em;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;

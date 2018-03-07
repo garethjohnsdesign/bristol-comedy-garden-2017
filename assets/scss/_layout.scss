@@ -21,11 +21,6 @@
   }
 }
 
-.gradient {
-  background-color: #ffd6c8
-}
-
-
 // 2. Typography
 // -------------
 
@@ -108,9 +103,6 @@
     }
     &:hover .excerpt__image img {
     filter: grayscale(1);
-    @include breakpoint(small only) {
-      filter: grayscale(0);
-      }
     } 
 }
 
@@ -121,9 +113,7 @@
   margin: 0rem;
   font-family: $header-font-family;
   font-size: 1.25rem;
-  opacity: 1;
   color: $white;
-  margin: 0rem;
   z-index: 1000;
 }
 
@@ -152,16 +142,11 @@
   background-repeat:no-repeat;
   background-position:center bottom;
   background-size:contain;
-  @include breakpoint(small) {
-  padding-bottom: 10rem;
-  }
-  @include breakpoint(medium) { 
-  padding-bottom: 15rem;
-  }
 }
 
 .index__gallery {
   height: 60vh;
+  z-index: 0;
 }
 
 .index__gallery-cell {
@@ -170,7 +155,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top center;
-  z-index: 1; 
+  z-index: 0; 
 }
   
 .index__gallery__text {
@@ -195,12 +180,11 @@
 }
 
 .location__map {
-  margin-bottom: 2rem;
   @include breakpoint(small) {
-  height: 20rem;
+  height: 70vh;
   }
   @include breakpoint(medium) { 
-  height: 30rem;
+  height: 50vh;
   }
 }
 
@@ -308,23 +292,6 @@
   background-repeat:no-repeat;
   background-position:center top;
   background-size:contain;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.about .callout {
-  margin-bottom: 0rem;
-}
-
-.about p {
-  font-size: 1.25rem;
-  @include breakpoint(small only) {
-  font-size: 1rem;
-  }
-}
-
-.about__images {
-  padding-top: 2rem;
 }
 
 .about__images img {
@@ -358,11 +325,6 @@
   background-repeat:no-repeat;
   background-position:center top, center bottom;
   background-size:contain, contain;
-  padding-top: 5rem;
-  padding-bottom: 10rem;
-  @include breakpoint(small only) {
-    padding-top: 2rem;
-  }
 }
 
 // 11. Pagination
