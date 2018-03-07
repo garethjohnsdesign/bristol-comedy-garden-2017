@@ -31,17 +31,7 @@
 <div class="off-canvas-wrapper">
 <div class="multilevel-offcanvas off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
     <ul class="vertical menu" data-accordion-menu>
-    <li><a href="#">Line-up</a>
-      <ul class="menu vertical nested">
-          <li><a href="/line-up/#all">All</a></li>
-          <li><a href="/line-up/#wednesday6june">Wednesday 6 June</a></li>
-          <li><a href="/line-up/#thursday7june">Thursday 7 June</a></li>
-          <li><a href="/line-up/#friday8june">Friday 8 June</a></li>
-          <li><a href="/line-up/#saturday9june">Saturday 9 June</a></li>
-          <li><a href="/line-up/#sunday10june">Sunday 10 June</a></li>
-       </ul>
-    </li>
-  <ul class="vertical menu">
+      <li><a href="/line-up/">Line-up</a></li>
       <li><a href="/tickets/">Tickets</a></li>
       <li class="active"><a href="/location/">Location</a></li>
       <li><a href="/about/">About</a></li>
@@ -53,30 +43,25 @@
   </ul>
 </div>
 <div class="off-canvas-content" data-off-canvas-content>
-  <div class="top-bar"> 
-      <div class="top-bar-left align-middle">
-        <ul class="menu simple show-for-medium">
+  <div class="grid-x top-bar"> 
+      <div class="shrink cell align-middle">
+        <ul class="menu simple">
           <li class="text-lowercase top-bar__logo"><h3><a href="/">Bristol Comedy Garden</a></h3></li>
-          <li class="top-bar__date show-for-large"><a href="/">6 - 10 June 2018</a></li>
+          <li class="top-bar__date show-for-large"><a href="/">6 - 10 June '18</a></li>
         </ul>
+<!--
         <div class="show-for-small-only text-center">
-          <h3 class="text-lowercase top-bar__logo"><a data-toggle="offCanvas">Bristol Comedy Garden<svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg></a></h3>
+          <h3 class="text-lowercase top-bar__logo"><a data-toggle="offCanvas">Bristol Comedy Garden</a></h3>
         </div>
+-->
       </div>
-      <div class="top-bar-right">
+      <div class="shrink cell">
+      <div class="show-for-small-only">
+      <a data-toggle="offCanvas"><svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg></a>
+      </div>
       <div class="show-for-medium">
         <ul class="dropdown menu" data-dropdown-menu>
-          <li>
-          <a href="/line-up/">Line-up</a>
-          <ul class="menu vertical">
-          <li><a href="/line-up/#all">All</a></li>
-          <li><a href="/line-up/#wednesday6june">Wednesday 6 June</a></li>
-          <li><a href="/line-up/#thursday7june">Thursday 7 June</a></li>
-          <li><a href="/line-up/#friday8june">Friday 8 June</a></li>
-          <li><a href="/line-up/#saturday9june">Saturday 9 June</a></li>
-          <li><a href="/line-up/#sunday10june">Sunday 10 June</a></li>
-          </ul>
-          </li>
+          <li><a href="/line-up/">Line-up</a></li>
           <li><a href="/tickets/">Tickets</a></li>
           <li class="active"><a href="/location/">Location</a></li>
           <li><a href="/about/">About</a></li>
@@ -297,7 +282,7 @@
 }
     </script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOBn8zO_WqLRejDOX925Xwbvcn1mXQiLg&libraries=places&sensor=false&callback=initMap"></script>   
-<footer class="margin-top-3 padding-top-1 padding-bottom-1">
+<footer class="padding-top-1 padding-bottom-1">
   <div class="grid-x grid-padding-y">
     <div class="small-12 cell text-center">
       <h5><a href="/tickets">Queen Square, Bristol BS1 4QS</a></h5>
@@ -316,7 +301,7 @@
     </div>
   </div>
   <div class="grid-x grid-padding-x align-center">
-    <div class="small-12 medium-6 large-4 cell">
+    <div class="small-12 medium-7 large-5 cell">
       <form action="//bristolcomedygarden.us8.list-manage.com/subscribe/post?u=4f6c24b1fd6a641ead690d017&amp;id=da73c043ee" method="post" target="_blank" novalidate="">
       <div class="input-group">
         <input class="input-group-field" type="email" name="EMAIL" id="mce-EMAIL" placeholder="Subscribe to our newsletter">

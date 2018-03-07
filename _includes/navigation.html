@@ -1,21 +1,27 @@
 {% for entry in site.data.navigation %}{% capture fullurl %}{{ site.baseurl }}{{ entry.url }}{% endcapture %}{% if fullurl == page.url %}{% assign current_page = fullurl %}{% break %}{% elsif page.url contains fullurl %}{% assign current_page = fullurl %}{% endif %}{% endfor %}
 
-  <div class="top-bar"> 
+  <div class="grid-x top-bar"> 
 
-      <div class="top-bar-left align-middle">
+      <div class="shrink cell align-middle">
                   
-        <ul class="menu simple show-for-medium">
+        <ul class="menu simple">
           <li class="text-lowercase top-bar__logo"><h3><a href="/">{{site.title}}</a></h3></li>
-          <li class="top-bar__date show-for-large"><a href="/">6 - 10 June 2018</a></li>
+          <li class="top-bar__date show-for-large"><a href="/">6 - 10 June '18</a></li>
         </ul>
         
+<!--
         <div class="show-for-small-only text-center">
-          <h3 class="text-lowercase top-bar__logo"><a data-toggle="offCanvas">{{site.title}}<svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg></a></h3>
+          <h3 class="text-lowercase top-bar__logo"><a data-toggle="offCanvas">{{site.title}}</a></h3>
         </div>
+-->
         
       </div>
       
-      <div class="top-bar-right">
+      <div class="shrink cell">
+      
+      <div class="show-for-small-only">
+      <a data-toggle="offCanvas"><svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg></a>
+      </div>
       
       <div class="show-for-medium">
         <ul class="dropdown menu" data-dropdown-menu>

@@ -31,17 +31,7 @@
 <div class="off-canvas-wrapper">
 <div class="multilevel-offcanvas off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap">
     <ul class="vertical menu" data-accordion-menu>
-    <li><a href="#">Line-up</a>
-      <ul class="menu vertical nested">
-          <li><a href="/line-up/#all">All</a></li>
-          <li><a href="/line-up/#wednesday6june">Wednesday 6 June</a></li>
-          <li><a href="/line-up/#thursday7june">Thursday 7 June</a></li>
-          <li><a href="/line-up/#friday8june">Friday 8 June</a></li>
-          <li><a href="/line-up/#saturday9june">Saturday 9 June</a></li>
-          <li><a href="/line-up/#sunday10june">Sunday 10 June</a></li>
-       </ul>
-    </li>
-  <ul class="vertical menu">
+      <li><a href="/line-up/">Line-up</a></li>
       <li class="active"><a href="/tickets/">Tickets</a></li>
       <li><a href="/location/">Location</a></li>
       <li><a href="/about/">About</a></li>
@@ -53,30 +43,25 @@
   </ul>
 </div>
 <div class="off-canvas-content" data-off-canvas-content>
-  <div class="top-bar"> 
-      <div class="top-bar-left align-middle">
-        <ul class="menu simple show-for-medium">
+  <div class="grid-x top-bar"> 
+      <div class="shrink cell align-middle">
+        <ul class="menu simple">
           <li class="text-lowercase top-bar__logo"><h3><a href="/">Bristol Comedy Garden</a></h3></li>
-          <li class="top-bar__date show-for-large"><a href="/">6 - 10 June 2018</a></li>
+          <li class="top-bar__date show-for-large"><a href="/">6 - 10 June '18</a></li>
         </ul>
+<!--
         <div class="show-for-small-only text-center">
-          <h3 class="text-lowercase top-bar__logo"><a data-toggle="offCanvas">Bristol Comedy Garden<svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg></a></h3>
+          <h3 class="text-lowercase top-bar__logo"><a data-toggle="offCanvas">Bristol Comedy Garden</a></h3>
         </div>
+-->
       </div>
-      <div class="top-bar-right">
+      <div class="shrink cell">
+      <div class="show-for-small-only">
+      <a data-toggle="offCanvas"><svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg></a>
+      </div>
       <div class="show-for-medium">
         <ul class="dropdown menu" data-dropdown-menu>
-          <li>
-          <a href="/line-up/">Line-up</a>
-          <ul class="menu vertical">
-          <li><a href="/line-up/#all">All</a></li>
-          <li><a href="/line-up/#wednesday6june">Wednesday 6 June</a></li>
-          <li><a href="/line-up/#thursday7june">Thursday 7 June</a></li>
-          <li><a href="/line-up/#friday8june">Friday 8 June</a></li>
-          <li><a href="/line-up/#saturday9june">Saturday 9 June</a></li>
-          <li><a href="/line-up/#sunday10june">Sunday 10 June</a></li>
-          </ul>
-          </li>
+          <li><a href="/line-up/">Line-up</a></li>
           <li class="active"><a href="/tickets/">Tickets</a></li>
           <li><a href="/location/">Location</a></li>
           <li><a href="/about/">About</a></li>
@@ -87,230 +72,300 @@
       </div>
       </div>
   </div>
-<section class="tickets">
+<section class="tickets padding-bottom-3">
 <div class="grid-container">
   <div class="grid-x grid-padding-y align-center text-lowercase">
   <div class="shrink cell">
-    <h2 class="separator-center">Wednesday 6 June</h2>
+    <h2>Wednesday 6 June</h2>
   </div>
   </div>
-  <div class="grid-x grid-padding-y align-center">
-    <div class="shrink cell">
-      <h4> 7:30PM</h4>
+  <div class="grid-x grid-margin-x grid-margin-y">
+  <div class="small-12 cell">
+  <div class="grid-x grid-padding-x grid-padding-y callout">
+  <div class="small-12 large-2 cell text-center medium-text-left">
+    <div class="grid-y align-justify" style="height: 100%">
+      <div class="shrink cell">
+      <h3> 7:30PM</h3>
+      </div>
+      <div class="shrink cell show-for-large">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
+      </div>
     </div>
   </div>
-  <div class="grid-x">
-    <div class="cell">
-      <div class="callout grid-x grid-padding-x grid-padding-y collapse text-center">
-          <div class="small-12 large-3 cell align-self-middle">
+          <div class="small-12 large-4 cell">
             <img src="/uploads/josh-widdicombe.jpg" alt="">
           </div>
-          <div class="small-12 large-3 cell align-self-middle text-lowercase">
-              <h4>Josh Widdicombe</h4>
-              <h4>Tom Allen</h4>
-              <h4>Lauren Pattison</h4>
-              <h4>Ivo Graham</h4>
-              <h4>John Robins</h4>
+          <div class="small-12 large-4 cell text-lowercase text-center medium-text-left">
+              <h3>Josh Widdicombe</h3>
+              <h3>Tom Allen</h3>
+              <h3>Lauren Pattison</h3>
+              <h3>Ivo Graham</h3>
+              <h3>John Robins</h3>
           </div>
-          <div class="show-for-large small-12 large-4 cell align-self-middle">
-            <h5 class="text-lowercase">Festival Opens<span> 6:00PM</span></h5>
-            <h5 class="text-lowercase">Show Starts<span> 7:30PM</span></h5>
-            <h5 class="text-lowercase">Tickets<span>£20 - £25</span></h5>
-          </div>
-          <div class="small-12 large-2 cell align-self-middle">
-        <a class="button large expanded" href="" target="_blank">Buy Now</a>
+          <div class="small-12 large-2 cell text-center medium-text-right">
+            <div class="show-for-large">
+            <h5 class="text-lowercase">Festival Opens</h5>
+             6:00PM
+            <h5 class="text-lowercase padding-top-1">Show Starts</h5>
+             7:30PM
+            </div>
+            <h5 class="text-lowercase padding-top-1">Tickets</h5>
+            £20 - £25
+      <div class="shrink cell hide-for-large padding-top-2">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
+      </div>
           </div>
       </div>
-    </div>
+  </div>
   </div>
   <div class="grid-x grid-padding-y align-center text-lowercase">
   <div class="shrink cell">
-    <h2 class="separator-center">Thursday 7 June</h2>
+    <h2>Thursday 7 June</h2>
   </div>
   </div>
-  <div class="grid-x grid-padding-y align-center">
-    <div class="shrink cell">
-      <h4> 7:30PM</h4>
+  <div class="grid-x grid-margin-x grid-margin-y">
+  <div class="small-12 cell">
+  <div class="grid-x grid-padding-x grid-padding-y callout">
+  <div class="small-12 large-2 cell text-center medium-text-left">
+    <div class="grid-y align-justify" style="height: 100%">
+      <div class="shrink cell">
+      <h3> 7:30PM</h3>
+      </div>
+      <div class="shrink cell show-for-large">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
+      </div>
     </div>
   </div>
-  <div class="grid-x">
-    <div class="cell">
-      <div class="callout grid-x grid-padding-x grid-padding-y collapse text-center">
-          <div class="small-12 large-3 cell align-self-middle">
+          <div class="small-12 large-4 cell">
             <img src="/uploads/alan-davies.jpg" alt="">
           </div>
-          <div class="small-12 large-3 cell align-self-middle text-lowercase">
-              <h4>Alan Davies</h4>
-              <h4>Joe Wilkinson</h4>
-              <h4>Zoe Lyons</h4>
-              <h4>Kiri Pritchard-Mclean</h4>
+          <div class="small-12 large-4 cell text-lowercase text-center medium-text-left">
+              <h3>Alan Davies</h3>
+              <h3>Joe Wilkinson</h3>
+              <h3>Zoe Lyons</h3>
+              <h3>Kiri Pritchard-Mclean</h3>
           </div>
-          <div class="show-for-large small-12 large-4 cell align-self-middle">
-            <h5 class="text-lowercase">Festival Opens<span> 6:00PM</span></h5>
-            <h5 class="text-lowercase">Show Starts<span> 7:30PM</span></h5>
-            <h5 class="text-lowercase">Tickets<span>£20 - £25</span></h5>
-          </div>
-          <div class="small-12 large-2 cell align-self-middle">
-        <a class="button large expanded" href="" target="_blank">Buy Now</a>
+          <div class="small-12 large-2 cell text-center medium-text-right">
+            <div class="show-for-large">
+            <h5 class="text-lowercase">Festival Opens</h5>
+             6:00PM
+            <h5 class="text-lowercase padding-top-1">Show Starts</h5>
+             7:30PM
+            </div>
+            <h5 class="text-lowercase padding-top-1">Tickets</h5>
+            £20 - £25
+      <div class="shrink cell hide-for-large padding-top-2">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
+      </div>
           </div>
       </div>
-    </div>
+  </div>
   </div>
   <div class="grid-x grid-padding-y align-center text-lowercase">
   <div class="shrink cell">
-    <h2 class="separator-center">Friday 8 June</h2>
+    <h2>Friday 8 June</h2>
   </div>
   </div>
-  <div class="grid-x grid-padding-y align-center">
-    <div class="shrink cell">
-      <h4> 7:30PM</h4>
+  <div class="grid-x grid-margin-x grid-margin-y">
+  <div class="small-12 cell">
+  <div class="grid-x grid-padding-x grid-padding-y callout">
+  <div class="small-12 large-2 cell text-center medium-text-left">
+    <div class="grid-y align-justify" style="height: 100%">
+      <div class="shrink cell">
+      <h3> 7:30PM</h3>
+      </div>
+      <div class="shrink cell show-for-large">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
+      </div>
     </div>
   </div>
-  <div class="grid-x">
-    <div class="cell">
-      <div class="callout grid-x grid-padding-x grid-padding-y collapse text-center">
-          <div class="small-12 large-3 cell align-self-middle">
+          <div class="small-12 large-4 cell">
             <img src="/uploads/david-o-doherty.jpg" alt="">
           </div>
-          <div class="small-12 large-3 cell align-self-middle text-lowercase">
-              <h4>David O'Doherty</h4>
-              <h4>James Acaster</h4>
-              <h4>Lolly Adefope</h4>
-              <h4>John Kearns</h4>
-              <h4>Ed Gamble</h4>
+          <div class="small-12 large-4 cell text-lowercase text-center medium-text-left">
+              <h3>David O'Doherty</h3>
+              <h3>James Acaster</h3>
+              <h3>Lolly Adefope</h3>
+              <h3>John Kearns</h3>
+              <h3>Ed Gamble</h3>
           </div>
-          <div class="show-for-large small-12 large-4 cell align-self-middle">
-            <h5 class="text-lowercase">Festival Opens<span> 6:00PM</span></h5>
-            <h5 class="text-lowercase">Show Starts<span> 7:30PM</span></h5>
-            <h5 class="text-lowercase">Tickets<span>£20 - £25</span></h5>
-          </div>
-          <div class="small-12 large-2 cell align-self-middle">
-        <a class="button large expanded" href="" target="_blank">Buy Now</a>
+          <div class="small-12 large-2 cell text-center medium-text-right">
+            <div class="show-for-large">
+            <h5 class="text-lowercase">Festival Opens</h5>
+             6:00PM
+            <h5 class="text-lowercase padding-top-1">Show Starts</h5>
+             7:30PM
+            </div>
+            <h5 class="text-lowercase padding-top-1">Tickets</h5>
+            £20 - £25
+      <div class="shrink cell hide-for-large padding-top-2">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
+      </div>
           </div>
       </div>
-    </div>
+  </div>
   </div>
   <div class="grid-x grid-padding-y align-center text-lowercase">
   <div class="shrink cell">
-    <h2 class="separator-center">Saturday 9 June</h2>
+    <h2>Saturday 9 June</h2>
   </div>
   </div>
-  <div class="grid-x grid-padding-y align-center">
-    <div class="shrink cell">
-      <h4> 2:00PM</h4>
+  <div class="grid-x grid-margin-x grid-margin-y">
+  <div class="small-12 cell">
+  <div class="grid-x grid-padding-x grid-padding-y callout">
+  <div class="small-12 large-2 cell text-center medium-text-left">
+    <div class="grid-y align-justify" style="height: 100%">
+      <div class="shrink cell">
+      <h3> 2:00PM</h3>
+      </div>
+      <div class="shrink cell show-for-large">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
+      </div>
     </div>
   </div>
-  <div class="grid-x">
-    <div class="cell">
-      <div class="callout grid-x grid-padding-x grid-padding-y collapse text-center">
-          <div class="small-12 large-3 cell align-self-middle">
+          <div class="small-12 large-4 cell">
             <img src="/uploads/adam-buxton.jpg" alt="">
           </div>
-          <div class="small-12 large-3 cell align-self-middle text-lowercase">
-              <h4>Adam Buxton's Bug X</h4>
+          <div class="small-12 large-4 cell text-lowercase text-center medium-text-left">
+              <h3>Adam Buxton's Bug X</h3>
           </div>
-          <div class="show-for-large small-12 large-4 cell align-self-middle">
-            <h5 class="text-lowercase">Festival Opens<span> 1:00PM</span></h5>
-            <h5 class="text-lowercase">Show Starts<span> 2:00PM</span></h5>
-            <h5 class="text-lowercase">Tickets<span>£20</span></h5>
+          <div class="small-12 large-2 cell text-center medium-text-right">
+            <div class="show-for-large">
+            <h5 class="text-lowercase">Festival Opens</h5>
+             1:00PM
+            <h5 class="text-lowercase padding-top-1">Show Starts</h5>
+             2:00PM
+            </div>
+            <h5 class="text-lowercase padding-top-1">Tickets</h5>
+            £20
+      <div class="shrink cell hide-for-large padding-top-2">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
+      </div>
           </div>
-          <div class="small-12 large-2 cell align-self-middle">
-        <a class="button large expanded" href="" target="_blank">Buy Now</a>
-          </div>
+      </div>
+  </div>
+  </div>
+  <div class="grid-x grid-margin-x grid-margin-y">
+  <div class="small-12 cell">
+  <div class="grid-x grid-padding-x grid-padding-y callout">
+  <div class="small-12 large-2 cell text-center medium-text-left">
+    <div class="grid-y align-justify" style="height: 100%">
+      <div class="shrink cell">
+      <h3> 4:45PM</h3>
+      </div>
+      <div class="shrink cell show-for-large">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
       </div>
     </div>
   </div>
-  <div class="grid-x grid-padding-y align-center">
-    <div class="shrink cell">
-      <h4> 4:45PM</h4>
-    </div>
-  </div>
-  <div class="grid-x">
-    <div class="cell">
-      <div class="callout grid-x grid-padding-x grid-padding-y collapse text-center">
-          <div class="small-12 large-3 cell align-self-middle">
+          <div class="small-12 large-4 cell">
             <img src="/uploads/milton-jones.jpg" alt="">
           </div>
-          <div class="small-12 large-3 cell align-self-middle text-lowercase">
-              <h4>Milton Jones</h4>
-              <h4>Mark Watson</h4>
-              <h4>Shappi Khorsandi</h4>
-              <h4>Stephen K Amos</h4>
+          <div class="small-12 large-4 cell text-lowercase text-center medium-text-left">
+              <h3>Milton Jones</h3>
+              <h3>Mark Watson</h3>
+              <h3>Shappi Khorsandi</h3>
+              <h3>Stephen K Amos</h3>
           </div>
-          <div class="show-for-large small-12 large-4 cell align-self-middle">
-            <h5 class="text-lowercase">Festival Opens<span> 3:00PM</span></h5>
-            <h5 class="text-lowercase">Show Starts<span> 4:45PM</span></h5>
-            <h5 class="text-lowercase">Tickets<span>£20 - £25</span></h5>
+          <div class="small-12 large-2 cell text-center medium-text-right">
+            <div class="show-for-large">
+            <h5 class="text-lowercase">Festival Opens</h5>
+             3:00PM
+            <h5 class="text-lowercase padding-top-1">Show Starts</h5>
+             4:45PM
+            </div>
+            <h5 class="text-lowercase padding-top-1">Tickets</h5>
+            £20 - £25
+      <div class="shrink cell hide-for-large padding-top-2">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
+      </div>
           </div>
-          <div class="small-12 large-2 cell align-self-middle">
-        <a class="button large expanded" href="" target="_blank">Buy Now</a>
-          </div>
+      </div>
+  </div>
+  </div>
+  <div class="grid-x grid-margin-x grid-margin-y">
+  <div class="small-12 cell">
+  <div class="grid-x grid-padding-x grid-padding-y callout">
+  <div class="small-12 large-2 cell text-center medium-text-left">
+    <div class="grid-y align-justify" style="height: 100%">
+      <div class="shrink cell">
+      <h3> 7:45PM</h3>
+      </div>
+      <div class="shrink cell show-for-large">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
       </div>
     </div>
   </div>
-  <div class="grid-x grid-padding-y align-center">
-    <div class="shrink cell">
-      <h4> 7:45PM</h4>
-    </div>
-  </div>
-  <div class="grid-x">
-    <div class="cell">
-      <div class="callout grid-x grid-padding-x grid-padding-y collapse text-center">
-          <div class="small-12 large-3 cell align-self-middle">
+          <div class="small-12 large-4 cell">
             <img src="/uploads/reginald-d-hunter.jpg" alt="">
           </div>
-          <div class="small-12 large-3 cell align-self-middle text-lowercase">
-              <h4>Reginald D Hunter</h4>
-              <h4>Seann Walsh</h4>
-              <h4>Jen Brister</h4>
-              <h4>Mark Olver</h4>
+          <div class="small-12 large-4 cell text-lowercase text-center medium-text-left">
+              <h3>Reginald D Hunter</h3>
+              <h3>Seann Walsh</h3>
+              <h3>Jen Brister</h3>
+              <h3>Mark Olver</h3>
           </div>
-          <div class="show-for-large small-12 large-4 cell align-self-middle">
-            <h5 class="text-lowercase">Festival Opens<span> 6:00PM</span></h5>
-            <h5 class="text-lowercase">Show Starts<span> 7:45PM</span></h5>
-            <h5 class="text-lowercase">Tickets<span>£20 - £25</span></h5>
-          </div>
-          <div class="small-12 large-2 cell align-self-middle">
-        <a class="button large expanded" href="" target="_blank">Buy Now</a>
+          <div class="small-12 large-2 cell text-center medium-text-right">
+            <div class="show-for-large">
+            <h5 class="text-lowercase">Festival Opens</h5>
+             6:00PM
+            <h5 class="text-lowercase padding-top-1">Show Starts</h5>
+             7:45PM
+            </div>
+            <h5 class="text-lowercase padding-top-1">Tickets</h5>
+            £20 - £25
+      <div class="shrink cell hide-for-large padding-top-2">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
+      </div>
           </div>
       </div>
-    </div>
+  </div>
   </div>
   <div class="grid-x grid-padding-y align-center text-lowercase">
   <div class="shrink cell">
-    <h2 class="separator-center">Sunday 10 June</h2>
+    <h2>Sunday 10 June</h2>
   </div>
   </div>
-  <div class="grid-x grid-padding-y align-center">
-    <div class="shrink cell">
-      <h4> 7:30PM</h4>
-    </div>
-  </div>
-  <div class="grid-x">
-    <div class="cell">
-      <div class="callout grid-x grid-padding-x grid-padding-y collapse text-center">
-          <div class="small-12 large-3 cell align-self-middle">
-            <img src="/uploads/henning-wehn.jpg" alt="">
-          </div>
-          <div class="small-12 large-3 cell align-self-middle text-lowercase">
-              <h4>Henning Wehn</h4>
-              <h4>Phil Wang</h4>
-              <h4>Fin Taylor</h4>
-          </div>
-          <div class="show-for-large small-12 large-4 cell align-self-middle">
-            <h5 class="text-lowercase">Festival Opens<span> 6:00PM</span></h5>
-            <h5 class="text-lowercase">Show Starts<span> 7:30PM</span></h5>
-            <h5 class="text-lowercase">Tickets<span>£20 - 25</span></h5>
-          </div>
-          <div class="small-12 large-2 cell align-self-middle">
-        <a class="button large expanded" href="" target="_blank">Buy Now</a>
-          </div>
+  <div class="grid-x grid-margin-x grid-margin-y">
+  <div class="small-12 cell">
+  <div class="grid-x grid-padding-x grid-padding-y callout">
+  <div class="small-12 large-2 cell text-center medium-text-left">
+    <div class="grid-y align-justify" style="height: 100%">
+      <div class="shrink cell">
+      <h3> 7:30PM</h3>
+      </div>
+      <div class="shrink cell show-for-large">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
       </div>
     </div>
+  </div>
+          <div class="small-12 large-4 cell">
+            <img src="/uploads/henning-wehn.jpg" alt="">
+          </div>
+          <div class="small-12 large-4 cell text-lowercase text-center medium-text-left">
+              <h3>Henning Wehn</h3>
+              <h3>Phil Wang</h3>
+              <h3>Fin Taylor</h3>
+          </div>
+          <div class="small-12 large-2 cell text-center medium-text-right">
+            <div class="show-for-large">
+            <h5 class="text-lowercase">Festival Opens</h5>
+             6:00PM
+            <h5 class="text-lowercase padding-top-1">Show Starts</h5>
+             7:30PM
+            </div>
+            <h5 class="text-lowercase padding-top-1">Tickets</h5>
+            £20 - 25
+      <div class="shrink cell hide-for-large padding-top-2">
+      <a class="button large expanded" href="" target="_blank">Buy Now</a>
+      </div>
+          </div>
+      </div>
+  </div>
   </div>
 </div>
 </section>
-<footer class="margin-top-3 padding-top-1 padding-bottom-1">
+<footer class="padding-top-1 padding-bottom-1">
   <div class="grid-x grid-padding-y">
     <div class="small-12 cell text-center">
       <h5><a href="/tickets">Queen Square, Bristol BS1 4QS</a></h5>
@@ -329,7 +384,7 @@
     </div>
   </div>
   <div class="grid-x grid-padding-x align-center">
-    <div class="small-12 medium-6 large-4 cell">
+    <div class="small-12 medium-7 large-5 cell">
       <form action="//bristolcomedygarden.us8.list-manage.com/subscribe/post?u=4f6c24b1fd6a641ead690d017&amp;id=da73c043ee" method="post" target="_blank" novalidate="">
       <div class="input-group">
         <input class="input-group-field" type="email" name="EMAIL" id="mce-EMAIL" placeholder="Subscribe to our newsletter">
