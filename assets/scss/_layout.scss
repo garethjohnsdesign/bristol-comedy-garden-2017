@@ -39,8 +39,6 @@ i, cite, em, var, address, dfn {
 }
 
 .top-bar__logo { 
- font-size: 2rem;
- font-family: $primary-font-family;
  letter-spacing: -1px;
 }
 
@@ -51,14 +49,6 @@ i, cite, em, var, address, dfn {
 .top-bar__socials {
 @include links($dark-gray, $black);
 }
-
-/*
-
-
-.top-bar-right {
-  z-index: 2000;
-}
-*/
 
 // 6. Navigation
 // ------
@@ -343,18 +333,4 @@ footer {
   color: $secondary-color;
   @include links($secondary-color, $white);
   background-color: get-color(primary-background);
-}
-
-
-.footer__socials {
-    padding: 0rem 0rem 2rem 0rem;
-}
-
-
-.footer__form {
-    padding: 2rem 0rem 0rem 0rem;
-}
-
-.footer__partners .icon {
-  font-size: 3rem;
 }

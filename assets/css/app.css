@@ -2451,19 +2451,19 @@ h6, .h6 {
     color: #cacaca; }
 
 h1, .h1 {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
 h2, .h2 {
-  font-size: 1.25rem;
+  font-size: 2rem;
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
 h3, .h3 {
-  font-size: 1.1875rem;
+  font-size: 1.5rem;
   line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0.5rem; }
@@ -6695,29 +6695,11 @@ Example showing how to change the color/size of the icons:
 	color: red; // works for single-colored icons, because "fill" was set to "currentColor"
 }
 ======================================================================================== */
-.icon-logo {
-  font-size: 3rem; }
-
-.icon-icon {
-  font-size: 2rem; }
-
-.icon-icon-rev {
-  font-size: 2rem; }
-
-.icon-footer {
-  width: 4.63671875em; }
-
-.icon-footer {
-  font-size: 4rem; }
-
-.icon-footer-stacked {
-  font-size: 8rem; }
-  @media screen and (max-width: 39.9375em) {
-    .icon-footer-stacked {
-      font-size: 6rem; } }
-
 .icon-socials {
   font-size: 1.25rem; }
+
+.icon-partners {
+  font-size: 3rem; }
 
 .lg-icon {
   font-family: 'Gallery';
@@ -7472,8 +7454,6 @@ i, cite, em, var, address, dfn {
     color: #222222; }
 
 .top-bar__logo {
-  font-size: 2rem;
-  font-family: "Raisonne", sans-serif;
   letter-spacing: -1px; }
 
 .top-bar__date a {
@@ -7486,13 +7466,6 @@ i, cite, em, var, address, dfn {
   .top-bar__socials a:hover {
     color: #222222; }
 
-/*
-
-
-.top-bar-right {
-  z-index: 2000;
-}
-*/
 .navigation__logo {
   z-index: 2; }
 
@@ -7681,12 +7654,3 @@ footer {
     color: #ffd6c8; }
     footer a:hover {
       color: #fefefe; }
-
-.footer__socials {
-  padding: 0rem 0rem 2rem 0rem; }
-
-.footer__form {
-  padding: 2rem 0rem 0rem 0rem; }
-
-.footer__partners .icon {
-  font-size: 3rem; }

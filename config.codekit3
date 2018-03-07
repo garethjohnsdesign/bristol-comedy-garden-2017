@@ -258,16 +258,6 @@
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
-	"\/_site\/assets\/css\/app.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/assets\/css\/app-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/_site\/assets\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 321,
@@ -480,16 +470,6 @@
 		"oA": 0,
 		"oAP": "\/_site\/assets\/fonts\/raisonne-demibold.woff2",
 		"oF": 0
-		},
-	"\/_site\/assets\/icons\/symbol-defs.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/assets\/icons\/symbol-defs.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/_site\/assets\/img\/logo.svg": {
 		"ft": 2097152,
@@ -5477,16 +5457,6 @@
 		"oA": 0,
 		"oAP": "\/assets\/fonts\/raisonne-demibold.woff2",
 		"oF": 0
-		},
-	"\/assets\/icons\/symbol-defs.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/icons\/symbol-defs.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/assets\/img\/logo.svg": {
 		"ft": 2097152,

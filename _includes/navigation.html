@@ -2,14 +2,14 @@
 
   <div class="grid-x top-bar"> 
 
-      <div class="top-bar-left grid-padding-x align-middle">
+      <div class="shrink cell align-middle">
         <ul class="menu simple align-middle">
-          <li class="text-lowercase top-bar__logo"><a href="/">{{site.title}}</a></li>
-          <li class="show-for-large top-bar__date"><a href="/">{{site.date-text}}</a></li>
+          <li class="text-lowercase top-bar__logo"><h3><a href="/">{{site.title}}</a></h3></li>
+          <li class="top-bar__date"><a href="/">{{site.date-text}}</a></li>
         </ul>
       </div>
       
-      <div class="top-bar-right">
+      <div class="shrink cell">
         
       <div class="show-for-small-only">
         <button class="hamburger hamburger--collapse" id="toggle" data-toggler=".is-active" type="button" data-toggle="overlay toggle">
@@ -41,9 +41,9 @@
           <li{{ current }}><a href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a></li>
           {% endif %}
           {% endfor %}
-          <li class="top-bar__socials show-for-large"><a href="{{site.social.facebook}}" target="_blank"><svg class="icon icon-socials icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
-          <li class="top-bar__socials show-for-large"><a href="{{site.social.instagram}}" target="_blank"><svg class="icon icon-socials icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li>
-          <li class="top-bar__socials show-for-large"><a href="{{site.social.twitter}}" target="_blank"><svg class="icon icon-socials icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
+          <li class="show-for-large"><a href="{{site.social.facebook}}" target="_blank"><svg class="icon icon-socials icon-facebook"><use xlink:href="/assets/icons/symbol-defs.svg#icon-facebook"></use></svg></a></li>
+<!--           <li class="show-for-large"><a href="{{site.social.instagram}}" target="_blank"><svg class="icon icon-socials icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a></li> -->
+          <li class="show-for-large"><a href="{{site.social.twitter}}" target="_blank"><svg class="icon icon-socials icon-twitter"><use xlink:href="/assets/icons/symbol-defs.svg#icon-twitter"></use></svg></a></li>
         </ul>
       </div>
       
