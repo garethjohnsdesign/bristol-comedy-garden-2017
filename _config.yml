@@ -31,7 +31,7 @@ exclude:
 - node_modules
 - ".gitignore"
 - assets/scss
-gems:
+plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
