@@ -251,6 +251,16 @@
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
+	"\/_site\/assets\/css\/app.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/css\/app-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/_site\/assets\/favicons\/android-chrome-192x192.png": {
 		"ft": 32768,
 		"iS": 321,
@@ -262,11 +272,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/_site\/assets\/favicons\/android-chrome-256x256.png": {
+	"\/_site\/assets\/favicons\/android-chrome-512x512.png": {
 		"ft": 32768,
-		"iS": 1084,
+		"iS": 24441,
 		"oA": 0,
-		"oAP": "\/_site\/assets\/favicons\/android-chrome-256x256.png",
+		"oAP": "\/_site\/assets\/favicons\/android-chrome-512x512.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -320,19 +330,55 @@
 		"oAP": "\/_site\/assets\/favicons\/favicon.ico",
 		"oF": 0
 		},
-	"\/_site\/assets\/favicons\/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/_site\/assets\/favicons\/manifest-min.json",
+	"\/_site\/assets\/favicons\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 8441,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/mstile-144x144.png",
 		"oF": 0,
-		"oO": 0,
-		"oS": 1
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/_site\/assets\/favicons\/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 598,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 8663,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/mstile-310x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 16604,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/mstile-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/_site\/assets\/favicons\/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 5645,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/mstile-70x70.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -348,6 +394,13 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/_site\/assets\/favicons\/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/favicons\/site.webmanifest",
+		"oF": 0
 		},
 	"\/_site\/assets\/fonts\/apercu-regular.woff": {
 		"cB": 0,
@@ -439,6 +492,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/_site\/assets\/js\/about.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/about-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/_site\/assets\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
@@ -455,6 +518,26 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/home-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/min\/about-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/about-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/_site\/assets\/js\/min\/app-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/js\/min\/app-min-min.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -7230,11 +7313,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/favicons\/android-chrome-256x256.png": {
+	"\/assets\/favicons\/android-chrome-512x512.png": {
 		"ft": 32768,
-		"iS": 1084,
+		"iS": 24441,
 		"oA": 0,
-		"oAP": "\/assets\/favicons\/android-chrome-256x256.png",
+		"oAP": "\/assets\/favicons\/android-chrome-512x512.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -7288,19 +7371,55 @@
 		"oAP": "\/assets\/favicons\/favicon.ico",
 		"oF": 0
 		},
-	"\/assets\/favicons\/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/assets\/favicons\/manifest-min.json",
+	"\/assets\/favicons\/mstile-144x144.png": {
+		"ft": 32768,
+		"iS": 8441,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/mstile-144x144.png",
 		"oF": 0,
-		"oO": 0,
-		"oS": 1
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/favicons\/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 598,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/favicons\/mstile-310x150.png": {
+		"ft": 32768,
+		"iS": 8663,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/mstile-310x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/favicons\/mstile-310x310.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/mstile-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/favicons\/mstile-70x70.png": {
+		"ft": 32768,
+		"iS": 5645,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/mstile-70x70.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -7316,6 +7435,13 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/favicons\/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/assets\/favicons\/site.webmanifest",
+		"oF": 0
 		},
 	"\/assets\/fonts\/apercu-regular.woff": {
 		"cB": 0,
@@ -7985,42 +8111,6 @@
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.eslintrc",
 		"oF": 0
-		},
-	"\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
 		},
 	"\/bower_components\/foundation-sites\/.sass-lint.yml": {
 		"cB": 0,
