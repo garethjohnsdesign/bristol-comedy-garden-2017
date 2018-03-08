@@ -15,10 +15,7 @@ acts:
   image: "/uploads/john-robins.jpg"
 quote: The undisputed king of the exasperated petty gripe
 quote-cite: Evening Standard
-secondary-text: Joining Josh is sharp-suited soom to be huge Tom Allen, fast-rising
-  Edinburgh Comedy Award nominee Lauren Pattison, the brilliantly funny Live At The
-  Apollo star Ivo Graham and 2017 Edinburgh Comedy Award winner, podcast hero and
-  all round vibe-magnet John Robins as host.
+secondary-text: Joining Josh is sharp-suited soom to be huge Tom Allen, BBC Comedy Award winner Yuriko Kotani, the brilliantly funny Live At The Apollo star Ivo Graham and 2017 Edinburgh Comedy Award winner, podcast hero and all round vibe-magnet John Robins as host.
 festival-starts-at: 2018-06-06 18:00:00 Z
 show-starts-at: 2018-06-06 19:30:00 Z
 ticket-price: "£20 - £25"
