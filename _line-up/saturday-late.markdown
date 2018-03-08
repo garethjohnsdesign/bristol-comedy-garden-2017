@@ -19,7 +19,7 @@ secondary-text: Joining Milton is an all-star supporting line-up with Bristol’
 festival-starts-at: 2018-06-09 18:00:00 Z
 show-starts-at: 2018-06-09 19:45:00 Z
 ticket-price: "£20 - £25"
-ticket-link: 
+ticket-link: https://www.seetickets.com/event/reginald-d-hunter/big-top-bristol-comedy-garden/1206532
 is-sold-out: 
 layout: event
 ---

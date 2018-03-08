@@ -23,7 +23,7 @@ secondary-text: Joining David is a blisteringly good, all-star supporting cast w
 festival-starts-at: 2018-06-08 18:00:00 Z
 show-starts-at: 2018-06-08 19:30:00 Z
 ticket-price: "£20 - £25"
-ticket-link: 
+ticket-link: https://www.seetickets.com/event/david-o-doherty/big-top-bristol-comedy-garden/1206493
 is-sold-out: false
 layout: event
 ---

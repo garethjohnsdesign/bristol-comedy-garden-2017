@@ -11,7 +11,7 @@ secondary-text:
 festival-starts-at: 2018-06-09 13:00:00 Z
 show-starts-at: 2018-06-09 14:00:00 Z
 ticket-price: "£20"
-ticket-link: 
+ticket-link: https://www.seetickets.com/event/adam-buxton-s-bug-x/big-top-bristol-comedy-garden/1206518
 is-sold-out: 
 layout: event
 ---

@@ -21,7 +21,7 @@ secondary-text: Joining Henning is a very special guest to be announced plus awa
 festival-starts-at: 2018-06-10 18:00:00 Z
 show-starts-at: 2018-06-10 19:30:00 Z
 ticket-price: "£20 - 25"
-ticket-link: 
+ticket-link: https://www.seetickets.com/event/henning-wehn/big-top-bristol-comedy-garden/1206550
 is-sold-out: 
 layout: event
 ---

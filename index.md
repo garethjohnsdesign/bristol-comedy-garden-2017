@@ -47,7 +47,7 @@ featured:
 - name: Tom Allen
   image: "/uploads/tom-allen.jpg"
   subheader: 
-  is-sold-out: true
+  is-sold-out:
   line-up: Friday
 - name: Joe Wilkinson
   image: "/uploads/joe-wilkinson.jpg"
@@ -57,13 +57,13 @@ featured:
 - name: Reginald D Hunter
   image: "/uploads/reginald-d-hunter.jpg"
   subheader: 
-  is-sold-out: true
+  is-sold-out:
   line-up: Saturday Late
-- name: John Robins
-  image: "/uploads/john-robins.jpg"
+- name: Henning Wehn
+  image: "/uploads/henning-wehn.jpg"
   subheader: 
   is-sold-out: 
-  line-up: Wednesday
+  line-up: Sunday Late
 layout: home
 ---
 

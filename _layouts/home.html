@@ -11,7 +11,7 @@ layout: default
 <div class="grid-x index__gallery__text align-middle align-center">
   <a href="/line-up/{{act.line-up | slugify}}">
 	<div class="small-8 cell text-center index__gallery__text__inner">
-	<h1 class="text-lowercase">{{act.name}}</h1>
+	<h1 class="text-lowercase act-name">{{act.name}}</h1>
   <h5>{{act.subheader}}</h5>
   {% if act.is-sold-out == true %}
   <h4>Sold Out</h4>

@@ -20,7 +20,7 @@ secondary-text: Joining Alan is is 8 Out Of 10 Cats Does Countdown’s favourite
 festival-starts-at: 2018-06-07 18:00:00 Z
 show-starts-at: 2018-06-07 19:30:00 Z
 ticket-price: "£20 - £25"
-ticket-link: 
+ticket-link: https://www.seetickets.com/event/alan-davies/big-top-bristol-comedy-garden/1206492
 is-sold-out: false
 layout: event
 ---

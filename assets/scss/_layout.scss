@@ -125,6 +125,10 @@ i, cite, em, var, address, dfn {
   @include links($white, $primary-color);
 }
 
+.act-name {
+  text-stroke: red;
+}
+
 
 // 6. Location
 // ------------
@@ -157,6 +161,13 @@ i, cite, em, var, address, dfn {
 
 .event__title span {
   color: $white;
+}
+
+.info {
+  background: url(/uploads/snake.png);
+  background-repeat:no-repeat;
+  background-position: right top;
+  background-size: contain;
 }
 
 .event {
