@@ -27,4 +27,4 @@ is-sold-out: false
 layout: event
 ---
 
-The Last Leg’s Josh Widdicombe headlines an astounding opening night in the Big Top. Star of 8 Out of 10 Cats does Countdown, Qi and his very own hit BBC sitcom ‘Josh’, don’t miss the inimitable master observationalist live in Queen Square.
+The Last Leg’s Josh Widdicombe headlines an astounding opening night in the Big Top. Star of 8 Out of 10 Cats does Countdown, QI and his very own hit BBC sitcom ‘Josh’, don’t miss the inimitable master observationalist live in Queen Square.
