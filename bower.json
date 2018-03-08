@@ -34,7 +34,7 @@
   "private": true,
   "dependencies": {
     "flickity": "^2.0.11",
-    "lightgallery.js": "^1.0.2"
+    "lightgallery": "lightGallery#^1.6.7"
   },
   "resolutions": {
     "what-input": "~4.1.3",
