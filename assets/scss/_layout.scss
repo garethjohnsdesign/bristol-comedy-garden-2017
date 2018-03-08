@@ -171,10 +171,10 @@ i, cite, em, var, address, dfn {
 }
 
 .event {
-  background: url(/uploads/bird.png);
+  background: url(/uploads/bird.png), url(/uploads/plants.png);
   background-repeat:no-repeat;
-  background-position: right top;
-  background-size: 25%;
+  background-position: right top, left top;
+  background-size: 25%, 25%;
 }
 
 
