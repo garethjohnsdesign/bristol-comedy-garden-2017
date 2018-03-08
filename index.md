@@ -4,7 +4,7 @@ position: 0
 image: "/assets/img/og-image.png"
 carousel:
 - name: Josh Widdicombe
-  image: "/uploads/josh-widdicombe-featured.jpg"
+  image: "/uploads/josh-widdicombe-featured-rev.jpg"
   subheader: The undisputed king of the exasperated petty gripe — Evening Standard
   is-sold-out: 
   line-up: Wednesday

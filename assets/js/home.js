@@ -7,5 +7,5 @@ $('.index__gallery').flickity({
   wrapAround: true,
   autoPlay: true,
   initialIndex: Math.floor( Math.random() * carousel.children.length ),
-  arrowShape: 'M100,46.875H11.9688l17.4688-17.4688L25,25L0,50l25,25l4.4062-4.4062L11.9688,53.125H100V46.875z'
+  arrowShape: 'M93,44.7v10.6H27.6l29.9,30.2L50,93L7,50L50,7l7.5,7.5L27.6,44.7L93,44.7L93,44.7z'
 });

@@ -447,11 +447,11 @@
 		"oAP": "\/_site\/assets\/fonts\/Gallery.woff",
 		"oF": 0
 		},
-	"\/_site\/assets\/fonts\/raisonne-demibold.woff": {
+	"\/_site\/assets\/fonts\/Raisonne-DemiBold.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/_site\/assets\/fonts\/raisonne-demibold.woff",
+		"oAP": "\/_site\/assets\/fonts\/Raisonne-DemiBold.woff",
 		"oF": 0
 		},
 	"\/_site\/assets\/fonts\/raisonne-demibold.woff2": {
@@ -6681,6 +6681,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_site\/uploads\/josh-widdicombe-featured-rev.jpg": {
+		"ft": 16384,
+		"iS": 173096,
+		"oA": 0,
+		"oAP": "\/_site\/uploads\/josh-widdicombe-featured-rev.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_site\/uploads\/josh-widdicombe-featured.jpg": {
 		"ft": 16384,
 		"iS": 185983,
@@ -7093,6 +7103,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_uploads\/josh-widdicombe-featured-rev.jpg": {
+		"ft": 16384,
+		"iS": 173096,
+		"oA": 0,
+		"oAP": "\/_uploads\/josh-widdicombe-featured-rev.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_uploads\/josh-widdicombe-featured.jpg": {
 		"ft": 16384,
 		"iS": 274235,
@@ -7488,11 +7508,11 @@
 		"oAP": "\/assets\/fonts\/Gallery.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/raisonne-demibold.woff": {
+	"\/assets\/fonts\/Raisonne-DemiBold.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/assets\/fonts\/raisonne-demibold.woff",
+		"oAP": "\/assets\/fonts\/Raisonne-DemiBold.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/raisonne-demibold.woff2": {
