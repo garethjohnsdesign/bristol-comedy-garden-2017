@@ -15,8 +15,8 @@ quote: One of the best Stand-up comics out there... packed with deft silliness a
   shrewd observation
 quote-cite: The Guardian
 secondary-text: Joining Alan is is 8 Out Of 10 Cats Does Countdown’s favourite oddball
-  Joe Wilkinson making his Comedy Garden debut alongside high-energy Live At The Apollo
-  star Zoe Lyons and the brilliant Kiri Pritchard-Mclean as host.
+  Joe Wilkinson making his Comedy Garden debut, alongside high-energy Live At The
+  Apollo star Zoe Lyons and the brilliant Kiri Pritchard-Mclean as host.
 festival-starts-at: 2018-06-07 18:00:00 Z
 show-starts-at: 2018-06-07 19:30:00 Z
 ticket-price: "£20 - £25"
@@ -25,4 +25,4 @@ is-sold-out: false
 layout: event
 ---
 
-Much lauded as resident dunderhead on QI or the charming but reticent crime solver Jonathan Creek, Davies virtuosic story-telling and whip-smart funny bones combine as he heads to Big Top in beautiful Queen Square.
+Much lauded as resident dunderhead on QI, or the charming but reticent crime solver Jonathan Creek, Davies' virtuosic story-telling and whip-smart funny bones combine as he heads to the Big Top in beautiful Queen Square.
