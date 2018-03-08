@@ -28,4 +28,4 @@ is-sold-out: false
 layout: event
 ---
 
-The Lidl Enya, Broken Bublé, Live At The Apollo star and bona-fide Bristol Comedy Garden favourite David O’Doherty returns to headline the Big Top with talking and songs played on crappy keyboard from 1986. 
+The Lidle Enya, Broken Bublé, Live At The Apollo star and bona-fide Bristol Comedy Garden favourite David O’Doherty returns to headline the Big Top with talking and songs played on crappy keyboard from 1986. 
