@@ -7,8 +7,8 @@ acts:
   image: "/uploads/josh-widdicombe.jpg"
 - name: Tom Allen
   image: "/uploads/tom-allen.jpg"
-- name: Lauren Pattison
-  image: "/uploads/lauren-pattison.jpg"
+- name: Yuriko Kotani
+  image: "/uploads/yuriko-kotani.jpg"
 - name: Ivo Graham
   image: "/uploads/ivo-graham.jpg"
 - name: John Robins
