@@ -15,7 +15,7 @@ acts:
   image: "/uploads/john-robins.jpg"
 quote: The undisputed king of the exasperated petty gripe
 quote-cite: Evening Standard
-secondary-text: Joining Josh is sharp-suited soom to be huge Tom Allen, BBC Comedy
+secondary-text: Joining Josh is sharp-suited soon to be huge Tom Allen, BBC Comedy
   Award winner Yuriko Kotani, the brilliantly funny Live At The Apollo star Ivo Graham
   and 2017 Edinburgh Comedy Award winner, podcast hero and all round vibe-magnet John
   Robins as host.
