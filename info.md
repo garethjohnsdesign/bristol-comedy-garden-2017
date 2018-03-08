@@ -19,9 +19,9 @@ general:
 
     All our bars operate the Challenge 25 scheme. If you’re lucky enough to look under 25, please bring ID!
 - title: The Big Top Venue
-  text: "The Big Top is a seated venues. There are two types of tickets, Front Stalls
-    and Rear Stalls. The Front Stalls are allocated and positioned closest to the
-    stage and therefore the action. All Rear Stall tickets are sold as unreserved
+  text: "The Big Top is a fully seated venue. There are two types of tickets; Front
+    Stalls and Rear Stalls. The Front Stalls are allocated and positioned closest
+    to the stage and therefore the action. All Rear Stall tickets are sold as unreserved
     which means you can choose where you sit when you arrive.\n\nOur event takes place
     in the glorious summertime! Please be prepared for being seated in a warm tent. "
 - title: Group Bookings
