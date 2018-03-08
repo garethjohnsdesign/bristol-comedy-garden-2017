@@ -96,17 +96,17 @@ i, cite, em, var, address, dfn {
   background: url(/uploads/microphone-girl.png), url(/uploads/beer-girl.png);
   background-repeat:no-repeat;
   background-position:left bottom, right bottom;
-  background-size: 60%, 50%;
+  background-size: 50%, 50%;
   @include breakpoint(small) {
   padding-bottom: 20vh;
   }
   @include breakpoint(medium) {
-  padding-bottom: 50vh;
+  padding-bottom: 60vh;
   }
 }
 
 .index__gallery {
-  height: 70vh;
+  height: 80vh;
 }
 
 .index__gallery-cell {
@@ -157,6 +157,29 @@ i, cite, em, var, address, dfn {
 
 .event__title span {
   color: $white;
+}
+
+.event {
+  background: url(/uploads/bird.png);
+  background-repeat:no-repeat;
+  background-position: right top;
+  background-size: 25%;
+}
+
+
+.tickets {
+  background: url(/uploads/microphone-girl.png), url(/uploads/beer-girl.png), url(/uploads/top.png);
+  background-repeat:no-repeat;
+  background-position:left bottom, right bottom, center top;
+  background-size: 50%, 50%, contain;
+  @include breakpoint(small) {
+  padding-top: 20vh;
+  padding-bottom: 20vh;
+  }
+  @include breakpoint(medium) {
+  padding-top: 20vh;
+  padding-bottom: 60vh;
+  }
 }
 
 

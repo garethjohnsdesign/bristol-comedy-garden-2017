@@ -18,6 +18,11 @@ carousel:
   subheader: One of the best Stand-up comics out there — The Guardian
   is-sold-out: 
   line-up: Thursday
+- name: Milton Jones
+  image: "/uploads/milton-jones-featured.jpg"
+  subheader: Pun-derful Jones leaves the audience gagging for more — Metro
+  is-sold-out: 
+  line-up: Saturday Mid
 featured:
 - name: James Acaster
   image: "/uploads/james-acaster.jpg"
