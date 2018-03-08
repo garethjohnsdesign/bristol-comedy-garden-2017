@@ -15,7 +15,9 @@ acts:
 quote: Wehn wraps his vowels around the issues of immigration and identity. And he
   triumphs at it
 quote-cite: The Times
-secondary-text: Joining Henning is a very special guest to be announced plus award-winning Bristolian Jayde Adams, Live At The Apollo and Have I Got News For You star Phil Wang makes his Comedy Garden debut and the wildly acclaimed Fin Taylor hosts.
+secondary-text: Joining Henning is a very special guest to be announced plus award-winning
+  Bristolian Jayde Adams, Live At The Apollo and Have I Got News For You star Phil
+  Wang makes his Comedy Garden debut and the wildly acclaimed Fin Taylor hosts.
 festival-starts-at: 2018-06-10 18:00:00 Z
 show-starts-at: 2018-06-10 19:30:00 Z
 ticket-price: "£20 - 25"
