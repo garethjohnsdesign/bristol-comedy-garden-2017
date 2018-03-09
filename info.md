@@ -5,7 +5,7 @@ general:
 - title: Food and Drink
   text: This year’s festival will be bursting with a great range of bars and a hand-picked
     selection of food and coffee vendors. This year, we have scrumptious stalls from
-    local Mexican food legends Los Amigos, comfort-food specialists Warm & Toastie,
+    local Mexican food legends Los Amigos, comfort-food specialists Warm and Toastie,
     supremely tasty curries from Gopal’s, and more!
 - title: Festival Timings
   text: "Weds 6th June: 6pm - 10.30pm  \nThurs 7th June: 6pm - 10.30pm  \nFri 8th
