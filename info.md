@@ -46,8 +46,8 @@ general:
     and event you’re representing. This role is very active and a lot of fun, you
     should enjoy dealing with lots of people and manage all this with a level head.
     You will need to be available for every shift during the festival.\n\nTo apply
-    please download and fill in these two forms [**APPLICATION ]**(https://drive.google.com/file/d/1MwIOB6w_k9EOHS_qywsGEzBpLL-wLlpg/view?usp=sharing)
-    \ [EQUALITY AND DIVERSITY MONITORING FORM](https://drive.google.com/file/d/1aW7r_ymBf_ndS1xcRwMk2IbGyv5YSko5/view?usp=sharing)\n\nJoin
+    please download and fill in these two forms:\n\n[APPLICATION](https://drive.google.com/file/d/1MwIOB6w_k9EOHS_qywsGEzBpLL-wLlpg/view?usp=sharing)\n\n[EQUALITY
+    AND DIVERSITY MONITORING FORM](https://drive.google.com/file/d/1aW7r_ymBf_ndS1xcRwMk2IbGyv5YSko5/view?usp=sharing)\n\nJoin
     us in a volunteer capacity! \nAs a volunteer, you will be given one scrumptious
     hot meal per shift and as many (non-alcoholic) drinks as you need.\nYou will be
     expected to work at least three shifts (approx. four hours with breaks) throughout
