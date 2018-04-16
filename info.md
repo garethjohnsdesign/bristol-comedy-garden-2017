@@ -37,23 +37,14 @@ general:
 
     You can call SEE Tickets to make an access booking on 0871 220 0260 or 0115 896 0030, these bookings can also be made online.
 - title: Work With Us
-  text: "Join our Front of House Team and get in on all the hilarious action. You’ll
-    be the first point of contact with our lovely audiences so good communication
-    skills and a friendly attitude are a must. Working with the Front of House Manager
-    you’ll be responsible for getting our audiences to the right place at the right
-    time, making sure the shows run on time and keeping the venues running smoothly.
-    You should be confident, good with people, alert and interested in the programme
-    and event you’re representing. This role is very active and a lot of fun, you
-    should enjoy dealing with lots of people and manage all this with a level head.
-    You will need to be available for every shift during the festival.\n\nTo apply
-    please download and fill in these two forms:\n\n[APPLICATION](https://drive.google.com/file/d/1MwIOB6w_k9EOHS_qywsGEzBpLL-wLlpg/view?usp=sharing)\n\n[EQUALITY
-    AND DIVERSITY MONITORING FORM](https://drive.google.com/file/d/1aW7r_ymBf_ndS1xcRwMk2IbGyv5YSko5/view?usp=sharing)\n\nJoin
-    us in a volunteer capacity! \nAs a volunteer, you will be given one scrumptious
-    hot meal per shift and as many (non-alcoholic) drinks as you need.\nYou will be
-    expected to work at least three shifts (approx. four hours with breaks) throughout
-    the Comedy Garden, with full availability from 6th June to 10th June regarded
-    very highly. You must be over 16 to apply.\n\nFor any questions on job applications
-    please contact: hannah@57festivals.com "
+  text: |-
+    **BAR CREW**
+
+    We’re looking for friendly, confident and hard working people to come and work on our bars during the Comedy Garden. Previous bar experience is essential and you must be over 18. You’ll be part of the team and enjoy all the perks that go with that. In return you’ll be punctual, reliable and ready to hop to action at any given moment.
+
+    This is a paid role. You’ll be expected to work at least four shifts during the Comedy Garden with full availability from 6th June to 10th June regarded very highly.
+
+    If you’re interested please send your name, contact details and CV to **sparkleandspirit@outlook.com **with BCG BAR CREW in the subject line.
 layout: info
 ---
 
