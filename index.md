@@ -27,17 +27,17 @@ featured:
 - name: James Acaster
   image: "/uploads/james-acaster.jpg"
   subheader: 
-  is-sold-out: 
+  is-sold-out: true
   line-up: Friday
 - name: Lolly Adefope
   image: "/uploads/lolly-adefope.jpg"
   subheader: 
-  is-sold-out: 
+  is-sold-out: true
   line-up: Friday
 - name: David O’Doherty
   image: "/uploads/david-o-doherty.jpg"
   subheader: 
-  is-sold-out: 
+  is-sold-out: true
   line-up: Friday
 - name: Shappi Khorsandi
   image: "/uploads/shappi-khorsandi.jpg"
