@@ -44,7 +44,7 @@ general:
 
     This is a paid role. You’ll be expected to work at least four shifts during the Comedy Garden with full availability from 6th June to 10th June regarded very highly.
 
-    If you’re interested please send your name, contact details and CV to **sparkleandspirit@outlook.com **with BCG BAR CREW in the subject line.
+    If you’re interested please send your name, contact details and CV to sparkleandspirit@outlook.com with BCG BAR CREW in the subject line.
 layout: info
 ---
 
