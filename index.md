@@ -16,7 +16,7 @@ carousel:
 - name: Alan Davies
   image: "/uploads/alan-davies-featured.jpg"
   subheader: One of the best Stand-up comics out there — The Guardian
-  is-sold-out: 
+  is-sold-out: true
   line-up: Thursday
 - name: Milton Jones
   image: "/uploads/milton-jones-featured.jpg"
@@ -29,11 +29,11 @@ featured:
   subheader: 
   is-sold-out: true
   line-up: Friday
-- name: Lolly Adefope
-  image: "/uploads/lolly-adefope.jpg"
+- name: Nina Conti
+  image: "/uploads/nina-conti.jpg"
   subheader: 
-  is-sold-out: true
-  line-up: Friday
+  is-sold-out: false
+  line-up: Sunday Late
 - name: David O’Doherty
   image: "/uploads/david-o-doherty.jpg"
   subheader: 
@@ -52,7 +52,7 @@ featured:
 - name: Joe Wilkinson
   image: "/uploads/joe-wilkinson.jpg"
   subheader: 
-  is-sold-out: 
+  is-sold-out: true
   line-up: Thursday
 - name: Reginald D Hunter
   image: "/uploads/reginald-d-hunter.jpg"
