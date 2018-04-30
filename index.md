@@ -6,7 +6,7 @@ carousel:
 - name: Josh Widdicombe
   image: "/uploads/josh-widdicombe-featured-rev2.jpg"
   subheader: The undisputed king of the exasperated petty gripe — Evening Standard
-  is-sold-out: 
+  is-sold-out: true
   line-up: Wednesday
 - name: Adam Buxton's Bug X
   image: "/uploads/adam-buxton-featured.jpg"
