@@ -24,21 +24,21 @@ carousel:
   is-sold-out: 
   line-up: Saturday Mid
 featured:
-- name: James Acaster
-  image: "/uploads/james-acaster.jpg"
+- name: Ross Noble
+  image: "/uploads/ross-noble.jpg"
   subheader: 
-  is-sold-out: true
-  line-up: Friday
+  is-sold-out: false
+  line-up: Sunday Early
 - name: Nina Conti
   image: "/uploads/nina-conti.jpg"
   subheader: 
   is-sold-out: false
   line-up: Sunday Late
-- name: David O’Doherty
-  image: "/uploads/david-o-doherty.jpg"
+- name: Miles Jupp
+  image: "/uploads/miles-jupp.jpg"
   subheader: 
-  is-sold-out: true
-  line-up: Friday
+  is-sold-out: false
+  line-up: Sunday Early
 - name: Shappi Khorsandi
   image: "/uploads/shappi-khorsandi.jpg"
   subheader: 
@@ -47,7 +47,7 @@ featured:
 - name: Tom Allen
   image: "/uploads/tom-allen.jpg"
   subheader: 
-  is-sold-out: 
+  is-sold-out: true
   line-up: Friday
 - name: Joe Wilkinson
   image: "/uploads/joe-wilkinson.jpg"
