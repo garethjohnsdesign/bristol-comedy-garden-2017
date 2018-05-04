@@ -11,7 +11,7 @@ carousel:
 - name: Adam Buxton's Bug X
   image: "/uploads/adam-buxton-featured.jpg"
   subheader: 
-  is-sold-out: 
+  is-sold-out: true
   line-up: Saturday Early
 - name: Alan Davies
   image: "/uploads/alan-davies-featured.jpg"
