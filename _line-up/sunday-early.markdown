@@ -1,6 +1,6 @@
 ---
 title: Sunday Early
-date: 2018-06-10 19:30:00 Z
+date: 2018-06-10 15:45:00 Z
 position: 5
 day: Sunday
 acts:
