@@ -19,7 +19,7 @@ secondary-text: Joining Ross is Have I Got News For You, Qi and Mock The Week re
   News Quiz host and near national treasure Miles Jupp making his Comedy Garden debut
   alongside lightning fast Fern Brady, a special guest to be announced and Live At
   The Apollo’s Andrew Maxwell as host.
-festival-starts-at: 2018-06-10 13:45:00 Z
+festival-starts-at: 2018-06-10 14:45:00 Z
 show-starts-at: 2018-06-10 15:45:00 Z
 ticket-price: "£20 - 25"
 ticket-link: https://www.seetickets.com/event/ross-noble/big-top-bristol-comedy-garden/1224647
