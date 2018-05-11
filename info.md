@@ -9,8 +9,8 @@ general:
     supremely tasty curries from Gopal’s, and more!
 - title: Festival Timings
   text: "Weds 6th June: 6pm - 10.30pm  \nThurs 7th June: 6pm - 10.30pm  \nFri 8th
-    June: 6pm - 10.30pm  \nSat 9th June: 1pm - 10.30pm  \nSun 10th June: 6pm - 10.30pm
-    \ "
+    June: 6pm - 10.30pm  \nSat 9th June: 1pm - 10.30pm  \nSun 10th June: 2.45pm -
+    10.30pm  "
 - title: Festival Site
   text: |-
     You must have a valid ticket to gain entry to the Comedy Garden. Tickets can be purchased online in advance or at the on site Box Office on the evening of the show, depending on availability.
