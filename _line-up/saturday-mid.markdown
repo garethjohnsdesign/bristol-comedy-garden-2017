@@ -20,7 +20,7 @@ festival-starts-at: 2017-06-17 15:15:00 Z
 show-starts-at: 2017-06-17 16:45:00 Z
 ticket-price: "£20 - £25"
 ticket-link: https://www.seetickets.com/event/milton-jones/big-top-bristol-comedy-garden/1206528
-is-sold-out: 
+is-sold-out: true
 layout: event
 ---
 
