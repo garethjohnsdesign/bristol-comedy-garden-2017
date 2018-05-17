@@ -21,7 +21,7 @@ carousel:
 - name: Milton Jones
   image: "/uploads/milton-jones-featured.jpg"
   subheader: Pun-derful Jones leaves the audience gagging for more — Metro
-  is-sold-out: 
+  is-sold-out: true
   line-up: Saturday Mid
 featured:
 - name: Ross Noble
@@ -42,7 +42,7 @@ featured:
 - name: Shappi Khorsandi
   image: "/uploads/shappi-khorsandi.jpg"
   subheader: 
-  is-sold-out: false
+  is-sold-out: true
   line-up: Saturday Mid
 - name: Tom Allen
   image: "/uploads/tom-allen.jpg"
