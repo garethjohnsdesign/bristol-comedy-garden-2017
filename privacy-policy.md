@@ -6,7 +6,7 @@ layout: details
 
 Our privacy policy is pretty simple. 
 
-We keep the email addresses of anyone who signs up to our mailing list via our website or has brought tickets to the festival. We don't keep any other information such as name or address - just the email. 
+We keep the email addresses of anyone who signs up to our mailing list via our website or has bought tickets to the festival. We don't keep any other information such as name or address - just the email. 
 
 We use these emails to send out information about the upcoming festival. If you want to unsubscribe or change your email at any time please click this option at the bottom of every email that we issue.
 
