@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+position: 6
 layout: details
 ---
 
