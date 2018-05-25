@@ -132,6 +132,13 @@
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
+	"\/_layouts\/details.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/details.html",
+		"oF": 0
+		},
 	"\/_layouts\/event.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -9346,6 +9353,24 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/privacy-policy.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/privacy-policy.md",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -9370,6 +9395,24 @@
 		"oA": 2,
 		"oAP": "\/robots.txt",
 		"oF": 0
+		},
+	"\/terms-and-conditions.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/terms-and-conditions.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/tickets.md": {
 		"cB": 0,
