@@ -57,7 +57,7 @@ featured:
 - name: Reginald D Hunter
   image: "/uploads/reginald-d-hunter.jpg"
   subheader: 
-  is-sold-out: 
+  is-sold-out: true
   line-up: Saturday Late
 - name: Henning Wehn
   image: "/uploads/henning-wehn.jpg"
