@@ -2,32 +2,38 @@
 layout: default
 ---
 
-<section class="about">
-  
-  <div class="grid-container">
-    
-    <div class="grid-x align-center margin-top-1 margin-bottom-1">
-      <div class="small-12 large-6 cell">
-        <div class="grid-x grid-padding-y grid-padding-x">
-        <div class="small-12 cell">
-        {{content | markdownify}}
-        </div>
-        </div>
-      </div>
-      
-      <div class="small-12 large-6 cell">	
-        <div class="grid-x small-up-1 medium-up-2" id="gallery">
-          {% for image in page.images %}
-          <div class="cell padding-1 about__images" data-src="{{image}}">
-            <a href="{{image}}"><img src="{{image}}" class="excerpt__image"></a>
-          </div>
-          {% endfor %}
-        </div>
-      </div>
-      
+<!-- Page Content -->
+{% assign content = page.content | strip_newlines %}
+{% unless content == ""  %}
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-10 medium-10 cell text-center">
+      {{ page.content | replace: "/uploads", "https://hotfeet.imgix.net/uploads" | markdownify }}
     </div>
-    
+  </div>
+</section>
+{% else %}
+{% if page.excerpt %}
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center align-middle">
+    <div class="small-12 medium-10 large-9 cell text-center">
+      <h1 class="h5">{{page.excerpt}}</h1>
+    </div>
+  </div>
+</section>
+{% endif %}
+{% endunless %}
+<!-- End Page Content -->
+
+<!-- Clients -->
+<div class="grid-container padding-vertical-3">
+  <div class="grid-x small-up-1 medium-up-3 align-center align-middle">
+
+    {% for item in site.clients %}  
+    <div class="cell text-center padding-3">
+        <a href="{{ item[1] }}" target="_blank" rel="noopener"><span class="show-for-sr">{{ item[0] }}</span><svg class="icon icon-clients icon-{{ item[0] }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ item[0] }}"></use></svg></a>
+    </div>
+    {% endfor %} 
 
   </div>
-  
-</section>
+</div>

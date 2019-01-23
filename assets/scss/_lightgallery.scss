@@ -6,19 +6,18 @@ $backdrop-opacity: 1 !default;
 $lg-toolbar-bg: rgba(0, 0, 0, 0) !default;
 // $lg-border-radius-base: 2px !default;
 $lg-border-radius-base: 0px !default;
-$lg-theme-highlight: rgb(169, 7, 7) !default;
-$lg-theme: #0D0A0A !default;
+$lg-theme-highlight: $white !default;
+$lg-theme: $medium-gray !default;
 
 // basic icon colours
 $lg-icon-bg: rgba(0, 0, 0, 0.45) !default;
 // $lg-icon-color: #999 !default;
-$lg-icon-color: $black !default;
-$lg-icon-hover-color: $light-gray !default;
+$lg-icon-color: #999 !default;
+$lg-icon-hover-color: $white !default;
 
 // counter
-$lg-counter-color: #e6e6e6 !default;
-// $lg-counter-font-size: 16px !default;
-$lg-counter-font-size: 24px !default;
+$lg-counter-color: $medium-gray !default;
+$lg-counter-font-size: 1rem !default;
 
 // Next prev icons
 // $lg-next-prev-bg: $lg-icon-bg !default;
@@ -46,7 +45,7 @@ $zoom-transition-duration: 0.3s !default;
 // $lg-sub-html-bg: rgba(0, 0, 0, 0.45) !default;
 $lg-sub-html-bg: rgba(0, 0, 0, 0) !default;
 // $lg-sub-html-color: #EEE !default;
-$lg-sub-html-color: $dark-gray !default;
+$lg-sub-html-color: $black !default;
 
 // thumbnail toggle button
 $lg-thumb-toggle-bg: #0D0A0A !default;
@@ -399,6 +398,15 @@ $zindex-backdrop: 1040 !default;
     cursor: grabbing;
 }
 
+// font icons support
+@font-face {
+    font-family: 'Gallery';
+//     src: url("#{$lg-path-fonts}/lg.eot?n1z373");
+//     src: url("#{$lg-path-fonts}/lg.eot?#iefixn1z373") format("embedded-opentype"), url("#{$lg-path-fonts}/lg.woff?n1z373") format("woff"), url("#{$lg-path-fonts}/lg.ttf?n1z373") format("truetype"), url("#{$lg-path-fonts}/lg.svg?n1z373#lg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 .lg-icon {
     font-family: 'Gallery';
@@ -422,7 +430,7 @@ $zindex-backdrop: 1040 !default;
         color: $lg-next-prev-color;
         cursor: pointer;
         display: block;
-        font-size: 22px;
+        font-size: 2rem;
         margin-top: -10px;
         padding: 8px 10px 9px;
         position: absolute;
@@ -440,7 +448,7 @@ $zindex-backdrop: 1040 !default;
     }
 
     .lg-next {
-        right: 20px;
+        right: 1rem;
 
         &:before {
             content: "\e095";
@@ -448,7 +456,7 @@ $zindex-backdrop: 1040 !default;
     }
 
     .lg-prev {
-        left: 20px;
+        left: 1rem;
 
         &:after {
             content: "\e094";
@@ -1002,8 +1010,8 @@ body:not(.lg-from-hash){
             display: block;
             white-space: pre;
             padding: 4px 12px;
-            font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-            font-size: 12px;
+            font-family: $body-font-family;
+            font-size: 1rem;
             &:hover {
                 background-color: rgba(0, 0, 0, 0.07);
             }
@@ -1209,6 +1217,15 @@ body:not(.lg-from-hash){
         max-height: 100%;
         width: auto !important;
         height: auto !important;
+        @include breakpoint(small) {
+        padding: 2rem;
+        }
+        @include breakpoint(medium) {
+        padding: 4rem;
+        }
+        @include breakpoint(large) {
+        padding: 6rem;
+        }
     }
 
     &.lg-show-after-load {
@@ -1245,7 +1262,7 @@ body:not(.lg-from-hash){
     bottom: 0;
     z-index: $zindex-backdrop;
 //     background-color: #000;
-    background-color: #FFFFFF;
+    background-color: $black;
     opacity: 0;
     @include transition(opacity 0.15s ease 0s);
     &.in{
