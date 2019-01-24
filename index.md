@@ -1,5 +1,5 @@
 ---
-title: 813 Studio
+title: Bristol Comedy Garden 2019
 position: 0
 image: "/assets/img/og-image.png"
 layout: home

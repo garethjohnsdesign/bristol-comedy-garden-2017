@@ -13,12 +13,6 @@ Content, design & development
 @garethjohnsabc
 
 
-SPECIAL THANKS
---------------
-
-Skylar Challand
-
-
 TECHNOLOGY
 ----------
 
@@ -61,7 +55,3 @@ adobe.com
 
 Slack - Emojis and GIFs
 slack.com
-
-
-FONTS
------

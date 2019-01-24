@@ -1,5 +1,5 @@
 ---
-title: 813 Studio
+title: Bristol Comedy Garden
 timezone: UTC
 collections:
   posts:
@@ -8,30 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: false
-  work:
-    title: Work
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: work
-  values:
-    image: 
-    project: 
-    client: 
-    subject: 
-    video: 
-    excerpt: 
-    description: 
-    is-featured: 
-    is-full-width: 
-    images:
-    - image: 
-      aspect: 
-    layout: project
-url: https://www.813-studio.com
-description: 813 studio is a creative agency servicing brands within the horological
-  industry on matters of branding and content production
+url: https://www.bristolcomedygarden.co.uk
+description: Bristol Comedy Garden returns this summer for another series of unmissable shows!
 permalink: pretty
 exclude:
 - bower.json
@@ -56,24 +34,21 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-company: 813 Studio Ltd
-company-registration: 10766338
-company-address: Unit 82 52 -56 Standard Road, London, NW10 6EU
-email: enquiries@813-studio.com
-analytics: UA-132731244-1
+company: 57 Festivals Ltd
+event-span: "3 - 7 July 2019"
+event-address: Queen Square, Bristol BS1 4QS
+company-registration: 06840256
+company-address: 237 Westcombe Hill, Blackheath, London, United Kingdom, SE3 7DW
+email: info@bristolcomedygarden.co.uk
+analytics: UA-49569208-1
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%b %d, %Y"
 future: true
 social:
-  instagram: https://www.instagram.com/813.studio/
-clients:
-  omega: https://www.omegawatches.com
-  smythson: https://www.smythson.com
-  the-collectors-index: https://thecollectorsindex.com
-  barbour: https://www.barbour.com
-  galvan: https://www.galvanlondon.com
-  a-collected-man: https://www.acollectedman.com
+  facebook: https://www.facebook.com/bristolcomedygarden
+  instagram: https://www.instagram.com/bristolcomedygarden
+  twitter: https://twitter.com/comedygarden
 compress_html:
   comments:
   - "<!-- "
@@ -81,15 +56,8 @@ compress_html:
   blanklines: true
   profile: false
 pagination:
-  collection: posts
-  enabled: true
-  per_page: 6
-  limit: 0
-  permalink: "/:num/"
-  title: ":title — :num of :max"
-  sort_field: date
-  sort_reverse: true
+  enabled: false
 autopages:
   enabled: false
 imgix:
-  source: 813-studio.imgix.net
+  source: bristol-comedy-garden.imgix.net
