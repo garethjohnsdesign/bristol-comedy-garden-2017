@@ -23,13 +23,6 @@
 		"oAP": "/_data/navigation.yml",
 		"oF": 0
 		},
-	"/_includes/blocks/excerpt.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_includes/blocks/excerpt.html",
-		"oF": 0
-		},
 	"/_includes/images/interchange-img-small-12-medium-12-cell.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -51,18 +44,11 @@
 		"oAP": "/_includes/images/interchange-img-small-12-medium-6-cell.html",
 		"oF": 0
 		},
-	"/_includes/reveal/navigation.html": {
+	"/_includes/reveal/poster.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "/_includes/reveal/navigation.html",
-		"oF": 0
-		},
-	"/_includes/reveal/newsletter.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_includes/reveal/newsletter.html",
+		"oAP": "/_includes/reveal/poster.html",
 		"oF": 0
 		},
 	"/_includes/site/analytics.html": {
@@ -79,13 +65,6 @@
 		"oAP": "/_includes/site/cookies.html",
 		"oF": 0
 		},
-	"/_includes/site/footer.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_includes/site/footer.html",
-		"oF": 0
-		},
 	"/_includes/site/head.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -93,32 +72,11 @@
 		"oAP": "/_includes/site/head.html",
 		"oF": 0
 		},
-	"/_includes/site/header.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_includes/site/header.html",
-		"oF": 0
-		},
-	"/_includes/site/loading.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_includes/site/loading.html",
-		"oF": 0
-		},
 	"/_includes/site/scripts.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/_includes/site/scripts.html",
-		"oF": 0
-		},
-	"/_includes/site/subscribe.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_includes/site/subscribe.html",
 		"oF": 0
 		},
 	"/_layouts/compress.html": {
@@ -156,18 +114,22 @@
 		"oAP": "/_layouts/page.html",
 		"oF": 0
 		},
-	"/_layouts/subscribe.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_layouts/subscribe.html",
-		"oF": 0
-		},
 	"/_site": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/_site",
 		"oF": 0
+		},
+	"/_uploads/2018-poster.jpg": {
+		"ft": 16384,
+		"iS": 581302,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/2018-poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/assets/css/app.css": {
 		"aP": 0,
@@ -330,6 +292,27 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/assets/fonts/light-pro.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/regular-pro.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/assets/fonts/regular-pro.ttf",
+		"oF": 0
+		},
+	"/assets/fonts/regular-pro.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/assets/fonts/regular-pro.woff",
+		"oF": 0
+		},
+	"/assets/fonts/regular-pro.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/assets/fonts/regular-pro.woff2",
 		"oF": 0
 		},
 	"/assets/icons/symbol-defs.svg": {
@@ -7013,7 +6996,7 @@
 		"oO": 0,
 		"oS": 1
 		},
-	"/privacy.md": {
+	"/privacy-policy.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -7022,7 +7005,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 2,
-		"oAP": "/privacy.md",
+		"oAP": "/privacy-policy.md",
 		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
@@ -7056,7 +7039,7 @@
 		"oAP": "/robots.txt",
 		"oF": 0
 		},
-	"/terms.md": {
+	"/terms-and-conditions.md": {
 		"cB": 0,
 		"cS": 0,
 		"eF": 1,
@@ -7065,7 +7048,7 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 2,
-		"oAP": "/terms.md",
+		"oAP": "/terms-and-conditions.md",
 		"oF": 1,
 		"oFM": 0,
 		"oS": 0,

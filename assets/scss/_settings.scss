@@ -68,9 +68,18 @@
 $global-font-size: 100%;
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
+/*
 $foundation-palette: (
   primary: #1779ba,
   secondary: #767676,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37,
+);
+*/
+$foundation-palette: (
+  primary: #2c3781, // Blue 
+  secondary: #ffd6c8, // Pink
   success: #3adb76,
   warning: #ffae00,
   alert: #cc4b37,
@@ -81,9 +90,11 @@ $dark-gray: #8a8a8a;
 $black: #0a0a0a;
 $white: #fefefe;
 $body-background: $white;
+$body-background: get-color(secondary);
 $body-font-color: $black;
-$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-$body-font-family: $sans-light;
+$body-font-color: get-color(primary);
+// $body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+$body-font-family: $sans-regular;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -114,7 +125,8 @@ $breakpoints: (
   xxlarge: 1440px,
 );
 $print-breakpoint: large;
-$breakpoint-classes: (small medium large);
+// $breakpoint-classes: (small medium large);
+$breakpoint-classes: (small medium xlarge xxlarge);
 
 // 3. The Grid
 // -----------
@@ -411,7 +423,8 @@ $flexbox-responsive-breakpoints: true;
 // 20. Forms
 // ---------
 
-$fieldset-border: 1px solid $medium-gray;
+// $fieldset-border: 1px solid $medium-gray;
+$fieldset-border: 1px solid get-color(primary);
 $fieldset-padding: rem-calc(20);
 $fieldset-margin: rem-calc(18 0);
 $legend-padding: rem-calc(0 3);
@@ -431,19 +444,24 @@ $select-background: $white;
 $select-triangle-color: $dark-gray;
 $select-radius: $global-radius;
 $input-color: $black;
-$input-placeholder-color: $medium-gray;
+// $input-placeholder-color: $medium-gray;
+$input-placeholder-color: get-color(primary);
 $input-font-family: inherit;
 $input-font-size: rem-calc(16);
 $input-font-weight: $global-weight-normal;
 $input-line-height: $global-lineheight;
-$input-background: $white;
+// $input-background: $white;
+$input-background: transparent;
 $input-background-focus: $white;
 $input-background-disabled: $light-gray;
-$input-border: 1px solid $medium-gray;
+// $input-border: 1px solid $medium-gray;
+$input-border: 1px solid get-color(primary);
 $input-border-focus: 1px solid $dark-gray;
 $input-padding: $form-spacing / 2;
-$input-shadow: inset 0 1px 2px rgba($black, 0.1);
-$input-shadow-focus: 0 0 5px $medium-gray;
+// $input-shadow: inset 0 1px 2px rgba($black, 0.1);
+$input-shadow: 0;
+// $input-shadow-focus: 0 0 5px $medium-gray;
+$input-shadow-focus: 0;
 $input-cursor-disabled: not-allowed;
 $input-transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
 $input-number-spinners: true;
