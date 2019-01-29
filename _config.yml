@@ -1,52 +1,46 @@
 ---
-title: Bristol Comedy Garden
+title: Bristol Comedy Garden 2019
 timezone: UTC
 collections:
-  line-up:
-    title: Line-up
-    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: false
-defaults:
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-url: http://www.bristolcomedygarden.co.uk
+url: https://www.bristolcomedygarden.co.uk
 description: Bristol Comedy Garden returns this summer for another series of unmissable
   shows!
 permalink: pretty
 exclude:
 - bower.json
+- Gemfile.lock
 - package.json
 - config.codekit3
 - README*
 - LICENSE*
 - CHANGELOG*
 - node_modules
-- bower_components
 - ".gitignore"
+- bower_components
 - assets/scss
 plugins:
+- jekyll-paginate-v2
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
+- jekyll/imgix
 markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
-  auto_ids: false
 highlighter: rouge
 company: 57 Festivals Ltd
-date-text: 6 - 10 June 2018
-address: Queen Square, Bristol BS1 4QS
+event-span: 3 - 7 July 2019
+event-address: Queen Square, Bristol BS1 4QS
+company-registration: '06840256'
+company-address: 237 Westcombe Hill, Blackheath, London, United Kingdom, SE3 7DW
 email: info@bristolcomedygarden.co.uk
-google_site_verification: 
 analytics: UA-49569208-1
 logo: "/assets/img/logo.svg"
 per_page: 12
@@ -62,3 +56,9 @@ compress_html:
   - " -->"
   blanklines: true
   profile: false
+pagination:
+  enabled: false
+autopages:
+  enabled: false
+imgix:
+  source: bristol-comedy-garden.imgix.net
