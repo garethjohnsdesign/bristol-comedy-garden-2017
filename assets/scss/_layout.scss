@@ -1,15 +1,14 @@
 //  Table of Contents:
 //
-//   1. Global
-//   2. Typography
-//   3. Navigation
-//   4. Excerpt
-//   5. Index
-//   6. Location
-//   7. Event
-//   8. Footer
+//   1. Mixins
+//   2. Global
+//   3. Animations
+//   4. Color
+//   5. Typography
+//   6. Layout
 
-// 1. Global
+
+// 1. Mixins
 // ---------
 
 @mixin links ($link, $hover) {
@@ -21,184 +20,132 @@
   }
 }
 
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+ .content {
+    transition: $primary-transition;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+// 2. Global
+// ---------
+
+a {
+  transition: all .35s cubic-bezier(.39, .575, .565, 1);
+}
+
+a:focus {
+color: $white;
+}
+
+body {
+  cursor: default;
+  font-kerning: normal;
+  margin: 0
+}
+
 svg {
   max-width: 100%;
 }
 
-img {
-  display: block;
-  width: 100%;
-  height: auto;
+::selection {
+  background: $primary-color;
+  color: $black;
 }
 
-
-.accordion {
-  margin-bottom: 0;
+:focus {
+  outline: 0;
 }
 
-// 2. Typography
+// 3. Animations
 // -------------
+
+.swup-transition-fade-up {
+  transition: 0.5s;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+html.is-animating .swup-transition-fade-up {
+  opacity: 0;
+  transform: translateY(-10px);
+}
+
+.swup-transition-fade {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+html.is-animating .swup-transition-fade {
+  opacity: 0;
+}
+
+.swup-transition-color {
+  transition: 0.5s;
+  opacity: 1;
+}
+
+html.is-animating .swup-transition-color {
+  opacity: 0;
+}
+
+// 4. Color
+// --------
+
+.primary-color {
+  color: get-color(primary);
+}
+
+.secondary-color {
+  color: get-color(secondary);
+}
+
+// 5. Typography
+// -------------
+
+.underline {
+  border-bottom: 1px solid $white;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
 
 i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
-.white {
-  color: $white;
+p a {
+  border-bottom: 1px solid $black;
 }
 
-// 3. Navigation
-// -------------
-
-.top-bar { 
-  border-bottom: 2px solid $primary-color;
+.sans-light {
+  font-family: $sans-light;
 }
 
-.top-bar__logo { 
-  letter-spacing: -1px;
-  margin-bottom: 0;
+.sans-bold {
+  font-family: $sans-bold;
 }
 
-.top-bar__date { 
-@include links($dark-gray, $black);
-}
-
-.top-bar__socials {
-@include links($dark-gray, $black);
-}
-
-
-// 4. Excerpt
-// ----------
-
-.excerpt {
-  background-color: $primary-color;
-  position:relative;
-    &:hover .excerpt__image img {
-    filter: grayscale(1) contrast(1.75);
-    opacity: 0.5;
-    } 
-}
-
-.excerpt__title {
-  position:absolute;
-  width: 100%;
-  height: 100%;
-  margin: 0rem;
-  color: $white;
-  z-index: 1;
-}
-
-// 5. Index
-// --------
-
-.index {
-  background: url(/uploads/microphone-girl.png), url(/uploads/beer-girl.png);
-  background-repeat:no-repeat;
-  background-position:left bottom, right bottom;
-  background-size: 50%, 50%;
-  @include breakpoint(small) {
-  padding-bottom: 20vh;
-  }
-  @include breakpoint(medium) {
-  padding-bottom: 60vh;
-  }
-}
-
-.index__gallery {
-  height: 80vh;
-}
-
-.index__gallery-cell {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-}
-  
-.index__gallery__text {
-	height: 100%;
-}
-
-.index__gallery__text__inner {
-  @include links($white, $primary-color);
-}
-
-.act-name {
-  text-stroke: red;
-}
-
-
-// 6. Location
-// ------------
-
-
-.location {
-  background: url(/uploads/microphone-girl.png), url(/uploads/beer-girl.png);
-  background-repeat:no-repeat;
-  background-position:left bottom, right bottom;
-  background-size: 60%, 50%;
-  @include breakpoint(small) {
-  padding-bottom: 20vh;
-  }
-  @include breakpoint(medium) {
-  padding-bottom: 50vh;
-  }
-}
-
-.location__map {
-  @include breakpoint(small) {
-  height: 70vh;
-  }
-  @include breakpoint(medium) { 
-  height: 50vh;
-  }
-}
-
-// 7. Event
+// 6. Layout
 // ---------
 
-.event__title span {
-  color: $white;
-}
-
-.info {
-  background: url(/uploads/snake.png);
-  background-repeat:no-repeat;
-  background-position: right top;
-  background-size: contain;
-}
-
-.event {
-  background: url(/uploads/bird.png), url(/uploads/plants.png);
-  background-repeat:no-repeat;
-  background-position: right top, left top;
-  background-size: 25%, 25%;
-}
-
-
-.tickets {
-  background: url(/uploads/microphone-girl.png), url(/uploads/beer-girl.png), url(/uploads/top.png);
-  background-repeat:no-repeat;
-  background-position:left bottom, right bottom, center top;
-  background-size: 50%, 50%, contain;
-  @include breakpoint(small) {
-  padding-top: 20vh;
-  padding-bottom: 20vh;
+main {
+  @include breakpoint(small only) {
+    @include padding(1,1,1,1);
   }
-  @include breakpoint(medium) {
-  padding-top: 20vh;
-  padding-bottom: 60vh;
-  }
-}
-
-
-// 8. Footer
-// ----------
-
-footer {
-  color: $secondary-color;
-  @include links($secondary-color, $white);
-  background-color: get-color(primary-background);
 }
