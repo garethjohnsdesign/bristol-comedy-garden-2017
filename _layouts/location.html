@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<div class="grid-x">
+  <div class="small-12 cell">
+    <div id="map" style="width: 100%; height: 25rem" class="margin-bottom-1"></div>
+  </div>
+</div>
+
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-4">
+    {% for details in page.details %}
+      <div class="cell text-center">
+        <h3 class="text-lowercase">{{ details.title }}</h3>
+        {{ details.text | markdownify}}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FyZXRoam9obnNkZXNpZ24iLCJhIjoibWRoWDZWUSJ9.n1A58EO10IDrB5yIAKqAPA';
+var map = new mapboxgl.Map({
+container: 'map', // container id
+style: 'mapbox://styles/garethjohnsdesign/cjsrhhqlq0pvu1fmdl07q5hpd', //hosted style id
+center: [-0.146,50.840],
+zoom: 12.14,
+scrollZoom: false,
+dragPan: false
+});
+
+map.addControl(new mapboxgl.NavigationControl());
+
+</script>
