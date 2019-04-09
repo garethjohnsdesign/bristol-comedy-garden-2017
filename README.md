@@ -1,6 +1,6 @@
-# Brighton Comedy Garden
+# Bristol Comedy Garden
 
-Website for Brighton Comedy Garden. Please go to [https://www.brightoncomedygarden.co.uk](https://www.brightoncomedygarden.co.uk) in case you want to take a look at the website.
+Website for Bristol Comedy Garden. Please go to [https://www.bristolcomedygarden.co.uk](https://www.bristolcomedygarden.co.uk) in case you want to take a look at the website.
 
 * * *
 

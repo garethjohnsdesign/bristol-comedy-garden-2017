@@ -1,6 +1,6 @@
 ---
 title: Sunday
-date: 2019-07-07 19:30:00 Z
+date: 2019-07-07 15:45:00 Z
 position: 5
 day: Sunday
 acts:
@@ -15,8 +15,8 @@ acts:
 quote: Sharp and bitingly funny
 quote-cite: Time Out
 secondary-text: Joining Rob is an astonishing supporting line-up with the Mash Report host and Mock The Week regular Nish Kumar, a very special guest to be announced and the provocatively funny Live At The Apollo star Fin Taylor as host.
-festival-starts-at: 2019-07-07 18:00:00 Z
-show-starts-at: 2019-07-07 19:30:00 Z
+festival-starts-at: 2019-07-07 14:45:00:00 Z
+show-starts-at: 2019-07-07 15:45:00 Z
 ticket-price: "£20 - £25"
 ticket-link: https://www.seetickets.com/event/
 is-sold-out:
