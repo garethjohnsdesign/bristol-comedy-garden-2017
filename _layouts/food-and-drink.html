@@ -1,31 +1,27 @@
 ---
 layout: default
 ---
-  
-<div class="grid-x align-center">
+
+<div class="grid-container page__header">
+  <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="small-12 large-6 cell">
+      <h3>{{page.header}}</h3>
+    </div>
+    <div class="small-12 large-6 cell">
+      {{content | markdownify}}
+    </div>
+  </div>
+</div>
+
+<div class="grid-container">
+<div class="grid-x">
 
 {% for vendor in page.vendors %}
   <div class="small-12 large-6 cell">
     {% assign image = vendor.image %}
     {% include blocks/excerpt--vendor.html %}    
   </div>
-  <div class="small-12 large-6 cell vendor__description">
-    <h2 class="text-lowercase">{{vendor.title}}</h2>
-    {{vendor.description | markdownify}}
-
-<!--
-    {% if vendor.website %} 
-    <div class="padding-bottom-1"><a href="{{member.website}}" class="h4 text-lowercase primary-color">Website</a></div>
-    {% endif %}
--->
-
-    <ul class="menu">
-    {% for item in vendor.social %}  
-    <li><a href="{{ item[1] }}" target="_blank" rel="noopener" rel="noopener" class="padding-right-1"><span class="show-for-sr">{{ item[0] }}</span><svg class="icon icon-socials icon-{{ item[0] }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ item[0] }}"></use></svg></a></li>
-    {% endfor %}
-    </ul>
-
-  </div>
 {% endfor %}
 
+</div>
 </div>

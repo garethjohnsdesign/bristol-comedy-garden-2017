@@ -1,5 +1,5 @@
 ---
-title: Brighton Comedy Festival 2019
+title: Bristol Comedy Garden 2019
 position: 0
 image: "/assets/img/og-image.png"
 carousel:

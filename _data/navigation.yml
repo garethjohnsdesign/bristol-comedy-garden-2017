@@ -4,18 +4,18 @@ header-full:
     sublinks:
       - title: All
         url: /line-up/
-      - title: Wednesday 19 June
+      - title: Wednesday 3 July
         url: /line-up/wednesday
-      - title: Thursday 20 June
-        url: /line-up/thursday
-      - title: Friday 21 June
+      - title: Friday 5 July
         url: /line-up/friday
-      - title: Saturday 22 June — Day
+      - title: Saturday 6 July — Day
         url: /line-up/saturday-early
-      - title: Saturday 22 June — Night
+      - title: Saturday 6 July — Night
         url: /line-up/saturday-late
-      - title: Sunday 23 June
-        url: /line-up/sunday
+      - title: Sunday 7 July - Day
+        url: /line-up/sunday-early
+      - title: Sunday 7 July - Night
+        url: /line-up/sunday-late
 
   - title: About
     url: /about/
@@ -38,18 +38,18 @@ header-short:
   - title: Line-up
     url: #
     sublinks:
-      - title: Wednesday 19 June
+      - title: Wednesday 3 July
         url: /line-up/wednesday
-      - title: Thursday 20 June
-        url: /line-up/thursday
-      - title: Friday 21 June
+      - title: Friday 5 July
         url: /line-up/friday
-      - title: Saturday 22 June — Day
+      - title: Saturday 6 July — Day
         url: /line-up/saturday-early
-      - title: Saturday 22 June — Night
+      - title: Saturday 6 July — Night
         url: /line-up/saturday-late
-      - title: Sunday 23 June
-        url: /line-up/sunday
+      - title: Sunday 7 July - Day
+        url: /line-up/sunday-early
+      - title: Sunday 7 July - Night
+        url: /line-up/sunday-late
 
   - title: Info
     url: #

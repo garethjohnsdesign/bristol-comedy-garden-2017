@@ -19,7 +19,7 @@ layout: compress
 <!-- Navigation -->  
 {% include site/navigation.html %}
 <!-- End Navigation -->
-
+<div class="{{page.layout | slugify}}__content">
 <!-- Content -->
 {{ content }}
 <!-- End Content -->
@@ -31,7 +31,7 @@ layout: compress
 <!-- Socials -->  
 {% include site/socials.html %}
 <!-- End Socials -->
-
+</div>
 <!-- Footer -->  
 {% include site/footer.html %}
 <!-- End Footer -->

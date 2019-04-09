@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div class="grid-container">
   {% assign collection = site.line-up | group_by_exp: "item", "item.date | date: '%A %-d %b'" %}
   {% for day in collection %}
@@ -50,7 +51,7 @@ layout: default
           <div class="small-12 large-4 cell">
             {% for act in day.acts limit:1 %}
             {% assign image = act.image %}
-<div class="image--default align-center-middle" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
+<div class="image--landscape align-center-middle" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
 </div>
             {% endfor %}
           </div>

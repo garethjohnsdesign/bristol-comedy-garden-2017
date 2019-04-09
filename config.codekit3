@@ -245,7 +245,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "/_layouts/missing.html",
 		"oF": 0
 		},
@@ -885,12 +885,12 @@
 		"oAP": "/assets/fonts/demibold-pro.woff2",
 		"oF": 0
 		},
-	"/assets/fonts/gallery.woff": {
+	"/assets/fonts/Gallery.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/assets/fonts/gallery.woff",
+		"oAP": "/assets/fonts/Gallery.woff",
 		"oF": 0
 		},
 	"/assets/fonts/gallery.woff2": {
@@ -11237,9 +11237,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 2,
-		"oAP": "/food-and-drink.md",
-		"oF": 1,
+		"oA": 0,
+		"oAP": "/food-and-drink.html",
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -11253,6 +11253,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/Gemfile",
+		"oF": 0
+		},
+	"/Gemfile.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/Gemfile.lock",
 		"oF": 0
 		},
 	"/humans.txt": {

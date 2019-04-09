@@ -1,6 +1,6 @@
 ---
 title: Saturday Late
-date: 2019-06-22 19:30:00 Z
+date: 2019-07-06 19:30:00 Z
 position: 5
 acts:
 - name: Adam Hills
@@ -14,8 +14,8 @@ acts:
 quote: Hills delivers stand-up so effortlessly brilliant you wonder why some comedians even get out of bed
 quote-cite: The Guardian
 secondary-text: Joining Adam is a very special guest to be announced plus mischievous charmer and 8 Out Of 10 Cats star Rosie Jones, Mock The Week’s whip-smart wordsmith Rhys James and globe-trotting laughter-master Stephen K Amos as host.
-festival-starts-at: 2019-06-22 18:00:00 Z
-show-starts-at: 2019-06-22 19:30:00 Z
+festival-starts-at: 2019-07-06 18:00:00 Z
+show-starts-at: 2019-07-06 19:30:00 Z
 ticket-price: "£20 - £25"
 ticket-link: https://www.seetickets.com/event/
 is-sold-out: 

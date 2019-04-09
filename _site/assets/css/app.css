@@ -8973,7 +8973,7 @@ Single-colored icons can be modified like so:
   font-size: 2.5rem; }
 
 .icon-inline-logo {
-  width: 10.4599609375em;
+  width: 9.4658203125em;
   font-size: 2rem; }
 
 .icon-logo {
@@ -9000,6 +9000,12 @@ svg {
 
 :focus {
   outline: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: lowercase; }
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  text-transform: lowercase; }
 
 .swup-transition-fade-up {
   transition: 0.5s;
@@ -9043,8 +9049,8 @@ html.is-animating .swup-transition-color {
   color: #fefefe; }
   .secondary-background-colour a {
     color: #fefefe; }
-  .secondary-background-colour a:hover {
-    color: #333333; }
+    .secondary-background-colour a:hover {
+      color: #041f4a; }
 
 .black {
   color: #333333; }
@@ -9060,9 +9066,11 @@ html.is-animating .swup-transition-color {
     .white a:hover {
       color: #FF8300; }
 
+/*
 .home .white:hover {
-  color: #FF8300; }
-
+  color: $primary-color;
+}
+*/
 .underline {
   padding-bottom: 2px;
   border-bottom: 3px solid; }
@@ -9127,8 +9135,28 @@ p a {
     display: block;
     content: "";
     width: 100%;
-    padding-top: 71.4285714286%; }
+    padding-top: 80%; }
   .image--default .content {
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%; }
+
+.image--landscape {
+  position: relative;
+  background-size: cover;
+  background-position: 50%; }
+  .image--landscape:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 71.4285714286%; }
+  .image--landscape .content {
     transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
     z-index: 1;
     position: absolute;
@@ -9179,13 +9207,27 @@ p a {
   right: 0rem;
   left: auto; }
 
+/*
 .swiper-button-prev-test {
-  cursor: url("/assets/img/arrow-left.png") 16 16, auto !important;
-  cursor: -webkit-image-set(url("/assets/img/arrow-left.png") 1x, url("/assets/img/arrow-left@2x.png") 2x, url("/assets/img/arrow-left@3x.png") 3x) 16 16, auto !important; }
+cursor: url('/assets/img/arrow-left.png') 16 16, auto !important;
+cursor: -webkit-image-set(
+url('/assets/img/arrow-left.png') 1x,
+url('/assets/img/arrow-left@2x.png') 2x,
+url('/assets/img/arrow-left@3x.png') 3x
+) 16 16, auto !important;
+}
 
 .swiper-button-next-test {
-  cursor: url("/assets/img/arrow-right.png") 16 16, auto !important;
-  cursor: -webkit-image-set(url("/assets/img/arrow-right.png") 1x, url("/assets/img/arrow-right@2x.png") 2x, url("/assets/img/arrow-right@3x.png") 3x) 16 16, auto !important; }
+cursor: url('/assets/img/arrow-right.png') 16 16, auto !important;
+cursor: -webkit-image-set(
+url('/assets/img/arrow-right.png') 1x,
+url('/assets/img/arrow-right@2x.png') 2x,
+url('/assets/img/arrow-right@3x.png') 3x
+) 16 16, auto !important;
+}
+*/
+.swiper-slide .white:hover {
+  color: #FF8300; }
 
 .acts .content:hover {
   background-color: rgba(4, 31, 74, 0.95); }
@@ -9196,16 +9238,16 @@ p a {
   padding-bottom: 0rem !important;
   padding-left: 0.45rem !important;
   border-bottom: 1px solid #041f4a;
-  z-index: 15; }
+  z-index: 20; }
   @media print, screen and (min-width: 40em) {
     .navigation {
-      padding-top: 1.5rem !important;
+      padding-top: 1rem !important;
       padding-right: 1.5rem !important;
       padding-bottom: 1rem !important;
       padding-left: 1.5rem !important; } }
   @media screen and (min-width: 90em) {
     .navigation {
-      padding-top: 2rem !important;
+      padding-top: 1.5rem !important;
       padding-right: 2rem !important;
       padding-bottom: 1rem !important;
       padding-left: 2rem !important; } }
@@ -9221,6 +9263,9 @@ p a {
   padding-right: 0.45rem !important;
   padding-bottom: 0.45rem !important;
   padding-left: 0.45rem !important; }
+
+.navigation__container {
+  z-index: 20; }
 
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
   background-color: #fefefe; }
@@ -9275,6 +9320,24 @@ background-color: transparent;
   height: 100%;
   z-index: 12; }
 
+.page__header {
+  padding-top: 0.5rem !important;
+  padding-right: 1rem !important;
+  padding-bottom: 0.5rem !important;
+  padding-left: 1rem !important; }
+  @media print, screen and (min-width: 64em) {
+    .page__header {
+      padding-top: 2rem !important;
+      padding-right: 2rem !important;
+      padding-bottom: 2rem !important;
+      padding-left: 2rem !important; } }
+  @media screen and (min-width: 90em) {
+    .page__header {
+      padding-top: 3rem !important;
+      padding-right: 3rem !important;
+      padding-bottom: 3rem !important;
+      padding-left: 3rem !important; } }
+
 .vendor__description {
   padding-top: 1rem !important;
   padding-right: 1rem !important;
@@ -9295,3 +9358,66 @@ background-color: transparent;
 
 .tabs-title > a:hover {
   color: #041f4a; }
+
+.home__content {
+  background: url(/assets/img/illustrations/plants-01.png), url(/assets/img/illustrations/hotdog.png);
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 50%, 50%; }
+  @media print, screen and (min-width: 40em) {
+    .home__content {
+      background-size: 30%, 30%; } }
+
+.about__content {
+  background: url(/assets/img/illustrations/plants-01.png), url(/assets/img/illustrations/hotdog.png);
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 50%, 50%; }
+  @media print, screen and (min-width: 40em) {
+    .about__content {
+      background-size: 30%, 30%; } }
+
+.location__content {
+  background: url(/assets/img/illustrations/plants-01.png), url(/assets/img/illustrations/diver.png);
+  background-repeat: no-repeat;
+  background-position: left bottom, right top;
+  background-size: 0%, 0%; }
+  @media print, screen and (min-width: 40em) {
+    .location__content {
+      background-size: 40%, 40%; } }
+
+.food-and-drink__content {
+  background: url(/assets/img/illustrations/plants-01.png), url(/assets/img/illustrations/plants-03.png);
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 50%, 30%; }
+  @media print, screen and (min-width: 40em) {
+    .food-and-drink__content {
+      background-size: 40%, 30%; } }
+
+.info__content {
+  background: url(/assets/img/illustrations/eel.png), url(/assets/img/illustrations/plants-03.png);
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 50%, 30%; }
+  @media print, screen and (min-width: 40em) {
+    .info__content {
+      background-size: 40%, 30%; } }
+
+.tickets__content {
+  background: url(/assets/img/illustrations/eel.png), url(/assets/img/illustrations/plants-03.png);
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 50%, 30%; }
+  @media print, screen and (min-width: 40em) {
+    .tickets__content {
+      background-size: 40%, 30%; } }
+
+.event__content {
+  background: url(/assets/img/illustrations/plants-01.png), url(/assets/img/illustrations/plants-03.png);
+  background-repeat: no-repeat;
+  background-position: left bottom, right bottom;
+  background-size: 50%, 30%; }
+  @media print, screen and (min-width: 40em) {
+    .event__content {
+      background-size: 40%, 30%; } }
