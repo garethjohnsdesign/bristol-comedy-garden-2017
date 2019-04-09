@@ -24,7 +24,7 @@ carousel:
   is-sold-out: false
   line-up: Sunday Early
 - name: Ed Byrne
-  image: "/uploads/rob-delaney.jpg"
+  image: "/uploads/ed-byrne.jpg"
   subheader: Comedy’s holy grail. Go see — Sunday Times
   is-sold-out: false
   line-up: Friday
@@ -55,7 +55,7 @@ featured:
   is-sold-out: 
   line-up: Saturday Late
 - name: Tim Key
-  image: "/uploads/tim-key.jpg"
+  image: "/uploads/tim-key-02.jpg"
   subheader: 
   is-sold-out: true
   line-up: Saturday Late

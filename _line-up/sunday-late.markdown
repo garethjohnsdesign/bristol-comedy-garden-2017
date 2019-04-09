@@ -7,11 +7,11 @@ acts:
 - name: Stewart Lee
   image: "/uploads/stewart-lee.jpg"
 - name: Desiree Burch
-  image: "/uploads/nish-kumar.jpg"
+  image: "/uploads/desiree-burch.jpg"
 - name: Rosie Jones
   image: "/uploads/rosie-jones.jpg"
 - name: Kiri Pritchard-Mclean
-  image: "/uploads/kiri-pritchard-mclean.jpg"
+  image: "/uploads/kiri-pritchard-mclean-02.jpg"
 quote: Lee remains one of the best stand-ups in the country
 quote-cite: Metro
 secondary-text: Joining Stewart for our festival finale is the multi-award winning Live At The Apollo star Desiree Burch, mischievous charmer Rosie Jones, a very special guest to be announced and the exceptional Kiri Pritchard-Mclean as host.

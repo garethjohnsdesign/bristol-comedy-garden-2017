@@ -10,7 +10,7 @@ acts:
 - name: Suzi Ruffell
   image: "/uploads/suzi-ruffell.jpg"
 - name: Stephen K Amos
-  image: "/uploads/ed-gamble.jpg"
+  image: "/uploads/stephen-k-amos-01.jpg"
 quote: It is rare for a comic to merit the word “masterful” but in this case it is no overstatement
 quote-cite: The Scotsman
 secondary-text: Joining Ed is an astounding line-up with British Comedy Award winner and 8 Out Of 10 Cats Team Captain Aisling Bea, Live At The Apollo’s flawless stand-up machine Suzi Ruffell and globe-trotting laughter-master Stephen K Amos as host.

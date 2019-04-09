@@ -12,7 +12,7 @@ collections:
     title: Uploads
     output: false
 url: https://www.bristolcomedygarden.co.uk
-description: The mighty Bristol Comedy Garden returns this June with a prize-winning crop of comedians. Once again the leafy lawns of Queen Square, in the heart of the city, will be transformed into a comedy wonderland complete with outrageously good line-ups in our beautiful Big Top.
+description: The mighty Bristol Comedy Garden returns this July with a prize-winning crop of comedians. Once again the leafy lawns of Queen Square, in the heart of the city, will be transformed into a comedy wonderland complete with outrageously good line-ups in our beautiful Big Top.
 permalink: pretty
 exclude:
 - bower.json
@@ -69,4 +69,4 @@ pagination:
 autopages:
   enabled: false
 imgix:
-  source: brighton-comedy-garden.imgix.net
+  source: bristol-comedy-garden.imgix.net
