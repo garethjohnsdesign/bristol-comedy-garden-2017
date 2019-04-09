@@ -1,5 +1,5 @@
 ---
-title: Tickets test3
+title: Tickets
 position: 2
 layout: tickets
 ---

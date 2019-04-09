@@ -29,8 +29,18 @@ carousel:
   is-sold-out: false
   line-up: Friday
 featured:
+- name: Nish Kumar
+  image: "/uploads/nish-kumar.jpg"
+  subheader: 
+  is-sold-out: false
+  line-up: Sunday Early
 - name: Tom Allen
   image: "/uploads/tom-allen.jpg"
+  subheader: 
+  is-sold-out: false
+  line-up: Saturday Early
+- name: Aisling Bea
+  image: "/uploads/aisling-bea.jpg"
   subheader: 
   is-sold-out: false
   line-up: Friday
@@ -38,36 +48,26 @@ featured:
   image: "/uploads/phil-wang.jpg"
   subheader: 
   is-sold-out: false
-  line-up: Thursday
-- name: Rose Matafeo
-  image: "/uploads/rose-matafeo.jpg"
+  line-up: Saturday Late
+- name: Lolly Adefope
+  image: "/uploads/lolly-adefope.jpg"
   subheader: 
-  is-sold-out: false
-  line-up: Sunday
+  is-sold-out: 
+  line-up: Saturday Late
 - name: Tim Key
   image: "/uploads/tim-key.jpg"
   subheader: 
-  is-sold-out: false
-  line-up: Sunday
-- name: Rachel Parris
-  image: "/uploads/rachel-parris.jpg"
-  subheader: 
-  is-sold-out: 
-  line-up: Friday
-- name: Ed Byrne
-  image: "/uploads/ed-byrne.jpg"
-  subheader: 
-  is-sold-out: true
-  line-up: Wednesday
-- name: Bridget Christie
-  image: "/uploads/bridget-christie.jpg"
-  subheader: 
-  is-sold-out: 
-  line-up: Saturday Early
-- name: Stephen K Amos
-  image: "/uploads/stephen-k-amos-01.jpg"
-  subheader: 
   is-sold-out: true
   line-up: Saturday Late
+- name: John Robins
+  image: "/uploads/john-robins.jpg"
+  subheader: 
+  is-sold-out: 
+  line-up: Saturday Late
+- name: Rose Matafeo
+  image: "/uploads/rose-matafeo.jpg"
+  subheader: 
+  is-sold-out: true
+  line-up: Saturday Early
 layout: home
 ---
