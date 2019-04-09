@@ -319,6 +319,17 @@
 		"oAP": "/build/_site",
 		"oF": 0
 		},
+	"/_uploads/2018-poster-rev.jpg": {
+		"ft": 16384,
+		"iS": 619292,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/2018-poster-rev.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/57-festivals-2x.png": {
 		"ft": 32768,
 		"iS": 4757,
@@ -11254,6 +11265,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/Gemfile",
+		"oF": 0
+		},
+	"/Gemfile.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/Gemfile.lock",
 		"oF": 0
 		},
 	"/humans.txt": {
