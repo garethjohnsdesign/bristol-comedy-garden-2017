@@ -1,7 +1,10 @@
 ---
 title: About
 position: 4
-header: The mighty Bristol Comedy Garden returns this June with a prize-winning crop of comedians. Once again the leafy lawns of Queen Square, in the heart of the city, will be transformed into a comedy wonderland complete with outrageously good line-ups in our beautiful Big Top.
+header: The mighty Bristol Comedy Garden returns this June with a prize-winning crop
+  of comedians. Once again the leafy lawns of Queen Square, in the heart of the city,
+  will be transformed into a comedy wonderland complete with outrageously good line-ups
+  in our beautiful Big Top.
 images:
 - "/uploads/about-01.jpg"
 - "/uploads/about-02.jpg"

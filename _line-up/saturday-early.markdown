@@ -13,7 +13,9 @@ acts:
   image: "/uploads/ed-gamble.jpg"
 quote: She is a comic in her prime
 quote-cite: The Times
-secondary-text: Joining Sara is almighty bill with the acerbic wit and riotous storytelling of Royal Variety Performance star Tom Allen, Edinburgh Comedy Award winner Rose Matafeo and Mock The Week’s plucky scamp Ed Gamble as host.
+secondary-text: Joining Sara is almighty bill with the acerbic wit and riotous storytelling
+  of Royal Variety Performance star Tom Allen, Edinburgh Comedy Award winner Rose
+  Matafeo and Mock The Week’s plucky scamp Ed Gamble as host.
 festival-starts-at: 2019-07-06 15:15:00 Z
 show-starts-at: 2019-07-06 16:15:00 Z
 ticket-price: "£20 - £25"

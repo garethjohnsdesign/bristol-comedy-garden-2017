@@ -3,7 +3,7 @@ title: Wednesday
 date: 2019-07-03 19:30:00 Z
 position: 1
 acts:
-- name: Sean Lock 
+- name: Sean Lock
   image: "/uploads/sean-lock.jpg"
 - name: Angelos Epthemiou
   image: "/uploads/angelos-epthemiou.jpg"
@@ -15,7 +15,10 @@ acts:
   image: "/uploads/mark-olver.jpg"
 quote: He really is rewriting the comedy rulebook
 quote-cite: Time Out
-secondary-text: Joing Sean is a blistering supporting line-up with Shooting Stars cult oddity Angelos Epthemiou, Edinburgh Comedy Award winner Sarah Keyworth, Mock The Week’s whip-smart wordsmith Rhys James and Bristol comedy hero Mark Olver as host.
+secondary-text: Joing Sean is a blistering supporting line-up with Shooting Stars
+  cult oddity Angelos Epthemiou, Edinburgh Comedy Award winner Sarah Keyworth, Mock
+  The Week’s whip-smart wordsmith Rhys James and Bristol comedy hero Mark Olver as
+  host.
 festival-starts-at: 2019-07-03 18:00:00 Z
 show-starts-at: 2019-07-03 19:30:00 Z
 ticket-price: "£20 - £25"

@@ -1,7 +1,8 @@
 ---
 title: Location
 position: 3
-header: Brighton Comedy Garden springs up in the glorious surroundings of Preston Park overlooking the thumping heart of Brighton's city centre
+header: Brighton Comedy Garden springs up in the glorious surroundings of Preston
+  Park overlooking the thumping heart of Brighton's city centre
 details:
 - title: Car
   text: From the M32, follow signs for the city centre. Very limited meter parking
