@@ -3,17 +3,17 @@ title: Friday
 date: 2019-07-05 19:30:00 Z
 position: 2
 acts:
-- name: Henning Wehn
-  image: "/uploads/henning-wehn.jpg"
-- name: Tom Allen
-  image: "/uploads/tom-allen.jpg"
-- name: Rachel Parris
-  image: "/uploads/rachel-parris.jpg"
-- name: Ed Gamble
+- name: Ed Byrne
+  image: "/uploads/ed-byrne.jpg"
+- name: Aisling Bea
+  image: "/uploads/aisling-bea.jpg"
+- name: Suzi Ruffell
+  image: "/uploads/suzi-ruffell.jpg"
+- name: Stephen K Amos
   image: "/uploads/ed-gamble.jpg"
-quote: Very entertaining and very accessible
+quote: It is rare for a comic to merit the word “masterful” but in this case it is no overstatement
 quote-cite: The Scotsman
-secondary-text: Joining Henning is an all-star supporting line-up with the acerbic wit and riotous storytelling of Royal Variety Performance star Tom Allen, the viral sensation and Mash Report star Rachel Parris and Mock The Week’s plucky scamp Ed Gamble as host.
+secondary-text: Joining Ed is an astounding line-up with British Comedy Award winner and 8 Out Of 10 Cats Team Captain Aisling Bea, Live At The Apollo’s flawless stand-up machine Suzi Ruffell and globe-trotting laughter-master Stephen K Amos as host.
 festival-starts-at: 2019-07-05 18:00:00 Z
 show-starts-at: 2019-07-05 19:30:00 Z
 ticket-price: "£20 - £25"
@@ -22,4 +22,4 @@ is-sold-out: false
 layout: event
 ---
 
-Self styled German Comedy Ambassador Henning Wehn headlines a huge Friday night show at Brighton Comedy Garden. Expect a hit filled set from the Would I Lie To You star packed with inimitable teutonic jolliness.
+Observational comedy master Ed Byrne returns to Bristol Comedy Garden. Join the wildly acclaimed Mock The Week and Have I Got News For You star as he headlines an all-star show in the Big Top.
