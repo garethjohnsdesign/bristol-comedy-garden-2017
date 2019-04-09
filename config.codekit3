@@ -925,6 +925,106 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"/assets/favicons/android-chrome-192x192.png": {
+		"ft": 32768,
+		"iS": 8301,
+		"oA": 0,
+		"oAP": "/assets/favicons/android-chrome-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/favicons/android-chrome-512x512.png": {
+		"ft": 32768,
+		"iS": 24218,
+		"oA": 0,
+		"oAP": "/assets/favicons/android-chrome-512x512.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/favicons/apple-touch-icon.png": {
+		"ft": 32768,
+		"iS": 4199,
+		"oA": 0,
+		"oAP": "/assets/favicons/apple-touch-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/favicons/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/favicons/browserconfig.xml",
+		"oF": 0
+		},
+	"/assets/favicons/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 641,
+		"oA": 0,
+		"oAP": "/assets/favicons/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/favicons/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 1179,
+		"oA": 0,
+		"oAP": "/assets/favicons/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/favicons/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/favicons/favicon.ico",
+		"oF": 0
+		},
+	"/assets/favicons/mstile-150x150.png": {
+		"ft": 32768,
+		"iS": 5964,
+		"oA": 0,
+		"oAP": "/assets/favicons/mstile-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/assets/favicons/safari-pinned-tab.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/favicons/safari-pinned-tab.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/favicons/site.webmanifest": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/favicons/site.webmanifest",
+		"oF": 0
+		},
 	"/assets/fonts/demibold-pro.ttf": {
 		"cB": 0,
 		"ft": 8192,
@@ -1038,6 +1138,27 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"/assets/img/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/img/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/assets/img/og-image.png": {
+		"ft": 32768,
+		"iS": 16519,
+		"oA": 0,
+		"oAP": "/assets/img/og-image.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/assets/js/app copy.js": {
 		"bF": 0,
