@@ -6,7 +6,7 @@ acts:
 - name: Sean Lock
   image: "/uploads/sean-lock.jpg"
 - name: Angelos Epthemiou
-  image: "/uploads/angelos-epthemiou.jpg"
+  image: "/uploads/angelos-epthemiou-02.jpg"
 - name: Sarah Keyworth
   image: "/uploads/sarah-keyworth.jpg"
 - name: Rhys James

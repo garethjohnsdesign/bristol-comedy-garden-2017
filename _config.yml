@@ -12,10 +12,7 @@ collections:
     title: Uploads
     output: false
 url: https://www.bristolcomedygarden.co.uk
-description: The mighty Bristol Comedy Garden returns this July with a prize-winning
-  crop of comedians. Once again the leafy lawns of Queen Square, in the heart of the
-  city, will be transformed into a comedy wonderland complete with outrageously good
-  line-ups in our beautiful Big Top.
+description: The mighty Bristol Comedy Garden returns this July with yet another outrageously good line-up of comedy greats paired with street-food, craft beers and more in beautiful Queen Square
 permalink: pretty
 exclude:
 - bower.json
@@ -41,7 +38,7 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 company: 57 Festivals Ltd
-event-span: 3-7 July '19
+event-span: 3-7 July 2019
 event-address: Queen Square, Bristol BS1 4QS
 event-address-short: Queen Square
 company-registration: '06840256'

@@ -33,7 +33,7 @@ featured:
   image: "/uploads/nish-kumar.jpg"
   subheader: 
   is-sold-out: false
-  line-up: Sunday Early
+  line-up: Thursday
 - name: Tom Allen
   image: "/uploads/tom-allen.jpg"
   subheader: 
@@ -63,7 +63,7 @@ featured:
   image: "/uploads/john-robins.jpg"
   subheader: 
   is-sold-out: 
-  line-up: Saturday Late
+  line-up: Thursday
 - name: Rose Matafeo
   image: "/uploads/rose-matafeo.jpg"
   subheader: 

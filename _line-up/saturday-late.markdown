@@ -11,8 +11,6 @@ acts:
   image: "/uploads/lolly-adefope.jpg"
 - name: Phil Wang
   image: "/uploads/phil-wang-02.jpg"
-- name: John Robins
-  image: "/uploads/john-robins.jpg"
 quote: When a stand up gig goes this well, you do get a sense of how religions are
   started
 quote-cite: The Guardian

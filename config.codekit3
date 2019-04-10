@@ -273,14 +273,6 @@
 		"oAP": "/_line-up/friday.markdown",
 		"oF": 0
 		},
-	"/_line-up/saturday-early.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_line-up/saturday-early.markdown",
-		"oF": 0
-		},
 	"/_line-up/saturday-late.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -289,12 +281,12 @@
 		"oAP": "/_line-up/saturday-late.markdown",
 		"oF": 0
 		},
-	"/_line-up/sunday-early.markdown": {
+	"/_line-up/saturday-mid.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_line-up/sunday-early.markdown",
+		"oAP": "/_line-up/saturday-mid.markdown",
 		"oF": 0
 		},
 	"/_line-up/sunday-late.markdown": {
@@ -303,6 +295,22 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_line-up/sunday-late.markdown",
+		"oF": 0
+		},
+	"/_line-up/sunday-mid.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_line-up/sunday-mid.markdown",
+		"oF": 0
+		},
+	"/_line-up/thursday.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_line-up/thursday.markdown",
 		"oF": 0
 		},
 	"/_line-up/wednesday.markdown": {
@@ -394,6 +402,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/Andrew Maxwell.jpg": {
+		"ft": 16384,
+		"iS": 824081,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Andrew Maxwell.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/angelos-epthemiou-02.jpg": {
+		"ft": 16384,
+		"iS": 756840,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/angelos-epthemiou-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/angelos-epthemiou.jpg": {
@@ -500,6 +530,28 @@
 		"oAP": "/_uploads/GCF18-FoH-Job-Application.pdf",
 		"oF": 0
 		},
+	"/_uploads/ivo-graham.jpg": {
+		"ft": 16384,
+		"iS": 199037,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/ivo-graham.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/Jen Brister.jpg": {
+		"ft": 16384,
+		"iS": 478248,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/Jen Brister.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/john-robins.jpg": {
 		"ft": 16384,
 		"iS": 297101,
@@ -550,6 +602,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/lolly-adefope.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/lou-sanders.jpg": {
+		"ft": 16384,
+		"iS": 1320336,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/lou-sanders.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -994,12 +1057,12 @@
 		"oAP": "/assets/fonts/demibold-pro.woff2",
 		"oF": 0
 		},
-	"/assets/fonts/Gallery.woff": {
+	"/assets/fonts/gallery.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/assets/fonts/Gallery.woff",
+		"oAP": "/assets/fonts/gallery.woff",
 		"oF": 0
 		},
 	"/assets/fonts/gallery.woff2": {
