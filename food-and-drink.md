@@ -18,21 +18,12 @@ vendors:
     instagram: https://www.instagram.com/ghanakitchen/
     twitter: https://twitter.com/GhanaKitchen
     facebook: https://www.facebook.com/zoesghanakitchen
-- title: Kurbside Kitchen
-  image: "/uploads/kurbside-kitchen.jpg"
-  description: The amazing William Bacon has consolidated 15 years experience as a
-    chef, with 7 of those years spent travelling the world, into founding Kurbside
-    Kitchen, a wonderful food truck specialising in German frankfurters with gourmet
-    toppings, low and slow cooked meats, Cajun and sweet potato fries and super-food
-    salads. William is particularly proud of Kurbside’s quite frankly ridiculously
-    delicious gourmet hot dogs. They’re made with high quality beef, pork, chorizo
-    or tofu with natural skin to ensure the perfect snap and are served inside a brioche
-    sub, baked daily by their local artisan baker.
-  website: http://kurbsidekitchen.co.uk
+- title: Kwackers
+  image: "/uploads/kwackers.jpg"
+  description: Kwackers is all about the duck. They serve up delicious food that is all based around the popular aromatic crispy duck that everyone knows and loves, all from their super cool event set-up. Their very own 5oz duck burgers served in a toasted brioche bun with hoisin onions and a zesty cucumber salad are unbelievably good! They serve this burger alongside their epic double cooked duck fat chips, which are so crispy and tasty that they almost overshadow the burger itself! They can also serve crispy duck wraps and they can even serve half a crispy duck with hoisin sauce and pancakes!
   social:
-    instagram: https://www.instagram.com/kurbsidekitchen/
-    twitter: https://twitter.com/kurbsidekitchen
-    facebook: https://www.facebook.com/KurbsideKitchen1/
+    instagram: https://www.instagram.com/duckburgers/
+    facebook: https://www.facebook.com/whattheduckisthis/
 - title: 3 Little Pigs
   image: "/uploads/three-little-pigs.jpg"
   description: The 3 Little Pigs Souvlaki philosophy is to use time honoured cooking
@@ -46,31 +37,12 @@ vendors:
   social:
     instagram: https://www.instagram.com/3lpsouvlaki/
     twitter: https://twitter.com/3LPSOUVLAKI
-- title: You Bao
-  image: "/uploads/you-bao.jpg"
-  description: When Alejandro Sepulveda Parra started planning his street food stall,
-    he knew exactly where to source his inspiration from. The traditional gua bao,
-    also known as steamed bao, a popular Taiwanese street food. Inspired by the huge
-    variety of Taiwanese traditions and flavours and combined with Alejandro’s love
-    for steamed bao buns, You Bao was created.
+- title: Tasty Ragga
+  image: "/uploads/tasty-ragga.jpg"
+  description: Serving Top Tier Jamaican food, using ethically sourced ingredients. Always coming in with High quality meats and Vegan dishes inspired by the Rastafari “Ital” diet. 
   social:
-    instagram: https://www.instagram.com/youbaomi/
-    twitter: https://twitter.com/youbaomi
-- title: The Good Slice
-  image: "/uploads/the-good-slice.jpg"
-  description: 'The Good Slice is a social enterprise with a simple idea: take a slice,
-    give a slice. They combine a passion for fine, honest food with a desire to create
-    a lasting difference in food insecure communities around the world, from Malawi
-    to London. Via a one for one model, for every pizza they sell, they provide a
-    meal to someone in need. In 2018 they provided 5,000 meals to the children of
-    Well Wishes Nursery, in Northern Malawi. Closer to home, they have partnered with
-    Glassdoor - London''s largest open-access support services network for men and
-    women affected by homelessness.'
-  website: https://www.thegood-slice.com
-  social:
-    facebook: https://www.facebook.com/thegoodslice1/
-    instagram: https://www.instagram.com/thegoodslice/
-    twitter: https://twitter.com/thegood_slice
+    instagram: https://www.instagram.com/tastyragga/
+    facebook: https://www.facebook.com/TastyRagga/
 - title: Routes Coffee
   image: "/uploads/routes-coffee.jpg"
   description: Routes Coffee combine a deep, deep love of coffee with a passion for
@@ -82,13 +54,13 @@ vendors:
     instagram: https://www.instagram.com/routescoffee/
     twitter: https://twitter.com/routescoffee
     facebook: https://www.facebook.com/routescoffee/
-- title: Ravenous Fudge
-  image: "/uploads/ravenous-fudge.jpg"
-  description: If it’s fudge you’re after, boy have we got it… Homemade, handcrafted,
-    exquisite fudge… A Wonka’s dream..
-  website: https://ravenousfudge.com
+- title: The Ice Cream Box
+  image: "/uploads/the-ice-cream-box.jpg"
+  description: The Ice Cream Box brings you utterly delicious West Country ice cream on wheels. The ice cream is handmade in Bristol from scratch using natural ingredients - just local milk and the finest flavourings.
   social:
-    facebook: https://www.facebook.com/ravenousfudge/
+    instagram: https://www.instagram.com/theicecreamboxbristol/
+    twitter: https://twitter.com/TheIceCreamBox
+    facebook: https://www.facebook.com/theicecreamboxbristol/
 layout: food-and-drink
 ---
 

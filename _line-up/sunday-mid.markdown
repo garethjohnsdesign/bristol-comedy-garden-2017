@@ -1,6 +1,6 @@
 ---
 title: Sunday
-date: 2019-07-07 15:45:00 Z
+date: 2019-07-07 16:15:00 Z
 position: 5
 day: Sunday
 acts:
@@ -15,8 +15,8 @@ quote-cite: Time Out
 secondary-text: 'Joining Rob is a very special guest to be announced plus the razor-sharp
   Live At The Apollo star Jen Brister and the provocatively funny Comedy Central star
   Fin Taylor as host. '
-festival-starts-at: 2019-01-01 00:00:00 Z
-show-starts-at: 2019-07-07 15:45:00 Z
+festival-starts-at: 2019-01-01 15:15:00 Z
+show-starts-at: 2019-07-07 16:15:00 Z
 ticket-price: "£20 - £25"
 ticket-link: https://www.seetickets.com/event/
 is-sold-out: 

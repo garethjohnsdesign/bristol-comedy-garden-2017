@@ -596,6 +596,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/_uploads/kwackers.jpg": {
+		"ft": 16384,
+		"iS": 1384743,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/kwackers.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/lolly-adefope.jpg": {
 		"ft": 16384,
 		"iS": 491648,
@@ -827,6 +838,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/tasty-ragga.jpg": {
+		"ft": 16384,
+		"iS": 782160,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/tasty-ragga.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/the-good-slice.jpg": {
 		"ft": 16384,
 		"iS": 1512315,
@@ -836,6 +858,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/_uploads/the-ice-cream-box.jpg": {
+		"ft": 16384,
+		"iS": 943807,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/the-ice-cream-box.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/three-little-pigs.jpg": {
@@ -11301,6 +11334,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/bower_components/what-input/yarn.lock",
+		"oF": 0
+		},
+	"/food-and-drink.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/food-and-drink.html",
 		"oF": 0
 		},
 	"/food-and-drink.md": {
