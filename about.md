@@ -12,7 +12,7 @@ images:
 layout: about
 ---
 
-This summer don’t miss US stand-up sensation and star of Channel 4’s ‘Catastrophe’ Rob Delaney, the multi award-winning talents of Sara Pascoe, Mash Report host and Mock The Week regular Nish Kumar, Sean Lock the hilariously surreal team captain from 8 out of 10 Cats Does Countdown, Shooting Stars cult oddity Angelos Epithimou, the riotously funny 8 Out Of 10 Cats team captain Aisling Bea plus many many more blisteringly funny comedians all topped off with an incredible festival finale from the magnificent Stewart Lee.
+This summer don’t miss US stand-up sensation and star of Channel 4’s ‘Catastrophe’ Rob Delaney, the multi award-winning talents of Sara Pascoe, Mash Report host and Mock The Week regular Nish Kumar, Sean Lock the hilariously surreal team captain from 8 out of 10 Cats Does Countdown, riotously funny Tom Allen, British Comedy Award winner Aisling Bea plus many many more blisteringly funny comedians all topped off with an incredible festival finale featuring the magnificent Stewart Lee.
 
 Make your way to the leafy surrounds of Queen Square and bask in the glory of these laughter-masters at the Southwest’s brightest comedy extravaganza. Now in it’s ninth year Bristol Comedy Garden pairs award-winning entertainment with delicious street-food, craft beers, cocktails and more in a fun and relaxed festival atmosphere giving comedy-lovers from Bristol and beyond an unbeatable experience in the heart of the city.
 

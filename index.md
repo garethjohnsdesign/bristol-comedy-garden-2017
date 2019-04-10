@@ -38,14 +38,14 @@ featured:
   image: "/uploads/tom-allen.jpg"
   subheader: 
   is-sold-out: false
-  line-up: Saturday Early
+  line-up: Saturday Mid
 - name: Aisling Bea
   image: "/uploads/aisling-bea.jpg"
   subheader: 
   is-sold-out: false
   line-up: Friday
 - name: Phil Wang
-  image: "/uploads/phil-wang.jpg"
+  image: "/uploads/phil-wang-02.jpg"
   subheader: 
   is-sold-out: false
   line-up: Saturday Late
@@ -68,7 +68,7 @@ featured:
   image: "/uploads/rose-matafeo.jpg"
   subheader: 
   is-sold-out: true
-  line-up: Saturday Early
+  line-up: Saturday Mid
 layout: home
 ---
 
