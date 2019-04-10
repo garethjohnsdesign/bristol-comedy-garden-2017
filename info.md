@@ -12,16 +12,16 @@ general:
 
 
     * **Is there an age limit?**
-      Yes. The festival has an age limit of 16\+, anyone aged 16-17 needs to be accompanied by an adult. You may be refused entry if our staff think you are under 16, so please bring ID if you're concerned. We do not offer refunds to ticket-holders who are denied entry. Apologies to all you younger comedy fans out there!
+      Yes. The festival has an age limit of 18\+. You may be refused entry if our staff think you are under 18, so please bring ID if you're concerned. We do not offer refunds to ticket-holders who are denied entry. Apologies to all you younger comedy fans out there!
 
     * **You're sold out! Where can I apply for returns?**
-      Check our facebook [page](https://www.facebook.com/brightoncomedygarden). Anyone who can't make it to a gig may try to pass on their tickets via our facebook page. Do not buy tickets from external sources as they may not be accepted on the door.
+      Check our facebook [page](https://www.facebook.com/bristolcomedygarden). Anyone who can't make it to a gig may try to pass on their tickets via our facebook page. Do not buy tickets from external sources as they may not be accepted on the door.
 
     * **I need to organise the babysitter - what exact time is my favourite comedian performing?**
       We do not give out specific timings of comedians. Your tickets however will provide information on the festival open and show start times and we estimate that our multi-bill shows last approximately 2.5 hours.
 
     * **Can I bring my dog / cat / parrot?**
-      Unfortunately not. Assistance animals are welcome, but please contact [info@brightoncomedygarden.co.uk](mailto:info@brightoncomedygarden.co.uk) ahead of your show to organise.
+      Unfortunately not. Assistance animals are welcome, but please contact [info@bristolcomedygarden.co.uk](mailto:info@bristolcomedygarden.co.uk) ahead of your show to organise.
 
     * **I have booked for more than one show in one day - how do I guarantee entry to the venue without having to re-enter?**
       Please alert a member of staff when you arrive if you are seeing more than one show in a day, and they can check your tickets and give you the correct credentials so you don't have to leave and re-enter the festival again. You will still need to vacate the venue itself between shows though.
