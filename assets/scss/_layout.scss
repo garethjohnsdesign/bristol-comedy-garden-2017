@@ -374,7 +374,7 @@ color: $secondary-color;
 // ----------------
 
 .home__content {
-  background: url(/assets/img/illustrations/plants-01.png), url(/assets/img/illustrations/hotdog.png);
+  background: url(/assets/img/illustrations/leaves.png), url(/assets/img/illustrations/snake-02.png);
   background-repeat:no-repeat;
   background-position:left bottom, right bottom;
   @include breakpoint(small) {
@@ -386,50 +386,50 @@ color: $secondary-color;
 }
 
 .about__content {
-  background: url(/assets/img/illustrations/plants-01.png), url(/assets/img/illustrations/hotdog.png);
+  background: url(/assets/img/illustrations/snake-01.png), url(/assets/img/illustrations/leaf-01.png), url(/assets/img/illustrations/leaf-02.png);
   background-repeat:no-repeat;
-  background-position:left bottom, right bottom;
+  background-position:left top, left bottom, right bottom;
   @include breakpoint(small) {
-  background-size: 50%, 50%;
+  background-size: 90%, 50%, 50%;
   }
   @include breakpoint(medium) {
-  background-size: 30%, 30%;
+  background-size: 90%, 30%, 30%;
   }
 }
 
 .location__content {
-  background: url(/assets/img/illustrations/plants-01.png), url(/assets/img/illustrations/diver.png);
+  background: url(/assets/img/illustrations/leaf-01.png), url(/assets/img/illustrations/leaf-03.png);
   background-repeat:no-repeat;
   background-position:left bottom, right top;
   @include breakpoint(small) {
   background-size: 0%, 0%;
   }
   @include breakpoint(medium) {
-  background-size: 40%, 40%;
+  background-size: 40%, 20%;
   }
 }
 
 .food-and-drink__content {
-  background: url(/assets/img/illustrations/plants-01.png), url(/assets/img/illustrations/plants-03.png);
+  background: url(/assets/img/illustrations/snake-01.png), url(/assets/img/illustrations/watermelon.png);
   background-repeat:no-repeat;
-  background-position:left bottom, right bottom;
+  background-position:left top, left bottom;
   @include breakpoint(small) {
-  background-size: 50%, 30%;
+  background-size: 70%, 50%;
   }
   @include breakpoint(medium) {
-  background-size: 40%, 30%;
+  background-size: 70%, 40%;
   }
 }
 
 .info__content {
-  background: url(/assets/img/illustrations/eel.png), url(/assets/img/illustrations/plants-03.png);
+  background: url(/assets/img/illustrations/leaves.png), url(/assets/img/illustrations/snake-02.png);
   background-repeat:no-repeat;
   background-position:left bottom, right bottom;
   @include breakpoint(small) {
-  background-size: 50%, 30%;
+  background-size: 30%, 30%;
   }
   @include breakpoint(medium) {
-  background-size: 40%, 30%;
+  background-size: 30%, 30%;
   }
 }
 
