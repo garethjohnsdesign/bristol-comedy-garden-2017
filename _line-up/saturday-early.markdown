@@ -13,9 +13,9 @@ acts:
   image: "/uploads/ed-gamble.jpg"
 quote: She is a comic in her prime
 quote-cite: The Times
-secondary-text: Joining Sara is almighty bill with the acerbic wit and riotous storytelling
-  of Royal Variety Performance star Tom Allen, Edinburgh Comedy Award winner Rose
-  Matafeo and Mock The Week’s plucky scamp Ed Gamble as host.
+secondary-text: Joining Sara is an almighty bill featuring the acerbic wit and riotous
+  storytelling of Royal Variety Performance star Tom Allen, Edinburgh Comedy Award
+  winner Rose Matafeo and Mock The Week’s plucky scamp Ed Gamble as host.
 festival-starts-at: 2019-07-06 15:15:00 Z
 show-starts-at: 2019-07-06 16:15:00 Z
 ticket-price: "£20 - £25"
@@ -24,4 +24,4 @@ is-sold-out: false
 layout: event
 ---
 
-The multi-award-winning comedian and star of Live at The Apollo, Mock the Week, QI and 8 Out of 10 Cats, Sara Pascoe heads to the Big Top in Preston Park to headline an all-killer line-up in the Big Top.
+The multi-award-winning comedian and star of Live at The Apollo, Mock the Week, QI and 8 Out of 10 Cats, Sara Pascoe heads to Bristol Comedy Garden to headline an all-killer line-up in the Big Top.
