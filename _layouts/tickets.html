@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="grid-container">
-  {% assign collection = site.line-up | group_by_exp: "item", "item.date | date: '%A %-d %b'" %}
+  {% assign collection = site.line-up | group_by_exp: "item", "item.date | date: '%A %-d %B'" %}
   {% for day in collection %}
   
   <!-- Day -->

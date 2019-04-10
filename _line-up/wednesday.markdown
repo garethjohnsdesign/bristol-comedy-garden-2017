@@ -5,7 +5,7 @@ position: 1
 acts:
 - name: Sean Lock
   image: "/uploads/sean-lock.jpg"
-- name: Angelos Epthemiou
+- name: Angelos Epithemiou
   image: "/uploads/angelos-epthemiou-02.jpg"
 - name: Sarah Keyworth
   image: "/uploads/sarah-keyworth.jpg"
