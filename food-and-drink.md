@@ -20,7 +20,14 @@ vendors:
     facebook: https://www.facebook.com/zoesghanakitchen
 - title: Kwackers
   image: "/uploads/kwackers.jpg"
-  description: Kwackers is all about the duck. They serve up delicious food that is all based around the popular aromatic crispy duck that everyone knows and loves, all from their super cool event set-up. Their very own 5oz duck burgers served in a toasted brioche bun with hoisin onions and a zesty cucumber salad are unbelievably good! They serve this burger alongside their epic double cooked duck fat chips, which are so crispy and tasty that they almost overshadow the burger itself! They can also serve crispy duck wraps and they can even serve half a crispy duck with hoisin sauce and pancakes!
+  description: Kwackers is all about the duck. They serve up delicious food that is
+    all based around the popular aromatic crispy duck that everyone knows and loves,
+    all from their super cool event set-up. Their very own 5oz duck burgers served
+    in a toasted brioche bun with hoisin onions and a zesty cucumber salad are unbelievably
+    good! They serve this burger alongside their epic double cooked duck fat chips,
+    which are so crispy and tasty that they almost overshadow the burger itself! They
+    can also serve crispy duck wraps and they can even serve half a crispy duck with
+    hoisin sauce and pancakes!
   social:
     instagram: https://www.instagram.com/duckburgers/
     facebook: https://www.facebook.com/whattheduckisthis/
@@ -39,7 +46,9 @@ vendors:
     twitter: https://twitter.com/3LPSOUVLAKI
 - title: Tasty Ragga
   image: "/uploads/tasty-ragga.jpg"
-  description: Serving Top Tier Jamaican food, using ethically sourced ingredients. Always coming in with High quality meats and Vegan dishes inspired by the Rastafari “Ital” diet. 
+  description: Serving Top Tier Jamaican food, using ethically sourced ingredients.
+    Always coming in with High quality meats and Vegan dishes inspired by the Rastafari
+    “Ital” diet.
   social:
     instagram: https://www.instagram.com/tastyragga/
     facebook: https://www.facebook.com/TastyRagga/
@@ -56,7 +65,9 @@ vendors:
     facebook: https://www.facebook.com/routescoffee/
 - title: The Ice Cream Box
   image: "/uploads/the-ice-cream-box.jpg"
-  description: The Ice Cream Box brings you utterly delicious West Country ice cream on wheels. The ice cream is handmade in Bristol from scratch using natural ingredients - just local milk and the finest flavourings.
+  description: The Ice Cream Box brings you utterly delicious West Country ice cream
+    on wheels. The ice cream is handmade in Bristol from scratch using natural ingredients
+    - just local milk and the finest flavourings.
   social:
     instagram: https://www.instagram.com/theicecreamboxbristol/
     twitter: https://twitter.com/TheIceCreamBox
