@@ -17,12 +17,12 @@ carousel:
   image: "/uploads/sara-pascoe.jpg"
   subheader: She is a comic in her prime — The Times
   is-sold-out: false
-  line-up: Saturday Early
+  line-up: Saturday Mid
 - name: Rob Delaney
   image: "/uploads/rob-delaney.jpg"
   subheader: Sharp and bitingly funny — Time Out
   is-sold-out: false
-  line-up: Sunday Early
+  line-up: Sunday Mid
 - name: Ed Byrne
   image: "/uploads/ed-byrne.jpg"
   subheader: Comedy’s holy grail. Go see — Sunday Times
