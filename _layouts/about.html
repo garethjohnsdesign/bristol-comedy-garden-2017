@@ -5,7 +5,7 @@ layout: default
 <div class="grid-container page__header">
   <div class="grid-x grid-padding-x grid-padding-y">
     <div class="small-12 large-6 cell">
-      <h3>{{page.header}}</h3>
+      <h2>{{page.header}}</h2>
     </div>
     <div class="small-12 large-6 cell">
       {{content | markdownify}}
@@ -17,7 +17,7 @@ layout: default
 <div class="grid-x grid-padding-x grid-padding-y">
   {% for image in page.images %}
   {% assign image = image %}
-  <div class="small-6 cell">
+  <div class="small-12 medium-6 cell">
     <div class="image--panorama align-center-middle" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
     </div>
   </div>

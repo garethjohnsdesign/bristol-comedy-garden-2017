@@ -4677,17 +4677,17 @@ h6, .h6 {
 @media print, screen and (min-width: 40em) {
   h1, .h1 {
     font-size: 2.6666666667rem;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-top: 0;
     margin-bottom: 0.5rem; }
   h2, .h2 {
     font-size: 2.2222222222rem;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-top: 0;
     margin-bottom: 0.5rem; }
   h3, .h3 {
     font-size: 1.7222222222rem;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-top: 0;
     margin-bottom: 0.5rem; }
   h4, .h4 {
@@ -4709,17 +4709,17 @@ h6, .h6 {
 @media print, screen and (min-width: 64em) {
   h1, .h1 {
     font-size: 2.6666666667rem;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-top: 0;
     margin-bottom: 0.5rem; }
   h2, .h2 {
     font-size: 2.2222222222rem;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-top: 0;
     margin-bottom: 0.5rem; }
   h3, .h3 {
     font-size: 1.7222222222rem;
-    line-height: 1.2;
+    line-height: 1.1;
     margin-top: 0;
     margin-bottom: 0.5rem; }
   h4, .h4 {
@@ -9372,7 +9372,7 @@ background-color: transparent;
   background: url(/assets/img/illustrations/snake-01.png), url(/assets/img/illustrations/leaf-01.png), url(/assets/img/illustrations/leaf-02.png);
   background-repeat: no-repeat;
   background-position: left top, left bottom, right bottom;
-  background-size: 90%, 50%, 50%; }
+  background-size: 90%, 20%, 50%; }
   @media print, screen and (min-width: 40em) {
     .about__content {
       background-size: 90%, 30%, 30%; } }
@@ -9384,16 +9384,16 @@ background-color: transparent;
   background-size: 0%, 0%; }
   @media print, screen and (min-width: 40em) {
     .location__content {
-      background-size: 40%, 20%; } }
+      background-size: 30%, 20%; } }
 
 .food-and-drink__content {
   background: url(/assets/img/illustrations/snake-01.png), url(/assets/img/illustrations/watermelon.png);
   background-repeat: no-repeat;
   background-position: left top, left bottom;
-  background-size: 70%, 50%; }
+  background-size: 90%, 0%; }
   @media print, screen and (min-width: 40em) {
     .food-and-drink__content {
-      background-size: 70%, 40%; } }
+      background-size: 90%, 60%; } }
 
 .info__content {
   background: url(/assets/img/illustrations/leaves.png), url(/assets/img/illustrations/snake-02.png);
@@ -9405,19 +9405,19 @@ background-color: transparent;
       background-size: 30%, 30%; } }
 
 .tickets__content {
-  background: url(/assets/img/illustrations/eel.png), url(/assets/img/illustrations/plants-03.png);
+  background: url(/assets/img/illustrations/snake-01.png), url(/assets/img/illustrations/leaves.png), url(/assets/img/illustrations/snake-02.png);
   background-repeat: no-repeat;
-  background-position: left bottom, right bottom;
-  background-size: 50%, 30%; }
+  background-position: left top, left bottom, right bottom;
+  background-size: 0%, 30%, 00%; }
   @media print, screen and (min-width: 40em) {
     .tickets__content {
-      background-size: 40%, 30%; } }
+      background-size: 100%, 30%, 30%; } }
 
 .event__content {
-  background: url(/assets/img/illustrations/plants-01.png), url(/assets/img/illustrations/plants-03.png);
+  background: url(/assets/img/illustrations/snake-01.png), url(/assets/img/illustrations/leaf-01.png), url(/assets/img/illustrations/leaf-02.png);
   background-repeat: no-repeat;
-  background-position: left bottom, right bottom;
-  background-size: 50%, 30%; }
+  background-position: left top, left bottom, right bottom;
+  background-size: 90%, 0%, 0%; }
   @media print, screen and (min-width: 40em) {
     .event__content {
-      background-size: 40%, 30%; } }
+      background-size: 90%, 30%, 30%; } }
