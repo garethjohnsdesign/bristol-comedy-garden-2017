@@ -1,10 +1,9 @@
 ---
 title: About
 position: 4
-header: The mighty Bristol Comedy Garden returns this June with a prize-winning crop
-  of comedians. Once again the leafy lawns of Queen Square, in the heart of the city,
-  will be transformed into a comedy wonderland complete with outrageously good line-ups
-  in our beautiful Big Top.
+header: The mighty Bristol Comedy Garden returns this July to the beautiful Queen
+  Square with yet another outrageously good line-up of comedy greats performing for
+  you in the Big Top.
 images:
 - "/uploads/about-01.jpg"
 - "/uploads/about-02.jpg"
@@ -13,5 +12,8 @@ images:
 layout: about
 ---
 
-This summer's line-up features the whip-smart QI star Alan Davies, The Last Leg’s master observationalist Josh Widdicombe, one-liner slinger Milton Jones, spell-binding Reginald D Hunter, acclaimed Radio 4 favourite Shappi Khorsandi, high-energy Live At The Apollo star Zoe Lyons, and cult hero Adam Buxton with BUG X are just some of the big names taking to the stage.
-The South West’s brightest comedy festival will be bursting with bars, gourmet street-food and a whole lot of good-times besides. Get your tickets now and arrive early to make the most of this year’s blooming brilliant Bristol Comedy Garden!
+This summer don’t miss US stand-up sensation and star of Channel 4’s ‘Catastrophe’ Rob Delaney, the multi award-winning talents of Sara Pascoe, Mash Report host and Mock The Week regular Nish Kumar, Sean Lock the hilariously surreal team captain from 8 out of 10 Cats Does Countdown, Shooting Stars cult oddity Angelos Epithimou, the riotously funny 8 Out Of 10 Cats team captain Aisling Bea plus many many more blisteringly funny comedians all topped off with an incredible festival finale from the magnificent Stewart Lee.
+
+Make your way to the leafy surrounds of Queen Square and bask in the glory of these laughter-masters at the Southwest’s brightest comedy extravaganza. Now in it’s ninth year Bristol Comedy Garden pairs award-winning entertainment with delicious street-food, craft beers, cocktails and more in a fun and relaxed festival atmosphere giving comedy-lovers from Bristol and beyond an unbeatable experience in the heart of the city.
+
+Get your tickets now and arrive early to make the most of this year’s blooming brilliant Bristol Comedy Garden!
