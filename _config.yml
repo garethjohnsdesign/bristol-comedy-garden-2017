@@ -12,7 +12,9 @@ collections:
     title: Uploads
     output: false
 url: https://www.bristolcomedygarden.co.uk
-description: The mighty Bristol Comedy Garden returns this July with yet another outrageously good line-up of comedy greats paired with street-food, craft beers and more in beautiful Queen Square
+description: The mighty Bristol Comedy Garden returns this July with yet another outrageously
+  good line-up of comedy greats paired with street-food, craft beers and more in beautiful
+  Queen Square
 permalink: pretty
 exclude:
 - bower.json

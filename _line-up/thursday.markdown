@@ -13,7 +13,10 @@ acts:
   image: "/uploads/john-robins.jpg"
 quote: A masterclass by a no-frills stand-up at the height of his powers
 quote-cite: The Guardian
-secondary-text: Joining Nish is a host of Bristol Comedy Garden favourites with a very special guest to be announced plus the endlessly amusing Live At The Apollo star Ivo Graham, 8 Out Of 10 Cat’s Does Countdown regular Lou Sanders and podcast hero, hammer-legend and all-round vibe-magnet John Robins as host.
+secondary-text: Joining Nish is a host of Bristol Comedy Garden favourites with a
+  very special guest to be announced plus the endlessly amusing Live At The Apollo
+  star Ivo Graham, 8 Out Of 10 Cat’s Does Countdown regular Lou Sanders and podcast
+  hero, hammer-legend and all-round vibe-magnet John Robins as host.
 festival-starts-at: 2019-07-04 18:00:00 Z
 show-starts-at: 2019-07-04 19:30:00 Z
 ticket-price: "£20 - £25"
