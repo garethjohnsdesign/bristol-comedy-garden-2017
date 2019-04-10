@@ -33,8 +33,8 @@ general:
 
     * **Cash or card?** We accept card and cash payments at the Box Office and across our bars, most of our food vendors will also accept card payments as well, of course, as cash!
 - title: Festival Timings
-  text: "Weds 19 June: 6pm - 10:30pm   \nThurs 20 June: 6pm - 10:30pm  \nFri 21 June:
-    6pm - 10:30pm  \nSat 22 June: 2:45pm - 10:30pm   \nSun 23 June: 6pm - 10.30pm
+  text: "Weds 3 July: 6pm - 10:30pm   \nThurs 4 July: 6pm - 10:30pm  \nFri 5 July:
+    6pm - 10:30pm  \nSat 6 July: 2:45pm - 10:30pm   \nSun 7 July: 2:45pm - 10.30pm
     \ \n\nPlease check your tickets for your show start times, all shows last approximately
     2.5 hours with intervals."
 - title: The Big Top Venue
@@ -45,33 +45,29 @@ general:
     once inside the venue. '
 - title: Group Bookings
   text: "If you would like purchase 20 tickets or more please get in touch and we’ll
-    help you with the necessary arrangements. \n\nPlease contact [info@brightoncomedygarden.co.uk](mailto:info@brightoncomedygarden.co.uk) with
+    help you with the necessary arrangements. \n\nPlease contact [info@bristolcomedygarden.co.uk](mailto:info@bristolcomedygarden.co.uk) with
     GROUP BOOKING in the subject line and we’ll be in touch soon.\n"
 - title: Accessibility
   text: |-
     The festival site and Big Top venue are accessible and our access tickets are sold with a free essential companion ticket through our online ticketing partner SEE Tickets. 
-    If you have any questions relating to your booking or special requirements please contact [info@brightoncomedygarden.co.uk](mailto:info@brightoncomedygarden.co.uk) with ACCESS in the subject line and we’ll be in touch soon. If you prefer to call please contact SEE Tickets on the numbers below and they will liaise with us on your behalf.
+    If you have any questions relating to your booking or special requirements please contact [info@bristolcomedygarden.co.uk](mailto:info@bristolcomedygarden.co.uk) with ACCESS in the subject line and we’ll be in touch soon. If you prefer to call please contact SEE Tickets on the numbers below and they will liaise with us on your behalf.
     While the festival is in full swing our Front of House team will be on hand to assist you in anyway they can.
 
     SEE Customer Services can be reached on 0871 220 0260 (open 24/7, calls cost 13p per minute plus network charges)
 - title: Work With Us - Front Of House
-  text: |-
+  text: |
     Join our Front of House Team and get in on all the hilarious action. You’ll be the first point of contact with our lovely audiences so good communication skills and a friendly attitude are a must. Working with the Front of House Manager you’ll be responsible for getting our audiences to the right place at the right time, making sure the shows run on time and keeping the venue running smoothly. You should be confident, good with people, alert and interested in the programme and event you’re representing. This role is very active and a lot of fun, you should enjoy dealing with lots of people and manage all this with a level head.
 
     You will be expected to work all of the shifts throughout the Comedy Garden; you must be over 16 to apply.
 
     If you’re interested, please email [hannah@57festivals.com](mailto:hannah@57festivals.com) with your CV and a short covering letter.
-
-    [BRCG19 FOH Assistant Job Application.pdf](/uploads/BRCG19%20FOH%20Assistant%20Job%20Application.pdf)
-
-    [Equality and Diversity Monitoring Form.pages](/uploads/Equality%20and%20Diversity%20Monitoring%20Form.pages)
 - title: Work  With Us - Bar Staff
   text: |-
     We’re looking for friendly, confident and hard working people to come and work on our bars during the Comedy Garden. Previous bar experience is essential and you must be over 18. You’ll be part of the team and enjoy all the perks that go with that. In return you’ll be punctual, reliable and ready to hop to action at any given moment.
 
     This is a paid role. You’ll be expected to work all of the shifts during the Comedy Garden.
 
-    If you’re interested please send your name, contact details and CV to [sparkleandspirit@outlook.com](mailto:sparkleandspirit@outlook.com) with BRCG BAR CREW in the subject line.
+    If you’re interested please send your name, contact details and CV to [sparkleandspirit@outlook.com](mailto:sparkleandspirit@outlook.com) with BCG BAR CREW in the subject line.
 layout: info
 ---
 
