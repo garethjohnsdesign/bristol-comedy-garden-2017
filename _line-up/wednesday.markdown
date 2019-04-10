@@ -11,14 +11,14 @@ acts:
   image: "/uploads/sarah-keyworth.jpg"
 - name: Rhys James
   image: "/uploads/rhys-james.jpg"
-- name: Mark Olver
-  image: "/uploads/mark-olver.jpg"
+- name: Andrew Maxwell
+  image: "/uploads/Andrew%20Maxwell.jpg"
 quote: He really is rewriting the comedy rulebook
 quote-cite: Time Out
-secondary-text: Joing Sean is a blistering supporting line-up with Shooting Stars
+secondary-text: Joining Sean is a blistering supporting line-up with Shooting Stars
   cult oddity Angelos Epthemiou, Edinburgh Comedy Award winner Sarah Keyworth, Mock
-  The Week’s whip-smart wordsmith Rhys James and Bristol comedy hero Mark Olver as
-  host.
+  The Week’s whip-smart wordsmith Rhys James and Live At The Apollo’s Irish raconteur
+  Andrew Maxwell as host.
 festival-starts-at: 2019-07-03 18:00:00 Z
 show-starts-at: 2019-07-03 19:30:00 Z
 ticket-price: "£20 - £25"
