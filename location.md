@@ -1,7 +1,7 @@
 ---
 title: Location
 position: 3
-header: The comedy garden returns this July to the beautiful Queen Square with yet another outrageously good line-up.
+header: The comedy garden returns this July to the beautiful Queen Square with yet another outrageously good line-up
 details:
 - title: Car
   text: From the M32, follow signs for the city centre. Very limited meter parking
