@@ -1,8 +1,8 @@
 ---
-title: Sunday
+title: Sunday Mid
 date: 2019-07-07 16:15:00 Z
 position: 6
-day: Sunday Mid
+day: Sunday
 acts:
 - name: Rob Delaney
   image: "/uploads/rob-delaney.jpg"
