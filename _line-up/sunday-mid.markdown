@@ -2,7 +2,7 @@
 title: Sunday
 date: 2019-07-07 16:15:00 Z
 position: 6
-day: Sunday
+day: Sunday Mid
 acts:
 - name: Rob Delaney
   image: "/uploads/rob-delaney.jpg"
@@ -18,7 +18,7 @@ secondary-text: 'Joining Rob is a very special guest to be announced plus the ra
 festival-starts-at: 2019-01-01 15:15:00 Z
 show-starts-at: 2019-07-07 16:15:00 Z
 ticket-price: "£20 - £25"
-ticket-link: https://www.seetickets.com/event/
+ticket-link: https://bristolcomedygarden.seetickets.com/event/rob-delaney/big-top-bristol-comedy-garden/1365183
 is-sold-out: 
 layout: event
 ---
