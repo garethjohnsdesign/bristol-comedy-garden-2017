@@ -1,7 +1,7 @@
 ---
 title: Sunday
 date: 2019-07-07 16:15:00 Z
-position: 5
+position: 6
 day: Sunday
 acts:
 - name: Rob Delaney

@@ -1,7 +1,7 @@
 ---
 title: Wednesday
 date: 2019-07-03 19:30:00 Z
-position: 1
+position: 0
 acts:
 - name: Sean Lock
   image: "/uploads/sean-lock.jpg"

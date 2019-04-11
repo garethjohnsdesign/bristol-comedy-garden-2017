@@ -1,7 +1,7 @@
 ---
 title: Saturday Late
 date: 2019-07-06 19:30:00 Z
-position: 5
+position: 4
 acts:
 - name: David O'Doherty
   image: "/uploads/david-o-doherty-02.jpg"
