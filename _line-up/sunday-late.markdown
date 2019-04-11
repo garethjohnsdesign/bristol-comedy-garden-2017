@@ -22,7 +22,7 @@ secondary-text: Joining Stewart for our festival finale is the multi-award winni
 festival-starts-at: 2019-07-07 18:00:00 Z
 show-starts-at: 2019-07-07 19:30:00 Z
 ticket-price: "£20 - £25"
-ticket-link: https://www.seetickets.com/event/
+ticket-link: https://bristolcomedygarden.seetickets.com/event/stewart-lee/big-top-bristol-comedy-garden/1365187
 is-sold-out: 
 layout: event
 ---
