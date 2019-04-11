@@ -19,7 +19,7 @@ secondary-text: Joining Sara is an almighty bill featuring the acerbic wit and r
 festival-starts-at: 2019-07-06 15:15:00 Z
 show-starts-at: 2019-07-06 16:15:00 Z
 ticket-price: "£20 - £25"
-ticket-link: https://www.seetickets.com/event/
+ticket-link: https://bristolcomedygarden.seetickets.com/event/sara-pascoe/big-top-bristol-comedy-garden/1365171
 is-sold-out: false
 layout: event
 ---
