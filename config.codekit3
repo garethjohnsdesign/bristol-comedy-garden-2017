@@ -273,6 +273,14 @@
 		"oAP": "/_line-up/friday.markdown",
 		"oF": 0
 		},
+	"/_line-up/saturday-early.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_line-up/saturday-early.markdown",
+		"oF": 0
+		},
 	"/_line-up/saturday-late.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -281,12 +289,12 @@
 		"oAP": "/_line-up/saturday-late.markdown",
 		"oF": 0
 		},
-	"/_line-up/saturday-mid.markdown": {
+	"/_line-up/sunday-early.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_line-up/saturday-mid.markdown",
+		"oAP": "/_line-up/sunday-early.markdown",
 		"oF": 0
 		},
 	"/_line-up/sunday-late.markdown": {
@@ -295,22 +303,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_line-up/sunday-late.markdown",
-		"oF": 0
-		},
-	"/_line-up/sunday-mid.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_line-up/sunday-mid.markdown",
-		"oF": 0
-		},
-	"/_line-up/thursday.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_line-up/thursday.markdown",
 		"oF": 0
 		},
 	"/_line-up/wednesday.markdown": {
@@ -402,28 +394,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"/_uploads/Andrew Maxwell.jpg": {
-		"ft": 16384,
-		"iS": 824081,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/Andrew Maxwell.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/angelos-epthemiou-02.jpg": {
-		"ft": 16384,
-		"iS": 756840,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/angelos-epthemiou-02.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/angelos-epthemiou.jpg": {
@@ -530,28 +500,6 @@
 		"oAP": "/_uploads/GCF18-FoH-Job-Application.pdf",
 		"oF": 0
 		},
-	"/_uploads/ivo-graham.jpg": {
-		"ft": 16384,
-		"iS": 199037,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/ivo-graham.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/Jen Brister.jpg": {
-		"ft": 16384,
-		"iS": 478248,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/Jen Brister.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/_uploads/john-robins.jpg": {
 		"ft": 16384,
 		"iS": 297101,
@@ -596,34 +544,12 @@
 		"opt": 1,
 		"q": 100
 		},
-	"/_uploads/kwackers.jpg": {
-		"ft": 16384,
-		"iS": 1384743,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/kwackers.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/_uploads/lolly-adefope.jpg": {
 		"ft": 16384,
 		"iS": 491648,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/lolly-adefope.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/_uploads/lou-sanders.jpg": {
-		"ft": 16384,
-		"iS": 1320336,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/lou-sanders.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -838,17 +764,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/_uploads/tasty-ragga.jpg": {
-		"ft": 16384,
-		"iS": 782160,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/tasty-ragga.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"/_uploads/the-good-slice.jpg": {
 		"ft": 16384,
 		"iS": 1512315,
@@ -858,17 +773,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"q": 100
-		},
-	"/_uploads/the-ice-cream-box.jpg": {
-		"ft": 16384,
-		"iS": 943807,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/_uploads/the-ice-cream-box.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"/_uploads/three-little-pigs.jpg": {
@@ -1090,12 +994,12 @@
 		"oAP": "/assets/fonts/demibold-pro.woff2",
 		"oF": 0
 		},
-	"/assets/fonts/gallery.woff": {
+	"/assets/fonts/Gallery.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/assets/fonts/gallery.woff",
+		"oAP": "/assets/fonts/Gallery.woff",
 		"oF": 0
 		},
 	"/assets/fonts/gallery.woff2": {
@@ -1170,115 +1074,6 @@
 		"oAP": "/assets/fonts/regular-pro.woff2",
 		"oF": 0
 		},
-	"/assets/icons/symbol-defs.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/assets/icons/symbol-defs.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"/assets/img/illustrations/leaf-01.png": {
-		"ft": 32768,
-		"iS": 26259,
-		"oA": 0,
-		"oAP": "/assets/img/illustrations/leaf-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/illustrations/leaf-02.png": {
-		"ft": 32768,
-		"iS": 34591,
-		"oA": 0,
-		"oAP": "/assets/img/illustrations/leaf-02.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/illustrations/leaf-03.png": {
-		"ft": 32768,
-		"iS": 11659,
-		"oA": 0,
-		"oAP": "/assets/img/illustrations/leaf-03.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/illustrations/leaf-04.png": {
-		"ft": 32768,
-		"iS": 36314,
-		"oA": 0,
-		"oAP": "/assets/img/illustrations/leaf-04.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/illustrations/leaves.png": {
-		"ft": 32768,
-		"iS": 15781,
-		"oA": 0,
-		"oAP": "/assets/img/illustrations/leaves.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/illustrations/seagull-01.png": {
-		"ft": 32768,
-		"iS": 134395,
-		"oA": 0,
-		"oAP": "/assets/img/illustrations/seagull-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/illustrations/snake-01.png": {
-		"ft": 32768,
-		"iS": 342477,
-		"oA": 0,
-		"oAP": "/assets/img/illustrations/snake-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/illustrations/snake-02.png": {
-		"ft": 32768,
-		"iS": 1042281,
-		"oA": 0,
-		"oAP": "/assets/img/illustrations/snake-02.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/img/illustrations/watermelon.png": {
-		"ft": 32768,
-		"iS": 436412,
-		"oA": 0,
-		"oAP": "/assets/img/illustrations/watermelon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/assets/img/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1295,8 +1090,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/og-image.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -11444,9 +11239,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 2,
-		"oAP": "/food-and-drink.md",
-		"oF": 1,
+		"oA": 0,
+		"oAP": "/food-and-drink.html",
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -11506,9 +11301,9 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"hM": 0,
-		"oA": 2,
-		"oAP": "/info.md",
-		"oF": 1,
+		"oA": 0,
+		"oAP": "/info.html",
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -11528,6 +11323,25 @@
 		"oA": 0,
 		"oAP": "/line-up.html",
 		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/location.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/location.md",
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
