@@ -2,7 +2,7 @@
 title: Sunday
 date: 2019-07-07 19:30:00 Z
 position: 5
-day: Sunday
+day: Sunday Late
 acts:
 - name: Stewart Lee
   image: "/uploads/stewart-lee.jpg"
