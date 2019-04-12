@@ -9,7 +9,7 @@ acts:
   image: "/uploads/tom-allen.jpg"
 - name: Rose Matafeo
   image: "/uploads/rose-matafeo.jpg"
-- name: Ed gamle
+- name: Ed Gamble
   image: "/uploads/ed-gamble.jpg"
 quote: She is a comic in her prime
 quote-cite: The Times
