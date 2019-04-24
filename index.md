@@ -11,7 +11,7 @@ carousel:
 - name: Sean Lock
   image: "/uploads/sean-lock.jpg"
   subheader: One of the finest and most original comedians around — The Independent
-  is-sold-out: false
+  is-sold-out: true
   line-up: Wednesday
 - name: Sara Pascoe
   image: "/uploads/sara-pascoe.jpg"
