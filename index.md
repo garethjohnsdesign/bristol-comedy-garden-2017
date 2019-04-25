@@ -16,7 +16,7 @@ carousel:
 - name: Sara Pascoe
   image: "/uploads/sara-pascoe.jpg"
   subheader: She is a comic in her prime — The Times
-  is-sold-out: false
+  is-sold-out: true
   line-up: Saturday Mid
 - name: Rob Delaney
   image: "/uploads/rob-delaney.jpg"
@@ -37,7 +37,7 @@ featured:
 - name: Tom Allen
   image: "/uploads/tom-allen.jpg"
   subheader: 
-  is-sold-out: false
+  is-sold-out: true
   line-up: Saturday Mid
 - name: Aisling Bea
   image: "/uploads/aisling-bea.jpg"
