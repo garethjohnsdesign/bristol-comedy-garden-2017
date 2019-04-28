@@ -21,7 +21,7 @@ festival-starts-at: 2019-07-06 18:00:00 Z
 show-starts-at: 2019-07-06 19:30:00 Z
 ticket-price: "£20 - £25"
 ticket-link: https://bristolcomedygarden.seetickets.com/event/david-o-doherty/big-top-bristol-comedy-garden/1365178
-is-sold-out: 
+is-sold-out: true
 layout: event
 ---
 
