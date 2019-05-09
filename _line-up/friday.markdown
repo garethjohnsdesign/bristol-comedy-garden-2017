@@ -20,7 +20,7 @@ secondary-text: Joining Ed is an astounding line-up with British Comedy Award wi
 festival-starts-at: 2019-07-05 18:00:00 Z
 show-starts-at: 2019-07-05 19:30:00 Z
 ticket-price: "£20 - £25"
-ticket-link: https://bristolcomedygarden.seetickets.com/event/ed-byrne/big-top-bristol-comedy-garden/1365166
+ticket-link: https://www.colstonhall.org/shows/ed-byrne-bristol-comedy-garden-2019/
 is-sold-out: false
 layout: event
 ---
