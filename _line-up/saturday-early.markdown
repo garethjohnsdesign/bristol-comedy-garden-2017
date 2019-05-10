@@ -4,7 +4,7 @@ date: 2019-07-06 13:30:00 Z
 position: 3
 acts:
 - name: Reginald D Hunter
-  image: "/uploads/reginald-d-hunter.jpg"
+  image: "/uploads/reginald-d-hunter-rev.jpg"
 - name: Joel Dommett
   image: "/uploads/joel-dommett.jpg"
 - name: Mark Olver
