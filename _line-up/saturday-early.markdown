@@ -11,7 +11,9 @@ acts:
   image: "/uploads/mark-olver.jpg"
 quote: This is comedy of a rare scope
 quote-cite: The Times
-secondary-text: Joining Reginald is an almighty line-up with South-West raised Netflix & Comedy Central star Joel Dommett, a very special guest to be announced and Bristol comedy hero Mark Olver as host. 
+secondary-text: Joining Reginald is an almighty line-up with South-West raised Netflix
+  & Comedy Central star Joel Dommett, a very special guest to be announced and Bristol
+  comedy hero Mark Olver as host.
 festival-starts-at: 2019-07-06 12:30:00 Z
 show-starts-at: 2019-07-06 13:30:00 Z
 ticket-price: "£20 - £25"
