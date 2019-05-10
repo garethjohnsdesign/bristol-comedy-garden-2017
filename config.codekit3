@@ -273,6 +273,14 @@
 		"oAP": "/_line-up/friday.markdown",
 		"oF": 0
 		},
+	"/_line-up/saturday-early.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_line-up/saturday-early.markdown",
+		"oF": 0
+		},
 	"/_line-up/saturday-late.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -576,6 +584,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/joel-dommett.jpg": {
+		"ft": 16384,
+		"iS": 514101,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/joel-dommett.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/John Kearns.jpg": {
 		"ft": 16384,
 		"iS": 355130,
@@ -736,6 +755,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/ravenous-fudge.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/reginald-d-hunter.jpg": {
+		"ft": 16384,
+		"iS": 503477,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/reginald-d-hunter.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

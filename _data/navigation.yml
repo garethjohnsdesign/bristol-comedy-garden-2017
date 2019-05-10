@@ -10,6 +10,8 @@ header-full:
         url: /line-up/thursday
       - title: Friday 5 July
         url: /line-up/friday
+      - title: Saturday 6 July — Early
+        url: /line-up/saturday-early
       - title: Saturday 6 July — Mid
         url: /line-up/saturday-mid
       - title: Saturday 6 July — Late
@@ -46,6 +48,8 @@ header-short:
         url: /line-up/thursday
       - title: Friday 5 July
         url: /line-up/friday
+      - title: Saturday 6 July — Early
+        url: /line-up/saturday-early
       - title: Saturday 6 July — Mid
         url: /line-up/saturday-mid
       - title: Saturday 6 July — Late
