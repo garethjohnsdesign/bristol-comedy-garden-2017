@@ -34,11 +34,11 @@ featured:
   subheader: 
   is-sold-out: false
   line-up: Thursday
-- name: Tom Allen
-  image: "/uploads/tom-allen.jpg"
+- name: Joel Dommett
+  image: "/uploads/joel-dommett.jpg"
   subheader: 
-  is-sold-out: true
-  line-up: Saturday Mid
+  is-sold-out: false
+  line-up: Saturday Early
 - name: Aisling Bea
   image: "/uploads/aisling-bea.jpg"
   subheader: 
