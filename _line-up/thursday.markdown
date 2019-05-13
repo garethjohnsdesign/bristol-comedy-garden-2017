@@ -20,7 +20,7 @@ secondary-text: Joining Nish is a host of Bristol Comedy Garden favourites with 
 festival-starts-at: 2019-07-04 18:00:00 Z
 show-starts-at: 2019-07-04 19:30:00 Z
 ticket-price: "£20 - £25"
-ticket-link: https://bristolcomedygarden.seetickets.com/event/nish-kumar/big-top-bristol-comedy-garden/1365163
+ticket-link: https://www.colstonhall.org/shows/nish-kumar-bristol-comedy-garden-2019/
 is-sold-out: false
 layout: event
 ---
