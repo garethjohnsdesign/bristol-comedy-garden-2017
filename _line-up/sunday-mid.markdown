@@ -10,11 +10,13 @@ acts:
   image: "/uploads/Jen%20Brister.jpg"
 - name: Fin Taylor
   image: "/uploads/fin-taylor.jpg"
+- name: Mark Olver
+  image: "/uploads/mark-olver.jpg"
 quote: Sharp and bitingly funny
 quote-cite: Time Out
-secondary-text: 'Joining Rob is a very special guest to be announced plus the razor-sharp
-  Live At The Apollo star Jen Brister and the provocatively funny Comedy Central star
-  Fin Taylor as host. '
+secondary-text: 'Joining Rob is razor-sharp Live At The Apollo star Jen Brister,the
+  provocatively funny Comedy Central star Fin Taylor and Bristol comedy-superhero
+  Mark Olver as host. '
 festival-starts-at: 2019-01-01 15:15:00 Z
 show-starts-at: 2019-07-07 16:15:00 Z
 ticket-price: "£20 - £25"
