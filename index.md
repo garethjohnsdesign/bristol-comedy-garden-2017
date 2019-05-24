@@ -29,11 +29,11 @@ carousel:
   is-sold-out: false
   line-up: Friday
 featured:
-- name: Nish Kumar
-  image: "/uploads/nish-kumar.jpg"
+- name: Reginald D Hunter
+  image: "/uploads/reginald-d-hunter-rev.jpg"
   subheader: 
   is-sold-out: false
-  line-up: Thursday
+  line-up: Saturday Early
 - name: Joel Dommett
   image: "/uploads/joel-dommett.jpg"
   subheader: 
