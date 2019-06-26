@@ -7,13 +7,17 @@ acts:
   image: "/uploads/reginald-d-hunter-rev.jpg"
 - name: Joel Dommett
   image: "/uploads/joel-dommett.jpg"
-- name: Mark Olver
-  image: "/uploads/mark-olver.jpg"
+- name: Maisie Adam
+  image: "/uploads/Maisie%20Adam.png"
+- name: Tom Stade
+  image: "/uploads/Tom-Stade.jpg"
+- name: Jarred Christmas
+  image: "/uploads/Jarred-Christmas.jpg"
 quote: This is comedy of a rare scope
 quote-cite: The Times
 secondary-text: Joining Reginald is an almighty line-up with South-West raised Netflix
-  & Comedy Central star Joel Dommett, a very special guest to be announced and Bristol
-  comedy hero Mark Olver as host.
+  & Comedy Central star Joel Dommett, award-winning Maisie Adam, Live At The Apollo
+  star Tom Stade and live-wire Kiwi Jarred Christmas as host.
 festival-starts-at: 2019-07-06 12:30:00 Z
 show-starts-at: 2019-07-06 13:30:00 Z
 ticket-price: "£20 - £25"

@@ -29,11 +29,11 @@ carousel:
   is-sold-out: false
   line-up: Friday
 featured:
-- name: Nish Kumar
-  image: "/uploads/nish-kumar.jpg"
+- name: Reginald D Hunter
+  image: "/uploads/reginald-d-hunter-rev.jpg"
   subheader: 
   is-sold-out: false
-  line-up: Thursday
+  line-up: Saturday Early
 - name: Joel Dommett
   image: "/uploads/joel-dommett.jpg"
   subheader: 
@@ -49,11 +49,11 @@ featured:
   subheader: 
   is-sold-out: false
   line-up: Saturday Late
-- name: Lolly Adefope
-  image: "/uploads/lolly-adefope.jpg"
+- name: Nish Kumar
+  image: "/uploads/nish-kumar.jpg"
   subheader: 
   is-sold-out: 
-  line-up: Saturday Late
+  line-up: Thursday
 - name: Tim Key
   image: "/uploads/tim-key-02.jpg"
   subheader: 
