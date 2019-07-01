@@ -5,17 +5,18 @@ position: 3
 acts:
 - name: Sara Pascoe
   image: "/uploads/sara-pascoe.jpg"
-- name: Tom Allen
-  image: "/uploads/tom-allen.jpg"
+- name: Josh Widdicombe
+  image: "/uploads/Josh%20Widdicombe.jpg"
 - name: Rose Matafeo
   image: "/uploads/rose-matafeo.jpg"
 - name: Ed Gamble
   image: "/uploads/ed-gamble.jpg"
 quote: She is a comic in her prime
 quote-cite: The Times
-secondary-text: Joining Sara is an almighty bill featuring the acerbic wit and riotous
-  storytelling of Royal Variety Performance star Tom Allen, Edinburgh Comedy Award
-  winner Rose Matafeo and Mock The Week’s plucky scamp Ed Gamble as host.
+secondary-text: |-
+  Joining Sara is an almighty bill featuring The Last Leg star and master observational comic Josh Widdicombe, Edinburgh Comedy Award winner Rose Matafeo and Mock The Week’s plucky scamp Ed Gamble as host.
+
+  Please note - Due to unforeseen circumstances Josh Widdicombe replaces Tom Allen on this show.
 festival-starts-at: 2019-07-06 15:15:00 Z
 show-starts-at: 2019-07-06 16:15:00 Z
 ticket-price: "£20 - £25"
