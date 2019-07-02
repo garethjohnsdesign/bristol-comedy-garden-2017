@@ -21,7 +21,7 @@ festival-starts-at: 2019-07-06 15:15:00 Z
 show-starts-at: 2019-07-06 16:15:00 Z
 ticket-price: "£20 - £25"
 ticket-link: https://bristolcomedygarden.seetickets.com/event/sara-pascoe/big-top-bristol-comedy-garden/1365171
-is-sold-out: true
+is-sold-out: false
 layout: event
 ---
 
