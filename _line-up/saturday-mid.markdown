@@ -16,8 +16,8 @@ quote-cite: The Times
 secondary-text: "Joining Sara is an almighty bill featuring the fantastically funny
   Comedy Central star Joel Dommett, Edinburgh Comedy Award winner Rose Matafeo and
   Mock The Week’s plucky scamp Ed Gamble as host.\n\nPlease note - Joel Dommett replaces
-  Josh Widdicombe on this show due to Josh being in Hospital having his appendix removed
-  - Get Well Soon Josh! "
+  Josh Widdicombe on this show due to Josh having his appendix removed - Get Well
+  Soon Josh! "
 festival-starts-at: 2019-07-06 15:15:00 Z
 show-starts-at: 2019-07-06 16:15:00 Z
 ticket-price: "£20 - £25"
