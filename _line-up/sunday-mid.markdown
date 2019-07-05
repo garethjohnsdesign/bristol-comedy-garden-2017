@@ -21,7 +21,7 @@ festival-starts-at: 2019-01-01 15:15:00 Z
 show-starts-at: 2019-07-07 16:15:00 Z
 ticket-price: "£20 - £25"
 ticket-link: https://bristolcomedygarden.seetickets.com/event/rob-delaney/big-top-bristol-comedy-garden/1365183
-is-sold-out: 
+is-sold-out: true
 layout: event
 ---
 
